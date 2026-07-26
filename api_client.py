@@ -35,6 +35,9 @@ class PloneRestClient:
         auto_login: bool = True
     ):
         self.base_url = api_url.rstrip("/")
+        if "++api++" not in self.base_url:
+            self.base_url = f"{self.base_url}/++api++"
+
         self.token = token.strip() if token else ""
         self.username = username
         self.password = password
@@ -106,12 +109,19 @@ class PloneRestClient:
             return False
 
     def _resolve_url(self, path_or_url: str) -> str:
-        """Resolve caminhos relativos ou ajusta URLs absolutas."""
-        if path_or_url.startswith("http://") or path_or_url.startswith("https://"):
-            return path_or_url
+        """Resolve caminhos relativos ou ajusta URLs absolutas injetando ++api++."""
+        url = path_or_url
+        if not url.startswith("http://") and not url.startswith("https://"):
+            rel_path = url.lstrip("/")
+            return f"{self.base_url}/{rel_path}"
         
-        rel_path = path_or_url.lstrip("/")
-        return f"{self.base_url}/{rel_path}"
+        # Injeta ++api++ se for uma URL absoluta do frontend
+        if "++api++" not in url:
+            original_base = self.base_url.replace("/++api++", "")
+            if url.startswith(original_base):
+                url = url.replace(original_base, self.base_url, 1)
+        
+        return url
 
     def create_content(self, container_url: str, payload: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         """Envia uma requisição POST para criar um novo objeto no Plone 6.

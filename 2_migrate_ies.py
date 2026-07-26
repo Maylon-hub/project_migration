@@ -108,10 +108,16 @@ def replace_placeholders(template_data: dict, replacements: dict) -> dict:
 def main():
     print("[+] Inicializando processo de migração de IES para o Plone 6...")
 
-    # 1. Carrega templates e dataset
+    # 1. Carrega templates e datasets
     templates = load_templates()
     df = load_dataset(EXCEL_PATH)
     total_records = len(df)
+    
+    try:
+        df_subpages = load_dataset("studyinbr/subpaginas_ies_completo.csv")
+    except Exception as e:
+        logger.warning(f"Não foi possível carregar as subpáginas ({e}). Usando defaults.")
+        df_subpages = pd.DataFrame()
 
     # 2. Inicializa o cliente Plone REST API
     client = PloneRestClient(api_url=API_URL, token=API_TOKEN)
@@ -191,6 +197,15 @@ def main():
 
             sub_title = sub["title_template"].format(sigla=sigla, nome_ies=nome_ies)
             sub_nav = sub["nav_title"]
+            sub_desc = ""
+
+            if not df_subpages.empty:
+                match_sub = df_subpages[(df_subpages["Sigla"] == sigla) & (df_subpages["nome_curto"] == sub_id)]
+                if not match_sub.empty:
+                    sub_title = str(match_sub.iloc[0].get("Título", sub_title)).strip()
+                    sub_nav = str(match_sub.iloc[0].get("nav_title", sub_nav)).strip()
+                    sub_desc = str(match_sub.iloc[0].get("Descrição", "")).strip()
+
             sub_url = f"{ies_url}/{sub_id}"
 
             sub_payload = {
@@ -198,6 +213,7 @@ def main():
                 "id": sub_id,
                 "title": sub_title,
                 "nav_title": sub_nav,
+                "description": sub_desc,
                 "blocks": sub_template_replaced.get("blocks", {}),
                 "blocks_layout": sub_template_replaced.get("blocks_layout", {}),
                 "subjects": tags,  # Herda as tags geográficas da IES
