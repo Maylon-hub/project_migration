@@ -1,0 +1,2089 @@
+{
+  "blocks": {
+    "036472e6-45b4-4a1b-a7a0-3ca45fb7afa5": {
+      "@layout": "f28c8124-47bf-4dd2-953d-a62abb898ef2",
+      "@type": "title",
+      "block": "97528a75-43af-4880-bf03-e82ba533b8cf"
+    },
+    "11c6d946-d754-4de9-9d45-82bc7aae8e99": {
+      "@type": "image",
+      "align": "center",
+      "alt": "contate a universidade banner.png",
+      "caption": "",
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/png",
+            "download": "@@images/image-1150-3c85236491dacde79338bcc643fb1b58.png",
+            "filename": "contate a universidade banner.png",
+            "height": 178,
+            "scales": {
+              "icon": {
+                "download": "@@images/image-32-24d4322f268c668af9e1ed089f1ccb07.png",
+                "height": 4,
+                "width": 32
+              },
+              "large": {
+                "download": "@@images/image-800-09e194c541b4d10a882dd265258a54ba.png",
+                "height": 123,
+                "width": 800
+              },
+              "larger": {
+                "download": "@@images/image-1000-5f5e3b6647c4a764dcc9ea05b2d792c4.png",
+                "height": 154,
+                "width": 1000
+              },
+              "mini": {
+                "download": "@@images/image-200-abea6af397ad4e63b7837762a7dd30d7.png",
+                "height": 30,
+                "width": 200
+              },
+              "preview": {
+                "download": "@@images/image-400-e3021a2b57e87a85c02b161c07bb00da.png",
+                "height": 61,
+                "width": 400
+              },
+              "teaser": {
+                "download": "@@images/image-600-307b76e4ac2b9c2142ab74d35caa1751.png",
+                "height": 92,
+                "width": 600
+              },
+              "thumb": {
+                "download": "@@images/image-128-478f009620749557c8824901a33b82d3.png",
+                "height": 19,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-c2a4390de1735be36995ce4621926f93.png",
+                "height": 9,
+                "width": 64
+              }
+            },
+            "size": 104838,
+            "width": 1150
+          }
+        ]
+      },
+      "size": "l",
+      "url": "https://www.gov.br/studyinbrazil/pt-br/imagens-e-videos/contate-a-universidade-banner.png"
+    },
+    "17d89240-2596-4f80-9410-e2cfdecb24f7": {
+      "@layout": "9601fd2d-136d-41ab-b7c1-00d59d9366ea",
+      "@type": "description",
+      "block": "8864449b-f6f3-41ac-82a9-1aa8ae24f152"
+    },
+    "1f78bbe6-3c98-40cf-894a-138d795c6377": {
+      "@type": "columnsBlock",
+      "backgroundColor": "grey",
+      "data": {
+        "blocks": {
+          "7d716c12-1446-42a8-95f6-5c9bba9b6cfc": {
+            "blocks": {
+              "15b147cf-a99d-4715-99a9-f70c7335eec7": {
+                "@type": "teaser",
+                "aspectRatioDesktop": "56.25%",
+                "aspectRatioMobile": "66.6666%",
+                "aspectRatioMode": "fixed",
+                "aspectRatioTablet": "75%",
+                "description": "Informações do porquê estudar na UFSCar, vida no campus e na cidade",
+                "hideDescription": false,
+                "hideImage": false,
+                "hideSubtitle": false,
+                "horizontalAlign": "center",
+                "href": [
+                  {
+                    "@id": "https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar-universidade-federal-de-sao-carlos/vida_na_ies",
+                    "@type": "Document",
+                    "Description": "Informações do porquê estudar na UFSCar, vida no campus e na cidade",
+                    "Title": "Vida na UFSCar TESTE 2",
+                    "alt": null,
+                    "category_title": null,
+                    "dados_noticia": null,
+                    "description": "Informações do porquê estudar na UFSCar, vida no campus e na cidade",
+                    "effective": "1969-12-31T03:00:00+00:00",
+                    "end": null,
+                    "getObjSize": "0 KB",
+                    "hasPreviewImage": null,
+                    "head_title": null,
+                    "image_field": "",
+                    "image_scales": null,
+                    "mime_type": "text/plain",
+                    "nav_title": null,
+                    "review_state": "private",
+                    "start": null,
+                    "subtitle": null,
+                    "title": "Vida na UFSCar",
+                    "type_title": "Página"
+                  }
+                ],
+                "imageBackground": false,
+                "image_alt": "Imagem de capa vida na universidade",
+                "overwrite": true,
+                "preview_image": [
+                  {
+                    "@id": "https://www.gov.br/studyinbrazil/pt-br/imagens-e-videos/vida-na-universidade.png",
+                    "alt": "Imagem de capa vida na universidade",
+                    "image_field": "image",
+                    "image_scales": {
+                      "image": [
+                        {
+                          "content-type": "image/png",
+                          "download": "@@images/image-1200-3441cdb4a36b3c05a42f8eab6a1dd6a8.png",
+                          "filename": "VIDA NA UNIVERSIDADE.png",
+                          "height": 800,
+                          "scales": {
+                            "great": {
+                              "download": "@@images/image-1200-f35ea62cd91a8c1617220936b44e2546.png",
+                              "height": 800,
+                              "width": 1200
+                            },
+                            "icon": {
+                              "download": "@@images/image-32-6722b2899c2e530655e14f8dc4eafbd4.png",
+                              "height": 21,
+                              "width": 32
+                            },
+                            "large": {
+                              "download": "@@images/image-800-4761178626c2af08735a89f346743f99.png",
+                              "height": 533,
+                              "width": 800
+                            },
+                            "larger": {
+                              "download": "@@images/image-1000-c32572edea7299a6117e6db62fddf000.png",
+                              "height": 666,
+                              "width": 1000
+                            },
+                            "mini": {
+                              "download": "@@images/image-200-7c584a6db1ff38a5f0bd14a64b56699f.png",
+                              "height": 133,
+                              "width": 200
+                            },
+                            "preview": {
+                              "download": "@@images/image-400-19c3aa306e2866c8386d64e79d87d587.png",
+                              "height": 266,
+                              "width": 400
+                            },
+                            "teaser": {
+                              "download": "@@images/image-600-5a6b5df118cfc5aea0a808e53280f880.png",
+                              "height": 400,
+                              "width": 600
+                            },
+                            "thumb": {
+                              "download": "@@images/image-128-ed10314062549fc053aad5b11112772e.png",
+                              "height": 85,
+                              "width": 128
+                            },
+                            "tile": {
+                              "download": "@@images/image-64-750a457aa0f998a279462ec2242c2828.png",
+                              "height": 42,
+                              "width": 64
+                            }
+                          },
+                          "size": 200188,
+                          "width": 1200
+                        }
+                      ]
+                    },
+                    "title": "VIDA NA UNIVERSIDADE.png"
+                  }
+                ],
+                "subtitle": "",
+                "title": "Vida na UFSCar TESTE 2",
+                "verticalAlign": "center"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "15b147cf-a99d-4715-99a9-f70c7335eec7"
+              ]
+            }
+          },
+          "b5c2074e-70a2-46d5-a541-68fe34a1b524": {
+            "blocks": {
+              "081bf1ae-4786-4be4-86d7-ba01650b9a3c": {
+                "@type": "teaser",
+                "aspectRatioDesktop": "56.25%",
+                "aspectRatioMobile": "66.6666%",
+                "aspectRatioMode": "fixed",
+                "aspectRatioTablet": "75%",
+                "description": "Principais informações para o estudante internacional",
+                "hideDescription": false,
+                "hideImage": false,
+                "hideSubtitle": false,
+                "horizontalAlign": "center",
+                "href": [
+                  {
+                    "@id": "https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar-universidade-federal-de-sao-carlos/estudantes-internacionais",
+                    "@type": "Document",
+                    "Description": "",
+                    "Title": "Estudantes Internacionais na UFSCar  TESTE",
+                    "alt": null,
+                    "category_title": null,
+                    "dados_noticia": null,
+                    "description": "Página com informações sobre o que os estudantes internacionais precisam saber sobre a internacionalização na UFSCar",
+                    "effective": "1969-12-31T03:00:00+00:00",
+                    "end": null,
+                    "getObjSize": "0 KB",
+                    "hasPreviewImage": null,
+                    "head_title": null,
+                    "image_field": "",
+                    "image_scales": null,
+                    "mime_type": "text/plain",
+                    "nav_title": null,
+                    "review_state": "private",
+                    "start": null,
+                    "subtitle": null,
+                    "title": "Estudantes Internacionais na UFSCar",
+                    "type_title": "Página"
+                  }
+                ],
+                "imageBackground": false,
+                "image_alt": "Imagem de capa estudantes internacionais",
+                "overwrite": true,
+                "preview_image": [
+                  {
+                    "@id": "https://www.gov.br/studyinbrazil/pt-br/imagens-e-videos/estudantes-internacionais.png",
+                    "alt": "Imagem de capa estudantes internacionais",
+                    "image_field": "image",
+                    "image_scales": {
+                      "image": [
+                        {
+                          "content-type": "image/png",
+                          "download": "@@images/image-1200-84e49df3ae654c0f3802dc8a780b3237.png",
+                          "filename": "ESTUDANTES INTERNACIONAIS.png",
+                          "height": 800,
+                          "scales": {
+                            "great": {
+                              "download": "@@images/image-1200-3b73c78d244e634ade31cf3990f2e800.png",
+                              "height": 800,
+                              "width": 1200
+                            },
+                            "icon": {
+                              "download": "@@images/image-32-3d15168706084dfc0499d81fc11be35f.png",
+                              "height": 21,
+                              "width": 32
+                            },
+                            "large": {
+                              "download": "@@images/image-800-4828c8127b61d15697c189c09c56b3b6.png",
+                              "height": 533,
+                              "width": 800
+                            },
+                            "larger": {
+                              "download": "@@images/image-1000-6b8615a10237f37889e4f745edc8e400.png",
+                              "height": 666,
+                              "width": 1000
+                            },
+                            "mini": {
+                              "download": "@@images/image-200-743416867484162776fb61acb245cd85.png",
+                              "height": 133,
+                              "width": 200
+                            },
+                            "preview": {
+                              "download": "@@images/image-400-5d0c874578215d1f07b63d953bc102d5.png",
+                              "height": 266,
+                              "width": 400
+                            },
+                            "teaser": {
+                              "download": "@@images/image-600-98e8817ad782427336360d7a71758552.png",
+                              "height": 400,
+                              "width": 600
+                            },
+                            "thumb": {
+                              "download": "@@images/image-128-e3d620349eb6623c0bb5603862f5f99e.png",
+                              "height": 85,
+                              "width": 128
+                            },
+                            "tile": {
+                              "download": "@@images/image-64-a1fadcadb59082ad9805deb27b234ed6.png",
+                              "height": 42,
+                              "width": 64
+                            }
+                          },
+                          "size": 254660,
+                          "width": 1200
+                        }
+                      ]
+                    },
+                    "title": "ESTUDANTES INTERNACIONAIS.png"
+                  }
+                ],
+                "subtitle": "",
+                "title": "Estudantes Internacionais na UFSCar  TESTE",
+                "verticalAlign": "center"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "081bf1ae-4786-4be4-86d7-ba01650b9a3c"
+              ]
+            }
+          },
+          "bb5072ac-43b5-484c-967c-856046483527": {
+            "blocks": {
+              "931bc83e-c76c-4b71-b18e-d0c551371f41": {
+                "@type": "teaser",
+                "aspectRatioDesktop": "56.25%",
+                "aspectRatioMobile": "66.6666%",
+                "aspectRatioMode": "fixed",
+                "aspectRatioTablet": "75%",
+                "description": "Descubra as informações mais relevantes sobre a UFSCar",
+                "head_title": null,
+                "hideDescription": false,
+                "hideImage": false,
+                "hideSubtitle": false,
+                "horizontalAlign": "center",
+                "href": [
+                  {
+                    "@id": "https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar-universidade-federal-de-sao-carlos/sobre-nos",
+                    "@type": "Document",
+                    "Description": "Descubra as informações mais relevantes sobre a UFSCar",
+                    "Title": "Sobre a UFSCar",
+                    "alt": null,
+                    "category_title": null,
+                    "dados_noticia": null,
+                    "description": "Descubra as informações mais relevantes sobre a UFSCar",
+                    "effective": "1969-12-31T03:00:00+00:00",
+                    "end": null,
+                    "getObjSize": "0 KB",
+                    "hasPreviewImage": null,
+                    "head_title": null,
+                    "image_field": "",
+                    "image_scales": null,
+                    "mime_type": "text/plain",
+                    "nav_title": null,
+                    "review_state": "private",
+                    "start": null,
+                    "subtitle": null,
+                    "title": "Sobre a UFSCar",
+                    "type_title": "Página"
+                  }
+                ],
+                "imageBackground": false,
+                "image_alt": "Imagem de capa sobre a universidade",
+                "overwrite": true,
+                "preview_image": [
+                  {
+                    "@id": "https://www.gov.br/studyinbrazil/pt-br/imagens-e-videos/sobre-a-universidade.png",
+                    "alt": "Imagem de capa sobre a universidade",
+                    "image_field": "image",
+                    "image_scales": {
+                      "image": [
+                        {
+                          "content-type": "image/png",
+                          "download": "@@images/image-1200-bc7a4a1042fe95c18fb05813abc27a02.png",
+                          "filename": "SOBRE A UNIVERSIDADE.png",
+                          "height": 800,
+                          "scales": {
+                            "great": {
+                              "download": "@@images/image-1200-a53dd058ea1fd77ae94402329c190f96.png",
+                              "height": 800,
+                              "width": 1200
+                            },
+                            "icon": {
+                              "download": "@@images/image-32-0e3dba70131ee827b9c509532786b2a9.png",
+                              "height": 21,
+                              "width": 32
+                            },
+                            "large": {
+                              "download": "@@images/image-800-674fe147a2fd25e8f7ab37c382403c9e.png",
+                              "height": 533,
+                              "width": 800
+                            },
+                            "larger": {
+                              "download": "@@images/image-1000-d5c93fa28f48ae6c8bc8b1293817ea25.png",
+                              "height": 666,
+                              "width": 1000
+                            },
+                            "mini": {
+                              "download": "@@images/image-200-ed298ace23e5024ce56e2bc9e600b081.png",
+                              "height": 133,
+                              "width": 200
+                            },
+                            "preview": {
+                              "download": "@@images/image-400-332e60037d240f5f68b1685c486da7c3.png",
+                              "height": 266,
+                              "width": 400
+                            },
+                            "teaser": {
+                              "download": "@@images/image-600-33b9678d5e36c9a591a78fdd8eaf2f59.png",
+                              "height": 400,
+                              "width": 600
+                            },
+                            "thumb": {
+                              "download": "@@images/image-128-1e68929084da0c1cfdf11032389d535c.png",
+                              "height": 85,
+                              "width": 128
+                            },
+                            "tile": {
+                              "download": "@@images/image-64-aa7535106636f2d0ddcaa3f885ae982c.png",
+                              "height": 42,
+                              "width": 64
+                            }
+                          },
+                          "size": 75889,
+                          "width": 1200
+                        }
+                      ]
+                    },
+                    "title": "SOBRE A UNIVERSIDADE.png"
+                  }
+                ],
+                "subtitle": "",
+                "title": "Sobre a UFSCar TESTE",
+                "verticalAlign": "center"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "931bc83e-c76c-4b71-b18e-d0c551371f41"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "bb5072ac-43b5-484c-967c-856046483527",
+            "7d716c12-1446-42a8-95f6-5c9bba9b6cfc",
+            "b5c2074e-70a2-46d5-a541-68fe34a1b524"
+          ]
+        }
+      },
+      "fullWidth": "none",
+      "gridCols": [
+        "oneThird",
+        "oneThird",
+        "oneThird"
+      ],
+      "gridSize": 12
+    },
+    "224d0160-7d74-44ca-bd0c-af940ac54a88": {
+      "@type": "SectionTitleBlock",
+      "align": "center",
+      "title": "Informações sobre nossa universidade"
+    },
+    "2c6aa2ef-c6ef-47b2-9c65-169f51c32605": {
+      "@type": "spacingLine",
+      "spacing": "5"
+    },
+    "3b97d2c4-30dd-44d1-b939-224e6625ba9a": {
+      "@type": "html",
+      "html": "<div id=\"faq\" style=\"padding-top: 80px; margin-top: -80px;\">\n</div>"
+    },
+    "3f3538b8-3a0f-47a5-a575-67b6faf89da0": {
+      "@type": "spacingLine",
+      "spacing": "5"
+    },
+    "4f1e1a43-7695-4cec-b987-dea814cd33f3": {
+      "@type": "accordion",
+      "data": {
+        "blocks": {
+          "3f2f3c43-3f3e-426a-8021-02f3cf0c2f4a": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "8f4a526c-6637-4f7d-ac8e-32efd2381b78": {
+                "@type": "accordion",
+                "data": {
+                  "blocks": {
+                    "33af63cc-566e-4dfb-873a-51e02cd8cc7f": {
+                      "@type": "accordionPanel",
+                      "blocks": {
+                        "d83e4642-d626-4770-b5f0-f8429d5453d2": {
+                          "@type": "slate",
+                          "plaintext": "As cidades dos campi da UFSCar oferecem diferentes opções de cultura e lazer, compatíveis com seus perfis urbanos e regionais.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "As cidades dos campi da UFSCar oferecem diferentes opções de cultura e lazer, compatíveis com seus perfis urbanos e regionais. "
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        }
+                      },
+                      "blocks_layout": {
+                        "items": [
+                          "d83e4642-d626-4770-b5f0-f8429d5453d2"
+                        ]
+                      },
+                      "title": "Como é a cultura e o lazer nas cidades? "
+                    },
+                    "3d643648-7f49-4738-ae96-882c7a41aa3f": {
+                      "@type": "accordionPanel",
+                      "blocks": {
+                        "342add5f-5b99-4094-b498-e302c16f8257": {
+                          "@type": "slate",
+                          "plaintext": "As cidades dos campi da UFSCar apresentam características associadas a municípios de pequeno ou médio porte do interior paulista, frequentemente relacionadas à percepção de qualidade de vida e sensação de segurança superiores às grandes capitais brasileiras.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "As cidades dos campi da UFSCar apresentam características associadas a municípios de pequeno ou médio porte do interior paulista, frequentemente relacionadas à percepção de qualidade de vida e sensação de segurança superiores às grandes capitais brasileiras. "
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        }
+                      },
+                      "blocks_layout": {
+                        "items": [
+                          "342add5f-5b99-4094-b498-e302c16f8257"
+                        ]
+                      },
+                      "title": "Como é a segurança na cidade? "
+                    },
+                    "48fd04af-da45-42a1-bf93-61763137ccd9": {
+                      "@type": "accordionPanel",
+                      "blocks": {
+                        "8461c816-ad28-4877-82eb-1667690fba7c": {
+                          "@type": "slate",
+                          "plaintext": "O custo de vida nas cidades onde a UFSCar está presente tende a ser mais acessível do que em grandes capitais, especialmente em moradia e transporte. São Carlos e Araras apresentam custo moderado e ampla oferta de moradias estudantis, enquanto Sorocaba e São José do Rio Preto possuem estrutura urbana mais ampla e custos um pouco mais elevados. Buri (campus Lagoa do Sino), por ser uma cidade menor, tende a apresentar custo de vida mais baixo. A existência de restaurantes universitários, assistência estudantil e repúblicas estudantis contribui para reduzir os custos de permanência.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "O custo de vida nas cidades onde a UFSCar está presente tende a ser mais acessível do que em grandes capitais, especialmente em moradia e transporte. São Carlos e Araras apresentam custo moderado e ampla oferta de moradias estudantis, enquanto Sorocaba e São José do Rio Preto possuem estrutura urbana mais ampla e custos um pouco mais elevados. Buri (campus Lagoa do Sino), por ser uma cidade menor, tende a apresentar custo de vida mais baixo. A existência de restaurantes universitários, assistência estudantil e repúblicas estudantis contribui para reduzir os custos de permanência. "
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        }
+                      },
+                      "blocks_layout": {
+                        "items": [
+                          "8461c816-ad28-4877-82eb-1667690fba7c"
+                        ]
+                      },
+                      "title": "Qual é o custo de vida médio para um estudante nas cidades onde há campus da UFSCar?"
+                    },
+                    "f104de69-188a-46ae-b051-ba5c52cb02c5": {
+                      "@type": "accordionPanel",
+                      "blocks": {
+                        "7eab09f9-c448-481f-bae5-fbc3858fa04c": {
+                          "@type": "slate",
+                          "plaintext": " A mobilidade urbana nas cidades onde há campus da UFSCar é baseada principalmente em sistemas de ônibus urbanos. conectando os bairros e os campi. Em muitas vezes, os deslocamentos podem ocorrer de bicicleta ou mesmo a pé. ",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": " "
+                                },
+                                {
+                                  "text": "A mobilidade urbana nas cidades onde há campus da UFSCar é baseada principalmente em sistemas de ônibus urbanos. conectando os bairros e os campi. Em muitas vezes, os deslocamentos podem ocorrer de bicicleta ou mesmo a pé."
+                                },
+                                {
+                                  "text": "  "
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        }
+                      },
+                      "blocks_layout": {
+                        "items": [
+                          "7eab09f9-c448-481f-bae5-fbc3858fa04c"
+                        ]
+                      },
+                      "title": "Como funciona o transporte público?"
+                    }
+                  },
+                  "blocks_layout": {
+                    "items": [
+                      "48fd04af-da45-42a1-bf93-61763137ccd9",
+                      "33af63cc-566e-4dfb-873a-51e02cd8cc7f",
+                      "f104de69-188a-46ae-b051-ba5c52cb02c5",
+                      "3d643648-7f49-4738-ae96-882c7a41aa3f"
+                    ]
+                  }
+                },
+                "exclusive": true,
+                "groups": false,
+                "left_arrows": false,
+                "openOnStart": false
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "8f4a526c-6637-4f7d-ac8e-32efd2381b78"
+              ]
+            },
+            "title": "Viver em cidades do interior de São Paulo"
+          },
+          "440d3766-cd7b-4d1c-a2b4-b19944026de7": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "b25039e6-fb4a-4f7f-8266-5452ccf906e9": {
+                "@type": "accordion",
+                "data": {
+                  "blocks": {
+                    "080ada31-af07-4786-a5e0-8d40bfe577f2": {
+                      "@type": "accordionPanel",
+                      "blocks": {
+                        "fab33945-dead-4779-97ac-5502909f2958": {
+                          "@type": "slate",
+                          "plaintext": "A UFSCar oferece uma ampla variedade de cursos de graduação e pós-graduação em todas as grandes áreas do conhecimento, com destaque para Engenharias, Ciência da Computação, Química, Física, Biotecnologia, Ciências Biológicas, Educação e áreas da Saúde. A universidade é reconhecida nacionalmente por sua produção científica e por programas de pós-graduação bem avaliados pela CAPES, incluindo notas 6 e 7 em áreas como Ciência e Engenharia de Materiais, Engenharia Química e Biotecnologia.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "A UFSCar oferece uma ampla variedade de cursos de graduação e pós-graduação em todas as grandes áreas do conhecimento, com destaque para Engenharias, Ciência da Computação, Química, Física, Biotecnologia, Ciências Biológicas, Educação e áreas da Saúde. A universidade é reconhecida nacionalmente por sua produção científica e por programas de pós-graduação bem avaliados pela CAPES, incluindo notas 6 e 7 em áreas como Ciência e Engenharia de Materiais, Engenharia Química e Biotecnologia."
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        }
+                      },
+                      "blocks_layout": {
+                        "items": [
+                          "fab33945-dead-4779-97ac-5502909f2958"
+                        ]
+                      },
+                      "title": "Quais tipos de cursos a UFSCar oferece para estudantes internacionais? "
+                    },
+                    "d2852e21-a3ae-4112-81ba-e9238346799b": {
+                      "@type": "accordionPanel",
+                      "blocks": {
+                        "e2fe8edb-4ffb-44b8-91eb-3caca57ff4f7": {
+                          "@type": "slate",
+                          "plaintext": "Tanto na graduação quanto na pós-graduação, o idioma oficial de ensino da UFSCar é o português, embora possam existir iniciativas pontuais de oferta de disciplinas isoladas em outros idiomas. Dessa forma, é importante que estudantes internacionais tenham domínio suficiente da língua portuguesa para acompanhar aulas, avaliações e demais atividades acadêmicas.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "Tanto na graduação quanto na pós-graduação, o idioma oficial de ensino da UFSCar é o português, embora possam existir iniciativas pontuais de oferta de disciplinas isoladas em outros idiomas. Dessa forma, é importante que estudantes internacionais tenham domínio suficiente da língua portuguesa para acompanhar aulas, avaliações e demais atividades acadêmicas."
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        }
+                      },
+                      "blocks_layout": {
+                        "items": [
+                          "e2fe8edb-4ffb-44b8-91eb-3caca57ff4f7"
+                        ]
+                      },
+                      "title": "É preciso ter proficiência em português para estudar na UFSCar? "
+                    }
+                  },
+                  "blocks_layout": {
+                    "items": [
+                      "080ada31-af07-4786-a5e0-8d40bfe577f2",
+                      "d2852e21-a3ae-4112-81ba-e9238346799b"
+                    ]
+                  }
+                },
+                "exclusive": true,
+                "groups": false,
+                "left_arrows": false,
+                "openOnStart": false
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "b25039e6-fb4a-4f7f-8266-5452ccf906e9"
+              ]
+            },
+            "title": "Cursos e Programas Acadêmicos"
+          },
+          "cd972982-502a-4888-bb90-004130f8babe": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "063ef768-d5bf-46de-9719-05661580c0a2": {
+                "@type": "accordion",
+                "data": {
+                  "blocks": {
+                    "af6a139c-6d15-490f-992e-fb5c3d17ebb9": {
+                      "@type": "accordionPanel",
+                      "blocks": {
+                        "9c31134f-10b7-4a17-bb12-71cd2f86355e": {
+                          "@type": "slate",
+                          "plaintext": "A UFSCar oferece suporte a estudantes internacionais em questões acadêmicas, administrativas e de integração à vida universitária, com ações de acolhimento e integração. Os estudantes internacionais têm acesso à rede de serviços da Universidade, incluindo bibliotecas, restaurantes universitários, atividades esportivas, ações de assistência estudantil e serviços públicos de saúde disponíveis por meio do Sistema Único de Saúde (SUS).A universidade também oferece oportunidades de aprendizagem de português como língua estrangeira por meio do Instituto de Línguas (IL) e do programa Idiomas sem Fronteiras (IsF) UFSCar, com cursos e atividades voltados ao desenvolvimento da proficiência linguística e à integração acadêmica e cultural.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "A UFSCar oferece suporte a estudantes internacionais em questões acadêmicas, administrativas e de integração à vida universitária, com ações de acolhimento e integração. Os estudantes internacionais têm acesso à rede de serviços da Universidade, incluindo bibliotecas, restaurantes universitários, atividades esportivas, ações de assistência estudantil e serviços públicos de saúde disponíveis por meio do Sistema Único de Saúde (SUS).A universidade também oferece oportunidades de aprendizagem de português como língua estrangeira por meio do Instituto de Línguas (IL) e do programa Idiomas sem Fronteiras (IsF) UFSCar, com cursos e atividades voltados ao desenvolvimento da proficiência linguística e à integração acadêmica e cultural."
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        }
+                      },
+                      "blocks_layout": {
+                        "items": [
+                          "9c31134f-10b7-4a17-bb12-71cd2f86355e"
+                        ]
+                      },
+                      "title": "Quais serviços de apoio estão disponíveis para estudantes internacionais na UFSCar?"
+                    },
+                    "d54a8aa8-f3ea-49dd-a915-448720446fad": {
+                      "@type": "accordionPanel",
+                      "blocks": {
+                        "cb14551d-8c0c-4e58-8f06-375b0ab134e9": {
+                          "@type": "slate",
+                          "plaintext": "A UFSCar não possui residências universitárias exclusivas para estudantes internacionais. No entanto, a SRInter fornece orientação sobre opções de moradia em São Carlos, como repúblicas estudantis, apartamentos compartilhados e locações individuais, além de informações úteis sobre custos médios e regiões próximas ao campus.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "A UFSCar não possui residências universitárias exclusivas para estudantes internacionais. No entanto, a SRInter fornece orientação sobre opções de moradia em São Carlos, como repúblicas estudantis, apartamentos compartilhados e locações individuais, além de informações úteis sobre custos médios e regiões próximas ao campus."
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        }
+                      },
+                      "blocks_layout": {
+                        "items": [
+                          "cb14551d-8c0c-4e58-8f06-375b0ab134e9"
+                        ]
+                      },
+                      "title": "A UFSCar oferece moradia estudantil para estudantes internacionais? "
+                    }
+                  },
+                  "blocks_layout": {
+                    "items": [
+                      "d54a8aa8-f3ea-49dd-a915-448720446fad",
+                      "af6a139c-6d15-490f-992e-fb5c3d17ebb9"
+                    ]
+                  }
+                },
+                "exclusive": true,
+                "groups": false,
+                "left_arrows": false,
+                "openOnStart": false
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "063ef768-d5bf-46de-9719-05661580c0a2"
+              ]
+            },
+            "title": "Vida no Campus e Suporte ao Estudante"
+          },
+          "e4b800f8-d218-42d3-bed2-24b166d42333": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "75d91d2f-aff5-4c8c-aba7-4b4061ee843b": {
+                "@type": "accordion",
+                "data": {
+                  "blocks": {
+                    "00504577-4947-4b9f-9284-598a2ae57b89": {
+                      "@type": "accordionPanel",
+                      "blocks": {
+                        "ae1eb49e-95bb-4fd8-a97d-bc14e35bd51a": {
+                          "@type": "slate",
+                          "plaintext": "Os processos de admissão variam conforme o nível e o tipo de vínculo pretendido na UFSCar  Para estudantes internacionais interessados em cursar a graduação completa na UFSCar como estudantes regulares, o ingresso pode ocorrer por duas formas: pelo Programa de Estudantes-Convênio de Graduação (PEC-G), destinado a países participantes do programa, ou pelo SISU/ENEM. Em ambos os casos, o processo seletivo é conduzido pelo governo brasileiro e não diretamente pela UFSCar.Mobilidades acadêmicas internacionais de curta duração para a graduação e pós-graduação podem ocorrer por acordos bilaterais de cooperação internacional entre a UFSCar e instituições estrangeiras, bem como por programas específicos de mobilidade, como os Programas ESCALA da Associação de Universidades Grupo Montevidéu (AUGM), entre outros.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "Os processos de admissão variam conforme o nível e o tipo de vínculo pretendido na UFSCar"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": ""
+                                    }
+                                  ],
+                                  "type": "del"
+                                },
+                                {
+                                  "text": " Para estudantes internacionais interessados em cursar a graduação completa na UFSCar como estudantes regulares, o ingresso pode ocorrer por duas formas: pelo Programa de Estudantes-Convênio de Graduação (PEC-G), destinado a países participantes do programa, ou pelo SISU/ENEM. Em ambos os casos, o processo seletivo é conduzido pelo governo brasileiro e não diretamente pela UFSCar.Mobilidades acadêmicas internacionais de curta duração para a graduação e pós-graduação podem ocorrer por acordos bilaterais de cooperação internacional entre a UFSCar e instituições estrangeiras, bem como por programas específicos de mobilidade, como os Programas ESCALA da Associação de Universidades Grupo Montevidéu (AUGM), entre outros."
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        }
+                      },
+                      "blocks_layout": {
+                        "items": [
+                          "ae1eb49e-95bb-4fd8-a97d-bc14e35bd51a"
+                        ]
+                      },
+                      "title": "Como posso me candidatar a um curso de graduação ou pós-graduação na UFSCar como estudante internacional?"
+                    },
+                    "095d7a16-2bbf-4f09-9be0-3e07b2766488": {
+                      "@type": "accordionPanel",
+                      "blocks": {
+                        "f69076f7-5124-4847-858e-abeccd2d4f40": {
+                          "@type": "slate",
+                          "plaintext": "Tanto na graduação quanto na pós-graduação, o idioma oficial de ensino da UFSCar é o português, embora possam existir iniciativas pontuais de oferta de disciplinas isoladas em outros idiomas. Dessa forma, é importante que estudantes internacionais tenham domínio suficiente da língua portuguesa para acompanhar aulas, avaliações e demais atividades acadêmicas.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "Tanto na graduação quanto na pós-graduação, o idioma oficial de ensino da UFSCar é o português, embora possam existir iniciativas pontuais de oferta de disciplinas isoladas em outros idiomas. Dessa forma, é importante que estudantes internacionais tenham domínio suficiente da língua portuguesa para acompanhar aulas, avaliações e demais atividades acadêmicas."
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        }
+                      },
+                      "blocks_layout": {
+                        "items": [
+                          "f69076f7-5124-4847-858e-abeccd2d4f40"
+                        ]
+                      },
+                      "title": "A UFSCar exige algum teste de proficiência em português?"
+                    }
+                  },
+                  "blocks_layout": {
+                    "items": [
+                      "00504577-4947-4b9f-9284-598a2ae57b89",
+                      "095d7a16-2bbf-4f09-9be0-3e07b2766488"
+                    ]
+                  }
+                },
+                "exclusive": true,
+                "groups": false,
+                "left_arrows": false,
+                "openOnStart": false
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "75d91d2f-aff5-4c8c-aba7-4b4061ee843b"
+              ]
+            },
+            "title": "Processo Seletivo e Admissão"
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "440d3766-cd7b-4d1c-a2b4-b19944026de7",
+            "e4b800f8-d218-42d3-bed2-24b166d42333",
+            "cd972982-502a-4888-bb90-004130f8babe",
+            "3f2f3c43-3f3e-426a-8021-02f3cf0c2f4a"
+          ]
+        }
+      },
+      "exclusive": true,
+      "groups": false,
+      "left_arrows": false,
+      "openOnStart": false
+    },
+    "8237b881-d951-4eb3-b97c-bd599d86565d": {
+      "@type": "carouselBlock",
+      "aspectRatioDesktop": "33.3333%",
+      "aspectRatioMode": "fixed",
+      "aspectRatioPhone": "66.6666%",
+      "aspectRatioTablet": "75%",
+      "autoplay": true,
+      "autoplaySpeed": 6,
+      "columns": [
+        {
+          "@id": "cf2983f7-6aef-43e0-acf7-e17d65d7af24",
+          "customized": {
+            "Title_desktop": "Biblioteca Comunitária da UFSCar de São Carlos",
+            "alt_desktop": "Biblioteca Comunitária da UFSCar do campus de São Carlos",
+            "horizontal_alignment_desktop": "center",
+            "preview_image_desktop": {
+              "@id": "https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar-universidade-federal-de-sao-carlos/imagens/biblioteca-comunitaria-da-ufscar-do-campus-de-sao-carlos.jpg",
+              "@type": "Image",
+              "CreationDate": "2026-07-07T11:01:55-03:00",
+              "Creator": "40995477876",
+              "Date": "2026-07-07T11:01:55-03:00",
+              "Description": "",
+              "EffectiveDate": "None",
+              "ExpirationDate": "None",
+              "Language": "pt-br",
+              "ModificationDate": "2026-07-07T11:01:55-03:00",
+              "Subject": [],
+              "Title": "Biblioteca Comunitária da UFSCar do campus de São Carlos.jpg",
+              "TranslationGroup": "851035172aae48338011f4bcd75e8fa0",
+              "Type": "Imagem",
+              "UID": "8cd861d28f51471ab1e7b569aa4c7189",
+              "address_and_hours": null,
+              "alt": "Biblioteca Comunitária da UFSCar do campus de São Carlos",
+              "alt_card": null,
+              "attendees": null,
+              "autoridade": null,
+              "cargo": null,
+              "category_title": null,
+              "cmf_uid": null,
+              "competencies": null,
+              "created": "2026-07-07T14:01:55+00:00",
+              "dados_noticia": null,
+              "date": null,
+              "descricao_card": null,
+              "description": "",
+              "effective": "1969-12-31T03:00:00+00:00",
+              "email": null,
+              "end": null,
+              "event_type": null,
+              "exclude_from_nav": null,
+              "expires": "2499-12-31T03:00:00+00:00",
+              "getIcon": true,
+              "getId": "biblioteca-comunitaria-da-ufscar-do-campus-de-sao-carlos.jpg",
+              "getObjSize": "155.2 KB",
+              "getPath": "/Plone/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar-universidade-federal-de-sao-carlos/imagens/biblioteca-comunitaria-da-ufscar-do-campus-de-sao-carlos.jpg",
+              "getRemoteUrl": null,
+              "getURL": "https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar-universidade-federal-de-sao-carlos/imagens/biblioteca-comunitaria-da-ufscar-do-campus-de-sao-carlos.jpg",
+              "halign": null,
+              "hasPreviewImage": null,
+              "head_title": null,
+              "icone_card": null,
+              "id": "biblioteca-comunitaria-da-ufscar-do-campus-de-sao-carlos.jpg",
+              "image_field": "image",
+              "image_scales": {
+                "image": [
+                  {
+                    "content-type": "image/jpeg",
+                    "download": "@@images/image-984-b7eff8b56793ab5ab4a7091e8036149f.jpeg",
+                    "filename": "Biblioteca Comunitária da UFSCar do campus de São Carlos.jpg",
+                    "height": 605,
+                    "scales": {
+                      "icon": {
+                        "download": "@@images/image-32-9e531009d1032a3af83949d983c939b2.jpeg",
+                        "height": 19,
+                        "width": 32
+                      },
+                      "large": {
+                        "download": "@@images/image-800-fc0ad18fde1404d9f7639f92ef06df51.jpeg",
+                        "height": 491,
+                        "width": 800
+                      },
+                      "mini": {
+                        "download": "@@images/image-200-8f1aa06c77024a459b0e3f47663d1b19.jpeg",
+                        "height": 122,
+                        "width": 200
+                      },
+                      "preview": {
+                        "download": "@@images/image-400-a22914a266805eef8ec37fead10de000.jpeg",
+                        "height": 245,
+                        "width": 400
+                      },
+                      "teaser": {
+                        "download": "@@images/image-600-459629ffd5813fab359f169d5a2d02d8.jpeg",
+                        "height": 368,
+                        "width": 600
+                      },
+                      "thumb": {
+                        "download": "@@images/image-128-631678a04fae2995d09bb090c513f5ae.jpeg",
+                        "height": 78,
+                        "width": 128
+                      },
+                      "tile": {
+                        "download": "@@images/image-64-69ca7bb7c16d756b1e53bffa1f6ab405.jpeg",
+                        "height": 39,
+                        "width": 64
+                      }
+                    },
+                    "size": 158960,
+                    "width": 984
+                  }
+                ]
+              },
+              "is_folderish": false,
+              "is_working_copy": null,
+              "listCreators": [
+                "40995477876"
+              ],
+              "location": null,
+              "mime_type": "image/jpeg",
+              "modified": "2026-07-07T14:01:55+00:00",
+              "nav_title": null,
+              "open_end": null,
+              "personAgenda": null,
+              "portal_type": "Image",
+              "review_state": "private",
+              "start": null,
+              "substitutoPessoa": null,
+              "subtitle": null,
+              "super_servico": null,
+              "sync_uid": null,
+              "telefone": null,
+              "title": "Biblioteca Comunitária da UFSCar do campus de São Carlos.jpg",
+              "titulo_card": null,
+              "type_title": "Imagem",
+              "uf_noticia": null,
+              "url": null,
+              "urlFile": null,
+              "urlHistoricoAgendaExterna": null,
+              "urlHistoricoAgendaGovbr": null,
+              "url_curriculo": null,
+              "valign": null,
+              "whole_day": null
+            },
+            "vertical_alignment_desktop": "center"
+          },
+          "overwrite": true,
+          "withoutSource": true
+        },
+        {
+          "@id": "c1fd9cfb-77f8-482b-bb29-eec1b352abe1",
+          "customized": {
+            "Title_desktop": "Restaurante Universitário da UFSCar de São Carlos",
+            "alt_desktop": "Restaurante Universitário da UFSCar do campus de São Carlos",
+            "horizontal_alignment_desktop": "center",
+            "preview_image_desktop": {
+              "@id": "https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar-universidade-federal-de-sao-carlos/imagens/restaurante-universitario-ufscar.jpg",
+              "@type": "Image",
+              "CreationDate": "2026-07-07T11:01:36-03:00",
+              "Creator": "40995477876",
+              "Date": "2026-07-07T11:01:36-03:00",
+              "Description": "",
+              "EffectiveDate": "None",
+              "ExpirationDate": "None",
+              "Language": "pt-br",
+              "ModificationDate": "2026-07-07T11:01:36-03:00",
+              "Subject": [],
+              "Title": "Restaurante Universitário UFSCar.jpg",
+              "TranslationGroup": "4af9757684be4f37825700bace08cc83",
+              "Type": "Imagem",
+              "UID": "419be2554b4f40d291b9d849162ffc35",
+              "address_and_hours": null,
+              "alt": "Restaurante Universitário da UFSCar do campus de São Carlos",
+              "alt_card": null,
+              "attendees": null,
+              "autoridade": null,
+              "cargo": null,
+              "category_title": null,
+              "cmf_uid": null,
+              "competencies": null,
+              "created": "2026-07-07T14:01:36+00:00",
+              "dados_noticia": null,
+              "date": null,
+              "descricao_card": null,
+              "description": "",
+              "effective": "1969-12-31T03:00:00+00:00",
+              "email": null,
+              "end": null,
+              "event_type": null,
+              "exclude_from_nav": null,
+              "expires": "2499-12-31T03:00:00+00:00",
+              "getIcon": true,
+              "getId": "restaurante-universitario-ufscar.jpg",
+              "getObjSize": "3.9 MB",
+              "getPath": "/Plone/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar-universidade-federal-de-sao-carlos/imagens/restaurante-universitario-ufscar.jpg",
+              "getRemoteUrl": null,
+              "getURL": "https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar-universidade-federal-de-sao-carlos/imagens/restaurante-universitario-ufscar.jpg",
+              "halign": null,
+              "hasPreviewImage": null,
+              "head_title": null,
+              "icone_card": null,
+              "id": "restaurante-universitario-ufscar.jpg",
+              "image_field": "image",
+              "image_scales": {
+                "image": [
+                  {
+                    "content-type": "image/jpeg",
+                    "download": "@@images/image-6240-d2cf969a9bdb7b0a88a74b7824ce3320.jpeg",
+                    "filename": "Restaurante Universitário UFSCar.jpg",
+                    "height": 4160,
+                    "scales": {
+                      "great": {
+                        "download": "@@images/image-1200-988c47027f88d6554233916d3a7f2f39.jpeg",
+                        "height": 800,
+                        "width": 1200
+                      },
+                      "huge": {
+                        "download": "@@images/image-1600-e0de25c57273b22191b806ef400070c7.jpeg",
+                        "height": 1066,
+                        "width": 1600
+                      },
+                      "icon": {
+                        "download": "@@images/image-32-5e6efc672c1233384d4eb75a7b359914.jpeg",
+                        "height": 21,
+                        "width": 32
+                      },
+                      "large": {
+                        "download": "@@images/image-800-eb439c217c37de2e41649f173a789e13.jpeg",
+                        "height": 533,
+                        "width": 800
+                      },
+                      "larger": {
+                        "download": "@@images/image-1000-f6c77d4a4d0ff69f2cfb2986b54c0ead.jpeg",
+                        "height": 666,
+                        "width": 1000
+                      },
+                      "mini": {
+                        "download": "@@images/image-200-26b54e102702db4a8a0b5a58c698aab6.jpeg",
+                        "height": 133,
+                        "width": 200
+                      },
+                      "preview": {
+                        "download": "@@images/image-400-d3b6c18e17cebcc2e1b3e16ff389e393.jpeg",
+                        "height": 266,
+                        "width": 400
+                      },
+                      "teaser": {
+                        "download": "@@images/image-600-4e44d0e6573eeff8da1437e3d306dc51.jpeg",
+                        "height": 400,
+                        "width": 600
+                      },
+                      "thumb": {
+                        "download": "@@images/image-128-6af234bbccc5bd7e5f1306725c3aacef.jpeg",
+                        "height": 85,
+                        "width": 128
+                      },
+                      "tile": {
+                        "download": "@@images/image-64-1ca484b0767b83622a3088c1fdb01d20.jpeg",
+                        "height": 42,
+                        "width": 64
+                      }
+                    },
+                    "size": 4062578,
+                    "width": 6240
+                  }
+                ]
+              },
+              "is_folderish": false,
+              "is_working_copy": null,
+              "listCreators": [
+                "40995477876"
+              ],
+              "location": null,
+              "mime_type": "image/jpeg",
+              "modified": "2026-07-07T14:01:36+00:00",
+              "nav_title": null,
+              "open_end": null,
+              "personAgenda": null,
+              "portal_type": "Image",
+              "review_state": "private",
+              "start": null,
+              "substitutoPessoa": null,
+              "subtitle": null,
+              "super_servico": null,
+              "sync_uid": null,
+              "telefone": null,
+              "title": "Restaurante Universitário UFSCar.jpg",
+              "titulo_card": null,
+              "type_title": "Imagem",
+              "uf_noticia": null,
+              "url": null,
+              "urlFile": null,
+              "urlHistoricoAgendaExterna": null,
+              "urlHistoricoAgendaGovbr": null,
+              "url_curriculo": null,
+              "valign": null,
+              "whole_day": null
+            },
+            "vertical_alignment_desktop": "center"
+          },
+          "hide_info": false,
+          "overwrite": true,
+          "withoutSource": true
+        },
+        {
+          "@id": "10373dec-6209-436b-8a59-6a20b9959738",
+          "customized": {
+            "Title_desktop": "Quadras Externas da UFSCar de São Carlos",
+            "alt_desktop": "Quadras Externa da UFSCar do campus de São Carlos",
+            "horizontal_alignment_desktop": "center",
+            "horizontal_alignment_tablet": "center",
+            "preview_image_desktop": {
+              "@id": "https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar-universidade-federal-de-sao-carlos/imagens/quadras-externas-da-ufscar-do-campus-de-sao-carlos.jpg",
+              "@type": "Image",
+              "CreationDate": "2026-07-07T11:02:08-03:00",
+              "Creator": "40995477876",
+              "Date": "2026-07-07T11:02:08-03:00",
+              "Description": "",
+              "EffectiveDate": "None",
+              "ExpirationDate": "None",
+              "Language": "pt-br",
+              "ModificationDate": "2026-07-07T11:02:08-03:00",
+              "Subject": [],
+              "Title": "Quadras Externas da UFSCar do campus de São Carlos.jpg",
+              "TranslationGroup": "6f48055ec15448878f8dfa484c607b35",
+              "Type": "Imagem",
+              "UID": "2f754496f86842f2a4ca19bdcd6c4e5e",
+              "address_and_hours": null,
+              "alt": "Quadras Externas da UFSCar do campus de São Carlos",
+              "alt_card": null,
+              "attendees": null,
+              "autoridade": null,
+              "cargo": null,
+              "category_title": null,
+              "cmf_uid": null,
+              "competencies": null,
+              "created": "2026-07-07T14:02:08+00:00",
+              "dados_noticia": null,
+              "date": null,
+              "descricao_card": null,
+              "description": "",
+              "effective": "1969-12-31T03:00:00+00:00",
+              "email": null,
+              "end": null,
+              "event_type": null,
+              "exclude_from_nav": null,
+              "expires": "2499-12-31T03:00:00+00:00",
+              "getIcon": true,
+              "getId": "quadras-externas-da-ufscar-do-campus-de-sao-carlos.jpg",
+              "getObjSize": "8.9 MB",
+              "getPath": "/Plone/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar-universidade-federal-de-sao-carlos/imagens/quadras-externas-da-ufscar-do-campus-de-sao-carlos.jpg",
+              "getRemoteUrl": null,
+              "getURL": "https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar-universidade-federal-de-sao-carlos/imagens/quadras-externas-da-ufscar-do-campus-de-sao-carlos.jpg",
+              "halign": null,
+              "hasPreviewImage": null,
+              "head_title": null,
+              "icone_card": null,
+              "id": "quadras-externas-da-ufscar-do-campus-de-sao-carlos.jpg",
+              "image_field": "image",
+              "image_scales": {
+                "image": [
+                  {
+                    "content-type": "image/jpeg",
+                    "download": "@@images/image-6240-a346979d73095263173bda2152c46288.jpeg",
+                    "filename": "Quadras Externas da UFSCar do campus de São Carlos.jpg",
+                    "height": 4160,
+                    "scales": {
+                      "great": {
+                        "download": "@@images/image-1200-642e6c52a8ad359ca2303891f515d775.jpeg",
+                        "height": 800,
+                        "width": 1200
+                      },
+                      "huge": {
+                        "download": "@@images/image-1600-25681fafb6b1616d006eb7207e85d1d1.jpeg",
+                        "height": 1066,
+                        "width": 1600
+                      },
+                      "icon": {
+                        "download": "@@images/image-32-0a9ea061e6ace73ae542e8a2f1ca2e4f.jpeg",
+                        "height": 21,
+                        "width": 32
+                      },
+                      "large": {
+                        "download": "@@images/image-800-7ed83f90a24afc7d1a2c0c7b41d4458a.jpeg",
+                        "height": 533,
+                        "width": 800
+                      },
+                      "larger": {
+                        "download": "@@images/image-1000-6ca54dece238354738435b5311910f7c.jpeg",
+                        "height": 666,
+                        "width": 1000
+                      },
+                      "mini": {
+                        "download": "@@images/image-200-6bbe4d38393b1469f9c93e67b03fe712.jpeg",
+                        "height": 133,
+                        "width": 200
+                      },
+                      "preview": {
+                        "download": "@@images/image-400-fad2712a51a16a982923d87ee765c263.jpeg",
+                        "height": 266,
+                        "width": 400
+                      },
+                      "teaser": {
+                        "download": "@@images/image-600-ea465ea3c1a3e91a6fc21038aee28e01.jpeg",
+                        "height": 400,
+                        "width": 600
+                      },
+                      "thumb": {
+                        "download": "@@images/image-128-5e1b9a9788201aa5a6d6c254a37e8bbf.jpeg",
+                        "height": 85,
+                        "width": 128
+                      },
+                      "tile": {
+                        "download": "@@images/image-64-3be6f7c62b18527eb1d90b3eef56e84f.jpeg",
+                        "height": 42,
+                        "width": 64
+                      }
+                    },
+                    "size": 9363546,
+                    "width": 6240
+                  }
+                ]
+              },
+              "is_folderish": false,
+              "is_working_copy": null,
+              "listCreators": [
+                "40995477876"
+              ],
+              "location": null,
+              "mime_type": "image/jpeg",
+              "modified": "2026-07-07T14:02:08+00:00",
+              "nav_title": null,
+              "open_end": null,
+              "personAgenda": null,
+              "portal_type": "Image",
+              "review_state": "private",
+              "start": null,
+              "substitutoPessoa": null,
+              "subtitle": null,
+              "super_servico": null,
+              "sync_uid": null,
+              "telefone": null,
+              "title": "Quadras Externas da UFSCar do campus de São Carlos.jpg",
+              "titulo_card": null,
+              "type_title": "Imagem",
+              "uf_noticia": null,
+              "url": null,
+              "urlFile": null,
+              "urlHistoricoAgendaExterna": null,
+              "urlHistoricoAgendaGovbr": null,
+              "url_curriculo": null,
+              "valign": null,
+              "whole_day": null
+            },
+            "vertical_alignment_desktop": "center",
+            "vertical_alignment_tablet": "center"
+          },
+          "horizontal_alignment": "center",
+          "overwrite": true,
+          "vertical_alignment": "center",
+          "withoutSource": true
+        }
+      ],
+      "infinite": true,
+      "items_to_show": 1,
+      "layout": "back"
+    },
+    "a72f5b42-21f8-4ff4-9a0e-9892605b8ca4": {
+      "@type": "columnsBlock",
+      "backgroundColor": "grey",
+      "data": {
+        "blocks": {
+          "6eb5b35a-3cfa-4181-a69a-efd86376bcd1": {
+            "blocks": {
+              "2306bfbe-7410-4dfc-87d4-d1db91d13bda": {
+                "@type": "slate",
+                "plaintext": " 📞  Telefone/Whatsapp: +55 16 3351-8402",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "📞 "
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Telefone/Whatsapp:"
+                          }
+                        ],
+                        "type": "b"
+                      },
+                      {
+                        "text": " +55 16 3351-8402"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "5b4864f9-2092-480e-abb1-3ba395524d60": {
+                "@type": "slate",
+                "plaintext": "Nossa equipe está à disposição para apoiar estudantes e parceiros internacionais em todas as etapas da experiência na UFSCar, oferecendo orientações sobre vistos e registro no Brasil, informações sobre bolsas e oportunidades de financiamento, apoio ao aprendizado de português, dicas de moradia nas cidades dos campi (São Carlos, Araras, Lagoa do Sino, Sorocaba e São José do Rio Preto), assistência em parcerias e programas de intercâmbio acadêmico, além de facilitar sua integração cultural e acadêmica à universidade e ao vibrante ecossistema científico e tecnológico da região.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Nossa equipe está à disposição para apoiar estudantes e parceiros internacionais em todas as etapas da experiência na UFSCar, oferecendo orientações sobre vistos e registro no Brasil, informações sobre bolsas e oportunidades de financiamento, apoio ao aprendizado de português, dicas de moradia nas cidades dos campi (São Carlos, Araras, Lagoa do Sino, Sorocaba e São José do Rio Preto), assistência em parcerias e programas de intercâmbio acadêmico, além de facilitar sua integração cultural e acadêmica à universidade e ao vibrante ecossistema científico e tecnológico da região."
+                      }
+                    ],
+                    "type": "blockquote"
+                  }
+                ]
+              },
+              "6930dee0-da13-4e2f-bebf-e245793b69c2": {
+                "@type": "SectionTitleBlock",
+                "align": "center",
+                "title": "🌐 Relações Internacionais"
+              },
+              "71e0b867-aba7-4c23-bb15-60a7a7102f35": {
+                "@type": "spacingLine",
+                "spacing": "3"
+              },
+              "88ab725e-43d6-4242-967c-aeb2deddbb90": {
+                "@type": "spacingLine",
+                "spacing": "3"
+              },
+              "9528fbda-1138-4e01-8c6a-a3bddd85d770": {
+                "@type": "slate",
+                "plaintext": "💻 Site: https://www.srinter.ufscar.br/pt-br/pagina-inicial",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "💻"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": " Site:"
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": " https://www.srinter.ufscar.br/pt-br/pagina-inicial"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "a2a4f75c-fc5c-4ac2-bfef-0304f1ece12c": {
+                "@type": "slate",
+                "plaintext": " Horário de Atendimento ",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Horário de Atendimento"
+                          }
+                        ],
+                        "type": "b"
+                      },
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "cf8b5506-3b31-46bc-9bf5-442fbe80c942": {
+                "@type": "slate",
+                "plaintext": "Suporte para estrangeiros / International Student Support",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Suporte para estrangeiros / International Student Support"
+                      }
+                    ],
+                    "type": "blockquote"
+                  }
+                ]
+              },
+              "d3d9d35d-d563-45cc-aa67-161662dea89c": {
+                "@type": "slate",
+                "plaintext": " 📍  Endereço Físico: Rodovia Washington Luís, km 235 - Edifício Sérgio Mascarenhas - 2º piso - São Carlos - SP, CEP 13565-905.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "📍 "
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": " "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Endereço Físico:"
+                          }
+                        ],
+                        "type": "b"
+                      },
+                      {
+                        "text": " Rodovia Washington Luís, km 235 - Edifício Sérgio Mascarenhas - 2º piso - São Carlos - SP, CEP 13565-905."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "f09c1af7-13f8-4488-8d64-e3c6eda58f60": {
+                "@type": "slate",
+                "plaintext": "  Segunda à sexta-feira das 08h às 12h e das 13h30 às 17h30 (Horário de Brasília).",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ],
+                        "type": "b"
+                      },
+                      {
+                        "text": "Segunda à sexta-feira das 08h às 12h e das 13h30 às 17h30 (Horário de Brasília)."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "f1c42789-5e1b-419c-b88b-ea91ca7fff67": {
+                "@type": "slate",
+                "plaintext": " Como podemos ajudar? ",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Como podemos ajudar?"
+                          }
+                        ],
+                        "type": "b"
+                      },
+                      {
+                        "text": " "
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "fbacc17c-9838-4a5a-8fbc-44c866ce2fc0": {
+                "@type": "slate",
+                "plaintext": " ✉️  E-mail:  srinter@ufscar.br ",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "✉️"
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": " "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "E-mail:"
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": "  "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "srinter@ufscar.br"
+                          }
+                        ],
+                        "data": {
+                          "url": "mailto:srinter@ufscar.br"
+                        },
+                        "type": "link"
+                      },
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "6930dee0-da13-4e2f-bebf-e245793b69c2",
+                "cf8b5506-3b31-46bc-9bf5-442fbe80c942",
+                "9528fbda-1138-4e01-8c6a-a3bddd85d770",
+                "fbacc17c-9838-4a5a-8fbc-44c866ce2fc0",
+                "2306bfbe-7410-4dfc-87d4-d1db91d13bda",
+                "d3d9d35d-d563-45cc-aa67-161662dea89c",
+                "71e0b867-aba7-4c23-bb15-60a7a7102f35",
+                "f1c42789-5e1b-419c-b88b-ea91ca7fff67",
+                "5b4864f9-2092-480e-abb1-3ba395524d60",
+                "88ab725e-43d6-4242-967c-aeb2deddbb90",
+                "a2a4f75c-fc5c-4ac2-bfef-0304f1ece12c",
+                "f09c1af7-13f8-4488-8d64-e3c6eda58f60"
+              ]
+            }
+          },
+          "b253f57f-6c43-4acb-8d3d-c46b1e1a4a64": {
+            "blocks": {
+              "1765b4a0-a64c-4d19-9d44-73dbf0d05078": {
+                "@type": "maps",
+                "title": "mapa mostrando a loclizaçao do campus de São Carlos da UFSCar",
+                "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3699.740170538441!2d-47.88557932380326!3d-21.98293310550975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b870e057899371%3A0x7c31cbb05192eb32!2sRod.%20Washington%20Lu%C3%ADs%2C%20km%20235%20-%20Monjolinho%2C%20S%C3%A3o%20Carlos%20-%20SP%2C%2013565-905!5e0!3m2!1spt-BR!2sbr!4v1783458785093!5m2!1spt-BR!2sbr"
+              },
+              "27506708-c5bf-4880-9ad8-9c5b46be1deb": {
+                "@type": "slate",
+                "plaintext": " ✉️  Instagram:  https://www.instagram.com/ufscaroficial ",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "✉️ "
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Instagram:"
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": " "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "https://www.instagram.com/ufscaroficial"
+                          }
+                        ],
+                        "data": {
+                          "url": "https://www.instagram.com/ufscaroficial/?hl=pt"
+                        },
+                        "type": "link"
+                      },
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "3486dc00-f77d-4fa1-86d6-a95578f40e24": {
+                "@type": "slate",
+                "plaintext": " ✉️  Facebook:  https://www.facebook.com/ufscaroficial ",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "✉️ "
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Facebook:"
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": " "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "https://www.facebook.com/ufscaroficial"
+                          }
+                        ],
+                        "data": {
+                          "url": "https://www.facebook.com/ufscaroficial"
+                        },
+                        "type": "link"
+                      },
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "5b28ebc2-a606-42cd-b207-66b9e93f4d16": {
+                "@type": "description"
+              },
+              "6abf9814-7568-4bf0-9fb2-44d76a012432": {
+                "@type": "slate",
+                "plaintext": " 📍 Endereço da sede: Rodovia Washington Luís, km 235 - SP-310, São Carlos - SP, CEP 13565-905",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "📍 Endereço da sede: "
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": "Rodovia Washington Luís, km 235 - SP-310, São Carlos - SP, CEP 13565-905"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "6b4876e6-c0d2-42f8-8aae-7a699e375dd9": {
+                "@type": "SectionTitleBlock",
+                "align": "center",
+                "title": "🏛️ Contato Institucional"
+              },
+              "be93ebde-fdaa-4da4-a28e-4ee6a698addf": {
+                "@type": "slate",
+                "plaintext": "💻 Site:  www.ufscar.br ",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "💻 "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Site:"
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": " "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "www.ufscar.br"
+                          }
+                        ],
+                        "data": {
+                          "url": "http://www.ufscar.br/"
+                        },
+                        "type": "link"
+                      },
+                      {
+                        "text": " "
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "fcf3090f-1981-4161-bb32-45bde09e6f44": {
+                "@type": "slate",
+                "plaintext": "UFSCar - Universidade Federal de São Carlos",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "UFSCar - Universidade Federal de São Carlos"
+                      }
+                    ],
+                    "type": "blockquote"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "6b4876e6-c0d2-42f8-8aae-7a699e375dd9",
+                "fcf3090f-1981-4161-bb32-45bde09e6f44",
+                "be93ebde-fdaa-4da4-a28e-4ee6a698addf",
+                "6abf9814-7568-4bf0-9fb2-44d76a012432",
+                "3486dc00-f77d-4fa1-86d6-a95578f40e24",
+                "27506708-c5bf-4880-9ad8-9c5b46be1deb",
+                "1765b4a0-a64c-4d19-9d44-73dbf0d05078",
+                "5b28ebc2-a606-42cd-b207-66b9e93f4d16"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "6eb5b35a-3cfa-4181-a69a-efd86376bcd1",
+            "b253f57f-6c43-4acb-8d3d-c46b1e1a4a64"
+          ]
+        }
+      },
+      "fullWidth": "none",
+      "gridCols": [
+        "halfWidth",
+        "halfWidth"
+      ],
+      "gridSize": 12
+    },
+    "b9d39a05-399c-4d67-9174-b2691047ece4": {
+      "@type": "columnsBlock",
+      "backgroundColor": "grey",
+      "data": {
+        "blocks": {
+          "650c55ce-14dc-4ede-85d2-61b42a6e5a8e": {
+            "blocks": {
+              "b31ae987-aafa-42d8-9137-e1f48f567662": {
+                "@type": "image",
+                "align": "center",
+                "alt": "Faixada da UFSCar do campus de São Carlos.jpg",
+                "caption": "",
+                "image_field": "image",
+                "image_scales": {
+                  "image": [
+                    {
+                      "content-type": "image/jpeg",
+                      "download": "@@images/image-501-9d35b5c1a443180a6724b36087e34433.jpeg",
+                      "filename": "ufscar frente.jpg",
+                      "height": 334,
+                      "scales": {
+                        "icon": {
+                          "download": "@@images/image-32-5cd215f6f8c9f353f5e3ab95a7568ca5.jpeg",
+                          "height": 21,
+                          "width": 32
+                        },
+                        "mini": {
+                          "download": "@@images/image-200-81cd484345aa3858be5daebe3d3bf49b.jpeg",
+                          "height": 133,
+                          "width": 200
+                        },
+                        "preview": {
+                          "download": "@@images/image-400-2f9cca0832a0d5c3f759a9134a8277b7.jpeg",
+                          "height": 266,
+                          "width": 400
+                        },
+                        "thumb": {
+                          "download": "@@images/image-128-2d65ab380e82a7d5b84725b0ac3d6a44.jpeg",
+                          "height": 85,
+                          "width": 128
+                        },
+                        "tile": {
+                          "download": "@@images/image-64-6c5a536e0697b6659bfb6cbdf54b6f04.jpeg",
+                          "height": 42,
+                          "width": 64
+                        }
+                      },
+                      "size": 67558,
+                      "width": 501
+                    }
+                  ]
+                },
+                "size": "l",
+                "url": "https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar-universidade-federal-de-sao-carlos/imagens/faixada-da-ufscar-do-campus-de-sao-carlos.jpg"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "b31ae987-aafa-42d8-9137-e1f48f567662"
+              ]
+            }
+          },
+          "bc1d9173-38d0-4cd3-95ae-467cece7d708": {
+            "blocks": {
+              "bc94e1c3-851f-46f0-a60a-e491539d63d4": {
+                "@type": "slate",
+                "plaintext": "",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": " "
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "cc3e4c81-3309-40d5-8523-ee54f1ed35ff": {
+                "@type": "slate",
+                "plaintext": "Bem-vindo(a) à Universidade Federal de São Carlos (UFSCar)! Somos uma das principais universidades federais do Brasil, reconhecida pela excelência em ensino, pesquisa e inovação, especialmente na área tecnológica. Explore nossas páginas para conhecer nossos cursos inovadores, a vida vibrante em nossos campi, as oportunidades de internacionalização e tudo o que a fascinante cidade de São Carlos têm a oferecer. Nossa equipe está pronta para recebê-lo(a) e apoiá-lo(a) em sua jornada acadêmica e cultural. Junte-se a nós e faça parte de uma comunidade universitária que gera conhecimento e transforma vidas!",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Bem-vindo(a) à Universidade Federal de São Carlos (UFSCar)! Somos uma das principais universidades federais do Brasil, reconhecida pela excelência em ensino, pesquisa e inovação, especialmente na área tecnológica. Explore nossas páginas para conhecer nossos cursos inovadores, a vida vibrante em nossos campi, as oportunidades de internacionalização e tudo o que a fascinante cidade de São Carlos têm a oferecer. Nossa equipe está pronta para recebê-lo(a) e apoiá-lo(a) em sua jornada acadêmica e cultural. Junte-se a nós e faça parte de uma comunidade universitária que gera conhecimento e transforma vidas!"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "d58f0067-5cbd-4e98-bf48-3706d6a600a6": {
+                "@type": "slate",
+                "plaintext": " Nosso contato ",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Nosso contato"
+                          }
+                        ],
+                        "data": {
+                          "url": "https://www.gov.br/studyinbrazil#contato"
+                        },
+                        "type": "link"
+                      },
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "bc94e1c3-851f-46f0-a60a-e491539d63d4",
+                "cc3e4c81-3309-40d5-8523-ee54f1ed35ff",
+                "d58f0067-5cbd-4e98-bf48-3706d6a600a6"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "650c55ce-14dc-4ede-85d2-61b42a6e5a8e",
+            "bc1d9173-38d0-4cd3-95ae-467cece7d708"
+          ]
+        }
+      },
+      "fullWidth": "none",
+      "gridCols": [
+        "threeFifths",
+        "twoFifths"
+      ],
+      "gridSize": 12,
+      "useBackground": false
+    },
+    "dced51be-66bb-4c07-928b-6b90d0c2039c": {
+      "@type": "image",
+      "align": "center",
+      "alt": "perguntas frequentes banner.png",
+      "caption": "",
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/png",
+            "download": "@@images/image-1150-7d0eee914fb585fd1d62333383443ff6.png",
+            "filename": "perguntas frequentes banner.png",
+            "height": 178,
+            "scales": {
+              "icon": {
+                "download": "@@images/image-32-a5c97e04f6f9471be8bfea2e11723b4e.png",
+                "height": 4,
+                "width": 32
+              },
+              "large": {
+                "download": "@@images/image-800-6e7a6df4d8471ebefdb0f5c853252f7e.png",
+                "height": 123,
+                "width": 800
+              },
+              "larger": {
+                "download": "@@images/image-1000-5f4e4d4074821cf51a2e39f185f7d7fe.png",
+                "height": 154,
+                "width": 1000
+              },
+              "mini": {
+                "download": "@@images/image-200-347b16642221c31379a1593ffb04a87f.png",
+                "height": 30,
+                "width": 200
+              },
+              "preview": {
+                "download": "@@images/image-400-b37f31949395300bca109a75ffd17efa.png",
+                "height": 61,
+                "width": 400
+              },
+              "teaser": {
+                "download": "@@images/image-600-41d82a0646ebdad56d37c44d0b1751d4.png",
+                "height": 92,
+                "width": 600
+              },
+              "thumb": {
+                "download": "@@images/image-128-b30c11ba7ea73e8d0d335fc1f71b4c28.png",
+                "height": 19,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-0d425587ebe913af39383f20848f0a7e.png",
+                "height": 9,
+                "width": 64
+              }
+            },
+            "size": 121070,
+            "width": 1150
+          }
+        ]
+      },
+      "size": "l",
+      "url": "https://www.gov.br/studyinbrazil/pt-br/imagens-e-videos/perguntas-frequentes-banner.png"
+    },
+    "f1607383-8ebd-4224-8a8b-90a97d3829e3": {
+      "@type": "SectionTitleBlock",
+      "align": "center",
+      "title": "Sejam bem-vindos a nossa universidade"
+    },
+    "fcb9475e-1f34-406e-b2a7-b1308c5bfdbe": {
+      "@type": "html",
+      "html": "<div id=\"contato\" style=\"padding-top: 80px; margin-top: -80px;\">\n</div>"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "036472e6-45b4-4a1b-a7a0-3ca45fb7afa5",
+      "17d89240-2596-4f80-9410-e2cfdecb24f7",
+      "8237b881-d951-4eb3-b97c-bd599d86565d",
+      "f1607383-8ebd-4224-8a8b-90a97d3829e3",
+      "b9d39a05-399c-4d67-9174-b2691047ece4",
+      "224d0160-7d74-44ca-bd0c-af940ac54a88",
+      "1f78bbe6-3c98-40cf-894a-138d795c6377",
+      "3f3538b8-3a0f-47a5-a575-67b6faf89da0",
+      "3b97d2c4-30dd-44d1-b939-224e6625ba9a",
+      "dced51be-66bb-4c07-928b-6b90d0c2039c",
+      "4f1e1a43-7695-4cec-b987-dea814cd33f3",
+      "2c6aa2ef-c6ef-47b2-9c65-169f51c32605",
+      "fcb9475e-1f34-406e-b2a7-b1308c5bfdbe",
+      "11c6d946-d754-4de9-9d45-82bc7aae8e99",
+      "a72f5b42-21f8-4ff4-9a0e-9892605b8ca4"
+    ]
+  }
+}

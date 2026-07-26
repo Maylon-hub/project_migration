@@ -1,0 +1,515 @@
+{
+  "blocks": {
+    "3509c441-47e5-4730-ab45-85866304aff3": {
+      "@layout": "f28c8124-47bf-4dd2-953d-a62abb898ef2",
+      "@type": "title",
+      "block": "8530d6f3-6ea5-4ab5-8b24-a6b89dddd9af"
+    },
+    "7801b770-a562-4c31-a904-81b75b98ea34": {
+      "@type": "dividerLine",
+      "dashed": false,
+      "size": "lg",
+      "spacing": "3"
+    },
+    "80e96190-621a-458a-b28c-20c66292d38a": {
+      "@type": "columnsBlock",
+      "backgroundColor": "grey",
+      "data": {
+        "blocks": {
+          "99c2efa7-846e-4e2b-aa01-f9857ee44236": {
+            "blocks": {
+              "27543f53-471e-4188-8de2-88933f3f8f3b": {
+                "@type": "SectionTitleBlock",
+                "align": "left",
+                "title": "Cursos de Português para Estrangeiros (PLE)"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "27543f53-471e-4188-8de2-88933f3f8f3b"
+              ]
+            }
+          },
+          "b8461a73-b88f-4354-8151-5fbec3726480": {
+            "blocks": {
+              "24114196-1606-485a-9a9b-4a3727aa67e2": {
+                "@type": "slate",
+                "plaintext": "Sim, a UFSCar oferece cursos de Português como Língua Estrangeira (PLE) pelo Instituto de Línguas (IL) e pelo Núcleo vinculado ao Programa Idiomas sem Fronteiras (IsF), que integram a rede de serviços de apoio à internacionalização da Universidade. Esses cursos têm papel estratégico na adaptação acadêmica e social de estudantes internacionais, contribuindo para o desenvolvimento da proficiência em língua portuguesa e, em algumas ofertas, incluindo preparação específica relacionada ao exame Celpe-Bras. As informações atualizadas sobre turmas, calendário, formatos (presenciais ou on-line) e requisitos de inscrição são divulgadas pelos canais oficiais do IL e do IsF, sendo recomendado a consulta direta a essas unidades antes ou logo após a chegada",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Sim, a UFSCar oferece cursos de Português como Língua Estrangeira (PLE) pelo Instituto de Línguas (IL) e pelo Núcleo vinculado ao Programa Idiomas sem Fronteiras (IsF), que integram a rede de serviços de apoio à internacionalização da Universidade. Esses cursos têm papel estratégico na adaptação acadêmica e social de estudantes internacionais, contribuindo para o desenvolvimento da proficiência em língua portuguesa e, em algumas ofertas, incluindo preparação específica relacionada ao exame Celpe-Bras. As informações atualizadas sobre turmas, calendário, formatos (presenciais ou on-line) e requisitos de inscrição são divulgadas pelos canais oficiais do IL e do IsF, sendo recomendado a consulta direta a essas unidades antes ou logo após a chegada"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "24114196-1606-485a-9a9b-4a3727aa67e2"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "99c2efa7-846e-4e2b-aa01-f9857ee44236",
+            "b8461a73-b88f-4354-8151-5fbec3726480"
+          ]
+        }
+      },
+      "fullWidth": "background",
+      "gridCols": [
+        "oneThird",
+        "twoThirds"
+      ],
+      "gridSize": 12,
+      "useBackground": true
+    },
+    "911b92ff-2964-4250-a37f-9dd864bc292b": {
+      "@type": "image",
+      "align": "center",
+      "alt": "estudantes internacionais banner.png",
+      "caption": "",
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/png",
+            "download": "@@images/image-1150-5b6ff322feadcf58d49598210a719df3.png",
+            "filename": "estudantes internacionais banner.png",
+            "height": 95,
+            "scales": {
+              "icon": {
+                "download": "@@images/image-32-9fdddccaa9eb393a820408fb4d522df9.png",
+                "height": 2,
+                "width": 32
+              },
+              "large": {
+                "download": "@@images/image-800-328fb639b81ac74ad0f592fd564069bf.png",
+                "height": 66,
+                "width": 800
+              },
+              "larger": {
+                "download": "@@images/image-1000-988f0e66ca8b1e5d2698f1036631d630.png",
+                "height": 82,
+                "width": 1000
+              },
+              "mini": {
+                "download": "@@images/image-200-bc8fd23db6909a1011d385112f87c8bf.png",
+                "height": 16,
+                "width": 200
+              },
+              "preview": {
+                "download": "@@images/image-400-558b2789ccf6da0e493b01a03c915e06.png",
+                "height": 33,
+                "width": 400
+              },
+              "teaser": {
+                "download": "@@images/image-600-99a76a6f92295916ed6a62e375c875ce.png",
+                "height": 49,
+                "width": 600
+              },
+              "thumb": {
+                "download": "@@images/image-128-f34a2be81dc15d9ca7ae7fa553019581.png",
+                "height": 10,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-d1c5467d26c8f73c9627a4c87adaf52f.png",
+                "height": 5,
+                "width": 64
+              }
+            },
+            "size": 59338,
+            "width": 1150
+          }
+        ]
+      },
+      "size": "l",
+      "url": "https://www.gov.br/studyinbrazil/pt-br/imagens-e-videos/estudantes-internacionais-banner.png"
+    },
+    "94e79244-7324-4d94-9864-18ceef3b75cd": {
+      "@type": "columnsBlock",
+      "backgroundColor": "grey",
+      "data": {
+        "blocks": {
+          "2d94fab7-6560-4f87-ae1a-483d834a01b9": {
+            "blocks": {
+              "06752a42-0ad5-4c84-9a09-28014e3f9c16": {
+                "@type": "slate",
+                "plaintext": "  A SRInter, em parceria com a comunidade universitária, como o Coletivo de Estudantes Internacionais (CEI),pró-reitorias, centros acadêmicos e unidades de cultura e extensão, promove atividades e eventos dedicados à integração cultural e social dos estudantes internacionais, como recepções, encontros multiculturais e ações de convivência. Entre essas ações, destaca-se o Programa de Apadrinhamento, no qual estudantes da UFSCar atuamcomo ponte entre a vida cotidiana no Brasil e o ambiente acadêmico.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ],
+                        "type": "b"
+                      },
+                      {
+                        "text": "A SRInter, em parceria com a comunidade universitária, como o Coletivo de Estudantes Internacionais (CEI),pró-reitorias, centros acadêmicos e unidades de cultura e extensão, promove atividades e eventos dedicados à integração cultural e social dos estudantes internacionais, como recepções, encontros multiculturais e ações de convivência. Entre essas ações, destaca-se o Programa de Apadrinhamento, no qual estudantes da UFSCar atuamcomo ponte entre a vida cotidiana no Brasil e o ambiente acadêmico. "
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "06752a42-0ad5-4c84-9a09-28014e3f9c16"
+              ]
+            }
+          },
+          "845ba4ef-0b31-472b-9b49-521bd8c63beb": {
+            "blocks": {
+              "eb28c568-ca1a-4f45-a010-8908f9261f47": {
+                "@type": "SectionTitleBlock",
+                "align": "left",
+                "title": "Eventos de Integração"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "eb28c568-ca1a-4f45-a010-8908f9261f47"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "845ba4ef-0b31-472b-9b49-521bd8c63beb",
+            "2d94fab7-6560-4f87-ae1a-483d834a01b9"
+          ]
+        }
+      },
+      "fullWidth": "background",
+      "gridCols": [
+        "oneThird",
+        "twoThirds"
+      ],
+      "gridSize": 12,
+      "useBackground": true
+    },
+    "b6c0b46d-2bb5-4ebd-9695-bc4204305a8a": {
+      "@type": "description"
+    },
+    "cd5270d1-73bf-4776-8ef8-8895aa982ef2": {
+      "@type": "columnsBlock",
+      "backgroundColor": "grey",
+      "data": {
+        "blocks": {
+          "575b5b92-3e0a-4fda-9d83-22789aa73cc8": {
+            "blocks": {
+              "400a3b37-638a-4f11-a59a-036545b6565a": {
+                "@type": "SectionTitleBlock",
+                "align": "left",
+                "title": "Orientação para Alojamento"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "400a3b37-638a-4f11-a59a-036545b6565a"
+              ]
+            }
+          },
+          "a3d36f50-e68f-488f-ae7a-6253358b7445": {
+            "blocks": {
+              "23265a53-c44a-457a-920f-459ced12c548": {
+                "@type": "slate",
+                "plaintext": "A SRInter oferece orientações gerais sobre opções de alojamento nas cidades onde a Universidade está presente, como repúblicas estudantis, apartamentos compartilhados e outras alternativas privadas de moradia.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "A SRInter oferece orientações gerais sobre opções de alojamento nas cidades onde a Universidade está presente, como repúblicas estudantis, apartamentos compartilhados e outras alternativas privadas de moradia."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "23265a53-c44a-457a-920f-459ced12c548"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "575b5b92-3e0a-4fda-9d83-22789aa73cc8",
+            "a3d36f50-e68f-488f-ae7a-6253358b7445"
+          ]
+        }
+      },
+      "fullWidth": "background",
+      "gridCols": [
+        "oneThird",
+        "twoThirds"
+      ],
+      "gridSize": 12
+    },
+    "d77ada98-ebdf-4b05-b9bd-259e2855c69f": {
+      "@type": "columnsBlock",
+      "backgroundColor": "grey",
+      "data": {
+        "blocks": {
+          "306b5480-c3a0-466a-85da-e59bc7cd2446": {
+            "blocks": {
+              "073d5e4d-ae9f-46f6-a117-1f745a5eeaf3": {
+                "@type": "slate",
+                "plaintext": " Orientação Pré-chegada: Oferece informações e orientações para ajudar você com vistos, documentação necessária e os primeiros passos antes de sua chegada ao Brasil.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Orientação Pré-chegada:"
+                          }
+                        ],
+                        "type": "b"
+                      },
+                      {
+                        "text": " Oferece informações e orientações para ajudar você com vistos, documentação necessária e os primeiros passos antes de sua chegada ao Brasil."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "0881ebd1-f300-4969-b19a-0920af830b80": {
+                "@type": "slate",
+                "plaintext": " Boas-Vindas e Recepção: Coordena e executa ações de acolhimento e de integração inicial, por meio de materiais informativos, guias específicos para estudantes internacionais e atividades de recepção.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Boas-Vindas e Recepção:"
+                          }
+                        ],
+                        "type": "b"
+                      },
+                      {
+                        "text": " Coordena e executa ações de acolhimento e de integração inicial, por meio de materiais informativos, guias específicos para estudantes internacionais e atividades de recepção."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "0aef0655-7133-4586-821a-a2e2a3a54b76": {
+                "@type": "slate",
+                "plaintext": " Suporte Contínuo: Assistência em questões acadêmicas,  administrativas e de adaptação cultural durante toda a estadia.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Suporte Contínuo:"
+                          }
+                        ],
+                        "type": "b"
+                      },
+                      {
+                        "text": " Assistência em questões acadêmicas, "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ],
+                        "type": "del"
+                      },
+                      {
+                        "text": "administrativas e de adaptação cultural durante toda a estadia."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "073d5e4d-ae9f-46f6-a117-1f745a5eeaf3",
+                "0881ebd1-f300-4969-b19a-0920af830b80",
+                "0aef0655-7133-4586-821a-a2e2a3a54b76"
+              ]
+            }
+          },
+          "a1171030-3624-4d1d-ad82-f4da748d12c6": {
+            "blocks": {
+              "f67effc1-aec3-48a7-9185-4177209933be": {
+                "@type": "SectionTitleBlock",
+                "align": "left",
+                "title": "Serviços oferecidos pela SRInter"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "f67effc1-aec3-48a7-9185-4177209933be"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "a1171030-3624-4d1d-ad82-f4da748d12c6",
+            "306b5480-c3a0-466a-85da-e59bc7cd2446"
+          ]
+        }
+      },
+      "fullWidth": "background",
+      "gridCols": [
+        "oneThird",
+        "twoThirds"
+      ],
+      "gridSize": 12
+    },
+    "db1570d5-4447-407a-8d68-484c9e04c18a": {
+      "@type": "columnsBlock",
+      "backgroundColor": "grey",
+      "data": {
+        "blocks": {
+          "6c804023-75c4-455d-a173-c8b3c509e4bd": {
+            "blocks": {
+              "a3957e70-7b53-475d-a4ff-b50dba8d8b86": {
+                "@type": "slate",
+                "plaintext": "A Secretaria Geral de Relações Internacionais (SRInter) é a unidade responsável por planejar, coordenar e apoiar as ações de internacionalização da UFSCar, em articulação com os cursos de graduação, programas de pós-graduação e demais órgãos da Universidade",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "A Secretaria Geral de Relações Internacionais (SRInter) é a unidade responsável por planejar, coordenar e apoiar as ações de internacionalização da UFSCar, em articulação com os cursos de graduação, programas de pós-graduação e demais órgãos da Universidade"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "a3957e70-7b53-475d-a4ff-b50dba8d8b86"
+              ]
+            }
+          },
+          "900e5154-3fda-4323-888c-7c6bdd9656d0": {
+            "blocks": {
+              "6c65718e-4485-4a89-9dc5-c38225269d5f": {
+                "@type": "SectionTitleBlock",
+                "align": "left",
+                "title": "Secretaria Geral de Relações Internacionais"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "6c65718e-4485-4a89-9dc5-c38225269d5f"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "900e5154-3fda-4323-888c-7c6bdd9656d0",
+            "6c804023-75c4-455d-a173-c8b3c509e4bd"
+          ]
+        }
+      },
+      "fullWidth": "background",
+      "gridCols": [
+        "oneThird",
+        "twoThirds"
+      ],
+      "gridSize": 12,
+      "useBackground": true
+    },
+    "dfce639b-4447-4637-89f5-264c099a2213": {
+      "@type": "columnsBlock",
+      "backgroundColor": "grey",
+      "data": {
+        "blocks": {
+          "ab96bb37-8513-412c-8eae-eee13720d68d": {
+            "blocks": {
+              "7e2ee347-a972-4b8e-bbfd-4765eb1401ff": {
+                "@type": "slate",
+                "plaintext": "Estudantes internacionais têm acesso a disciplinas em diferentes áreas e níveis de formação, de graduação e pós-graduação, além de poderem participar de projetos de pesquisa e extensão em parceria com grupos e programas da UFSCar. A integração cultural e linguística é promovida por iniciativas como programas de acolhimento, cursos gratuitos de português, atividades multiculturais e projetos que aproximam estudantes internacionais e brasileiros, reforçando o caráter inclusivo e diverso da comunidade universitária",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Estudantes internacionais têm acesso a disciplinas em diferentes áreas e níveis de formação, de graduação e pós-graduação, além de poderem participar de projetos de pesquisa e extensão em parceria com grupos e programas da UFSCar. A integração cultural e linguística é promovida por iniciativas como programas de acolhimento, cursos gratuitos de português, atividades multiculturais e projetos que aproximam estudantes internacionais e brasileiros, reforçando o caráter inclusivo e diverso da comunidade universitária"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "7e2ee347-a972-4b8e-bbfd-4765eb1401ff"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "ab96bb37-8513-412c-8eae-eee13720d68d"
+          ]
+        }
+      },
+      "fullWidth": "none",
+      "gridCols": [
+        "full"
+      ],
+      "gridSize": 12
+    },
+    "efe1b4f4-c21c-4c43-a0a4-13e8d993698f": {
+      "@type": "SectionTitleBlock",
+      "align": "center",
+      "title": "Internacionalização e Acolhimento na UFSCar"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "3509c441-47e5-4730-ab45-85866304aff3",
+      "b6c0b46d-2bb5-4ebd-9695-bc4204305a8a",
+      "911b92ff-2964-4250-a37f-9dd864bc292b",
+      "dfce639b-4447-4637-89f5-264c099a2213",
+      "7801b770-a562-4c31-a904-81b75b98ea34",
+      "efe1b4f4-c21c-4c43-a0a4-13e8d993698f",
+      "db1570d5-4447-407a-8d68-484c9e04c18a",
+      "d77ada98-ebdf-4b05-b9bd-259e2855c69f",
+      "80e96190-621a-458a-b28c-20c66292d38a",
+      "cd5270d1-73bf-4776-8ef8-8895aa982ef2",
+      "94e79244-7324-4d94-9864-18ceef3b75cd"
+    ]
+  }
+}

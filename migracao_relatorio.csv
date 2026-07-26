@@ -1,0 +1,569 @@
+timestamp,sigla,tipo_pagina,url,status,detalhes
+2026-07-25T20:38:26.379122,UFAC,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/acre/ufac,ERROR,Falha ao criar Home
+2026-07-25T20:38:26.426342,UFAC,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/acre/ufac/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:38:26.480390,UFAC,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/acre/ufac/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:38:26.523241,UFAC,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/acre/ufac/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:38:26.560202,UFAC,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/acre/ufac,ERROR,Falha ao publicar Home
+2026-07-25T20:38:26.596934,UFAC,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/acre/ufac/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:38:26.635175,UFAC,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/acre/ufac/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:38:26.675388,UFAC,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/acre/ufac/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:38:26.740481,UFAL,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/alagoas/ufal,ERROR,Falha ao criar Home
+2026-07-25T20:39:26.753781,UFAL,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/alagoas/ufal/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:26.964330,UFAL,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/alagoas/ufal/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:27.011144,UFAL,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/alagoas/ufal/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:27.055072,UFAL,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/alagoas/ufal,ERROR,Falha ao publicar Home
+2026-07-25T20:39:27.095210,UFAL,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/alagoas/ufal/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:27.130667,UFAL,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/alagoas/ufal/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:27.167623,UFAL,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/alagoas/ufal/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:27.506057,UNIFAP,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/amapa/unifap,ERROR,Falha ao criar Home
+2026-07-25T20:39:27.551736,UNIFAP,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/amapa/unifap/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:27.605620,UNIFAP,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/amapa/unifap/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:27.655182,UNIFAP,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/amapa/unifap/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:27.695062,UNIFAP,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/amapa/unifap,ERROR,Falha ao publicar Home
+2026-07-25T20:39:27.735582,UNIFAP,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/amapa/unifap/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:27.775838,UNIFAP,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/amapa/unifap/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:27.818681,UNIFAP,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/amapa/unifap/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:27.889608,UFAM,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/amazonas/ufam,ERROR,Falha ao criar Home
+2026-07-25T20:39:27.935392,UFAM,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/amazonas/ufam/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:27.988532,UFAM,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/amazonas/ufam/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:28.033403,UFAM,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/amazonas/ufam/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:28.073411,UFAM,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/amazonas/ufam,ERROR,Falha ao publicar Home
+2026-07-25T20:39:28.112420,UFAM,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/amazonas/ufam/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:28.152111,UFAM,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/amazonas/ufam/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:28.191404,UFAM,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/amazonas/ufam/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:28.258966,UFBA,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufba,ERROR,Falha ao criar Home
+2026-07-25T20:39:28.308624,UFBA,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufba/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:28.371284,UFBA,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufba/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:28.416607,UFBA,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufba/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:28.460561,UFBA,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufba,ERROR,Falha ao publicar Home
+2026-07-25T20:39:28.499273,UFBA,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufba/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:28.538107,UFBA,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufba/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:28.577597,UFBA,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufba/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:28.645529,UFOB,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufob,ERROR,Falha ao criar Home
+2026-07-25T20:39:28.696971,UFOB,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufob/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:28.754101,UFOB,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufob/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:28.810431,UFOB,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufob/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:28.848692,UFOB,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufob,ERROR,Falha ao publicar Home
+2026-07-25T20:39:28.888073,UFOB,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufob/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:28.928041,UFOB,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufob/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:28.965646,UFOB,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufob/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:29.036875,UFRB,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufrb,ERROR,Falha ao criar Home
+2026-07-25T20:39:29.081732,UFRB,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufrb/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:29.132966,UFRB,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufrb/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:29.182455,UFRB,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufrb/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:29.220131,UFRB,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufrb,ERROR,Falha ao publicar Home
+2026-07-25T20:39:29.257898,UFRB,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufrb/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:29.296956,UFRB,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufrb/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:29.335354,UFRB,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufrb/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:29.407008,UFSB,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufsb,ERROR,Falha ao criar Home
+2026-07-25T20:39:29.452189,UFSB,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufsb/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:29.536237,UFSB,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufsb/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:29.592536,UFSB,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufsb/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:29.629991,UFSB,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufsb,ERROR,Falha ao publicar Home
+2026-07-25T20:39:29.669391,UFSB,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufsb/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:29.706955,UFSB,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufsb/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:29.743922,UFSB,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufsb/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:29.811904,UFC,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/ceara/ufc,ERROR,Falha ao criar Home
+2026-07-25T20:39:29.858460,UFC,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/ceara/ufc/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:29.911353,UFC,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/ceara/ufc/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:29.960702,UFC,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/ceara/ufc/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:29.999621,UFC,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/ceara/ufc,ERROR,Falha ao publicar Home
+2026-07-25T20:39:30.037310,UFC,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/ceara/ufc/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:30.079733,UFC,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/ceara/ufc/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:30.138241,UFC,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/ceara/ufc/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:30.204981,UFCA,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/ceara/ufca,ERROR,Falha ao criar Home
+2026-07-25T20:39:30.250781,UFCA,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/ceara/ufca/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:30.303215,UFCA,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/ceara/ufca/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:30.348098,UFCA,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/ceara/ufca/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:30.386302,UFCA,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/ceara/ufca,ERROR,Falha ao publicar Home
+2026-07-25T20:39:30.424000,UFCA,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/ceara/ufca/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:30.463718,UFCA,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/ceara/ufca/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:30.501327,UFCA,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/ceara/ufca/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:30.575358,UNILAB,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/ceara/unilab,ERROR,Falha ao criar Home
+2026-07-25T20:39:30.622415,UNILAB,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/ceara/unilab/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:30.685860,UNILAB,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/ceara/unilab/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:30.734648,UNILAB,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/ceara/unilab/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:30.784394,UNILAB,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/ceara/unilab,ERROR,Falha ao publicar Home
+2026-07-25T20:39:30.823362,UNILAB,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/ceara/unilab/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:30.860867,UNILAB,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/ceara/unilab/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:30.899194,UNILAB,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/ceara/unilab/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:30.973074,UnB,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/distrito_federal/unb,ERROR,Falha ao criar Home
+2026-07-25T20:39:31.016000,UnB,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/distrito_federal/unb/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:31.065416,UnB,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/distrito_federal/unb/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:31.113320,UnB,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/distrito_federal/unb/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:31.154005,UnB,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/distrito_federal/unb,ERROR,Falha ao publicar Home
+2026-07-25T20:39:31.192256,UnB,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/distrito_federal/unb/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:31.233661,UnB,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/distrito_federal/unb/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:31.273322,UnB,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/distrito_federal/unb/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:31.343543,UFES,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/espirito_santo/ufes,ERROR,Falha ao criar Home
+2026-07-25T20:39:31.389251,UFES,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/espirito_santo/ufes/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:31.437957,UFES,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/espirito_santo/ufes/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:31.486721,UFES,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/espirito_santo/ufes/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:31.526785,UFES,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/espirito_santo/ufes,ERROR,Falha ao publicar Home
+2026-07-25T20:39:31.563325,UFES,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/espirito_santo/ufes/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:31.603402,UFES,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/espirito_santo/ufes/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:31.642291,UFES,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/espirito_santo/ufes/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:31.708835,UFCAT,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/goias/ufcat,ERROR,Falha ao criar Home
+2026-07-25T20:39:31.755067,UFCAT,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/goias/ufcat/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:31.808753,UFCAT,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/goias/ufcat/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:31.854166,UFCAT,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/goias/ufcat/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:31.894910,UFCAT,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/goias/ufcat,ERROR,Falha ao publicar Home
+2026-07-25T20:39:31.933493,UFCAT,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/goias/ufcat/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:31.972988,UFCAT,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/goias/ufcat/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:32.027398,UFCAT,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/goias/ufcat/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:32.151868,UFG,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/goias/ufg,ERROR,Falha ao criar Home
+2026-07-25T20:39:32.200091,UFG,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/goias/ufg/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:32.259925,UFG,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/goias/ufg/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:32.306578,UFG,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/goias/ufg/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:32.344944,UFG,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/goias/ufg,ERROR,Falha ao publicar Home
+2026-07-25T20:39:32.383145,UFG,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/goias/ufg/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:32.424212,UFG,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/goias/ufg/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:32.462891,UFG,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/goias/ufg/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:32.530632,UFJ,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/goias/ufj,ERROR,Falha ao criar Home
+2026-07-25T20:39:32.598362,UFJ,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/goias/ufj/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:32.650056,UFJ,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/goias/ufj/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:32.694845,UFJ,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/goias/ufj/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:32.736581,UFJ,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/goias/ufj,ERROR,Falha ao publicar Home
+2026-07-25T20:39:32.777844,UFJ,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/goias/ufj/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:32.816081,UFJ,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/goias/ufj/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:32.858613,UFJ,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/goias/ufj/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:32.930511,UFMA,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/maranhao/ufma,ERROR,Falha ao criar Home
+2026-07-25T20:39:32.977157,UFMA,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/maranhao/ufma/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:33.027853,UFMA,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/maranhao/ufma/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:33.076239,UFMA,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/maranhao/ufma/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:33.113229,UFMA,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/maranhao/ufma,ERROR,Falha ao publicar Home
+2026-07-25T20:39:33.151910,UFMA,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/maranhao/ufma/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:33.191169,UFMA,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/maranhao/ufma/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:33.228335,UFMA,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/maranhao/ufma/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:33.298861,UFMT,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso/ufmt,ERROR,Falha ao criar Home
+2026-07-25T20:39:33.342179,UFMT,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso/ufmt/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:33.396072,UFMT,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso/ufmt/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:33.442421,UFMT,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso/ufmt/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:33.481829,UFMT,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso/ufmt,ERROR,Falha ao publicar Home
+2026-07-25T20:39:33.520909,UFMT,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso/ufmt/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:33.559930,UFMT,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso/ufmt/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:33.597179,UFMT,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso/ufmt/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:33.661485,UFR,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso/ufr,ERROR,Falha ao criar Home
+2026-07-25T20:39:33.709959,UFR,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso/ufr/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:33.761966,UFR,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso/ufr/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:33.814809,UFR,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso/ufr/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:33.853241,UFR,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso/ufr,ERROR,Falha ao publicar Home
+2026-07-25T20:39:33.891067,UFR,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso/ufr/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:33.929416,UFR,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso/ufr/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:33.968910,UFR,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso/ufr/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:34.040257,UFGD,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso_do_sul/ufgd,ERROR,Falha ao criar Home
+2026-07-25T20:39:34.108217,UFGD,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso_do_sul/ufgd/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:34.160843,UFGD,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso_do_sul/ufgd/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:34.205931,UFGD,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso_do_sul/ufgd/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:34.264168,UFGD,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso_do_sul/ufgd,ERROR,Falha ao publicar Home
+2026-07-25T20:39:34.304064,UFGD,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso_do_sul/ufgd/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:34.343591,UFGD,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso_do_sul/ufgd/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:34.395465,UFGD,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso_do_sul/ufgd/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:34.460612,UFMS,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso_do_sul/ufms,ERROR,Falha ao criar Home
+2026-07-25T20:39:34.507692,UFMS,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso_do_sul/ufms/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:34.557799,UFMS,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso_do_sul/ufms/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:34.613539,UFMS,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso_do_sul/ufms/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:34.649706,UFMS,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso_do_sul/ufms,ERROR,Falha ao publicar Home
+2026-07-25T20:39:34.690582,UFMS,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso_do_sul/ufms/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:34.733294,UFMS,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso_do_sul/ufms/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:34.774050,UFMS,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso_do_sul/ufms/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:34.847075,CEFET_MG,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/cefet_mg,ERROR,Falha ao criar Home
+2026-07-25T20:39:34.908767,CEFET_MG,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/cefet_mg/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:34.964077,CEFET_MG,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/cefet_mg/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:35.008736,CEFET_MG,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/cefet_mg/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:35.047390,CEFET_MG,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/cefet_mg,ERROR,Falha ao publicar Home
+2026-07-25T20:39:35.085693,CEFET_MG,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/cefet_mg/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:35.126437,CEFET_MG,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/cefet_mg/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:35.165890,CEFET_MG,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/cefet_mg/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:35.247627,UFJF,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufjf,ERROR,Falha ao criar Home
+2026-07-25T20:39:35.311622,UFJF,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufjf/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:35.361801,UFJF,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufjf/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:35.405044,UFJF,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufjf/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:35.444132,UFJF,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufjf,ERROR,Falha ao publicar Home
+2026-07-25T20:39:35.481821,UFJF,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufjf/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:35.518679,UFJF,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufjf/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:35.558032,UFJF,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufjf/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:35.659045,UFLA,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufla,ERROR,Falha ao criar Home
+2026-07-25T20:39:35.704176,UFLA,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufla/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:35.757275,UFLA,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufla/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:35.804312,UFLA,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufla/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:35.844863,UFLA,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufla,ERROR,Falha ao publicar Home
+2026-07-25T20:39:35.881998,UFLA,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufla/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:35.927170,UFLA,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufla/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:35.964860,UFLA,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufla/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:36.034959,UFMG,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufmg,ERROR,Falha ao criar Home
+2026-07-25T20:39:36.080464,UFMG,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufmg/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:36.128523,UFMG,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufmg/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:36.175306,UFMG,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufmg/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:36.212374,UFMG,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufmg,ERROR,Falha ao publicar Home
+2026-07-25T20:39:36.249627,UFMG,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufmg/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:36.287783,UFMG,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufmg/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:36.326031,UFMG,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufmg/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:36.396734,UFOP,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufop,ERROR,Falha ao criar Home
+2026-07-25T20:39:36.441983,UFOP,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufop/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:36.493032,UFOP,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufop/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:36.538018,UFOP,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufop/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:36.577137,UFOP,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufop,ERROR,Falha ao publicar Home
+2026-07-25T20:39:36.616835,UFOP,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufop/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:36.655205,UFOP,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufop/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:36.695584,UFOP,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufop/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:36.761639,UFSJ,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufsj,ERROR,Falha ao criar Home
+2026-07-25T20:39:36.806128,UFSJ,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufsj/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:36.858800,UFSJ,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufsj/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:36.904292,UFSJ,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufsj/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:36.943919,UFSJ,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufsj,ERROR,Falha ao publicar Home
+2026-07-25T20:39:36.981950,UFSJ,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufsj/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:37.020484,UFSJ,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufsj/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:37.074183,UFSJ,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufsj/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:37.141019,UFTM,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/uftm,ERROR,Falha ao criar Home
+2026-07-25T20:39:37.185313,UFTM,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/uftm/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:37.237855,UFTM,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/uftm/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:37.282874,UFTM,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/uftm/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:37.319980,UFTM,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/uftm,ERROR,Falha ao publicar Home
+2026-07-25T20:39:37.357927,UFTM,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/uftm/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:37.397967,UFTM,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/uftm/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:37.436651,UFTM,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/uftm/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:37.506268,UFU,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufu,ERROR,Falha ao criar Home
+2026-07-25T20:39:37.550727,UFU,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufu/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:37.602670,UFU,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufu/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:37.647240,UFU,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufu/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:37.683978,UFU,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufu,ERROR,Falha ao publicar Home
+2026-07-25T20:39:37.728884,UFU,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufu/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:37.767314,UFU,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufu/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:37.805589,UFU,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufu/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:37.870848,UFV,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufv,ERROR,Falha ao criar Home
+2026-07-25T20:39:37.915359,UFV,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufv/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:37.969462,UFV,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufv/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:38.016427,UFV,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufv/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:38.054285,UFV,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufv,ERROR,Falha ao publicar Home
+2026-07-25T20:39:38.094056,UFV,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufv/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:38.138603,UFV,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufv/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:38.178721,UFV,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufv/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:38.247114,UFVJM,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufvjm,ERROR,Falha ao criar Home
+2026-07-25T20:39:38.294846,UFVJM,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufvjm/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:38.356660,UFVJM,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufvjm/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:38.414630,UFVJM,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufvjm/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:38.452652,UFVJM,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufvjm,ERROR,Falha ao publicar Home
+2026-07-25T20:39:38.504562,UFVJM,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufvjm/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:38.545308,UFVJM,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufvjm/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:38.595700,UFVJM,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/ufvjm/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:38.728149,UNIFAL,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/unifal,ERROR,Falha ao criar Home
+2026-07-25T20:39:38.823878,UNIFAL,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/unifal/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:38.890378,UNIFAL,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/unifal/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:38.941140,UNIFAL,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/unifal/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:38.979891,UNIFAL,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/unifal,ERROR,Falha ao publicar Home
+2026-07-25T20:39:39.017171,UNIFAL,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/unifal/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:39.056346,UNIFAL,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/unifal/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:39.095947,UNIFAL,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/unifal/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:39.162026,UNIFEI,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/unifei,ERROR,Falha ao criar Home
+2026-07-25T20:39:39.207863,UNIFEI,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/unifei/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:39.262270,UNIFEI,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/unifei/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:39.313635,UNIFEI,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/unifei/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:39.353110,UNIFEI,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/unifei,ERROR,Falha ao publicar Home
+2026-07-25T20:39:39.397536,UNIFEI,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/unifei/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:39.438501,UNIFEI,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/unifei/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:39.479038,UNIFEI,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/unifei/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:39.544053,UFOPA,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/ufopa,ERROR,Falha ao criar Home
+2026-07-25T20:39:39.590479,UFOPA,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/ufopa/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:39.645783,UFOPA,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/ufopa/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:39.707801,UFOPA,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/ufopa/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:39.753122,UFOPA,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/ufopa,ERROR,Falha ao publicar Home
+2026-07-25T20:39:39.794183,UFOPA,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/ufopa/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:39.848629,UFOPA,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/ufopa/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:39.925127,UFOPA,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/ufopa/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:39.991988,UFPA,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/ufpa,ERROR,Falha ao criar Home
+2026-07-25T20:39:40.042228,UFPA,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/ufpa/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:40.098439,UFPA,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/ufpa/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:40.144056,UFPA,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/ufpa/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:40.181449,UFPA,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/ufpa,ERROR,Falha ao publicar Home
+2026-07-25T20:39:40.221253,UFPA,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/ufpa/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:40.262060,UFPA,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/ufpa/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:40.304104,UFPA,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/ufpa/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:40.371898,UFRA,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/ufra,ERROR,Falha ao criar Home
+2026-07-25T20:39:40.421588,UFRA,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/ufra/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:40.479147,UFRA,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/ufra/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:40.525323,UFRA,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/ufra/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:40.563309,UFRA,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/ufra,ERROR,Falha ao publicar Home
+2026-07-25T20:39:40.609971,UFRA,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/ufra/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:40.648169,UFRA,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/ufra/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:40.687366,UFRA,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/ufra/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:40.759884,UNIFESSPA,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/unifesspa,ERROR,Falha ao criar Home
+2026-07-25T20:39:40.805597,UNIFESSPA,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/unifesspa/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:40.860431,UNIFESSPA,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/unifesspa/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:40.909386,UNIFESSPA,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/unifesspa/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:40.950789,UNIFESSPA,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/unifesspa,ERROR,Falha ao publicar Home
+2026-07-25T20:39:40.988783,UNIFESSPA,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/unifesspa/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:41.027495,UNIFESSPA,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/unifesspa/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:41.066840,UNIFESSPA,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/para/unifesspa/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:41.142290,UFCG,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/paraiba/ufcg,ERROR,Falha ao criar Home
+2026-07-25T20:39:41.187886,UFCG,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/paraiba/ufcg/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:41.243515,UFCG,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/paraiba/ufcg/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:41.293675,UFCG,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/paraiba/ufcg/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:41.331887,UFCG,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/paraiba/ufcg,ERROR,Falha ao publicar Home
+2026-07-25T20:39:41.369208,UFCG,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/paraiba/ufcg/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:41.407046,UFCG,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/paraiba/ufcg/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:41.445742,UFCG,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/paraiba/ufcg/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:41.515565,UFPB,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/paraiba/ufpb,ERROR,Falha ao criar Home
+2026-07-25T20:39:41.561592,UFPB,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/paraiba/ufpb/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:41.614955,UFPB,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/paraiba/ufpb/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:41.662075,UFPB,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/paraiba/ufpb/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:41.702207,UFPB,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/paraiba/ufpb,ERROR,Falha ao publicar Home
+2026-07-25T20:39:41.746632,UFPB,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/paraiba/ufpb/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:41.789539,UFPB,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/paraiba/ufpb/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:41.829138,UFPB,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/paraiba/ufpb/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:41.906600,UFPR,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/parana/ufpr,ERROR,Falha ao criar Home
+2026-07-25T20:39:41.959568,UFPR,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/parana/ufpr/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:42.013963,UFPR,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/parana/ufpr/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:42.064051,UFPR,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/parana/ufpr/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:42.102221,UFPR,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/parana/ufpr,ERROR,Falha ao publicar Home
+2026-07-25T20:39:42.140696,UFPR,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/parana/ufpr/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:42.180600,UFPR,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/parana/ufpr/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:42.218833,UFPR,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/parana/ufpr/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:42.287470,UNILA,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/parana/unila,ERROR,Falha ao criar Home
+2026-07-25T20:39:42.336737,UNILA,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/parana/unila/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:42.390153,UNILA,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/parana/unila/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:42.441923,UNILA,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/parana/unila/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:42.482794,UNILA,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/parana/unila,ERROR,Falha ao publicar Home
+2026-07-25T20:39:42.527907,UNILA,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/parana/unila/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:42.565623,UNILA,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/parana/unila/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:42.606986,UNILA,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/parana/unila/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:42.677292,UTFPR,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/parana/utfpr,ERROR,Falha ao criar Home
+2026-07-25T20:39:42.761482,UTFPR,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/parana/utfpr/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:42.897907,UTFPR,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/parana/utfpr/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:42.947020,UTFPR,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/parana/utfpr/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:42.987290,UTFPR,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/parana/utfpr,ERROR,Falha ao publicar Home
+2026-07-25T20:39:43.028550,UTFPR,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/parana/utfpr/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:43.068478,UTFPR,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/parana/utfpr/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:43.107917,UTFPR,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/parana/utfpr/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:43.175950,UFAPE,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/ufape,ERROR,Falha ao criar Home
+2026-07-25T20:39:43.222952,UFAPE,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/ufape/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:43.277146,UFAPE,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/ufape/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:43.325327,UFAPE,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/ufape/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:43.364041,UFAPE,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/ufape,ERROR,Falha ao publicar Home
+2026-07-25T20:39:43.403622,UFAPE,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/ufape/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:43.443238,UFAPE,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/ufape/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:43.480156,UFAPE,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/ufape/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:43.549206,UFPE,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/ufpe,ERROR,Falha ao criar Home
+2026-07-25T20:39:43.597712,UFPE,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/ufpe/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:43.649718,UFPE,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/ufpe/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:43.705685,UFPE,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/ufpe/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:43.745939,UFPE,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/ufpe,ERROR,Falha ao publicar Home
+2026-07-25T20:39:43.785519,UFPE,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/ufpe/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:43.825508,UFPE,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/ufpe/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:43.864046,UFPE,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/ufpe/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:43.929904,UFRPE,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/ufrpe,ERROR,Falha ao criar Home
+2026-07-25T20:39:43.976933,UFRPE,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/ufrpe/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:44.027759,UFRPE,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/ufrpe/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:44.072002,UFRPE,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/ufrpe/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:44.110214,UFRPE,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/ufrpe,ERROR,Falha ao publicar Home
+2026-07-25T20:39:44.148012,UFRPE,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/ufrpe/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:44.188221,UFRPE,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/ufrpe/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:44.234128,UFRPE,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/ufrpe/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:44.309883,UNIVASF,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/univasf,ERROR,Falha ao criar Home
+2026-07-25T20:39:44.357490,UNIVASF,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/univasf/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:44.414471,UNIVASF,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/univasf/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:44.459342,UNIVASF,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/univasf/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:44.502916,UNIVASF,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/univasf,ERROR,Falha ao publicar Home
+2026-07-25T20:39:44.543150,UNIVASF,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/univasf/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:44.581125,UNIVASF,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/univasf/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:44.620158,UNIVASF,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/univasf/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:44.689559,UFDPAR,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/piaui/ufdpar,ERROR,Falha ao criar Home
+2026-07-25T20:39:44.735612,UFDPAR,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/piaui/ufdpar/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:44.789362,UFDPAR,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/piaui/ufdpar/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:44.836948,UFDPAR,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/piaui/ufdpar/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:44.874570,UFDPAR,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/piaui/ufdpar,ERROR,Falha ao publicar Home
+2026-07-25T20:39:44.912620,UFDPAR,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/piaui/ufdpar/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:44.950459,UFDPAR,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/piaui/ufdpar/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:44.989232,UFDPAR,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/piaui/ufdpar/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:45.060382,UFPI,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/piaui/ufpi,ERROR,Falha ao criar Home
+2026-07-25T20:39:45.109461,UFPI,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/piaui/ufpi/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:45.185705,UFPI,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/piaui/ufpi/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:45.246765,UFPI,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/piaui/ufpi/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:45.286142,UFPI,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/piaui/ufpi,ERROR,Falha ao publicar Home
+2026-07-25T20:39:45.327476,UFPI,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/piaui/ufpi/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:45.369361,UFPI,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/piaui/ufpi/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:45.408401,UFPI,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/piaui/ufpi/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:45.478996,CEFET_RJ,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/cefet_rj,ERROR,Falha ao criar Home
+2026-07-25T20:39:45.580959,CEFET_RJ,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/cefet_rj/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:45.797144,CEFET_RJ,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/cefet_rj/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:45.861729,CEFET_RJ,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/cefet_rj/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:45.905199,CEFET_RJ,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/cefet_rj,ERROR,Falha ao publicar Home
+2026-07-25T20:39:45.944909,CEFET_RJ,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/cefet_rj/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:45.984098,CEFET_RJ,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/cefet_rj/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:46.024654,CEFET_RJ,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/cefet_rj/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:46.095136,UFF,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/uff,ERROR,Falha ao criar Home
+2026-07-25T20:39:46.145862,UFF,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/uff/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:46.206906,UFF,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/uff/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:46.263017,UFF,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/uff/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:46.307106,UFF,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/uff,ERROR,Falha ao publicar Home
+2026-07-25T20:39:46.360658,UFF,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/uff/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:46.398563,UFF,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/uff/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:46.440753,UFF,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/uff/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:46.508827,UFRJ,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/ufrj,ERROR,Falha ao criar Home
+2026-07-25T20:39:46.561684,UFRJ,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/ufrj/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:46.615243,UFRJ,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/ufrj/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:46.663103,UFRJ,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/ufrj/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:46.701973,UFRJ,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/ufrj,ERROR,Falha ao publicar Home
+2026-07-25T20:39:46.742806,UFRJ,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/ufrj/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:46.781992,UFRJ,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/ufrj/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:46.851796,UFRJ,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/ufrj/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:46.917562,UFRRJ,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/ufrrj,ERROR,Falha ao criar Home
+2026-07-25T20:39:46.965787,UFRRJ,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/ufrrj/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:47.015687,UFRRJ,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/ufrrj/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:47.062429,UFRRJ,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/ufrrj/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:47.101010,UFRRJ,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/ufrrj,ERROR,Falha ao publicar Home
+2026-07-25T20:39:47.138150,UFRRJ,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/ufrrj/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:47.177400,UFRRJ,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/ufrrj/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:47.215903,UFRRJ,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/ufrrj/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:47.278675,UNIRIO,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/unirio,ERROR,Falha ao criar Home
+2026-07-25T20:39:47.326909,UNIRIO,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/unirio/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:47.380363,UNIRIO,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/unirio/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:47.425233,UNIRIO,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/unirio/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:47.464155,UNIRIO,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/unirio,ERROR,Falha ao publicar Home
+2026-07-25T20:39:47.514253,UNIRIO,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/unirio/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:47.554985,UNIRIO,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/unirio/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:47.594770,UNIRIO,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/rio_de_janeiro/unirio/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:47.662954,UFERSA,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/rio_grande_do_norte/ufersa,ERROR,Falha ao criar Home
+2026-07-25T20:39:47.709364,UFERSA,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/rio_grande_do_norte/ufersa/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:47.760506,UFERSA,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/rio_grande_do_norte/ufersa/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:47.805514,UFERSA,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/rio_grande_do_norte/ufersa/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:47.843441,UFERSA,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/rio_grande_do_norte/ufersa,ERROR,Falha ao publicar Home
+2026-07-25T20:39:47.898627,UFERSA,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/rio_grande_do_norte/ufersa/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:47.938494,UFERSA,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/rio_grande_do_norte/ufersa/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:47.979027,UFERSA,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/rio_grande_do_norte/ufersa/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:48.048670,UFRN,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/rio_grande_do_norte/ufrn,ERROR,Falha ao criar Home
+2026-07-25T20:39:48.093798,UFRN,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/rio_grande_do_norte/ufrn/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:48.144844,UFRN,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/rio_grande_do_norte/ufrn/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:48.189988,UFRN,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/rio_grande_do_norte/ufrn/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:48.230492,UFRN,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/rio_grande_do_norte/ufrn,ERROR,Falha ao publicar Home
+2026-07-25T20:39:48.268971,UFRN,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/rio_grande_do_norte/ufrn/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:48.308210,UFRN,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/rio_grande_do_norte/ufrn/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:48.346436,UFRN,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/rio_grande_do_norte/ufrn/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:48.416446,FURG,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/furg,ERROR,Falha ao criar Home
+2026-07-25T20:39:48.483297,FURG,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/furg/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:48.542512,FURG,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/furg/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:48.599814,FURG,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/furg/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:48.637789,FURG,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/furg,ERROR,Falha ao publicar Home
+2026-07-25T20:39:48.678717,FURG,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/furg/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:48.716419,FURG,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/furg/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:48.755664,FURG,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/furg/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:48.825921,UFCSPA,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufcspa,ERROR,Falha ao criar Home
+2026-07-25T20:39:48.881456,UFCSPA,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufcspa/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:48.934223,UFCSPA,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufcspa/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:48.980738,UFCSPA,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufcspa/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:49.018099,UFCSPA,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufcspa,ERROR,Falha ao publicar Home
+2026-07-25T20:39:49.057375,UFCSPA,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufcspa/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:49.095321,UFCSPA,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufcspa/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:49.132384,UFCSPA,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufcspa/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:49.205106,UFPel,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufpel,ERROR,Falha ao criar Home
+2026-07-25T20:39:49.251978,UFPel,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufpel/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:49.305889,UFPel,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufpel/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:49.355268,UFPel,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufpel/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:49.398190,UFPel,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufpel,ERROR,Falha ao publicar Home
+2026-07-25T20:39:49.437142,UFPel,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufpel/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:49.479834,UFPel,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufpel/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:49.520866,UFPel,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufpel/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:49.589559,UFRGS,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufrgs,ERROR,Falha ao criar Home
+2026-07-25T20:39:49.637016,UFRGS,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufrgs/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:49.693416,UFRGS,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufrgs/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:49.781076,UFRGS,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufrgs/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:49.821550,UFRGS,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufrgs,ERROR,Falha ao publicar Home
+2026-07-25T20:39:49.868052,UFRGS,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufrgs/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:49.906374,UFRGS,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufrgs/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:49.945051,UFRGS,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufrgs/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:50.010355,UFSM,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufsm,ERROR,Falha ao criar Home
+2026-07-25T20:39:50.089592,UFSM,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufsm/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:50.151740,UFSM,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufsm/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:50.200095,UFSM,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufsm/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:50.240593,UFSM,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufsm,ERROR,Falha ao publicar Home
+2026-07-25T20:39:50.279609,UFSM,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufsm/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:50.367286,UFSM,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufsm/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:50.407685,UFSM,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/ufsm/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:50.475176,UNIPAMPA,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/unipampa,ERROR,Falha ao criar Home
+2026-07-25T20:39:50.519814,UNIPAMPA,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/unipampa/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:50.576347,UNIPAMPA,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/unipampa/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:50.625437,UNIPAMPA,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/unipampa/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:50.664308,UNIPAMPA,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/unipampa,ERROR,Falha ao publicar Home
+2026-07-25T20:39:50.702131,UNIPAMPA,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/unipampa/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:50.748617,UNIPAMPA,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/unipampa/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:50.802773,UNIPAMPA,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/rio_grande_do_sul/unipampa/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:50.873772,UNIR,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/rondonia/unir,ERROR,Falha ao criar Home
+2026-07-25T20:39:50.922427,UNIR,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/rondonia/unir/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:50.977778,UNIR,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/rondonia/unir/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:51.031404,UNIR,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/rondonia/unir/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:51.071532,UNIR,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/rondonia/unir,ERROR,Falha ao publicar Home
+2026-07-25T20:39:51.104135,UNIR,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/rondonia/unir/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:39:51.256999,UNIR,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/rondonia/unir/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:39:51.295634,UNIR,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/rondonia/unir/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:39:51.414158,UFRR,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/roraima/ufrr,ERROR,Falha ao criar Home
+2026-07-25T20:39:51.461319,UFRR,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/roraima/ufrr/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:39:51.510123,UFRR,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/roraima/ufrr/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:40:51.528494,UFRR,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/roraima/ufrr/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:41:01.536225,UFRR,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/roraima/ufrr,ERROR,Falha ao publicar Home
+2026-07-25T20:41:01.539422,UFRR,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/roraima/ufrr/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:41:01.542379,UFRR,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/roraima/ufrr/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:41:01.545347,UFRR,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/roraima/ufrr/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:41:01.551490,UFFS,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/santa_catarina/uffs,ERROR,Falha ao criar Home
+2026-07-25T20:41:01.554497,UFFS,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/santa_catarina/uffs/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:41:01.557857,UFFS,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/santa_catarina/uffs/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:41:01.560515,UFFS,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/santa_catarina/uffs/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:41:01.562748,UFFS,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/santa_catarina/uffs,ERROR,Falha ao publicar Home
+2026-07-25T20:41:01.565043,UFFS,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/santa_catarina/uffs/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:41:01.567302,UFFS,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/santa_catarina/uffs/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:41:01.572027,UFFS,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/santa_catarina/uffs/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:41:01.577812,UFSC,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/santa_catarina/ufsc,ERROR,Falha ao criar Home
+2026-07-25T20:41:01.580483,UFSC,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/santa_catarina/ufsc/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:41:01.583422,UFSC,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/santa_catarina/ufsc/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:41:01.586430,UFSC,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/santa_catarina/ufsc/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:41:01.588835,UFSC,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/santa_catarina/ufsc,ERROR,Falha ao publicar Home
+2026-07-25T20:41:01.590965,UFSC,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/santa_catarina/ufsc/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:41:01.593072,UFSC,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/santa_catarina/ufsc/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:41:01.595243,UFSC,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/santa_catarina/ufsc/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:41:01.599813,UFABC,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufabc,ERROR,Falha ao criar Home
+2026-07-25T20:41:01.602426,UFABC,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufabc/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:41:01.605905,UFABC,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufabc/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:41:01.609213,UFABC,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufabc/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:41:01.611335,UFABC,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufabc,ERROR,Falha ao publicar Home
+2026-07-25T20:41:01.613461,UFABC,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufabc/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:41:01.615619,UFABC,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufabc/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:41:01.617839,UFABC,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufabc/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:41:01.622404,UFSCar,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar,ERROR,Falha ao criar Home
+2026-07-25T20:41:01.624986,UFSCar,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:41:01.627955,UFSCar,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:41:01.631221,UFSCar,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:41:01.633391,UFSCar,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar,ERROR,Falha ao publicar Home
+2026-07-25T20:41:01.635575,UFSCar,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:41:01.637962,UFSCar,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:41:01.640162,UFSCar,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:41:01.644558,UNIFESP,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/unifesp,ERROR,Falha ao criar Home
+2026-07-25T20:41:01.648283,UNIFESP,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/unifesp/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:41:01.651544,UNIFESP,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/unifesp/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:41:01.655425,UNIFESP,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/unifesp/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:41:01.658720,UNIFESP,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/unifesp,ERROR,Falha ao publicar Home
+2026-07-25T20:41:01.661809,UNIFESP,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/unifesp/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:41:01.664676,UNIFESP,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/unifesp/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:41:01.667081,UNIFESP,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/unifesp/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:41:01.673015,UFS,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/sergipe/ufs,ERROR,Falha ao criar Home
+2026-07-25T20:41:01.675826,UFS,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/sergipe/ufs/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:41:01.679367,UFS,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/sergipe/ufs/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:41:01.682121,UFS,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/sergipe/ufs/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:41:01.684769,UFS,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/sergipe/ufs,ERROR,Falha ao publicar Home
+2026-07-25T20:41:01.687093,UFS,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/sergipe/ufs/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:41:01.689742,UFS,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/sergipe/ufs/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:41:01.691938,UFS,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/sergipe/ufs/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:41:01.697406,UFNT,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/tocantins/ufnt,ERROR,Falha ao criar Home
+2026-07-25T20:41:01.700386,UFNT,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/tocantins/ufnt/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:41:01.703762,UFNT,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/tocantins/ufnt/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:41:01.706508,UFNT,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/tocantins/ufnt/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:41:01.709283,UFNT,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/tocantins/ufnt,ERROR,Falha ao publicar Home
+2026-07-25T20:41:01.711789,UFNT,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/tocantins/ufnt/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:41:01.714678,UFNT,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/tocantins/ufnt/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:41:01.717079,UFNT,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/tocantins/ufnt/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais
+2026-07-25T20:41:01.721872,UFT,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/tocantins/uft,ERROR,Falha ao criar Home
+2026-07-25T20:41:01.725019,UFT,SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/tocantins/uft/sobre-nos,ERROR,Falha ao criar Subpágina
+2026-07-25T20:41:01.728301,UFT,SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/tocantins/uft/vida-na-ies,ERROR,Falha ao criar Subpágina
+2026-07-25T20:41:01.731880,UFT,SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/tocantins/uft/estudantes-internacionais,ERROR,Falha ao criar Subpágina
+2026-07-25T20:41:01.734291,UFT,PUBLISH_HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/tocantins/uft,ERROR,Falha ao publicar Home
+2026-07-25T20:41:01.736788,UFT,PUBLISH_SUBPAGE (sobre-nos),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/tocantins/uft/sobre-nos,ERROR,Falha ao publicar sobre-nos
+2026-07-25T20:41:01.739451,UFT,PUBLISH_SUBPAGE (vida-na-ies),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/tocantins/uft/vida-na-ies,ERROR,Falha ao publicar vida-na-ies
+2026-07-25T20:41:01.741654,UFT,PUBLISH_SUBPAGE (estudantes-internacionais),https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/tocantins/uft/estudantes-internacionais,ERROR,Falha ao publicar estudantes-internacionais

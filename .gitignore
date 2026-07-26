@@ -1,0 +1,25 @@
+# Configurações com segredos / tokens JWT
+config.json
+
+# Arquivos de progresso e logs locais
+migracao_progresso.json
+*.tmp
+*.log
+migracao.log
+
+# Ambientes virtuais Python
+.venv/
+venv/
+ENV/
+env/
+
+# Cache do Python e pytest
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.swp

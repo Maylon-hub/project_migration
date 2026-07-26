@@ -1,0 +1,377 @@
+{
+  "blocks": {
+    "02b01860-6e63-4fb7-9877-e3a898b0748f": {
+      "@layout": "9601fd2d-136d-41ab-b7c1-00d59d9366ea",
+      "@type": "description",
+      "block": "5b629d54-f6f9-4201-a4b4-217cc3031868"
+    },
+    "34b8aab5-39d8-4abb-a2b7-b24f1ef32429": {
+      "@type": "columnsBlock",
+      "backgroundColor": "grey",
+      "data": {
+        "blocks": {
+          "9ed48f79-36db-4208-8fd6-b4d1ed5a976d": {
+            "blocks": {
+              "056bfafc-8c7f-44dd-bcac-5fa0b1951f4f": {
+                "@type": "SectionTitleBlock",
+                "align": "left",
+                "title": "Reconhecimento Global"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "056bfafc-8c7f-44dd-bcac-5fa0b1951f4f"
+              ]
+            }
+          },
+          "fb8a04d1-35f6-4445-b143-e9b8b486cee5": {
+            "blocks": {
+              "2966d4eb-8fcb-4dfe-bb66-f5e9e30f369b": {
+                "@type": "slate",
+                "plaintext": "A UFSCar consolida-se entre as principais universidades públicas brasileiras e latino-americanas, com presença recorrente em rankings nacionais e internacionais de educação superior. No Ranking Universitário Folha (RUF) 2025, a Universidade ocupou a 10ª posição nacional. No QS World University Rankings 2025, foi classificada entre as 15 melhores universidades brasileiras, posicionando-se na faixa 1.001–1.200 no cenário mundial. A instituição também apresenta evolução consistente nos rankings Times Higher Education (THE), mantendo-se entre as 14ª e 17ª posições na América Latina e entre as 10ª e 12ª colocações nacionais nos últimos ciclos avaliativos, o que reflete a qualidade do corpo docente, da infraestrutura científica e da produção acadêmica institucional.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "A UFSCar consolida-se entre as principais universidades públicas brasileiras e latino-americanas, com presença recorrente em rankings nacionais e internacionais de educação superior. No Ranking Universitário Folha (RUF) 2025, a Universidade ocupou a 10ª posição nacional. No QS World University Rankings 2025, foi classificada entre as 15 melhores universidades brasileiras, posicionando-se na faixa 1.001–1.200 no cenário mundial. A instituição também apresenta evolução consistente nos rankings Times Higher Education (THE), mantendo-se entre as 14ª e 17ª posições na América Latina e entre as 10ª e 12ª colocações nacionais nos últimos ciclos avaliativos, o que reflete a qualidade do corpo docente, da infraestrutura científica e da produção acadêmica institucional. "
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "2966d4eb-8fcb-4dfe-bb66-f5e9e30f369b"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "9ed48f79-36db-4208-8fd6-b4d1ed5a976d",
+            "fb8a04d1-35f6-4445-b143-e9b8b486cee5"
+          ]
+        }
+      },
+      "fullWidth": "background",
+      "gridCols": [
+        "oneThird",
+        "twoThirds"
+      ],
+      "gridSize": 12
+    },
+    "3c30cec9-b066-4579-a37b-db6f50874d3a": {
+      "@type": "columnsBlock",
+      "backgroundColor": "grey",
+      "data": {
+        "blocks": {
+          "0f894a0c-d900-488e-92bb-f9147daa534a": {
+            "blocks": {
+              "d6a72819-71dd-4ef5-8199-705995c01b97": {
+                "@type": "slate",
+                "plaintext": "A UFSCar oferece uma experiência acadêmica integrada, interdisciplinar e multicultural em seus campi de São Carlos, Araras, Sorocaba, Lagoa do Sino e São José do Rio Preto, com infraestrutura compatível com atividades de ensino, pesquisa, extensão e inovação. A vida universitária é marcada pela intensa participação estudantil em empresas juniores, programas de iniciação científica, projetos de extensão, atléticas, centros acadêmicos, coletivos culturais e ações de inovação.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "A UFSCar oferece uma experiência acadêmica integrada, interdisciplinar e multicultural em seus campi de São Carlos, Araras, Sorocaba, Lagoa do Sino e São José do Rio Preto, com infraestrutura compatível com atividades de ensino, pesquisa, extensão e inovação. A vida universitária é marcada pela intensa participação estudantil em empresas juniores, programas de iniciação científica, projetos de extensão, atléticas, centros acadêmicos, coletivos culturais e ações de inovação. "
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "d6a72819-71dd-4ef5-8199-705995c01b97"
+              ]
+            }
+          },
+          "252d2750-4412-42b1-9282-991057c38ea7": {
+            "blocks": {
+              "dfba28d8-0aaa-4fcf-8d32-c4b6b0d4088f": {
+                "@type": "SectionTitleBlock",
+                "align": "left",
+                "title": "Experiência Estudantil Enriquecedora"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "dfba28d8-0aaa-4fcf-8d32-c4b6b0d4088f"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "252d2750-4412-42b1-9282-991057c38ea7",
+            "0f894a0c-d900-488e-92bb-f9147daa534a"
+          ]
+        }
+      },
+      "fullWidth": "background",
+      "gridCols": [
+        "oneThird",
+        "twoThirds"
+      ],
+      "gridSize": 12
+    },
+    "3cf81167-ebd7-4a6b-82c6-ae917dc1b72e": {
+      "@type": "columnsBlock",
+      "backgroundColor": "grey",
+      "data": {
+        "blocks": {
+          "c73fca74-79fc-43af-9ae4-d98902048f7b": {
+            "blocks": {
+              "69b89393-92e3-4b94-a5ff-dcb60979da45": {
+                "@type": "slate",
+                "plaintext": "A UFSCar é uma universidade federal multicampi, com unidades localizadas em São Carlos, Araras, Sorocaba, Buri e São José do Rio Preto. Ao longo de sua trajetória, afirmou-se como uma das principais instituições públicas de ensino superior do país, destacando-se pela excelência acadêmica, pela produção científica e pelo compromisso com o desenvolvimento científico, tecnológico, social e ambiental. É reconhecida nacional e internacionalmente pela excelência em ensino, pesquisa, extensão, inovação e gestão universitária. Sua estrutura multicampi fortalece a inserção territorial e amplia a contribuição para o desenvolvimento regional sustentável, a geração de conhecimento científico e a formação de profissionais altamente qualificados.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": " A UFSCar é uma universidade federal multicampi, com unidades localizadas em São Carlos, Araras, Sorocaba, Buri e São José do Rio Preto. Ao longo de sua trajetória, afirmou-se como uma das principais instituições públicas de ensino superior do país, destacando-se pela excelência acadêmica, pela produção científica e pelo compromisso com o desenvolvimento científico, tecnológico, social e ambiental. É reconhecida nacional e internacionalmente pela excelência em ensino, pesquisa, extensão, inovação e gestão universitária. Sua estrutura multicampi fortalece a inserção territorial e amplia a contribuição para o desenvolvimento regional sustentável, a geração de conhecimento científico e a formação de profissionais altamente qualificados."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "69b89393-92e3-4b94-a5ff-dcb60979da45"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "c73fca74-79fc-43af-9ae4-d98902048f7b"
+          ]
+        }
+      },
+      "fullWidth": "none",
+      "gridCols": [
+        "full"
+      ],
+      "gridSize": 12
+    },
+    "4df1f70a-e810-494e-8d0c-afaf6ea2cf29": {
+      "@layout": "f28c8124-47bf-4dd2-953d-a62abb898ef2",
+      "@type": "title",
+      "block": "d0337e07-f37f-47c2-a034-3200044c9283"
+    },
+    "6699b458-c19d-433f-98ba-d7cc53cc39e9": {
+      "@type": "columnsBlock",
+      "backgroundColor": "grey",
+      "data": {
+        "blocks": {
+          "c434006b-0bc0-4d50-9d5e-49ce34098594": {
+            "blocks": {
+              "fa6013fb-f643-4207-8293-522ac1554f2a": {
+                "@type": "SectionTitleBlock",
+                "align": "left",
+                "title": "Missão e Impacto Social"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "fa6013fb-f643-4207-8293-522ac1554f2a"
+              ]
+            }
+          },
+          "cfd294d5-c255-43c0-b85c-0111b0cbe1b4": {
+            "blocks": {
+              "4226cd50-3bef-471e-b731-1c0414f1fd76": {
+                "@type": "slate",
+                "plaintext": "A missão institucional da UFSCar fundamenta-se na produção, sistematização, democratização e aplicação social do conhecimento científico, tecnológico, cultural e artístico, formando cidadãos críticos, éticos e comprometidos com a justiça social e o desenvolvimento sustentável. Em 2025, a Universidade desenvolveu mais de 880 projetos de extensão universitária e realizou aproximadamente 27 mil atendimentos à população por meio da Unidade Saúde Escola, fortalecendo sua atuação em saúde pública, educação, sustentabilidade, inclusão social, direitos humanos e desenvolvimento comunitário. A instituição também ampliou políticas de permanência estudantil, acessibilidade, diversidade e equidade, reafirmando seu compromisso com a redução de desigualdades, a geração de valor público e o apoio à formulação e implementação de políticas públicas.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "A missão institucional da UFSCar fundamenta-se na produção, sistematização, democratização e aplicação social do conhecimento científico, tecnológico, cultural e artístico, formando cidadãos críticos, éticos e comprometidos com a justiça social e o desenvolvimento sustentável. Em 2025, a Universidade desenvolveu mais de 880 projetos de extensão universitária e realizou aproximadamente 27 mil atendimentos à população por meio da Unidade Saúde Escola, fortalecendo sua atuação em saúde pública, educação, sustentabilidade, inclusão social, direitos humanos e desenvolvimento comunitário. A instituição também ampliou políticas de permanência estudantil, acessibilidade, diversidade e equidade, reafirmando seu compromisso com a redução de desigualdades, a geração de valor público e o apoio à formulação e implementação de políticas públicas."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "4226cd50-3bef-471e-b731-1c0414f1fd76"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "c434006b-0bc0-4d50-9d5e-49ce34098594",
+            "cfd294d5-c255-43c0-b85c-0111b0cbe1b4"
+          ]
+        }
+      },
+      "fullWidth": "background",
+      "gridCols": [
+        "oneThird",
+        "twoThirds"
+      ],
+      "gridSize": 12,
+      "useBackground": true
+    },
+    "8dac8dcd-e2ac-4c6c-8bcd-b38206e28d0e": {
+      "@type": "SectionTitleBlock",
+      "align": "center",
+      "title": "Nossos Pilares de Excelência"
+    },
+    "b9b74bf9-8f6c-4e55-bdb7-da32b3be0fae": {
+      "@type": "dividerLine",
+      "dashed": false,
+      "size": "lg"
+    },
+    "c35af15e-7d0d-45c5-a2e0-3edb99e717c6": {
+      "@type": "SectionDescriptionBlock",
+      "description": "A Universidade Federal de São Carlos (UFSCar), fundada em 1968, com início das atividades acadêmicas em 1970, foi sendo a primeira universidade federal instalada no interior do estado de São Paulo, consolidando-se como marco estratégico no processo de expansão e interiorização do ensino superior público brasileiro"
+    },
+    "fb1fd8f4-0777-481b-8f12-37bcc6472d0f": {
+      "@type": "image",
+      "align": "center",
+      "alt": "sobre a universidade banner.png",
+      "caption": "",
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/png",
+            "download": "@@images/image-1150-f60aaa2f78c22a928ea857cfee6131de.png",
+            "filename": "sobre a universidade banner.png",
+            "height": 95,
+            "scales": {
+              "icon": {
+                "download": "@@images/image-32-d559741152477de7c6b5fb19fb18fb1c.png",
+                "height": 2,
+                "width": 32
+              },
+              "large": {
+                "download": "@@images/image-800-6f13e0294b2b4ec6c9524e8b3f107c75.png",
+                "height": 66,
+                "width": 800
+              },
+              "larger": {
+                "download": "@@images/image-1000-917b89768702c627d45d42f768630a0c.png",
+                "height": 82,
+                "width": 1000
+              },
+              "mini": {
+                "download": "@@images/image-200-f9bd92acc8c791492d48d0c5a202e3f4.png",
+                "height": 16,
+                "width": 200
+              },
+              "preview": {
+                "download": "@@images/image-400-e9c67ada55d31e865706f6558eecf526.png",
+                "height": 33,
+                "width": 400
+              },
+              "teaser": {
+                "download": "@@images/image-600-1b52c10d1b03f2cfb6c9659519ae79cf.png",
+                "height": 49,
+                "width": 600
+              },
+              "thumb": {
+                "download": "@@images/image-128-410559e4d3478f99be35d1e18399a75a.png",
+                "height": 10,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-81dd99b6a24338dd528ce9bdb2529a84.png",
+                "height": 5,
+                "width": 64
+              }
+            },
+            "size": 27166,
+            "width": 1150
+          }
+        ]
+      },
+      "size": "l",
+      "url": "https://www.gov.br/studyinbrazil/pt-br/imagens-e-videos/sobre-a-universidade-banner.png"
+    },
+    "fee1e217-34ec-4546-b7cf-baa6c7c3f397": {
+      "@type": "columnsBlock",
+      "backgroundColor": "grey",
+      "data": {
+        "blocks": {
+          "0e2df5f6-3346-457a-8ed9-e81fc91469e6": {
+            "blocks": {
+              "88966607-d353-454b-839e-63bb6b137504": {
+                "@type": "SectionTitleBlock",
+                "align": "left",
+                "title": "Liderança e Inovação"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "88966607-d353-454b-839e-63bb6b137504"
+              ]
+            }
+          },
+          "d669568b-222f-4434-b018-8419b10da963": {
+            "blocks": {
+              "f069fcef-58ab-4f9c-b099-61f13950ab63": {
+                "@type": "slate",
+                "plaintext": "A UFSCar possui forte protagonismo acadêmico e científico em áreas estratégicas como Engenharias, Ciência e Engenharia de Materiais, Computação, Química, Biotecnologia, Inteligência Artificial, Sustentabilidade, Saúde e Ciências Humanas e Sociais. A Universidade mantém mais de 400 grupos de pesquisa certificados no CNPq, com projetos de alto impacto voltados à inovação tecnológica, à sustentabilidade, à transformação digital, à saúde pública e ao desenvolvimento regional.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": " A UFSCar possui forte protagonismo acadêmico e científico em áreas estratégicas como Engenharias, Ciência e Engenharia de Materiais, Computação, Química, Biotecnologia, Inteligência Artificial, Sustentabilidade, Saúde e Ciências Humanas e Sociais. A Universidade mantém mais de 400 grupos de pesquisa certificados no CNPq, com projetos de alto impacto voltados à inovação tecnológica, à sustentabilidade, à transformação digital, à saúde pública e ao desenvolvimento regional."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "f069fcef-58ab-4f9c-b099-61f13950ab63"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "0e2df5f6-3346-457a-8ed9-e81fc91469e6",
+            "d669568b-222f-4434-b018-8419b10da963"
+          ]
+        }
+      },
+      "fullWidth": "background",
+      "gridCols": [
+        "oneThird",
+        "twoThirds"
+      ],
+      "gridSize": 12,
+      "useBackground": true
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "4df1f70a-e810-494e-8d0c-afaf6ea2cf29",
+      "02b01860-6e63-4fb7-9877-e3a898b0748f",
+      "fb1fd8f4-0777-481b-8f12-37bcc6472d0f",
+      "3cf81167-ebd7-4a6b-82c6-ae917dc1b72e",
+      "c35af15e-7d0d-45c5-a2e0-3edb99e717c6",
+      "b9b74bf9-8f6c-4e55-bdb7-da32b3be0fae",
+      "8dac8dcd-e2ac-4c6c-8bcd-b38206e28d0e",
+      "fee1e217-34ec-4546-b7cf-baa6c7c3f397",
+      "34b8aab5-39d8-4abb-a2b7-b24f1ef32429",
+      "6699b458-c19d-433f-98ba-d7cc53cc39e9",
+      "3c30cec9-b066-4579-a37b-db6f50874d3a"
+    ]
+  }
+}

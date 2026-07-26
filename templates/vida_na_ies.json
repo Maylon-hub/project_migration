@@ -1,0 +1,844 @@
+{
+  "blocks": {
+    "135e7f8e-2602-4c91-8598-a1e0902e69a2": {
+      "@type": "SectionTitleBlock",
+      "align": "center",
+      "title": "Viver em Cidades do Interior do Estado de São Paulo"
+    },
+    "5705716c-9510-4773-802b-ed66de00db6a": {
+      "@type": "columnsBlock",
+      "backgroundColor": "grey",
+      "data": {
+        "blocks": {
+          "0dc53c18-b2af-43ff-9f16-6c5f58c8db63": {
+            "blocks": {
+              "f1bb1c59-97c3-4854-b2ed-932bfa8f4d41": {
+                "@type": "slate",
+                "plaintext": "As cidades dos campi da UFSCar situam-se no interior do estado de São Paulo, em região de clima predominantemente tropical, com variações locais ligadas à altitude, uso do solo e características urbanas.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "As cidades dos campi da UFSCar situam-se no interior do estado de São Paulo, em região de clima predominantemente tropical, com variações locais ligadas à altitude, uso do solo e características urbanas."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "f1bb1c59-97c3-4854-b2ed-932bfa8f4d41"
+              ]
+            }
+          },
+          "78a9ce19-e3bb-4b8e-bd1d-0aacc11fe1d0": {
+            "blocks": {
+              "5114ae08-194f-403a-af80-ddb899292dc0": {
+                "@type": "SectionTitleBlock",
+                "align": "left",
+                "title": "Clima e Geografia"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "5114ae08-194f-403a-af80-ddb899292dc0"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "78a9ce19-e3bb-4b8e-bd1d-0aacc11fe1d0",
+            "0dc53c18-b2af-43ff-9f16-6c5f58c8db63"
+          ]
+        }
+      },
+      "fullWidth": "background",
+      "gridCols": [
+        "oneThird",
+        "twoThirds"
+      ],
+      "gridSize": 12,
+      "useBackground": true
+    },
+    "583c81ef-a757-4ebe-9ba9-3ff86ac6f170": {
+      "@layout": "9601fd2d-136d-41ab-b7c1-00d59d9366ea",
+      "@type": "description",
+      "block": "f8619888-571f-424b-9e53-09ab83c29b71"
+    },
+    "5ad92eb7-a025-4590-a2b2-a5c0eb6ff600": {
+      "@type": "columnsBlock",
+      "backgroundColor": "grey",
+      "data": {
+        "blocks": {
+          "19bbc636-5c45-4a27-a8fc-54ee4ae11579": {
+            "blocks": {
+              "a63d366e-3493-4d8b-922d-e3558229c0ed": {
+                "@type": "SectionTitleBlock",
+                "align": "left",
+                "title": "Transporte Público"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "a63d366e-3493-4d8b-922d-e3558229c0ed"
+              ]
+            }
+          },
+          "fccc93c4-b1dd-462f-ae90-53790a115b03": {
+            "blocks": {
+              "7be20f0a-6143-48d8-b645-f7c3c0f23dfa": {
+                "@type": "slate",
+                "plaintext": "A mobilidade urbana nas cidades dos campi da UFSCar reflete o porte e a estrutura de cada município, com sistemas de transporte baseados principalmente em ônibus urbanos e deslocamentos de curta e média distância.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "A mobilidade urbana nas cidades dos campi da UFSCar reflete o porte e a estrutura de cada município, com sistemas de transporte baseados principalmente em ônibus urbanos e deslocamentos de curta e média distância."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "7be20f0a-6143-48d8-b645-f7c3c0f23dfa"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "19bbc636-5c45-4a27-a8fc-54ee4ae11579",
+            "fccc93c4-b1dd-462f-ae90-53790a115b03"
+          ]
+        }
+      },
+      "fullWidth": "background",
+      "gridCols": [
+        "oneThird",
+        "twoThirds"
+      ],
+      "gridSize": 12
+    },
+    "60f27cf8-2097-4e66-b717-71f0d28f2909": {
+      "@type": "columnsBlock",
+      "backgroundColor": "grey",
+      "data": {
+        "blocks": {
+          "426ac964-a4bd-437d-ad98-1b0cd061a58e": {
+            "blocks": {
+              "df9b141b-83dd-4040-8e05-486565723aa7": {
+                "@type": "slate",
+                "plaintext": "A vida estudantil se organiza em centros acadêmicos, diretórios, atléticas, coletivos estudantis e organizações de representação, que promovem eventos científicos, culturais, esportivos e de integração.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "A vida estudantil se organiza em centros acadêmicos, diretórios, atléticas, coletivos estudantis e organizações de representação, que promovem eventos científicos, culturais, esportivos e de integração."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "df9b141b-83dd-4040-8e05-486565723aa7"
+              ]
+            }
+          },
+          "d6cc7b0d-d9ec-48c1-835b-7fa7bfd3087f": {
+            "blocks": {
+              "74e4925d-3917-437e-8f7b-443251a9e265": {
+                "@type": "SectionTitleBlock",
+                "align": "left",
+                "title": "Atividades Extracurriculares"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "74e4925d-3917-437e-8f7b-443251a9e265"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "d6cc7b0d-d9ec-48c1-835b-7fa7bfd3087f",
+            "426ac964-a4bd-437d-ad98-1b0cd061a58e"
+          ]
+        }
+      },
+      "fullWidth": "background",
+      "gridCols": [
+        "oneThird",
+        "twoThirds"
+      ],
+      "gridSize": 12,
+      "useBackground": true
+    },
+    "8e32ed08-065a-4779-aadb-988a2432b367": {
+      "@type": "columnsBlock",
+      "backgroundColor": "grey",
+      "data": {
+        "blocks": {
+          "a86c0b1f-2890-47b1-ab14-d28242769db3": {
+            "blocks": {
+              "42393018-f71f-4f81-8a87-0fa2989d18af": {
+                "@type": "slate",
+                "plaintext": "  A vida acadêmica na UFSCar é marcada por ambiente multicampi, diversidade e intensa participação estudantil em atividades acadêmicas, culturais e de extensão. O Campus São Carlos se consolidou como polo científico e tecnológico, reunindo grande concentração de cursos nas áreas de ciências exatas, tecnológicas, biológicas e humanas, além de ampla infraestrutura esportiva, cultural e de assistência estudantil, com moradia universitária, restaurante universitário e serviços de saúde. O Campus Araras destaca-se pelas áreas de ciências agrárias, ambientais e de alimentos, com forte vocação para práticas ligadas à sustentabilidade e à produção agrícola, apoiadas por áreas experimentais e laboratórios especializados. O Campus Sorocaba atua em interface com o desenvolvimento urbano e industrial regional, oferecendo cursos que articulam tecnologia, gestão, meio ambiente e humanidades, com forte inserção em projetos de extensão e parcerias locais. O Campus Lagoa do Sino, em Buri, caracteriza-se pela vocação rural e pelo enfoque em agroecologia, sistemas sustentáveis de produção e desenvolvimento territorial, instalado em uma fazenda altamente produtiva com infraestrutura voltada à formação em ciências agrárias e áreas afins. A expansão da presença da UFSCar em São José do Rio Preto está prevista em documentos institucionais recentes e em discussões no Conselho Universitário, como estratégia de interiorização e ampliação da oferta de educação superior pública em novas regiões do estado.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ],
+                        "type": "b"
+                      },
+                      {
+                        "text": "A vida acadêmica na UFSCar é marcada por ambiente multicampi, diversidade e intensa participação estudantil em atividades acadêmicas, culturais e de extensão. O Campus São Carlos se consolidou como polo científico e tecnológico, reunindo grande concentração de cursos nas áreas de ciências exatas, tecnológicas, biológicas e humanas, além de ampla infraestrutura esportiva, cultural e de assistência estudantil, com moradia universitária, restaurante universitário e serviços de saúde. O Campus Araras destaca-se pelas áreas de ciências agrárias, ambientais e de alimentos, com forte vocação para práticas ligadas à sustentabilidade e à produção agrícola, apoiadas por áreas experimentais e laboratórios especializados. O Campus Sorocaba atua em interface com o desenvolvimento urbano e industrial regional, oferecendo cursos que articulam tecnologia, gestão, meio ambiente e humanidades, com forte inserção em projetos de extensão e parcerias locais. O Campus Lagoa do Sino, em Buri, caracteriza-se pela vocação rural e pelo enfoque em agroecologia, sistemas sustentáveis de produção e desenvolvimento territorial, instalado em uma fazenda altamente produtiva com infraestrutura voltada à formação em ciências agrárias e áreas afins. A expansão da presença da UFSCar em São José do Rio Preto está prevista em documentos institucionais recentes e em discussões no Conselho Universitário, como estratégia de interiorização e ampliação da oferta de educação superior pública em novas regiões do estado."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "42393018-f71f-4f81-8a87-0fa2989d18af"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "a86c0b1f-2890-47b1-ab14-d28242769db3"
+          ]
+        }
+      },
+      "fullWidth": "none",
+      "gridCols": [
+        "full"
+      ],
+      "gridSize": 12
+    },
+    "99c1182a-0f73-4eaf-abf2-e0f4d4fd9dab": {
+      "@type": "columnsBlock",
+      "backgroundColor": "grey",
+      "data": {
+        "blocks": {
+          "3831ae29-cabc-4620-ad95-a4f5ba3e547e": {
+            "blocks": {
+              "e0de45a5-6515-492e-83f4-e7ed1dc5064f": {
+                "@type": "SectionTitleBlock",
+                "align": "left",
+                "title": "Ambiente Multidisciplinar e Diverso"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "e0de45a5-6515-492e-83f4-e7ed1dc5064f"
+              ]
+            }
+          },
+          "b4d71276-8457-471e-a7ac-26cc3be9269f": {
+            "blocks": {
+              "92e3c56e-f05c-4db3-b742-670e38f0ab39": {
+                "@type": "slate",
+                "plaintext": "A UFSCar caracteriza-se por sua forte vocação interdisciplinar e presença multicampi, reunindo cursos e programas acadêmicos em Engenharias, Ciências Exatas, Biológicas, Saúde, Humanidades, Linguística, Artes, Ciências Sociais e Tecnologias. Essa diversidade favorece o diálogo entre diferentes campos do conhecimento e prepara profissionais com visão ampla e integrada dos desafios contemporâneos. A Universidade desenvolve políticas institucionais voltadas à diversidade, equidade, inclusão e acessibilidade, fortalecendo ações afirmativas e programas de permanência estudantil e ampliando a formação crítica, ética e global dos estudantes.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "A UFSCar caracteriza-se por sua forte vocação interdisciplinar e presença multicampi, reunindo cursos e programas acadêmicos em Engenharias, Ciências Exatas, Biológicas, Saúde, Humanidades, Linguística, Artes, Ciências Sociais e Tecnologias. Essa diversidade favorece o diálogo entre diferentes campos do conhecimento e prepara profissionais com visão ampla e integrada dos desafios contemporâneos. A Universidade desenvolve políticas institucionais voltadas à diversidade, equidade, inclusão e acessibilidade, fortalecendo ações afirmativas e programas de permanência estudantil e ampliando a formação crítica, ética e global dos estudantes."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "92e3c56e-f05c-4db3-b742-670e38f0ab39"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "3831ae29-cabc-4620-ad95-a4f5ba3e547e",
+            "b4d71276-8457-471e-a7ac-26cc3be9269f"
+          ]
+        }
+      },
+      "fullWidth": "background",
+      "gridCols": [
+        "oneThird",
+        "twoThirds"
+      ],
+      "gridSize": 12
+    },
+    "bd42af4a-db28-42d0-bc83-49dba66396c8": {
+      "@type": "columnsBlock",
+      "backgroundColor": "grey",
+      "data": {
+        "blocks": {
+          "19d07a6d-d9e7-46ed-8bed-bdf23a041d4a": {
+            "blocks": {
+              "5d86e4cb-fcb2-4583-94e8-efebfedaba08": {
+                "@type": "SectionTitleBlock",
+                "align": "left",
+                "title": "Saúde e segurança"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "5d86e4cb-fcb2-4583-94e8-efebfedaba08"
+              ]
+            }
+          },
+          "d4c607a5-34c1-4d82-b3ca-5387137ed0af": {
+            "blocks": {
+              "40c95ae0-1734-4d9b-baf2-9bdae6f3e0b9": {
+                "@type": "slate",
+                "plaintext": "    As cidades que sediam campi da UFSCar dispõem de redes de saúde integradas ao Sistema Único de Saúde (SUS), com níveis diferenciados de complexidade conforme o porte urbano. Em termos de segurança, essas cidades apresentam, em geral, padrões de urbanização e indicadores compatíveis com municípios de médio porte do interior paulista, frequentemente associados a percepção de qualidade de vida e sensação de segurança superiores às grandes capitais, segundo avaliações de mídia e estudos sobre qualidade de vida no interior de São Paulo. Os campi universitários contam com estruturas de gestão e vigilância institucional e ações de prevenção em articulação com órgãos públicos, seguindo práticas adotadas em universidades federais para proteção da comunidade acadêmica.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ],
+                        "type": "b"
+                      },
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ],
+                        "type": "del"
+                      },
+                      {
+                        "text": "As cidades que sediam campi da UFSCar dispõem de redes de saúde integradas ao Sistema Único de Saúde (SUS), com níveis diferenciados de complexidade conforme o porte urbano. Em termos de segurança, essas cidades apresentam, em geral, padrões de urbanização e indicadores compatíveis com municípios de médio porte do interior paulista, frequentemente associados a percepção de qualidade de vida e sensação de segurança superiores às grandes capitais, segundo avaliações de mídia e estudos sobre qualidade de vida no interior de São Paulo. Os campi universitários contam com estruturas de gestão e vigilância institucional e ações de prevenção em articulação com órgãos públicos, seguindo práticas adotadas em universidades federais para proteção da comunidade acadêmica."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "40c95ae0-1734-4d9b-baf2-9bdae6f3e0b9"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "19d07a6d-d9e7-46ed-8bed-bdf23a041d4a",
+            "d4c607a5-34c1-4d82-b3ca-5387137ed0af"
+          ]
+        }
+      },
+      "fullWidth": "background",
+      "gridCols": [
+        "oneThird",
+        "twoThirds"
+      ],
+      "gridSize": 12,
+      "useBackground": true
+    },
+    "c41f1274-66e4-49db-883a-808c3b92c089": {
+      "@type": "SectionTitleBlock",
+      "align": "center",
+      "title": "Por Que Estudar na UFSCar?"
+    },
+    "c71c25df-0e7d-4e98-bd5a-d673c044c7d4": {
+      "@type": "columnsBlock",
+      "backgroundColor": "grey",
+      "data": {
+        "blocks": {
+          "15a347ad-462e-4c69-bcc2-bddbd9a90690": {
+            "blocks": {
+              "6252c4eb-e118-416b-b4f8-ec3771a86914": {
+                "@type": "slate",
+                "plaintext": "  Estudar na UFSCar significa integrar-se a um dos principais ecossistemas científicos e tecnológicos do Brasil. O campus São Carlos está localizado em uma cidade reconhecida nacionalmente como polo de ciência, tecnologia e inovação, com forte presença de empresas de base tecnológica, centros de pesquisa, parques tecnológicos, unidades estratégicas da Embrapa e elevada densidade de mestres e doutores. A presença multicampi da Universidade em Araras, Sorocaba, Buri (campus Lagoa do Sino) e São José do Rio Preto amplia sua inserção territorial e fortalece sua contribuição para o desenvolvimento agrícola, industrial, ambiental, científico e social do interior paulista.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ],
+                        "type": "b"
+                      },
+                      {
+                        "text": " Estudar na UFSCar significa integrar-se a um dos principais ecossistemas científicos e tecnológicos do Brasil. O campus São Carlos está localizado em uma cidade reconhecida nacionalmente como polo de ciência, tecnologia e inovação, com forte presença de empresas de base tecnológica, centros de pesquisa, parques tecnológicos, unidades estratégicas da Embrapa e elevada densidade de mestres e doutores. A presença multicampi da Universidade em Araras, Sorocaba, Buri (campus Lagoa do Sino) e São José do Rio Preto amplia sua inserção territorial e fortalece sua contribuição para o desenvolvimento agrícola, industrial, ambiental, científico e social do interior paulista."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "6252c4eb-e118-416b-b4f8-ec3771a86914"
+              ]
+            }
+          },
+          "22e7414a-534b-4333-8dd2-999229cf3250": {
+            "blocks": {
+              "78179dec-7c74-4365-9e23-02ae0d1f1f9d": {
+                "@type": "SectionTitleBlock",
+                "align": "left",
+                "title": "Localização Estratégica"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "78179dec-7c74-4365-9e23-02ae0d1f1f9d"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "22e7414a-534b-4333-8dd2-999229cf3250",
+            "15a347ad-462e-4c69-bcc2-bddbd9a90690"
+          ]
+        }
+      },
+      "fullWidth": "background",
+      "gridCols": [
+        "oneThird",
+        "twoThirds"
+      ],
+      "gridSize": 12,
+      "useBackground": true
+    },
+    "c901cdbe-da5e-4d2a-b753-68c0647f46f7": {
+      "@layout": "f28c8124-47bf-4dd2-953d-a62abb898ef2",
+      "@type": "title",
+      "block": "4d636b60-eb82-42fc-b133-5fcecc11ae50"
+    },
+    "d30153f4-c3d6-491b-b85c-84c046354359": {
+      "@type": "columnsBlock",
+      "backgroundColor": "grey",
+      "data": {
+        "blocks": {
+          "13edd16a-83d4-4e7c-bf70-fe5a919bb646": {
+            "blocks": {
+              "08ae94e3-0285-449f-938b-6bf208f311ac": {
+                "@type": "slate",
+                "plaintext": "O custo de vida nas cidades do interior paulista onde a UFSCar está presente tende a ser inferior ao observado em grandes capitais do Brasil, como a de São Paulo, especialmente em itens como moradia e transporte, ainda que existam diferenças importantes entre os municípios.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "O custo de vida nas cidades do interior paulista onde a UFSCar está presente tende a ser inferior ao observado em grandes capitais do Brasil, como a de São Paulo, especialmente em itens como moradia e transporte, ainda que existam diferenças importantes entre os municípios."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "08ae94e3-0285-449f-938b-6bf208f311ac"
+              ]
+            }
+          },
+          "5714b644-fe44-4b4e-a7e5-cd25f5a144fc": {
+            "blocks": {
+              "e9e1cb70-69c0-46f5-abfd-b475d0dda047": {
+                "@type": "SectionTitleBlock",
+                "align": "left",
+                "title": "Custo de Vida"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "e9e1cb70-69c0-46f5-abfd-b475d0dda047"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "5714b644-fe44-4b4e-a7e5-cd25f5a144fc",
+            "13edd16a-83d4-4e7c-bf70-fe5a919bb646"
+          ]
+        }
+      },
+      "fullWidth": "background",
+      "gridCols": [
+        "oneThird",
+        "twoThirds"
+      ],
+      "gridSize": 12,
+      "useBackground": true
+    },
+    "d57e1721-99fe-4848-9b2e-03d4c67bdd48": {
+      "@type": "columnsBlock",
+      "backgroundColor": "grey",
+      "data": {
+        "blocks": {
+          "a152d662-4172-4fc7-9b1f-6acfaed06187": {
+            "blocks": {
+              "6a440dbf-27a5-44a1-bd08-79ac6e5b1e3b": {
+                "@type": "slate",
+                "plaintext": "  A UFSCar articula ensino, pesquisa, extensão e inovação para produzir impacto social concreto e fortalecer políticas públicas voltadas à saúde, educação, sustentabilidade, agricultura familiar, direitos humanos, cultura e inclusão social. A Universidade participa de agendas globais de sustentabilidade e desenvolvimento social, como a COP-30 e redes acadêmicas internacionais vinculadas aos Objetivos de Desenvolvimento Sustentável, reafirmando seu compromisso com a transformação social e a geração de valor público.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ],
+                        "type": "b"
+                      },
+                      {
+                        "text": "A UFSCar articula ensino, pesquisa, extensão e inovação para produzir impacto social concreto e fortalecer políticas públicas voltadas à saúde, educação, sustentabilidade, agricultura familiar, direitos humanos, cultura e inclusão social. A Universidade participa de agendas globais de sustentabilidade e desenvolvimento social, como a COP-30 e redes acadêmicas internacionais vinculadas aos Objetivos de Desenvolvimento Sustentável, reafirmando seu compromisso com a transformação social e a geração de valor público."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "6a440dbf-27a5-44a1-bd08-79ac6e5b1e3b"
+              ]
+            }
+          },
+          "df44a590-94cb-4dd0-84b1-cafba26ca8d6": {
+            "blocks": {
+              "2edff435-3318-4bc3-b945-244659aaa414": {
+                "@type": "SectionTitleBlock",
+                "align": "left",
+                "title": "Compromisso com o Impacto Social"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "2edff435-3318-4bc3-b945-244659aaa414"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "df44a590-94cb-4dd0-84b1-cafba26ca8d6",
+            "a152d662-4172-4fc7-9b1f-6acfaed06187"
+          ]
+        }
+      },
+      "fullWidth": "background",
+      "gridCols": [
+        "oneThird",
+        "twoThirds"
+      ],
+      "gridSize": 12
+    },
+    "e0d00055-3b16-419d-bec8-c3c477de665a": {
+      "@type": "columnsBlock",
+      "backgroundColor": "grey",
+      "data": {
+        "blocks": {
+          "165bedd9-4efd-44c9-9079-0b274739e985": {
+            "blocks": {
+              "8b10683c-f97a-4658-a4e3-0dc1ea0adaf0": {
+                "@type": "slate",
+                "plaintext": "A UFSCar conta com corpo docente altamente qualificado, composto majoritariamente por professores doutores, com forte inserção acadêmica, científica e internacional. A excelência da atuação docente também se expressa na qualidade dos Programas de Pós-Graduação, vários deles bem avaliados com notas máximas, destacando-se as áreas como Genética Evolutiva e Biologia Molecular, Educação Especial, Fisioterapia, Engenharia Civil, Ciência e Engenharia de Materiais, Engenharia Química, Engenharia de Produção, Psicologia, Química e Sociologia.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": " A UFSCar conta com corpo docente altamente qualificado, composto majoritariamente por professores doutores, com forte inserção acadêmica, científica e internacional. A excelência da atuação docente também se expressa na qualidade dos Programas de Pós-Graduação, vários deles bem avaliados com notas máximas, destacando-se as áreas como Genética Evolutiva e Biologia Molecular, Educação Especial, Fisioterapia, Engenharia Civil, Ciência e Engenharia de Materiais, Engenharia Química, Engenharia de Produção, Psicologia, Química e Sociologia."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "8b10683c-f97a-4658-a4e3-0dc1ea0adaf0"
+              ]
+            }
+          },
+          "705ee671-535f-477f-81cf-1a9c5631dd7c": {
+            "blocks": {
+              "44b77ecb-770e-43cf-8875-691d3a756e02": {
+                "@type": "SectionTitleBlock",
+                "align": "left",
+                "title": "Corpo Docente de Renome"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "44b77ecb-770e-43cf-8875-691d3a756e02"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "705ee671-535f-477f-81cf-1a9c5631dd7c",
+            "165bedd9-4efd-44c9-9079-0b274739e985"
+          ]
+        }
+      },
+      "fullWidth": "background",
+      "gridCols": [
+        "oneThird",
+        "twoThirds"
+      ],
+      "gridSize": 12
+    },
+    "e2c6ec80-3735-4e71-9274-5ad3d6f728a9": {
+      "@type": "image",
+      "align": "center",
+      "alt": "Rede de cooperação png",
+      "caption": "",
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/png",
+            "download": "@@images/image-1150-e36d210008e6264aeefc4a7a1caddc04.png",
+            "filename": "vida na universidade banner.png",
+            "height": 95,
+            "scales": {
+              "icon": {
+                "download": "@@images/image-32-79bd502df56f06cc4edf3b390cd134b1.png",
+                "height": 2,
+                "width": 32
+              },
+              "large": {
+                "download": "@@images/image-800-e4b6bc17cfc243d7610653735318ad3a.png",
+                "height": 66,
+                "width": 800
+              },
+              "larger": {
+                "download": "@@images/image-1000-98c37389763f65ed39502a2379d81b6b.png",
+                "height": 82,
+                "width": 1000
+              },
+              "mini": {
+                "download": "@@images/image-200-7378e2afa63fe81126a761b41106ff97.png",
+                "height": 16,
+                "width": 200
+              },
+              "preview": {
+                "download": "@@images/image-400-4bb36d9ffd4d11d1737983a957d51d15.png",
+                "height": 33,
+                "width": 400
+              },
+              "teaser": {
+                "download": "@@images/image-600-be38c765d236da6927a0fcdf0e4dce48.png",
+                "height": 49,
+                "width": 600
+              },
+              "thumb": {
+                "download": "@@images/image-128-858b64923244f1f7e3eef9a7b2453a34.png",
+                "height": 10,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-d5a84b4bf858b1d19b447e983c1846ae.png",
+                "height": 5,
+                "width": 64
+              }
+            },
+            "size": 27731,
+            "width": 1150
+          }
+        ]
+      },
+      "size": "l",
+      "url": "https://www.gov.br/studyinbrazil/pt-br/imagens-e-videos/vida-na-universidade-banner.png"
+    },
+    "e5b6e6e7-54c6-495e-a1a4-63af66df2d36": {
+      "@type": "columnsBlock",
+      "backgroundColor": "grey",
+      "data": {
+        "blocks": {
+          "54cf4084-1523-47d9-9fab-eea9fe58fc09": {
+            "blocks": {
+              "b8bed7e6-65c3-423d-89ba-9c0e4382d04e": {
+                "@type": "SectionTitleBlock",
+                "align": "left",
+                "title": "Cultura e Lazer"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "b8bed7e6-65c3-423d-89ba-9c0e4382d04e"
+              ]
+            }
+          },
+          "e369869c-17d6-4e8b-9fd9-c951ff7e1813": {
+            "blocks": {
+              "34d4d1cd-70e4-4865-97e0-a26137461f02": {
+                "@type": "slate",
+                "plaintext": "As cidades que sediam os campi da UFSCar oferecem um conjunto de equipamentos culturais, espaços públicos e eventos coerentes com seus portes populacionais e perfis econômicos.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "As cidades que sediam os campi da UFSCar oferecem um conjunto de equipamentos culturais, espaços públicos e eventos coerentes com seus portes populacionais e perfis econômicos."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "34d4d1cd-70e4-4865-97e0-a26137461f02"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "54cf4084-1523-47d9-9fab-eea9fe58fc09",
+            "e369869c-17d6-4e8b-9fd9-c951ff7e1813"
+          ]
+        }
+      },
+      "fullWidth": "background",
+      "gridCols": [
+        "oneThird",
+        "twoThirds"
+      ],
+      "gridSize": 12
+    },
+    "e8b24448-9091-4173-819c-09b905680b73": {
+      "@type": "dividerLine",
+      "dashed": false,
+      "size": "lg",
+      "spacing": "3"
+    },
+    "fa65ccf4-76a2-414f-943b-ce8c21e690c8": {
+      "@type": "columnsBlock",
+      "backgroundColor": "grey",
+      "data": {
+        "blocks": {
+          "9e267d72-b3dd-4ffc-a1ec-2a0005898444": {
+            "blocks": {
+              "97b80f98-fe61-436e-ad7d-b5986ecd337d": {
+                "@type": "slate",
+                "plaintext": "A UFSCar possui uma das mais consolidadas estruturas de pesquisa do país, com mais de 400 grupos de pesquisa certificados, que atuam em áreas como Engenharias, Ciências Exatas, Biotecnologia, Saúde, Ciências Biológicas, Educação e Ciências Sociais. Professores e estudantes desenvolvem projetos de alto impacto em temas como novos materiais, inteligência artificial, biotecnologia, sustentabilidade e saúde, em articulação com ambientes de inovação, incubadoras, núcleos de inovação tecnológica e parcerias estratégicas, como por exemplo com a Embrapa e com os ministérios do Desenvolvimento Agrário (MDA) e dos Povos Indígenas (MPI), entre outros.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "A UFSCar possui uma das mais consolidadas estruturas de pesquisa do país, com mais de 400 grupos de pesquisa certificados, que atuam em áreas como Engenharias, Ciências Exatas, Biotecnologia, Saúde, Ciências Biológicas, Educação e Ciências Sociais. Professores e estudantes desenvolvem projetos de alto impacto em temas como novos materiais, inteligência artificial, biotecnologia, sustentabilidade e saúde, em articulação com ambientes de inovação, incubadoras, núcleos de inovação tecnológica e parcerias estratégicas, como por exemplo com a Embrapa e com os ministérios do Desenvolvimento Agrário (MDA) e dos Povos Indígenas (MPI), entre outros."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "97b80f98-fe61-436e-ad7d-b5986ecd337d"
+              ]
+            }
+          },
+          "a2bff82e-ca42-4ef2-af5d-7479e6b1ac4b": {
+            "blocks": {
+              "d50ac1a7-4d2f-471e-9516-009776e71dc6": {
+                "@type": "SectionTitleBlock",
+                "align": "left",
+                "title": "Pesquisa de Ponta e Inovação"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "d50ac1a7-4d2f-471e-9516-009776e71dc6"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "a2bff82e-ca42-4ef2-af5d-7479e6b1ac4b",
+            "9e267d72-b3dd-4ffc-a1ec-2a0005898444"
+          ]
+        }
+      },
+      "fullWidth": "background",
+      "gridCols": [
+        "oneThird",
+        "twoThirds"
+      ],
+      "gridSize": 12,
+      "useBackground": true
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "c901cdbe-da5e-4d2a-b753-68c0647f46f7",
+      "583c81ef-a757-4ebe-9ba9-3ff86ac6f170",
+      "e2c6ec80-3735-4e71-9274-5ad3d6f728a9",
+      "8e32ed08-065a-4779-aadb-988a2432b367",
+      "c41f1274-66e4-49db-883a-808c3b92c089",
+      "60f27cf8-2097-4e66-b717-71f0d28f2909",
+      "e0d00055-3b16-419d-bec8-c3c477de665a",
+      "fa65ccf4-76a2-414f-943b-ce8c21e690c8",
+      "99c1182a-0f73-4eaf-abf2-e0f4d4fd9dab",
+      "c71c25df-0e7d-4e98-bd5a-d673c044c7d4",
+      "d57e1721-99fe-4848-9b2e-03d4c67bdd48",
+      "e8b24448-9091-4173-819c-09b905680b73",
+      "135e7f8e-2602-4c91-8598-a1e0902e69a2",
+      "d30153f4-c3d6-491b-b85c-84c046354359",
+      "e5b6e6e7-54c6-495e-a1a4-63af66df2d36",
+      "5705716c-9510-4773-802b-ed66de00db6a",
+      "5ad92eb7-a025-4590-a2b2-a5c0eb6ff600",
+      "bd42af4a-db28-42d0-bc83-49dba66396c8"
+    ]
+  }
+}
