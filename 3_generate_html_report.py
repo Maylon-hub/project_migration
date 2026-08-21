@@ -10,17 +10,25 @@ import json
 from pathlib import Path
 import pandas as pd
 
-CSV_PATH = Path("migracao_relatorio.csv")
-HTML_OUTPUT_PATH = Path("relatorio_migracao.html")
+CSV_PATH = Path("migracao_relatorio_atualizado.csv")
+HTML_OUTPUT_PATH = Path("relatorio_migracao_atualizado.html")
 
 
-def generate_html_report():
-    if not CSV_PATH.exists():
-        print(f"❌ Arquivo {CSV_PATH} não encontrado!")
-        return
+def generate_html_report(csv_path: Path = None, html_path: Path = None):
+    input_csv = Path(csv_path) if csv_path else CSV_PATH
+    output_html = Path(html_path) if html_path else HTML_OUTPUT_PATH
 
-    print(f"[+] Lendo {CSV_PATH}...")
-    df = pd.read_csv(CSV_PATH)
+    if not input_csv.exists():
+        fallback_csv = Path("migracao_relatorio.csv")
+        if fallback_csv.exists() and not csv_path:
+            input_csv = fallback_csv
+            print(f"[AVISO] Arquivo '{CSV_PATH}' nao encontrado. Usando fallback: '{input_csv}'")
+        else:
+            print(f"[ERRO] Arquivo {input_csv} nao encontrado!")
+            return
+
+    print(f"[+] Lendo {input_csv}...")
+    df = pd.read_csv(input_csv)
 
     total_records = len(df)
     total_ies = df["sigla"].nunique()
@@ -353,6 +361,12 @@ def generate_html_report():
             border: 1px solid rgba(239, 68, 68, 0.3);
         }}
 
+        .status-tag.skipped {{
+            background: rgba(148, 163, 184, 0.15);
+            color: var(--text-muted);
+            border: 1px solid rgba(148, 163, 184, 0.3);
+        }}
+
         .url-link {{
             color: var(--accent-blue);
             text-decoration: none;
@@ -444,6 +458,7 @@ def generate_html_report():
                     <button class="btn-filter active" onclick="filterData('ALL')">Todos ({total_records})</button>
                     <button class="btn-filter" onclick="filterData('SUCCESS')">Sucesso ({total_success})</button>
                     <button class="btn-filter" onclick="filterData('ERROR')">Erros ({total_error})</button>
+                    <button class="btn-filter" onclick="filterData('SKIPPED')">Ignoradas / Manuais</button>
                 </div>
             </div>
 
@@ -484,15 +499,23 @@ def generate_html_report():
             data.forEach(row => {{
                 const tr = document.createElement('tr');
                 const formattedDate = new Date(row.timestamp).toLocaleString('pt-BR');
-                const isSuccess = row.status === 'SUCCESS';
+                let tagClass = 'error';
+                let tagLabel = '✕ ERROR';
+                if (row.status === 'SUCCESS') {{
+                    tagClass = 'success';
+                    tagLabel = '✓ SUCCESS';
+                }} else if (row.status === 'SKIPPED') {{
+                    tagClass = 'skipped';
+                    tagLabel = '⏭ SKIPPED';
+                }}
 
                 tr.innerHTML = `
                     <td>${{formattedDate}}</td>
                     <td><strong>${{row.sigla}}</strong></td>
                     <td>${{row.tipo_pagina}}</td>
                     <td>
-                        <span class="status-tag ${{isSuccess ? 'success' : 'error'}}">
-                            ${{isSuccess ? '✓ SUCCESS' : '✕ ERROR'}}
+                        <span class="status-tag ${{tagClass}}">
+                            ${{tagLabel}}
                         </span>
                     </td>
                     <td>${{row.detalhes}}</td>
@@ -579,10 +602,10 @@ def generate_html_report():
 </html>
 """
 
-    with open(HTML_OUTPUT_PATH, "w", encoding="utf-8") as f:
+    with open(output_html, "w", encoding="utf-8") as f:
         f.write(html_content)
 
-    print(f"[OK] Relatorio HTML gerado com sucesso em: '{HTML_OUTPUT_PATH.resolve()}'")
+    print(f"[OK] Relatorio HTML gerado com sucesso em: '{output_html.resolve()}'")
 
 
 if __name__ == "__main__":

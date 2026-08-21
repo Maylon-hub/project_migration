@@ -10,6 +10,8 @@ import logging
 from typing import Any, Dict, Optional
 import requests
 from urllib.parse import urljoin
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 from config import API_PASSWORD, API_TOKEN, API_URL, API_USERNAME
 
@@ -42,12 +44,23 @@ class PloneRestClient:
         self.username = username
         self.password = password
 
-        # Inicializa a sessão HTTP do requests com os cabeçalhos padrão
+        # Inicializa a sessão HTTP do requests com os cabeçalhos padrão e retries
         self.session = requests.Session()
         self.session.headers.update({
             "Accept": "application/json",
             "Content-Type": "application/json",
         })
+
+        # Configura retries com backoff exponencial para resiliência a falhas de rede/API
+        retry_strategy = Retry(
+            total=3,
+            backoff_factor=1,
+            status_forcelist=[429, 500, 502, 503, 504],
+            allowed_methods=["HEAD", "GET", "POST", "PATCH", "PUT", "DELETE", "OPTIONS"]
+        )
+        adapter = HTTPAdapter(max_retries=retry_strategy)
+        self.session.mount("https://", adapter)
+        self.session.mount("http://", adapter)
 
         logger.info(f"PloneRestClient inicializado para o endpoint: '{self.base_url}'")
 
@@ -216,3 +229,68 @@ class PloneRestClient:
         except requests.exceptions.RequestException as e:
             logger.error(f"❌ Erro de conexão no workflow de publicação para '{base_target}': {e}")
             return False
+
+    def retract_to_private(self, content_url: str) -> bool:
+        """Altera o estado do workflow para privado (retract/reject), garantindo que o conteúdo não fique público.
+
+        :param content_url: URL ou caminho do objeto.
+        :return: True se já for privado ou alterado para privado com sucesso, False em caso de erro.
+        """
+        base_target = self._resolve_url(content_url).rstrip("/")
+        workflow_url = f"{base_target}/@workflow"
+
+        logger.info(f"POST [Garantindo estado PRIVADO no Workflow] -> '{workflow_url}'")
+
+        try:
+            # 1. Consulta o estado atual e transições disponíveis
+            wf_resp = self.session.get(workflow_url, timeout=(10, 30))
+            if wf_resp.status_code == 200:
+                wf_data = wf_resp.json()
+                transitions = wf_data.get("transitions", [])
+                history = wf_data.get("history", [])
+                current_state = history[-1].get("review_state") if history else None
+
+                if current_state in ("private", "draft"):
+                    logger.info(f"🔒 Conteúdo em '{base_target}' já está no estado privado ('{current_state}').")
+                    return True
+
+                # Procura por transições que retornem a privado (ex: retract, reject, hide)
+                transition_ids = [t.get("@id", t.get("id", "")).split("/")[-1] for t in transitions]
+                target_transition = None
+                for candidate in ["retract", "reject", "hide", "make_private"]:
+                    if candidate in transition_ids:
+                        target_transition = candidate
+                        break
+
+                if target_transition:
+                    post_url = f"{workflow_url}/{target_transition}"
+                    logger.info(f"Executando transição '{target_transition}' em -> '{post_url}'")
+                    trans_resp = self.session.post(post_url, json={}, timeout=(10, 30))
+                    if trans_resp.status_code in (200, 204):
+                        logger.info(f"🔒 Conteúdo em '{base_target}' alterado com sucesso para PRIVADO via '{target_transition}'!")
+                        return True
+                    else:
+                        logger.warning(f"Resposta na transição {target_transition} ({trans_resp.status_code}): {trans_resp.text[:200]}")
+                        return trans_resp.status_code == 400
+                else:
+                    logger.info(f"Nenhuma transição de retração necessária/disponível em '{base_target}'. Transições: {transition_ids}")
+                    return True
+
+            elif wf_resp.status_code == 404:
+                logger.error(f"❌ Conteúdo '{base_target}' não encontrado para verificação de workflow (404).")
+                return False
+            else:
+                # Tenta enviar POST direto para @workflow/retract ou @workflow/reject como fallback
+                for fallback_trans in ["retract", "reject"]:
+                    fallback_url = f"{workflow_url}/{fallback_trans}"
+                    f_resp = self.session.post(fallback_url, json={}, timeout=(10, 30))
+                    if f_resp.status_code in (200, 400):
+                        return True
+
+                logger.warning(f"⚠️ Não foi possível obter detalhes de workflow ({wf_resp.status_code}) em '{workflow_url}'.")
+                return False
+
+        except requests.exceptions.RequestException as e:
+            logger.error(f"❌ Erro de conexão ao alterar estado para privado em '{base_target}': {e}")
+            return False
+

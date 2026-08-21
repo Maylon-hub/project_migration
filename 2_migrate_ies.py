@@ -15,7 +15,7 @@ from pathlib import Path
 import pandas as pd
 from tqdm import tqdm
 
-from config import API_TOKEN, API_URL, EXCEL_PATH
+from config import API_TOKEN, API_URL, EXCEL_PATH, IGNORED_IES
 from api_client import PloneRestClient
 
 # Configuração do Logger
@@ -24,7 +24,7 @@ logger.setLevel(logging.INFO)
 
 # Configuração dos caminhos
 TEMPLATES_DIR = Path("templates")
-REPORT_PATH = Path("migracao_relatorio.csv")
+REPORT_PATH = Path("migracao_relatorio_atualizado.csv")
 
 TEMPLATE_FILES = {
     "home": "home.json",
@@ -39,18 +39,21 @@ SUBPAGES_CONFIG = [
         "title_template": "Sobre a {sigla}",
         "nav_title": "Sobre",
         "template_key": "sobre-nos",
+        "tipo3": "sobre_nos",
     },
     {
-        "id": "vida-na-ies",
+        "id": "vida_na_ies",  # Mantendo underscore conforme instrução expressa
         "title_template": "Vida na {sigla}",
         "nav_title": "Vida na IES",
         "template_key": "vida-na-ies",
+        "tipo3": "vida_na_ies",
     },
     {
         "id": "estudantes-internacionais",
         "title_template": "Estudantes Internacionais na {sigla}",
         "nav_title": "Estudantes Internacionais",
         "template_key": "estudantes-internacionais",
+        "tipo3": "estudantes-internacionais",
     },
 ]
 
@@ -106,7 +109,7 @@ def replace_placeholders(template_data: dict, replacements: dict) -> dict:
 
 
 def main():
-    print("[+] Inicializando processo de migração de IES para o Plone 6...")
+    print("[+] Inicializando processo de migração de IES para o Plone 6 (Estado: PRIVADO)...")
 
     # 1. Carrega templates e datasets
     templates = load_templates()
@@ -141,8 +144,45 @@ def main():
         raw_tags = str(row.get("TAGs", ""))
         tags = [t.strip() for t in raw_tags.split(";") if t.strip()]
 
-        # Dicionário de substituição de textos estáticos dos templates
+        # Base URL para a IES
+        base_container = container_url.rstrip("/")
+        ies_url = f"{base_container}/{slug}"
+        portal_rel_path = ies_url.replace("https://www.gov.br/studyinbrazil/", "")
+
+        # Pula IES que já foram ajustadas/diagramadas manualmente
+        if sigla.upper() in [x.upper() for x in IGNORED_IES]:
+            logger.info(f"⏭️ IES {sigla} ignorada (ajustada manualmente). Não será modificada.")
+            report_rows.append({
+                "timestamp": datetime.now().isoformat(),
+                "sigla": sigla,
+                "tipo_pagina": "ALL",
+                "url": ies_url,
+                "status": "SKIPPED",
+                "detalhes": "Ignorada - IES ajustada/diagramada manualmente"
+            })
+            continue
+
+        # Dicionário de substituição de textos estáticos e URLs dos templates
         replacements = {
+            # Substituição precisa de URLs completas para evitar redirecionamento para UFSCar
+            "https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar-universidade-federal-de-sao-carlos/vida_na_ies": f"{ies_url}/vida_na_ies",
+            "https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar-universidade-federal-de-sao-carlos/vida-na-ies": f"{ies_url}/vida_na_ies",
+            "https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar-universidade-federal-de-sao-carlos/sobre-nos": f"{ies_url}/sobre-nos",
+            "https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar-universidade-federal-de-sao-carlos/estudantes-internacionais": f"{ies_url}/estudantes-internacionais",
+            "https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar-universidade-federal-de-sao-carlos": ies_url,
+            "/Plone/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar-universidade-federal-de-sao-carlos": f"/Plone/{portal_rel_path}",
+
+            # Substituição de títulos personalizados e textos de teste
+            "Vida na UFSCar TESTE 2": f"Vida na {sigla}",
+            "Vida na UFSCar TESTE": f"Vida na {sigla}",
+            "Vida na UFSCar": f"Vida na {sigla}",
+            "Estudantes Internacionais na UFSCar  TESTE": f"Estudantes Internacionais na {sigla}",
+            "Estudantes Internacionais na UFSCar TESTE": f"Estudantes Internacionais na {sigla}",
+            "Estudantes Internacionais na UFSCar": f"Estudantes Internacionais na {sigla}",
+            "Sobre a UFSCar TESTE": f"Sobre a {sigla}",
+            "Sobre a UFSCar": f"Sobre a {sigla}",
+
+            # Substituição de entidades institucionais
             "Universidade Federal de São Carlos": nome_ies,
             "UFSCar": sigla,
             "São Carlos": cidade,
@@ -150,12 +190,8 @@ def main():
             "SP": uf,
         }
 
-        # Base URL para a IES
-        base_container = container_url.rstrip("/")
-        ies_url = f"{base_container}/{slug}"
-
         # -------------------------------------------------------------
-        # ETAPA A: Criar Pasta/Página Home da IES
+        # ETAPA A: Criar ou Atualizar Pasta/Página Home da IES
         # -------------------------------------------------------------
         home_template_replaced = replace_placeholders(templates["home"], replacements)
         
@@ -174,6 +210,10 @@ def main():
         }
 
         res_home = client.create_content(container_url, home_payload)
+        # Se o conteúdo já existir (ex: 400 ou existente), tenta PATCH para atualizar blocos e links
+        if res_home is None:
+            res_home = client.update_content(ies_url, home_payload)
+
         home_success = res_home is not None
         status_home = "SUCCESS" if home_success else "ERROR"
         
@@ -183,15 +223,32 @@ def main():
             "tipo_pagina": "HOME",
             "url": ies_url,
             "status": status_home,
-            "detalhes": "Home criada com sucesso" if home_success else "Falha ao criar Home"
+            "detalhes": "Home criada/atualizada com sucesso" if home_success else "Falha ao criar/atualizar Home"
         })
 
         # -------------------------------------------------------------
-        # ETAPA B: Criar as 3 Subpáginas
+        # ETAPA B: Garantir Estado PRIVADO na Home
         # -------------------------------------------------------------
-        created_subpages = []
+        if home_success:
+            retract_home = client.retract_to_private(ies_url)
+            report_rows.append({
+                "timestamp": datetime.now().isoformat(),
+                "sigla": sigla,
+                "tipo_pagina": "WORKFLOW_PRIVATE_HOME",
+                "url": ies_url,
+                "status": "SUCCESS" if retract_home else "ERROR",
+                "detalhes": "Home mantida/definida como privada" if retract_home else "Falha ao definir Home como privada"
+            })
+        else:
+            logger.warning(f"⚠️ Criação da Home falhou para {sigla}. Pulando subpáginas para evitar falhas em cascata.")
+            continue
+
+        # -------------------------------------------------------------
+        # ETAPA C: Criar ou Atualizar as 3 Subpáginas
+        # -------------------------------------------------------------
         for sub in SUBPAGES_CONFIG:
             sub_id = sub["id"]
+            sub_tipo3 = sub.get("tipo3", sub_id)
             sub_template = templates[sub["template_key"]]
             sub_template_replaced = replace_placeholders(sub_template, replacements)
 
@@ -200,7 +257,12 @@ def main():
             sub_desc = ""
 
             if not df_subpages.empty:
-                match_sub = df_subpages[(df_subpages["Sigla"] == sigla) & (df_subpages["nome_curto"] == sub_id)]
+                match_sub = df_subpages[
+                    (df_subpages["Sigla"] == sigla) &
+                    ((df_subpages["nome_curto"] == sub_id) |
+                     (df_subpages["tipo3"] == sub_tipo3) |
+                     (df_subpages["nome_curto"] == sub_id.replace("_", "-")))
+                ]
                 if not match_sub.empty:
                     sub_title = str(match_sub.iloc[0].get("Título", sub_title)).strip()
                     sub_nav = str(match_sub.iloc[0].get("nav_title", sub_nav)).strip()
@@ -221,11 +283,11 @@ def main():
             }
 
             res_sub = client.create_content(ies_url, sub_payload)
+            if res_sub is None:
+                res_sub = client.update_content(sub_url, sub_payload)
+
             sub_success = res_sub is not None
             status_sub = "SUCCESS" if sub_success else "ERROR"
-
-            if sub_success:
-                created_subpages.append(sub_url)
 
             report_rows.append({
                 "timestamp": datetime.now().isoformat(),
@@ -233,42 +295,28 @@ def main():
                 "tipo_pagina": f"SUBPAGE ({sub_id})",
                 "url": sub_url,
                 "status": status_sub,
-                "detalhes": "Subpágina criada com sucesso" if sub_success else "Falha ao criar Subpágina"
+                "detalhes": f"Subpágina {sub_id} criada/atualizada com sucesso" if sub_success else f"Falha ao criar/atualizar {sub_id}"
             })
 
-        # -------------------------------------------------------------
-        # ETAPA C: Publicação no Workflow
-        # -------------------------------------------------------------
-        # Publica a Home
-        pub_home = client.publish_content(ies_url)
-        report_rows.append({
-            "timestamp": datetime.now().isoformat(),
-            "sigla": sigla,
-            "tipo_pagina": "PUBLISH_HOME",
-            "url": ies_url,
-            "status": "SUCCESS" if pub_home else "ERROR",
-            "detalhes": "Home publicada" if pub_home else "Falha ao publicar Home"
-        })
+            # Garantir estado PRIVADO na subpágina
+            if sub_success:
+                retract_sub = client.retract_to_private(sub_url)
+                report_rows.append({
+                    "timestamp": datetime.now().isoformat(),
+                    "sigla": sigla,
+                    "tipo_pagina": f"WORKFLOW_PRIVATE_SUBPAGE ({sub_id})",
+                    "url": sub_url,
+                    "status": "SUCCESS" if retract_sub else "ERROR",
+                    "detalhes": f"Subpágina {sub_id} mantida/definida como privada" if retract_sub else f"Falha ao definir {sub_id} como privada"
+                })
 
-        # Publica as Subpáginas
-        for sub_id in [s["id"] for s in SUBPAGES_CONFIG]:
-            sub_url = f"{ies_url}/{sub_id}"
-            pub_sub = client.publish_content(sub_url)
-            report_rows.append({
-                "timestamp": datetime.now().isoformat(),
-                "sigla": sigla,
-                "tipo_pagina": f"PUBLISH_SUBPAGE ({sub_id})",
-                "url": sub_url,
-                "status": "SUCCESS" if pub_sub else "ERROR",
-                "detalhes": f"Subpágina {sub_id} publicada" if pub_sub else f"Falha ao publicar {sub_id}"
-            })
-
-    # 5. Salva o relatório de execução em CSV
+    # 5. Salva o NOVO relatório de execução em CSV sem sobrescrever o antigo
     report_df = pd.DataFrame(report_rows)
     report_df.to_csv(REPORT_PATH, index=False, encoding="utf-8")
-    print(f"\n[+] Relatório de migração salvo em: '{REPORT_PATH.resolve()}'")
-    print("[SUCCESS] Migração de IES concluída!")
+    print(f"\n[+] Novo relatório de migração salvo em: '{REPORT_PATH.resolve()}'")
+    print("[SUCCESS] Migração e ajuste de IES concluídos!")
 
 
 if __name__ == "__main__":
     main()
+
