@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório de Diagramação de IES • Study in Brazil • Plone 6</title>
+    <!-- Google Fonts & Chart.js -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --bg-base: #0B1120;
+            --bg-card: rgba(15, 23, 42, 0.75);
+            --bg-card-hover: rgba(30, 41, 59, 0.85);
+            --card-border: rgba(56, 189, 248, 0.15);
+            --card-border-glow: rgba(56, 189, 248, 0.35);
+            --text-main: #F8FAFC;
+            --text-muted: #94A3B8;
+            --text-accent: #38BDF8;
+            --accent-green: #10B981;
+            --accent-green-glow: rgba(16, 185, 129, 0.25);
+            --accent-red: #EF4444;
+            --accent-red-glow: rgba(239, 68, 68, 0.25);
+            --accent-blue: #0284C7;
+            --accent-purple: #8B5CF6;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-base);
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(56, 189, 248, 0.08) 0px, transparent 50%),
+                radial-gradient(at 100% 0%, rgba(139, 92, 246, 0.08) 0px, transparent 50%);
+            color: var(--text-main);
+            min-height: 100vh;
+            padding: 2rem 1.5rem;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--card-border);
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+
+        .header-title h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 2.2rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #38BDF8 0%, #818CF8 50%, #C084FC 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -0.5px;
+        }
+
+        .header-title p {
+            color: var(--text-muted);
+            margin-top: 0.25rem;
+            font-size: 0.95rem;
+        }
+
+        .header-badges {
+            display: flex;
+            gap: 0.75rem;
+            align-items: center;
+        }
+
+        .badge {
+            background: var(--bg-card);
+            border: 1px solid var(--card-border);
+            padding: 0.5rem 1rem;
+            border-radius: 9999px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            backdrop-filter: blur(8px);
+        }
+
+        .badge-live {
+            border-color: rgba(16, 185, 129, 0.3);
+            color: var(--accent-green);
+        }
+
+        .badge-live::before {
+            content: '';
+            width: 8px;
+            height: 8px;
+            background: var(--accent-green);
+            border-radius: 50%;
+            box-shadow: 0 0 8px var(--accent-green);
+        }
+
+        /* KPI Cards Grid */
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.25rem;
+            margin-bottom: 2rem;
+        }
+
+        .kpi-card {
+            background: var(--bg-card);
+            border: 1px solid var(--card-border);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            backdrop-filter: blur(12px);
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .kpi-card:hover {
+            transform: translateY(-3px);
+            border-color: var(--card-border-glow);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+        }
+
+        .kpi-card h3 {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .kpi-card .value {
+            font-family: 'Outfit', sans-serif;
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: var(--text-main);
+        }
+
+        .kpi-card .sub-value {
+            font-size: 0.8rem;
+            margin-top: 0.25rem;
+            color: var(--text-muted);
+        }
+
+        .kpi-card.success .value {
+            color: var(--accent-green);
+        }
+
+        .kpi-card.error .value {
+            color: var(--accent-red);
+        }
+
+        /* Charts Section */
+        .charts-section {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        @media (max-width: 992px) {
+            .charts-section {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .chart-box {
+            background: var(--bg-card);
+            border: 1px solid var(--card-border);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            backdrop-filter: blur(12px);
+        }
+
+        .chart-box h2 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1.25rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .chart-container {
+            position: relative;
+            height: 280px;
+            width: 100%;
+        }
+
+        /* Table Section */
+        .table-section {
+            background: var(--bg-card);
+            border: 1px solid var(--card-border);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            backdrop-filter: blur(12px);
+            margin-bottom: 3rem;
+        }
+
+        .controls-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .search-box {
+            position: relative;
+            flex: 1;
+            max-width: 400px;
+        }
+
+        .search-box input {
+            width: 100%;
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid var(--card-border);
+            border-radius: 0.5rem;
+            padding: 0.65rem 1rem 0.65rem 2.5rem;
+            color: var(--text-main);
+            font-size: 0.9rem;
+            outline: none;
+            transition: all 0.2s ease;
+        }
+
+        .search-box input:focus {
+            border-color: var(--text-accent);
+            box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.2);
+        }
+
+        .search-box svg {
+            position: absolute;
+            left: 0.85rem;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 16px;
+            height: 16px;
+            fill: var(--text-muted);
+        }
+
+        .filter-buttons {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .btn-filter {
+            background: rgba(30, 41, 59, 0.6);
+            border: 1px solid var(--card-border);
+            color: var(--text-muted);
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .btn-filter:hover {
+            background: rgba(56, 189, 248, 0.1);
+            color: var(--text-main);
+        }
+
+        .btn-filter.active {
+            background: var(--text-accent);
+            color: #0B1120;
+            border-color: var(--text-accent);
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 0.9rem;
+        }
+
+        th {
+            background: rgba(30, 41, 59, 0.5);
+            padding: 0.85rem 1rem;
+            color: var(--text-muted);
+            font-weight: 600;
+            border-bottom: 1px solid var(--card-border);
+        }
+
+        td {
+            padding: 0.85rem 1rem;
+            border-bottom: 1px solid rgba(51, 65, 85, 0.4);
+        }
+
+        tr:hover td {
+            background: rgba(56, 189, 248, 0.03);
+        }
+
+        .status-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.3rem 0.75rem;
+            border-radius: 9999px;
+            font-weight: 700;
+            font-size: 0.75rem;
+        }
+
+        .status-tag.success {
+            background: rgba(34, 197, 94, 0.15);
+            color: var(--accent-green);
+            border: 1px solid rgba(34, 197, 94, 0.3);
+        }
+
+        .status-tag.error {
+            background: rgba(239, 68, 68, 0.15);
+            color: var(--accent-red);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+        }
+
+        .url-link {
+            color: var(--accent-blue);
+            text-decoration: none;
+            font-family: monospace;
+            font-size: 0.8rem;
+        }
+
+        .url-link:hover {
+            text-decoration: underline;
+            color: var(--text-accent);
+        }
+
+        footer {
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--card-border);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <div class="header-title">
+                <h1>Painel de Diagramação • 10 IES</h1>
+                <p>Relatório de carga de conteúdo estruturado no CMS Plone 6 • Study in Brazil</p>
+            </div>
+            <div class="header-badges">
+                <div class="badge badge-live">Status: Executado</div>
+                <div class="badge">🔒 Estado: 100% Privado</div>
+            </div>
+        </header>
+
+        <!-- KPI Grid -->
+        <div class="kpi-grid">
+            <div class="kpi-card">
+                <h3>Total de Operações</h3>
+                <div class="value">80</div>
+                <div class="sub-value">Home, Subpáginas e Workflows</div>
+            </div>
+            <div class="kpi-card">
+                <h3>Instituições (IES)</h3>
+                <div class="value">10</div>
+                <div class="sub-value">CEFET-MG, UFAC, UFAPE, UFJ, UFMS, UFRPE, UFRR, UFS, UFSB, UFSC</div>
+            </div>
+            <div class="kpi-card success">
+                <h3>Sucessos</h3>
+                <div class="value">80</div>
+                <div class="sub-value">100.0% de taxa de sucesso</div>
+            </div>
+            <div class="kpi-card success">
+                <h3>Falhas / Erros</h3>
+                <div class="value">0</div>
+                <div class="sub-value">Operações que necessitam atenção</div>
+            </div>
+        </div>
+
+        <!-- Charts Section -->
+        <div class="charts-section">
+            <div class="chart-box">
+                <h2>📊 Status de Carga por IES</h2>
+                <div class="chart-container">
+                    <canvas id="iesBarChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-box">
+                <h2>🎯 Proporção Geral</h2>
+                <div class="chart-container">
+                    <canvas id="pieChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Interactive Table Section -->
+        <div class="table-section">
+            <div class="controls-row">
+                <div class="search-box">
+                    <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+                    <input type="text" id="searchInput" placeholder="Buscar por Sigla, Tipo de Página ou URL...">
+                </div>
+                <div class="filter-buttons">
+                    <button class="btn-filter active" onclick="filterData('ALL')">Todos (80)</button>
+                    <button class="btn-filter" onclick="filterData('SUCCESS')">Sucesso (80)</button>
+                    <button class="btn-filter" onclick="filterData('ERROR')">Erros (0)</button>
+                </div>
+            </div>
+
+            <div class="table-wrapper">
+                <table id="reportTable">
+                    <thead>
+                        <tr>
+                            <th>Data / Hora</th>
+                            <th>Sigla IES</th>
+                            <th>Tipo de Página</th>
+                            <th>Status</th>
+                            <th>Detalhes</th>
+                            <th>URL no Portal</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                        <!-- Gerado via JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <footer>
+            Relatório gerado automaticamente • Automação PloneRestClient • Study in Brazil
+        </footer>
+    </div>
+
+    <script>
+        const rawData = [{"timestamp":"2026-09-01T22:14:58.706410","sigla":"CEFET-MG","tipo_pagina":"HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_sudeste\/minas_gerais\/cefet-mg","status":"SUCCESS","detalhes":"Conte\u00fado estruturado da Home atualizado"},{"timestamp":"2026-09-01T22:14:58.785636","sigla":"CEFET-MG","tipo_pagina":"WORKFLOW_PRIVATE_HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_sudeste\/minas_gerais\/cefet-mg","status":"SUCCESS","detalhes":"Home mantida no estado privado"},{"timestamp":"2026-09-01T22:14:59.458582","sigla":"CEFET-MG","tipo_pagina":"SOBRE","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_sudeste\/minas_gerais\/cefet-mg\/sobre-nos","status":"SUCCESS","detalhes":"Subp\u00e1gina 'sobre-nos' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:14:59.537746","sigla":"CEFET-MG","tipo_pagina":"WORKFLOW_PRIVATE_SOBRE","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_sudeste\/minas_gerais\/cefet-mg\/sobre-nos","status":"SUCCESS","detalhes":"Subp\u00e1gina 'sobre-nos' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:00.062208","sigla":"CEFET-MG","tipo_pagina":"VIDA_NA_IES","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_sudeste\/minas_gerais\/cefet-mg\/vida_na_ies","status":"SUCCESS","detalhes":"Subp\u00e1gina 'vida_na_ies' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:00.133426","sigla":"CEFET-MG","tipo_pagina":"WORKFLOW_PRIVATE_VIDA_NA_IES","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_sudeste\/minas_gerais\/cefet-mg\/vida_na_ies","status":"SUCCESS","detalhes":"Subp\u00e1gina 'vida_na_ies' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:00.751800","sigla":"CEFET-MG","tipo_pagina":"ESTUDANTES_INTERNACIONAIS","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_sudeste\/minas_gerais\/cefet-mg\/estudantes-internacionais","status":"SUCCESS","detalhes":"Subp\u00e1gina 'estudantes-internacionais' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:00.824701","sigla":"CEFET-MG","tipo_pagina":"WORKFLOW_PRIVATE_ESTUDANTES_INTERNACIONAIS","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_sudeste\/minas_gerais\/cefet-mg\/estudantes-internacionais","status":"SUCCESS","detalhes":"Subp\u00e1gina 'estudantes-internacionais' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:02.027256","sigla":"UFAC","tipo_pagina":"HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_norte\/acre\/ufac","status":"SUCCESS","detalhes":"Conte\u00fado estruturado da Home atualizado"},{"timestamp":"2026-09-01T22:15:02.164219","sigla":"UFAC","tipo_pagina":"WORKFLOW_PRIVATE_HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_norte\/acre\/ufac","status":"SUCCESS","detalhes":"Home mantida no estado privado"},{"timestamp":"2026-09-01T22:15:03.024564","sigla":"UFAC","tipo_pagina":"SOBRE","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_norte\/acre\/ufac\/sobre-nos","status":"SUCCESS","detalhes":"Subp\u00e1gina 'sobre-nos' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:03.105300","sigla":"UFAC","tipo_pagina":"WORKFLOW_PRIVATE_SOBRE","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_norte\/acre\/ufac\/sobre-nos","status":"SUCCESS","detalhes":"Subp\u00e1gina 'sobre-nos' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:03.899762","sigla":"UFAC","tipo_pagina":"VIDA_NA_IES","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_norte\/acre\/ufac\/vida_na_ies","status":"SUCCESS","detalhes":"Subp\u00e1gina 'vida_na_ies' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:03.973999","sigla":"UFAC","tipo_pagina":"WORKFLOW_PRIVATE_VIDA_NA_IES","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_norte\/acre\/ufac\/vida_na_ies","status":"SUCCESS","detalhes":"Subp\u00e1gina 'vida_na_ies' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:04.867253","sigla":"UFAC","tipo_pagina":"ESTUDANTES_INTERNACIONAIS","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_norte\/acre\/ufac\/estudantes-internacionais","status":"SUCCESS","detalhes":"Subp\u00e1gina 'estudantes-internacionais' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:04.939716","sigla":"UFAC","tipo_pagina":"WORKFLOW_PRIVATE_ESTUDANTES_INTERNACIONAIS","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_norte\/acre\/ufac\/estudantes-internacionais","status":"SUCCESS","detalhes":"Subp\u00e1gina 'estudantes-internacionais' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:05.330810","sigla":"UFAPE","tipo_pagina":"HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/pernambuco\/ufape","status":"SUCCESS","detalhes":"Conte\u00fado estruturado da Home atualizado"},{"timestamp":"2026-09-01T22:15:06.145254","sigla":"UFAPE","tipo_pagina":"WORKFLOW_PRIVATE_HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/pernambuco\/ufape","status":"SUCCESS","detalhes":"Home mantida no estado privado"},{"timestamp":"2026-09-01T22:15:07.224987","sigla":"UFAPE","tipo_pagina":"SOBRE","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/pernambuco\/ufape\/sobre-nos","status":"SUCCESS","detalhes":"Subp\u00e1gina 'sobre-nos' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:07.754394","sigla":"UFAPE","tipo_pagina":"WORKFLOW_PRIVATE_SOBRE","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/pernambuco\/ufape\/sobre-nos","status":"SUCCESS","detalhes":"Subp\u00e1gina 'sobre-nos' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:09.204758","sigla":"UFAPE","tipo_pagina":"VIDA_NA_IES","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/pernambuco\/ufape\/vida_na_ies","status":"SUCCESS","detalhes":"Subp\u00e1gina 'vida_na_ies' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:09.274838","sigla":"UFAPE","tipo_pagina":"WORKFLOW_PRIVATE_VIDA_NA_IES","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/pernambuco\/ufape\/vida_na_ies","status":"SUCCESS","detalhes":"Subp\u00e1gina 'vida_na_ies' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:09.914825","sigla":"UFAPE","tipo_pagina":"ESTUDANTES_INTERNACIONAIS","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/pernambuco\/ufape\/estudantes-internacionais","status":"SUCCESS","detalhes":"Subp\u00e1gina 'estudantes-internacionais' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:10.454980","sigla":"UFAPE","tipo_pagina":"WORKFLOW_PRIVATE_ESTUDANTES_INTERNACIONAIS","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/pernambuco\/ufape\/estudantes-internacionais","status":"SUCCESS","detalhes":"Subp\u00e1gina 'estudantes-internacionais' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:10.872452","sigla":"UFJ","tipo_pagina":"HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_centro_oeste\/goias\/ufj","status":"SUCCESS","detalhes":"Conte\u00fado estruturado da Home atualizado"},{"timestamp":"2026-09-01T22:15:10.938816","sigla":"UFJ","tipo_pagina":"WORKFLOW_PRIVATE_HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_centro_oeste\/goias\/ufj","status":"SUCCESS","detalhes":"Home mantida no estado privado"},{"timestamp":"2026-09-01T22:15:12.083193","sigla":"UFJ","tipo_pagina":"SOBRE","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_centro_oeste\/goias\/ufj\/sobre-nos","status":"SUCCESS","detalhes":"Subp\u00e1gina 'sobre-nos' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:12.169723","sigla":"UFJ","tipo_pagina":"WORKFLOW_PRIVATE_SOBRE","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_centro_oeste\/goias\/ufj\/sobre-nos","status":"SUCCESS","detalhes":"Subp\u00e1gina 'sobre-nos' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:13.135061","sigla":"UFJ","tipo_pagina":"VIDA_NA_IES","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_centro_oeste\/goias\/ufj\/vida_na_ies","status":"SUCCESS","detalhes":"Subp\u00e1gina 'vida_na_ies' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:13.230329","sigla":"UFJ","tipo_pagina":"WORKFLOW_PRIVATE_VIDA_NA_IES","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_centro_oeste\/goias\/ufj\/vida_na_ies","status":"SUCCESS","detalhes":"Subp\u00e1gina 'vida_na_ies' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:14.485035","sigla":"UFJ","tipo_pagina":"ESTUDANTES_INTERNACIONAIS","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_centro_oeste\/goias\/ufj\/estudantes-internacionais","status":"SUCCESS","detalhes":"Subp\u00e1gina 'estudantes-internacionais' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:14.564685","sigla":"UFJ","tipo_pagina":"WORKFLOW_PRIVATE_ESTUDANTES_INTERNACIONAIS","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_centro_oeste\/goias\/ufj\/estudantes-internacionais","status":"SUCCESS","detalhes":"Subp\u00e1gina 'estudantes-internacionais' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:14.929165","sigla":"UFMS","tipo_pagina":"HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_centro_oeste\/mato_grosso_do_sul\/ufms","status":"SUCCESS","detalhes":"Conte\u00fado estruturado da Home atualizado"},{"timestamp":"2026-09-01T22:15:14.998788","sigla":"UFMS","tipo_pagina":"WORKFLOW_PRIVATE_HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_centro_oeste\/mato_grosso_do_sul\/ufms","status":"SUCCESS","detalhes":"Home mantida no estado privado"},{"timestamp":"2026-09-01T22:15:16.074263","sigla":"UFMS","tipo_pagina":"SOBRE","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_centro_oeste\/mato_grosso_do_sul\/ufms\/sobre-nos","status":"SUCCESS","detalhes":"Subp\u00e1gina 'sobre-nos' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:16.167533","sigla":"UFMS","tipo_pagina":"WORKFLOW_PRIVATE_SOBRE","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_centro_oeste\/mato_grosso_do_sul\/ufms\/sobre-nos","status":"SUCCESS","detalhes":"Subp\u00e1gina 'sobre-nos' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:17.029674","sigla":"UFMS","tipo_pagina":"VIDA_NA_IES","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_centro_oeste\/mato_grosso_do_sul\/ufms\/vida_na_ies","status":"SUCCESS","detalhes":"Subp\u00e1gina 'vida_na_ies' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:17.102716","sigla":"UFMS","tipo_pagina":"WORKFLOW_PRIVATE_VIDA_NA_IES","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_centro_oeste\/mato_grosso_do_sul\/ufms\/vida_na_ies","status":"SUCCESS","detalhes":"Subp\u00e1gina 'vida_na_ies' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:18.213070","sigla":"UFMS","tipo_pagina":"ESTUDANTES_INTERNACIONAIS","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_centro_oeste\/mato_grosso_do_sul\/ufms\/estudantes-internacionais","status":"SUCCESS","detalhes":"Subp\u00e1gina 'estudantes-internacionais' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:18.303828","sigla":"UFMS","tipo_pagina":"WORKFLOW_PRIVATE_ESTUDANTES_INTERNACIONAIS","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_centro_oeste\/mato_grosso_do_sul\/ufms\/estudantes-internacionais","status":"SUCCESS","detalhes":"Subp\u00e1gina 'estudantes-internacionais' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:18.706626","sigla":"UFRPE","tipo_pagina":"HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/pernambuco\/ufrpe","status":"SUCCESS","detalhes":"Conte\u00fado estruturado da Home atualizado"},{"timestamp":"2026-09-01T22:15:18.795027","sigla":"UFRPE","tipo_pagina":"WORKFLOW_PRIVATE_HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/pernambuco\/ufrpe","status":"SUCCESS","detalhes":"Home mantida no estado privado"},{"timestamp":"2026-09-01T22:15:19.716685","sigla":"UFRPE","tipo_pagina":"SOBRE","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/pernambuco\/ufrpe\/sobre-nos","status":"SUCCESS","detalhes":"Subp\u00e1gina 'sobre-nos' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:19.798838","sigla":"UFRPE","tipo_pagina":"WORKFLOW_PRIVATE_SOBRE","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/pernambuco\/ufrpe\/sobre-nos","status":"SUCCESS","detalhes":"Subp\u00e1gina 'sobre-nos' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:20.789395","sigla":"UFRPE","tipo_pagina":"VIDA_NA_IES","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/pernambuco\/ufrpe\/vida_na_ies","status":"SUCCESS","detalhes":"Subp\u00e1gina 'vida_na_ies' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:20.869069","sigla":"UFRPE","tipo_pagina":"WORKFLOW_PRIVATE_VIDA_NA_IES","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/pernambuco\/ufrpe\/vida_na_ies","status":"SUCCESS","detalhes":"Subp\u00e1gina 'vida_na_ies' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:22.237786","sigla":"UFRPE","tipo_pagina":"ESTUDANTES_INTERNACIONAIS","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/pernambuco\/ufrpe\/estudantes-internacionais","status":"SUCCESS","detalhes":"Subp\u00e1gina 'estudantes-internacionais' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:22.321274","sigla":"UFRPE","tipo_pagina":"WORKFLOW_PRIVATE_ESTUDANTES_INTERNACIONAIS","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/pernambuco\/ufrpe\/estudantes-internacionais","status":"SUCCESS","detalhes":"Subp\u00e1gina 'estudantes-internacionais' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:22.705468","sigla":"UFRR","tipo_pagina":"HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_norte\/roraima\/ufrr","status":"SUCCESS","detalhes":"Conte\u00fado estruturado da Home atualizado"},{"timestamp":"2026-09-01T22:15:22.788320","sigla":"UFRR","tipo_pagina":"WORKFLOW_PRIVATE_HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_norte\/roraima\/ufrr","status":"SUCCESS","detalhes":"Home mantida no estado privado"},{"timestamp":"2026-09-01T22:15:23.704162","sigla":"UFRR","tipo_pagina":"SOBRE","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_norte\/roraima\/ufrr\/sobre-nos","status":"SUCCESS","detalhes":"Subp\u00e1gina 'sobre-nos' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:23.777550","sigla":"UFRR","tipo_pagina":"WORKFLOW_PRIVATE_SOBRE","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_norte\/roraima\/ufrr\/sobre-nos","status":"SUCCESS","detalhes":"Subp\u00e1gina 'sobre-nos' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:24.698776","sigla":"UFRR","tipo_pagina":"VIDA_NA_IES","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_norte\/roraima\/ufrr\/vida_na_ies","status":"SUCCESS","detalhes":"Subp\u00e1gina 'vida_na_ies' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:24.790129","sigla":"UFRR","tipo_pagina":"WORKFLOW_PRIVATE_VIDA_NA_IES","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_norte\/roraima\/ufrr\/vida_na_ies","status":"SUCCESS","detalhes":"Subp\u00e1gina 'vida_na_ies' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:25.996282","sigla":"UFRR","tipo_pagina":"ESTUDANTES_INTERNACIONAIS","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_norte\/roraima\/ufrr\/estudantes-internacionais","status":"SUCCESS","detalhes":"Subp\u00e1gina 'estudantes-internacionais' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:26.069145","sigla":"UFRR","tipo_pagina":"WORKFLOW_PRIVATE_ESTUDANTES_INTERNACIONAIS","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_norte\/roraima\/ufrr\/estudantes-internacionais","status":"SUCCESS","detalhes":"Subp\u00e1gina 'estudantes-internacionais' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:26.493210","sigla":"UFS","tipo_pagina":"HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/sergipe\/ufs","status":"SUCCESS","detalhes":"Conte\u00fado estruturado da Home atualizado"},{"timestamp":"2026-09-01T22:15:26.575313","sigla":"UFS","tipo_pagina":"WORKFLOW_PRIVATE_HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/sergipe\/ufs","status":"SUCCESS","detalhes":"Home mantida no estado privado"},{"timestamp":"2026-09-01T22:15:27.630805","sigla":"UFS","tipo_pagina":"SOBRE","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/sergipe\/ufs\/sobre-nos","status":"SUCCESS","detalhes":"Subp\u00e1gina 'sobre-nos' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:27.722010","sigla":"UFS","tipo_pagina":"WORKFLOW_PRIVATE_SOBRE","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/sergipe\/ufs\/sobre-nos","status":"SUCCESS","detalhes":"Subp\u00e1gina 'sobre-nos' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:28.778173","sigla":"UFS","tipo_pagina":"VIDA_NA_IES","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/sergipe\/ufs\/vida_na_ies","status":"SUCCESS","detalhes":"Subp\u00e1gina 'vida_na_ies' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:28.859869","sigla":"UFS","tipo_pagina":"WORKFLOW_PRIVATE_VIDA_NA_IES","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/sergipe\/ufs\/vida_na_ies","status":"SUCCESS","detalhes":"Subp\u00e1gina 'vida_na_ies' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:30.020212","sigla":"UFS","tipo_pagina":"ESTUDANTES_INTERNACIONAIS","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/sergipe\/ufs\/estudantes-internacionais","status":"SUCCESS","detalhes":"Subp\u00e1gina 'estudantes-internacionais' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:30.093968","sigla":"UFS","tipo_pagina":"WORKFLOW_PRIVATE_ESTUDANTES_INTERNACIONAIS","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/sergipe\/ufs\/estudantes-internacionais","status":"SUCCESS","detalhes":"Subp\u00e1gina 'estudantes-internacionais' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:30.469343","sigla":"UFSB","tipo_pagina":"HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/bahia\/ufsb","status":"SUCCESS","detalhes":"Conte\u00fado estruturado da Home atualizado"},{"timestamp":"2026-09-01T22:15:30.542415","sigla":"UFSB","tipo_pagina":"WORKFLOW_PRIVATE_HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/bahia\/ufsb","status":"SUCCESS","detalhes":"Home mantida no estado privado"},{"timestamp":"2026-09-01T22:15:31.698238","sigla":"UFSB","tipo_pagina":"SOBRE","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/bahia\/ufsb\/sobre-nos","status":"SUCCESS","detalhes":"Subp\u00e1gina 'sobre-nos' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:31.781069","sigla":"UFSB","tipo_pagina":"WORKFLOW_PRIVATE_SOBRE","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/bahia\/ufsb\/sobre-nos","status":"SUCCESS","detalhes":"Subp\u00e1gina 'sobre-nos' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:32.799134","sigla":"UFSB","tipo_pagina":"VIDA_NA_IES","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/bahia\/ufsb\/vida_na_ies","status":"SUCCESS","detalhes":"Subp\u00e1gina 'vida_na_ies' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:32.876166","sigla":"UFSB","tipo_pagina":"WORKFLOW_PRIVATE_VIDA_NA_IES","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/bahia\/ufsb\/vida_na_ies","status":"SUCCESS","detalhes":"Subp\u00e1gina 'vida_na_ies' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:33.766841","sigla":"UFSB","tipo_pagina":"ESTUDANTES_INTERNACIONAIS","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/bahia\/ufsb\/estudantes-internacionais","status":"SUCCESS","detalhes":"Subp\u00e1gina 'estudantes-internacionais' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:33.841292","sigla":"UFSB","tipo_pagina":"WORKFLOW_PRIVATE_ESTUDANTES_INTERNACIONAIS","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/bahia\/ufsb\/estudantes-internacionais","status":"SUCCESS","detalhes":"Subp\u00e1gina 'estudantes-internacionais' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:34.247394","sigla":"UFSC","tipo_pagina":"HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_sul\/santa_catarina\/ufsc","status":"SUCCESS","detalhes":"Conte\u00fado estruturado da Home atualizado"},{"timestamp":"2026-09-01T22:15:34.324214","sigla":"UFSC","tipo_pagina":"WORKFLOW_PRIVATE_HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_sul\/santa_catarina\/ufsc","status":"SUCCESS","detalhes":"Home mantida no estado privado"},{"timestamp":"2026-09-01T22:15:35.316088","sigla":"UFSC","tipo_pagina":"SOBRE","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_sul\/santa_catarina\/ufsc\/sobre-nos","status":"SUCCESS","detalhes":"Subp\u00e1gina 'sobre-nos' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:35.407781","sigla":"UFSC","tipo_pagina":"WORKFLOW_PRIVATE_SOBRE","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_sul\/santa_catarina\/ufsc\/sobre-nos","status":"SUCCESS","detalhes":"Subp\u00e1gina 'sobre-nos' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:36.314458","sigla":"UFSC","tipo_pagina":"VIDA_NA_IES","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_sul\/santa_catarina\/ufsc\/vida_na_ies","status":"SUCCESS","detalhes":"Subp\u00e1gina 'vida_na_ies' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:36.393193","sigla":"UFSC","tipo_pagina":"WORKFLOW_PRIVATE_VIDA_NA_IES","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_sul\/santa_catarina\/ufsc\/vida_na_ies","status":"SUCCESS","detalhes":"Subp\u00e1gina 'vida_na_ies' mantida no estado privado"},{"timestamp":"2026-09-01T22:15:37.309839","sigla":"UFSC","tipo_pagina":"ESTUDANTES_INTERNACIONAIS","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_sul\/santa_catarina\/ufsc\/estudantes-internacionais","status":"SUCCESS","detalhes":"Subp\u00e1gina 'estudantes-internacionais' atualizada com conte\u00fado estruturado"},{"timestamp":"2026-09-01T22:15:37.390542","sigla":"UFSC","tipo_pagina":"WORKFLOW_PRIVATE_ESTUDANTES_INTERNACIONAIS","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_sul\/santa_catarina\/ufsc\/estudantes-internacionais","status":"SUCCESS","detalhes":"Subp\u00e1gina 'estudantes-internacionais' mantida no estado privado"}];
+        const iesStats = [{"sigla":"CEFET-MG","total":8,"sucesso":8,"erro":0,"taxa":100.0},{"sigla":"UFAC","total":8,"sucesso":8,"erro":0,"taxa":100.0},{"sigla":"UFAPE","total":8,"sucesso":8,"erro":0,"taxa":100.0},{"sigla":"UFJ","total":8,"sucesso":8,"erro":0,"taxa":100.0},{"sigla":"UFMS","total":8,"sucesso":8,"erro":0,"taxa":100.0},{"sigla":"UFRPE","total":8,"sucesso":8,"erro":0,"taxa":100.0},{"sigla":"UFRR","total":8,"sucesso":8,"erro":0,"taxa":100.0},{"sigla":"UFS","total":8,"sucesso":8,"erro":0,"taxa":100.0},{"sigla":"UFSB","total":8,"sucesso":8,"erro":0,"taxa":100.0},{"sigla":"UFSC","total":8,"sucesso":8,"erro":0,"taxa":100.0}];
+        let currentFilter = 'ALL';
+
+        // Renderiza Tabela
+        function renderTable(data) {
+            const tbody = document.getElementById('tableBody');
+            tbody.innerHTML = '';
+
+            data.forEach(row => {
+                const tr = document.createElement('tr');
+                const formattedDate = new Date(row.timestamp).toLocaleString('pt-BR');
+                const isSuccess = row.status === 'SUCCESS';
+
+                tr.innerHTML = `
+                    <td>${formattedDate}</td>
+                    <td><strong>${row.sigla}</strong></td>
+                    <td>${row.tipo_pagina}</td>
+                    <td>
+                        <span class="status-tag ${isSuccess ? 'success' : 'error'}">
+                            ${isSuccess ? '✓ SUCCESS' : '✕ ERROR'}
+                        </span>
+                    </td>
+                    <td>${row.detalhes}</td>
+                    <td><a href="${row.url}" target="_blank" class="url-link">${row.url}</a></td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        // Filtros e Busca
+        function filterData(status) {
+            currentFilter = status;
+            document.querySelectorAll('.btn-filter').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            applyFilters();
+        }
+
+        function applyFilters() {
+            const query = document.getElementById('searchInput').value.toLowerCase();
+            const filtered = rawData.filter(item => {
+                const matchesStatus = currentFilter === 'ALL' || item.status === currentFilter;
+                const matchesQuery = 
+                    (item.sigla && item.sigla.toLowerCase().includes(query)) ||
+                    (item.tipo_pagina && item.tipo_pagina.toLowerCase().includes(query)) ||
+                    (item.detalhes && item.detalhes.toLowerCase().includes(query)) ||
+                    (item.url && item.url.toLowerCase().includes(query));
+                return matchesStatus && matchesQuery;
+            });
+            renderTable(filtered);
+        }
+
+        document.getElementById('searchInput').addEventListener('input', applyFilters);
+
+        // Inicialização dos Gráficos
+        document.addEventListener('DOMContentLoaded', () => {
+            renderTable(rawData);
+
+            // Gráfico de Barras por IES
+            const ctxBar = document.getElementById('iesBarChart').getContext('2d');
+            new Chart(ctxBar, {
+                type: 'bar',
+                data: {
+                    labels: iesStats.map(i => i.sigla),
+                    datasets: [
+                        {
+                            label: 'Sucesso',
+                            data: iesStats.map(i => i.sucesso),
+                            backgroundColor: 'rgba(16, 185, 129, 0.8)',
+                            borderRadius: 4
+                        },
+                        {
+                            label: 'Erro',
+                            data: iesStats.map(i => i.erro),
+                            backgroundColor: 'rgba(239, 68, 68, 0.8)',
+                            borderRadius: 4
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        x: { stacked: true, grid: { color: 'rgba(51, 65, 85, 0.2)' }, ticks: { color: '#94A3B8' } },
+                        y: { stacked: true, grid: { color: 'rgba(51, 65, 85, 0.2)' }, ticks: { color: '#94A3B8' } }
+                    },
+                    plugins: {
+                        legend: { labels: { color: '#F8FAFC' } }
+                    }
+                }
+            });
+
+            // Gráfico de Pizza Geral
+            const ctxPie = document.getElementById('pieChart').getContext('2d');
+            new Chart(ctxPie, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Sucesso', 'Erro'],
+                    datasets: [{
+                        data: [80, 0],
+                        backgroundColor: ['#10B981', '#EF4444'],
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { position: 'bottom', labels: { color: '#F8FAFC' } }
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

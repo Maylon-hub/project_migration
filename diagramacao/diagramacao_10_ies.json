@@ -1,0 +1,1283 @@
+[
+  {
+    "sigla": "CEFET-MG",
+    "sigla_alt": "CEFET_MG",
+    "slug": "cefet-mg",
+    "nome_completo": "Centro Federal de Educação Tecnológica de Minas Gerais",
+    "cidade_sede": "Belo Horizonte",
+    "estado": "MG",
+    "endereco_sede": "Av. Amazonas, 5253 - Bairro Nova Suíça, Belo Horizonte/MG, CEP: 30.480-000",
+    "site_oficial": "www.cefetmg.br ⚠️ (disponível em vários idiomas).",
+    "email_geral": "sri@cefetmg.br (Secretaria de Relações Internacionais)",
+    "telefone_geral": "+55 (31) 3319-7000",
+    "outros_campi": "11 campi ao total: Araxá, Belo Horizonte, Contagem, Curvelo, Divinópolis, Leopoldina, Nepomuceno, Timóteo e Varginha (MG).",
+    "mapa_html_embed": "<iframe width=\"100%\" height=\"480\" src=\"https://maps.google.com/maps?q=Av.%20Amazonas%2C%205253%20-%20Bairro%20Nova%20Su%C3%AD%C3%A7a%2C%20Belo%20Horizonte/MG%2C%20CEP%3A%2030.480-000&t=&z=15&ie=UTF8&iwloc=&output=embed\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>",
+    "metadados": {
+      "slug_home": "/cefet-mg",
+      "slug_sobre": "/cefet-mg/sobre-nos",
+      "slug_vida": "/cefet-mg/vida-na-ies",
+      "slug_inter": "/cefet-mg/estudantes-internacionais",
+      "nav_title_home": "CEFET-MG",
+      "nav_title_sobre": "Sobre",
+      "nav_title_vida": "Vida na IES",
+      "nav_title_inter": "Estudantes Internacionais",
+      "tag": "CEFET-MG",
+      "seo_description": "Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG), localizada em Belo Horizonte - MG, oferece ensino público, gratuito e de excelência no Brasil."
+    },
+    "contatos_e_redes": {
+      "nomenclatura_superior": "Secretaria de Relações Internacionais (SRI).",
+      "nomenclatura_inferior": "Contato Institucional",
+      "email_setor": "sri@cefetmg.br (Secretaria de Relações Internacionais)",
+      "telefone_setor": "+55 (31) 3319-7000",
+      "endereco_setor": "Av. Amazonas, 5253 - Bairro Nova Suíça, Belo Horizonte/MG, CEP: 30.480-000",
+      "site_setor": "www.cefetmg.br ⚠️ (disponível em vários idiomas).",
+      "redes_sociais": [
+        {
+          "rede": "Instagram",
+          "icone": "📸",
+          "url": "https://www.instagram.com/cefetmg/"
+        },
+        {
+          "rede": "LinkedIn",
+          "icone": "💼",
+          "url": "https://www.linkedin.com/school/cefet-mg/"
+        }
+      ]
+    },
+    "paginas": {
+      "sobre": {
+        "slug": "/cefet-mg/sobre-nos",
+        "id": "sobre-nos",
+        "titulo": "Sobre a CEFET-MG",
+        "nav_title": "Sobre",
+        "tag": "CEFET-MG",
+        "descricao_seo": "Conheça a história, visão geral e pilares de excelência da CEFET-MG.",
+        "paragrafos": [
+          "Histórico e Legado",
+          "Ano de Fundação: 1910 (origem como Escola de Aprendizes Artífices de Minas Gerais).",
+          "Visão Geral: O CEFET-MG é uma instituição pública federal centenária de destaque na educação superior brasileira, composta por 11 campi localizados em 8 cidades no Estado de Minas Gerais. Destaca-se pela atuação em áreas tecnológicas, como as diversas engenharias, computação, arquitetura e química. Entretanto, o viés tecnológico também está presente no ensino, na pesquisa e na extensão em áreas das ciências humanas e ciências sociais aplicadas, como Letras, Administração e Educação. O CEFET-MG possui uma estrutura acadêmica peculiar, em que a oferta da graduação e da pós-graduação ocorre juntamente com a oferta dos cursos técnicos de nível médio, caracterizando um ensino verticalizado de sucesso. Em seus diferentes cursos e níveis de ensino, o CEFET-MG tem cerca de 18.000 estudantes.",
+          "Em 2026 o CEFET-MG se transformará na Universidade Tecnológica Federal de Minas Gerais.",
+          "Destaques Acadêmicos e Reconhecimentos",
+          "Nossos Pilares de Excelência",
+          "Liderança e Inovação: por meio de seus cursos, projetos de pesquisa, programas de pós-graduação e ações de extensão, o CEFET-MG tem sua atuação pautada pelos grandes temas globais, como a transição energética, a transformação digital, a desfossilização da economia, a redução das desigualdades e a inclusão; também com o enfoque nos impactos de um mundo em transformação nas diferentes realidades das regiões onde atua.",
+          "Qualidade do Ensino: Em termos de qualidade do ensino superior, o CEFET-MG se insere entre as instituições brasileiras que têm conceito máximo na avaliação realizada pelo Ministério da Educação (IGC, INEP/MEC). Só 3% das mais de duas mil instituições avaliadas apresentaram conceito máximo na última avaliação disponível (2025).",
+          "Impacto Social: Pela atuação multicampi, o ensino de qualidade, a oferta de cursos em diferentes níveis de ensino e a realização de pesquisa em parceria com diferentes atores da sociedade, o CEFET-MG representa um relevante impacto na formação e na criação de oportunidades para jovens, bem como no desenvolvimento social, econômico e cultural das diversas regiões onde atua.",
+          "Experiência Estudantil Enriquecedora: Por diversas ações e programas o CEFET-MG busca promover um ambiente acadêmico inclusivo e motivador. Nesse contexto, o processo de internacionalização tem contribuído para o desenvolvimento de ações de acolhimento a estudantes estrangeiros que têm contribuído para a sua rápida inserção ao cotidiano da instituição e para o seu sucesso acadêmico. Em especial, destaca-se a reconhecida excelência da Instituição na oferta de português como língua estrangeira.",
+          "Estrutura Multicampi e Outros Campi: 11 campi ao total: Araxá, Belo Horizonte, Contagem, Curvelo, Divinópolis, Leopoldina, Nepomuceno, Timóteo e Varginha (MG)."
+        ]
+      },
+      "vida_na_ies": {
+        "slug": "/cefet-mg/vida-na-ies",
+        "id": "vida_na_ies",
+        "titulo": "Vida na CEFET-MG",
+        "nav_title": "Vida na IES",
+        "tag": "CEFET-MG",
+        "descricao_seo": "Infraestrutura, moradia, alimentação e convivência na CEFET-MG.",
+        "paragrafos": [
+          "Infraestrutura Completa para o seu Desenvolvimento:",
+          "Oferece laboratórios bem equipados para engenharia e informática, bibliotecas com acervos ricos, restaurantes universitários, complexos esportivos, conexão de alta velocidade e acessibilidade. Detalhes específicos de cada instalação podem ser consultados no site oficial da instituição.",
+          "Uma Vida no Campus Vibrante e Atividades Extracurriculares:",
+          "Oportunidades em ramos IEEE, projetos de extensão (karatê, estudo de solos), eventos como SENDI e Rolê Maker, além de associações estudantis."
+        ]
+      },
+      "estudantes_internacionais": {
+        "slug": "/cefet-mg/estudantes-internacionais",
+        "id": "estudantes-internacionais",
+        "titulo": "Estudantes Internacionais na CEFET-MG",
+        "nav_title": "Estudantes Internacionais",
+        "tag": "CEFET-MG",
+        "descricao_seo": "Informações de acolhimento, vistos e suporte aos estudantes internacionais na CEFET-MG.",
+        "paragrafos": [
+          "Suporte Integral ao Estudante Internacional:",
+          "Inclui orientação acadêmica, suporte psicológico via assistência estudantil, serviços de saúde e curso de português e cultura brasileira; detalhes específicos requerem consulta ao site oficial.",
+          "Assessoria de Assuntos Internacionais (Secretaria de Relações Internacionais (SRI).",
+          "Serviços: Orientação pré-chegada, recepção e suporte contínuo com Programa Buddy para mobilidade e oferta de cursos de português como língua estrangeira.",
+          "Cursos de Português para Estrangeiros (PLE): Programa de Português como Língua Estrangeira e preparação ao Celpe-Bras.",
+          "Orientação para Alojamento: Dicas gerais para repúblicas estudantis ou residências próximas; universidades brasileiras indicam opções acessíveis – detalhes requerem contato com a SRI.",
+          "Eventos de Integração: Programa Buddy e atividades da SRI para integração cultural/social.",
+          "Viver em Minas Gerais",
+          "Como é comum em todas as regiões do País, nas capitais (mais populosas e com maior atividade econômica) o custo de vida é mais elevado que nas cidades do interior. A seguir, seguem informações a respeito de Belo Horizonte. Quanto às outras sete cidades onde se encontram os campi do CEFET-MG (Araxá, Contagem, Curvelo, Divinópolis, Leopoldina, Nepomuceno, Timóteo e Varginha), detalhes adicionais às informações disponibilizadas em nosso site e em outras fontes na internet podem ser obtidos por contato com a Secretaria de Relações Internacionais.",
+          "Sobre Belo Horizonte:",
+          "Custo de Vida: Médio-alto: aluguel R$ 1.500-3.000/mês (1 quarto região central), refeições no restaurante estudantil R$ 4,00, transporte mensal ~R$ 250.",
+          "Cultura e Lazer: Vibrante com mercados (Mineirinho), shows, parques (Pampulha) e gastronomia mineira.",
+          "Clima e Geografia: Subtropical de altitude (média 23°C), verões chuvosos; relevo montanhoso com serras.",
+          "Transporte Público: Ônibus, metrô e BRT (R$ 6,50/viagem).",
+          "Saúde e Segurança: Sistema Único de Saúde com Hospitais públicos/privados de qualidade; bairros centrais seguros para estudantes.",
+          "Perguntas Frequentes (FAQ) sobre estudar no CEFET-MG",
+          "1) Cursos e Programas Acadêmicos",
+          "Quais cursos para estudantes internacionais? Técnicos, graduação e pós-graduação. Consulte site oficial.",
+          "Programas de mobilidade? Editais publicados pela SRI e pelo MRE, programa PEC-G e PEC-PG.",
+          "2) Processo Seletivo e Admissão",
+          "Como candidatar-se? Por meio de editais PEC-; GCub.",
+          "Documentos? De acordo com edital.",
+          "3) Vida no Campus e Suporte ao Estudante",
+          "Moradia disponível? Não, apenas orientação para contratação de moradias próximas.",
+          "Suporte saúde/psicológico? Assistência estudantil nos campi."
+        ]
+      }
+    }
+  },
+  {
+    "sigla": "UFAC",
+    "sigla_alt": "UFAC",
+    "slug": "ufac",
+    "nome_completo": "Universidade Federal do Acre",
+    "cidade_sede": "Rio Branco",
+    "estado": "Acre",
+    "endereco_sede": "Rodovia BR 364, Km 04, B: Distrito Industrial, Rio Branco, AC, Brasil.",
+    "site_oficial": "www.ufac.br",
+    "email_geral": "",
+    "telefone_geral": "",
+    "outros_campi": "Além do campus principal em Rio Branco, a UFAC possui campus na cidade de Cruzeiro do Sul.",
+    "mapa_html_embed": "<iframe width=\"100%\" height=\"480\" src=\"https://maps.google.com/maps?q=Rodovia%20BR%20364%2C%20Km%2004%2C%20B%3A%20Distrito%20Industrial%2C%20Rio%20Branco%2C%20AC%2C%20Brasil.&t=&z=15&ie=UTF8&iwloc=&output=embed\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>",
+    "metadados": {
+      "slug_home": "/ufac",
+      "slug_sobre": "/ufac/sobre-nos",
+      "slug_vida": "/ufac/vida-na-ies",
+      "slug_inter": "/ufac/estudantes-internacionais",
+      "nav_title_home": "UFAC",
+      "nav_title_sobre": "Sobre",
+      "nav_title_vida": "Vida na IES",
+      "nav_title_inter": "Estudantes Internacionais",
+      "tag": "UFAC",
+      "seo_description": "Universidade Federal do Acre (UFAC), localizada em Rio Branco - Acre, oferece ensino público, gratuito e de excelência no Brasil."
+    },
+    "contatos_e_redes": {
+      "nomenclatura_superior": "Relações Internacionais",
+      "nomenclatura_inferior": "Contato Institucional",
+      "email_setor": "aci@ufac.br",
+      "telefone_setor": "",
+      "endereco_setor": "Rodovia BR 364, Km 04, B: Distrito Industrial, Rio Branco, AC, Brasil.",
+      "site_setor": "www.ufac.br",
+      "redes_sociais": [
+        {
+          "rede": "Facebook",
+          "icone": "📘",
+          "url": "https://www.facebook.com/ufacoficial"
+        },
+        {
+          "rede": "Instagram",
+          "icone": "📸",
+          "url": "https://www.instagram.com/ufac_oficial"
+        },
+        {
+          "rede": "X",
+          "icone": "𝕏",
+          "url": "https://www.twitter.com/UFAC_oficial"
+        },
+        {
+          "rede": "YouTube",
+          "icone": "📽",
+          "url": "https://www.youtube.com/UfacTV"
+        }
+      ]
+    },
+    "paginas": {
+      "sobre": {
+        "slug": "/ufac/sobre-nos",
+        "id": "sobre-nos",
+        "titulo": "Sobre a UFAC",
+        "nav_title": "Sobre",
+        "tag": "UFAC",
+        "descricao_seo": "Conheça a história, visão geral e pilares de excelência da UFAC.",
+        "paragrafos": [
+          "Histórico e Legado",
+          "Ano de Fundação: A Universidade Federal do Acre (UFAC) foi oficialmente criada em 5 de abril de 1974.",
+          "Visão Geral: A UFAC é a única universidade pública federal no estado do Acre, desempenhando um papel crucial na educação superior brasileira. Com campi nas cidades de Rio Branco e Cruzeiro do Sul, a UFAC oferece uma gama de cursos de graduação e pós-graduação, contribuindo significativamente para o desenvolvimento regional e nacional.",
+          "Destaques Acadêmicos e Reconhecimentos",
+          "Nossos Pilares de Excelência",
+          "Liderança e Inovação: A UFAC destaca-se em diversas áreas do conhecimento, promovendo pesquisas relevantes com impacto social significativo. A universidade investe continuamente em projetos de vanguarda que abordam desafios contemporâneos e contribuem para o avanço científico e tecnológico.",
+          "Reconhecimento Global: A UFAC figura entre as 300 melhores universidades da América Latina, segundo o ranking QS TopUniversities, refletindo a qualidade de seu corpo docente e infraestrutura de pesquisa.",
+          "Missão e Impacto Social: A missão da UFAC é produzir, sistematizar e difundir conhecimentos, com base na integração ensino, pesquisa e extensão, para formar cidadãos críticos e atuantes no desenvolvimento da sociedade. A universidade está comprometida com a formação de profissionais qualificados e com a realização de pesquisas que beneficiam a sociedade.",
+          "Experiência Estudantil Enriquecedora: A UFAC promove uma experiência estudantil enriquecedora, oferecendo uma variedade de atividades extracurriculares que refletem a diversidade cultural da região. Os estudantes têm a oportunidade de participar de grupos culturais, esportivos e acadêmicos, enriquecendo sua formação e integração social.",
+          "Estrutura Multicampi e Outros Campi: Além do campus principal em Rio Branco, a UFAC possui campus na cidade de Cruzeiro do Sul."
+        ]
+      },
+      "vida_na_ies": {
+        "slug": "/ufac/vida-na-ies",
+        "id": "vida_na_ies",
+        "titulo": "Vida na UFAC",
+        "nav_title": "Vida na IES",
+        "tag": "UFAC",
+        "descricao_seo": "Infraestrutura, moradia, alimentação e convivência na UFAC.",
+        "paragrafos": [
+          "Infraestrutura Completa para o seu Desenvolvimento:",
+          "A UFAC oferece laboratórios bem equipados para diversas áreas do conhecimento, uma rede de bibliotecas com acervos ricos, restaurante universitário que garante alimentação equilibrada, complexos esportivos para práticas diversas, conexão de internet de alta velocidade e instalações acessíveis para pessoas com deficiência. Detalhes específicos de cada instalação podem ser consultados no site oficial da universidade.",
+          "Uma Vida no Campus Vibrante: Atividades Extracurriculares:",
+          "Os estudantes têm a oportunidade de participar de associações estudantis, grupos culturais, equipes esportivas e eventos acadêmicos e sociais que enriquecem a experiência universitária.",
+          "Quais serviços de suporte a UFAC oferece aos estudantes internacionais? A UFAC oferece orientação acadêmica, suporte psicológico, serviços de saúde, programas de acessibilidade e eventos de integração cultural.",
+          "Há opções de moradia no campus? A UFAC fornece orientação para encontrar moradia, incluindo informações sobre opções de alojamento próximas ao campus.",
+          "Viver em Rio Branco",
+          "Como é o clima em Rio Branco? Rio Branco possui clima tropical úmido, com temperaturas elevadas e alta umidade ao longo do ano.",
+          "Quais são as opções de transporte público na cidade? A cidade conta com um sistema de transporte público que facilita o deslocamento dos estudantes entre a universidade e outras áreas de interesse."
+        ]
+      },
+      "estudantes_internacionais": {
+        "slug": "/ufac/estudantes-internacionais",
+        "id": "estudantes-internacionais",
+        "titulo": "Estudantes Internacionais na UFAC",
+        "nav_title": "Estudantes Internacionais",
+        "tag": "UFAC",
+        "descricao_seo": "Informações de acolhimento, vistos e suporte aos estudantes internacionais na UFAC.",
+        "paragrafos": [
+          "Suporte Integral ao Estudante Internacional:",
+          "A UFAC oferece serviços de orientação acadêmica e psicológica, programas de acessibilidade e inclusão, serviços de saúde no campus, suporte burocrático para questões como vistos e documentação, eventos de integração cultural e cursos de Português para Estrangeiros (PLE). Detalhes específicos sobre esses serviços podem ser encontrados no site oficial da universidade.",
+          "Assessoria de Cooperação Interinstitucional (ACI): A UFAC possui uma Assessoria de Cooperação Interinstitucional responsável por coordenar as atividades de internacionalização, incluindo orientação pré-chegada, boas-vindas, recepção, e suporte contínuo aos estudantes internacionais.",
+          "Cursos de Português para Estrangeiros (PLE): A UFAC oferece cursos de Português para Estrangeiros, abrangendo diversos níveis e modalidades, preparando os estudantes para exames como o CELPE-Bras. Informações detalhadas sobre os cursos podem ser consultadas no site oficial da universidade.",
+          "Orientação para Alojamento: A universidade fornece orientação para encontrar moradia, incluindo dicas sobre opções de alojamento e suporte na busca por residências adequadas. Detalhes específicos podem ser encontrados no site oficial da UFAC.",
+          "Eventos de Integração: A UFAC organiza atividades culturais e sociais para facilitar a integração dos estudantes internacionais, promovendo a troca de experiências e a adaptação ao ambiente acadêmico e cultural.",
+          "Viver em Rio Branco",
+          "Custo de Vida: Rio Branco oferece um custo de vida acessível em comparação com algumas capitais brasileiras, com opções de moradia, alimentação e transporte a preços razoáveis.",
+          "Cultura e Lazer: A cidade possui uma rica vida cultural, com teatros, museus, festivais e eventos que refletem a diversidade da região amazônica.",
+          "Clima e Geografia: Rio Branco apresenta clima tropical úmido, com temperaturas elevadas e alta umidade ao longo do ano, proporcionando uma experiência única de contato com a natureza.",
+          "Transporte Público: A cidade conta com um sistema de transporte público que facilita o deslocamento dos estudantes entre a universidade e outras áreas de interesse.",
+          "Saúde e Segurança: Rio Branco possui uma rede de serviços de saúde e segurança pública que atendem às necessidades da população, incluindo os estudantes universitários. A UFAC possui campus também na cidade de Cruzeiro do Sul. Para saber mais sobre a vida nestas outras cidades, basta contatar o time da Assessoria de Cooperação Interinstitucional (ACI) da UFAC.",
+          "Perguntas Frequentes (FAQ) sobre estudar na UFAC",
+          "Aqui, você encontrará respostas para algumas das perguntas mais comuns de estudantes internacionais. Para informações detalhadas e atualizadas, consulte sempre o site oficial da UFAC ou entre em contato com a Assessoria de Cooperação Interinstitucional. Note que algumas informações no site podem estar disponíveis apenas em português.",
+          "Cursos e Programas Acadêmicos",
+          "Quais cursos de graduação a UFAC oferece? A UFAC oferece uma variedade de cursos de graduação em diversas áreas do conhecimento. A lista completa pode ser consultada no site oficial da universidade.",
+          "A UFAC oferece programas de pós-graduação? Sim, a UFAC possui programas de mestrado e doutorado em várias áreas. Informações detalhadas estão disponíveis no site oficial.",
+          "Processo Seletivo e Admissão",
+          "Como posso me candidatar a um curso na UFAC? Estudantes internacionais podem se candidatar por meio de programas específicos ou acordos de cooperação. Recomenda-se entrar em contato com a Assessoria de Cooperação Interinstitucional para orientações detalhadas.",
+          "É necessário comprovar proficiência em português? Sim, é geralmente necessário comprovar proficiência em português. A UFAC oferece cursos de Português para Estrangeiros para auxiliar na preparação."
+        ]
+      }
+    }
+  },
+  {
+    "sigla": "UFAPE",
+    "sigla_alt": "UFAPE",
+    "slug": "ufape",
+    "nome_completo": "Universidade Federal do Agreste de Pernambuco",
+    "cidade_sede": "Garanhuns",
+    "estado": "Pernambuco",
+    "endereco_sede": "Avenida Bom Pastor, s/n - Boa Vista, Garanhuns, PE, CEP 55292-278",
+    "site_oficial": "ufape.edu.br",
+    "email_geral": "",
+    "telefone_geral": "",
+    "outros_campi": "",
+    "mapa_html_embed": "<iframe width=\"100%\" height=\"480\" src=\"https://maps.google.com/maps?q=Avenida%20Bom%20Pastor%2C%20s/n%20-%20Boa%20Vista%2C%20Garanhuns%2C%20PE%2C%20CEP%2055292-278&t=&z=15&ie=UTF8&iwloc=&output=embed\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>",
+    "metadados": {
+      "slug_home": "/ufape",
+      "slug_sobre": "/ufape/sobre-nos",
+      "slug_vida": "/ufape/vida-na-ies",
+      "slug_inter": "/ufape/estudantes-internacionais",
+      "nav_title_home": "UFAPE",
+      "nav_title_sobre": "Sobre",
+      "nav_title_vida": "Vida na IES",
+      "nav_title_inter": "Estudantes Internacionais",
+      "tag": "UFAPE",
+      "seo_description": "Universidade Federal do Agreste de Pernambuco (UFAPE), localizada em Garanhuns - Pernambuco, oferece ensino público, gratuito e de excelência no Brasil."
+    },
+    "contatos_e_redes": {
+      "nomenclatura_superior": "Relações Internacionais",
+      "nomenclatura_inferior": "Contato Institucional",
+      "email_setor": "dri@ufape.edu.br",
+      "telefone_setor": "",
+      "endereco_setor": "Avenida Bom Pastor, s/n - Boa Vista, Garanhuns, PE, CEP 55292-278",
+      "site_setor": "ufape.edu.br",
+      "redes_sociais": [
+        {
+          "rede": "Facebook",
+          "icone": "📘",
+          "url": "http://facebook.com/ufape.comunica"
+        },
+        {
+          "rede": "Instagram",
+          "icone": "📸",
+          "url": "https://www.instagram.com/ufapeoficial/#"
+        },
+        {
+          "rede": "LinkedIn",
+          "icone": "💼",
+          "url": "https://www.linkedin.com/in/ufape"
+        },
+        {
+          "rede": "X",
+          "icone": "𝕏",
+          "url": "https://twitter.com/UFAPE_oficial"
+        },
+        {
+          "rede": "YouTube",
+          "icone": "📽",
+          "url": "https://www.youtube.com/channel/UCPGY8eKRMvAqiGaPoQqfOIw"
+        },
+        {
+          "rede": "TikTok",
+          "icone": "📽",
+          "url": "https://www.tiktok.com/@ufape.oficial"
+        }
+      ]
+    },
+    "paginas": {
+      "sobre": {
+        "slug": "/ufape/sobre-nos",
+        "id": "sobre-nos",
+        "titulo": "Sobre a UFAPE",
+        "nav_title": "Sobre",
+        "tag": "UFAPE",
+        "descricao_seo": "Conheça a história, visão geral e pilares de excelência da UFAPE.",
+        "paragrafos": [
+          "Histórico e Legado",
+          "Ano de Fundação: A Universidade Federal do Agreste de Pernambuco (UFAPE) foi criada em 11 de abril de 2018, por meio da Lei Federal nº 13.651/2018. A sua estrutura administrativa foi implementada em 05 de novembro de 2021.",
+          "Visão Geral: A UFAPE é uma instituição pública de ensino superior localizada em Garanhuns, Pernambuco. Originada do desmembramento da Unidade Acadêmica de Garanhuns (UAG) da Universidade Federal Rural de Pernambuco (UFRPE), a UFAPE tem como missão fomentar, produzir e difundir conhecimentos e inovação por meio das atividades de ensino, pesquisa e extensão, alinhadas às especificidades regionais e à sustentabilidade socioambiental.",
+          "UFAPE e a Caatinga: nossa mina de ouro",
+          "A UFAPE é uma instituição de Ensino Superior situada integralmente dentro do bioma Caatinga, um patrimônio exclusivo do Brasil. Este bioma, marcado pela resiliência de sua flora e fauna, é um verdadeiro laboratório vivo para a ciência e para a bioeconomia, oferecendo recursos que podem impulsionar a economia circular e gerar soluções inovadoras para os desafios globais.",
+          "A Caatinga abriga uma biodiversidade singular, fonte de moléculas inéditas com potencial para aplicações em saúde, energia e novos materiais. É também estratégica para pesquisas em saúde única, conectando o bem-estar humano, animal e ambiental. Além disso, desempenha papel essencial no sequestro de carbono, contribuindo para mitigar os efeitos da mudança climática e fortalecendo os serviços ecossistêmicos que sustentam a vida.",
+          "Na UFAPE, o bioma não é apenas objeto de estudo, mas parte da identidade institucional. Aqui convivemos com comunidades dos povos originários e comunidades quilombolas, que guardam uma história rica do agreste meridional, fortalecendo o vínculo entre ciência, cultura e território. Essa interação amplia o potencial da universidade em se conectar com seu entorno e impulsionar a troca de saberes e a inovação com impacto social e ambiental.",
+          "Ao valorizar os recursos da Caatinga, a UFAPE se posiciona como protagonista na busca por soluções sustentáveis, oferecendo contribuições concretas para o enfrentamento dos desafios globais atuais. Nossa missão é transformar a riqueza natural e cultural do agreste em oportunidades de desenvolvimento, mostrando que o futuro da ciência e da economia pode nascer aqui, no coração da Caatinga.",
+          "Destaques Acadêmicos e Reconhecimentos",
+          "Nossos Pilares de Excelência",
+          "Liderança e Inovação: A UFAPE destaca-se nas áreas de Agronomia, Medicina Veterinária, Zootecnia, Ciência da Computação, Engenharia de Alimentos, Letras, Administração, Ciências Contábeis e Pedagogia, oferecendo cursos de graduação e pós-graduação que contribuem significativamente para o desenvolvimento regional.",
+          "Missão e Impacto Social: A universidade compromete-se com o desenvolvimento sustentável e a diversidade social, econômica e cultural, buscando consolidar e fortalecer o processo de interiorização do ensino superior e afirmar a identidade regional do agreste.",
+          "Experiência Estudantil Enriquecedora: A UFAPE promove uma experiência acadêmica diversificada, com atividades extracurriculares que enriquecem a formação dos estudantes, incluindo projetos de extensão e eventos culturais."
+        ]
+      },
+      "vida_na_ies": {
+        "slug": "/ufape/vida-na-ies",
+        "id": "vida_na_ies",
+        "titulo": "Vida na UFAPE",
+        "nav_title": "Vida na IES",
+        "tag": "UFAPE",
+        "descricao_seo": "Infraestrutura, moradia, alimentação e convivência na UFAPE.",
+        "paragrafos": [
+          "Infraestrutura Completa para o seu Desenvolvimento:",
+          "A UFAPE oferece laboratórios bem equipados para diversas áreas do conhecimento,",
+          "Uma vida no Campus vibrante: atividades extracurriculares:",
+          "A universidade promove diversas atividades extracurriculares, incluindo associações estudantis, grupos culturais, equipes esportivas e eventos que enriquecem a experiência acadêmica e pessoal dos estudantes.",
+          "Suporte integral ao estudante internacional:",
+          "A UFAPE oferece serviços de orientação acadêmica e psicológica, programas de acessibilidade e inclusão, serviços de saúde no campus, suporte burocrático para estudantes internacionais e eventos de integração. Detalhes específicos podem ser consultados no site oficial da universidade, que está disponível em português.",
+          "Quais serviços de suporte a UFAPE oferece aos estudantes? A UFAPE oferece orientação acadêmica, suporte psicológico, programas de acessibilidade e inclusão, entre outros.",
+          "Existem atividades extracurriculares disponíveis? Sim, a universidade promove diversas atividades extracurriculares, incluindo grupos culturais, esportivos e projetos de extensão.",
+          "Viver em Garanhuns",
+          "Como é o custo de vida em Garanhuns? Garanhuns oferece um custo de vida acessível, com opções de moradia e alimentação a preços razoáveis.",
+          "Quais são as opções de transporte na cidade? A cidade possui um sistema de transporte público eficiente, facilitando o deslocamento dos estudantes."
+        ]
+      },
+      "estudantes_internacionais": {
+        "slug": "/ufape/estudantes-internacionais",
+        "id": "estudantes-internacionais",
+        "titulo": "Estudantes Internacionais na UFAPE",
+        "nav_title": "Estudantes Internacionais",
+        "tag": "UFAPE",
+        "descricao_seo": "Informações de acolhimento, vistos e suporte aos estudantes internacionais na UFAPE.",
+        "paragrafos": [
+          "Suporte Integral ao Estudante Internacional: A UFAPE oferece atendimento personalizado, suporte burocrático e programas de acolhimento para estudantes de todo o mundo."
+        ]
+      }
+    }
+  },
+  {
+    "sigla": "UFJ",
+    "sigla_alt": "UFJ",
+    "slug": "ufj",
+    "nome_completo": "Universidade Federal de Jataí",
+    "cidade_sede": "Jataí",
+    "estado": "Goiás",
+    "endereco_sede": "Campus Jatobá - Cidade Universitária: BR 364, km 195, nº 3.800, Jataí, GO. CEP 75801-615",
+    "site_oficial": "https://ufj.edu.br/",
+    "email_geral": "Não encontrado publicamente. ⚠️Gabinete Reitoria <gabinete.reitoria@ufj.edu.br>",
+    "telefone_geral": "(64) 3606 8202 (whatsapp) | (64) 3606 8203",
+    "outros_campi": "Além do Campus Jatobá, a UFJ possui o Campus Riachuelo, ambos localizados na cidade de Jataí.",
+    "mapa_html_embed": "<iframe width=\"100%\" height=\"480\" src=\"https://maps.google.com/maps?q=Campus%20Jatob%C3%A1%20-%20Cidade%20Universit%C3%A1ria%3A%20BR%20364%2C%20km%20195%2C%20n%C2%BA%203.800%2C%20Jata%C3%AD%2C%20GO.%20CEP%2075801-615&t=&z=15&ie=UTF8&iwloc=&output=embed\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>",
+    "metadados": {
+      "slug_home": "/ufj",
+      "slug_sobre": "/ufj/sobre-nos",
+      "slug_vida": "/ufj/vida-na-ies",
+      "slug_inter": "/ufj/estudantes-internacionais",
+      "nav_title_home": "UFJ",
+      "nav_title_sobre": "Sobre",
+      "nav_title_vida": "Vida na IES",
+      "nav_title_inter": "Estudantes Internacionais",
+      "tag": "UFJ",
+      "seo_description": "Universidade Federal de Jataí (UFJ), localizada em Jataí - Goiás, oferece ensino público, gratuito e de excelência no Brasil."
+    },
+    "contatos_e_redes": {
+      "nomenclatura_superior": "Escritório de Internacionalização (EI)",
+      "nomenclatura_inferior": "Contato Institucional",
+      "email_setor": "internationaloffice@ufj.edu.br",
+      "telefone_setor": "+55 64 99982-3543",
+      "endereco_setor": "Campus Jatobá - Cidade Universitária: BR 364, km 195, nº 3.800, Jataí, GO. CEP 75801-615",
+      "site_setor": "https://ufj.edu.br/",
+      "redes_sociais": [
+        {
+          "rede": "Instagram",
+          "icone": "📸",
+          "url": "www.instagram.com/ufj.oficial/?hl=pt-br"
+        },
+        {
+          "rede": "LinkedIn",
+          "icone": "💼",
+          "url": "www.linkedin.com/school/universidadefederal-jatai/?originalSubdomain=br"
+        },
+        {
+          "rede": "YouTube",
+          "icone": "📽",
+          "url": "www.youtube.com/channel/UCklii3asI9UbeTgFUvoCDAQ"
+        }
+      ]
+    },
+    "paginas": {
+      "sobre": {
+        "slug": "/ufj/sobre-nos",
+        "id": "sobre-nos",
+        "titulo": "Sobre a UFJ",
+        "nav_title": "Sobre",
+        "tag": "UFJ",
+        "descricao_seo": "Conheça a história, visão geral e pilares de excelência da UFJ.",
+        "paragrafos": [
+          "Histórico e Legado",
+          "Ano de Fundação: A Universidade Federal de Jataí (UFJ) foi criada em 2018, mas tem sua origem em um campus avançado da Universidade Federal de Goiás (UFG) que foi estabelecido em março de 1980. A instituição foi elevada à categoria de universidade federal por meio de um desmembramento da UFG.",
+          "Visão Geral: A UFJ é uma instituição pública de ensino superior localizada na cidade de Jataí, no sudoeste do estado de Goiás. Criada a partir do desmembramento da Universidade Federal de Goiás (UFG), a UFJ tem como missão promover a educação, a pesquisa e a extensão, contribuindo significativamente para o desenvolvimento regional, nacional e internacional",
+          "Destaques Acadêmicos e Reconhecimentos",
+          "Nossos Pilares de Excelência",
+          "Liderança e Inovação: A UFJ destaca-se em diversas áreas do conhecimento, incluindo: Ciências Agrárias, Biociências, Ciências Humanas e Letras, Ciências Sociais Aplicadas, Educação, Geografia, Ciências da Saúde, Ciências Exatas e Tecnológicas. A universidade está comprometida em promover iniciativas que mobilizem a comunidade acadêmica em torno da busca por soluções inovadoras para temas ligados ao desenvolvimento sustentável, desenvolvendo pesquisas relevantes que impactam positivamente a sociedade.",
+          "Reconhecimento e Destaque: A UFJ alcançou a 3ª colocação entre 321 instituições avaliadas no Painel “Lei de Acesso à Informação”, elaborado pela Controladoria-Geral da União (CGU), no critério Satisfação do Usuário. Entre todas as universidades e institutos federais de ensino do país, a UFJ lidera o ranking, ocupando a 1ª posição. A universidade conta com um corpo docente qualificado e laboratórios bem equipados que apoiam a infraestrutura de pesquisa.",
+          "Missão e Impacto Social: A missão da UFJ é promover a educação superior de qualidade, incentivando a pesquisa e a extensão, com foco no desenvolvimento sustentável e na resolução de desafios contemporâneos, proporcionando mudanças na comunidade do campus e da cidade. Além disso, a UFJ busca ser uma instituição de referência, tanto para os alunos quanto para os professores.",
+          "Experiência Estudantil Enriquecedora: A UFJ oferece uma experiência acadêmica diversificada, com atividades extracurriculares que promovem a integração cultural e social dos estudantes, proporcionando um ambiente inclusivo e acolhedor. Além disso, a Universidade promove ações que têm como objetivo aproximar a população do ambiente acadêmico, promovendo a integração entre a universidade e a sociedade.",
+          "Estrutura Multicampi e Outros Campi: Além do Campus Jatobá, a UFJ possui o Campus Riachuelo, ambos localizados na cidade de Jataí."
+        ]
+      },
+      "vida_na_ies": {
+        "slug": "/ufj/vida-na-ies",
+        "id": "vida_na_ies",
+        "titulo": "Vida na UFJ",
+        "nav_title": "Vida na IES",
+        "tag": "UFJ",
+        "descricao_seo": "Infraestrutura, moradia, alimentação e convivência na UFJ.",
+        "paragrafos": [
+          "Infraestrutura Completa para o seu Desenvolvimento:",
+          "A UFJ oferece laboratórios bem equipados para diversas áreas do conhecimento; duas bibliotecas, com um grande acervo de livros, periódicos, monografias, dissertações e teses, espaço para pesquisa, sala de estudos e laboratórios de informática, acessibilidade e inclusão; um Restaurante Universitário (RU), localizado no Campus Jatobá, que atende à comunidade acadêmica fornecendo refeições balanceadas e saudáveis, entre café da manhã, almoço e jantar, de segunda à sexta-feira; e o Núcleo de Práticas Corporais, no Campus Jatobá, que oferece à comunidade universitária e à população em geral a prática esportiva em diversas modalidades. Detalhes específicos de cada instalação podem ser consultados no site oficial da universidade, que está disponível em Português (Brasil).",
+          "Uma Vida no Campus Vibrante: Atividades Extracurriculares:",
+          "A universidade promove diversas atividades extracurriculares, incluindo associações estudantis, atividades culturais, equipes esportivas e a extensão universitária, proporcionando a interdisciplinaridade e viabilizando eventos acadêmicos e culturais que aproximam universidade e sociedade. Essas atividades proporcionam uma vida universitária dinâmica e engajadora.",
+          "Quais serviços de suporte a UFJ oferece aos estudantes? A UFJ, principalmente através do seu Escritório de Internacionalização (EI) e do Programa Embaixadores, oferece uma gama de serviços de suporte a estudantes estrangeiros para facilitar sua integração social e acadêmica e sua permanência na cidade durante sua jornada acadêmica. Entre esses serviços estão: orientação acadêmica, apoio psicológico, acessibilidade, serviços de saúde, aulas de português, auxílio moradia, entre outros. Detalhes podem ser consultados no site oficial do Escritório de Internacionalização (EI).",
+          "Existem atividades extracurriculares disponíveis? Sim, a UFJ promove diversas atividades extracurriculares, incluindo projetos de extensão, iniciação científica e pesquisa, eventos acadêmicos e esportivos, grupos culturais, os quais enriquecem a experiência estudantil.",
+          "Viver em Jataí",
+          "Como é o custo de vida em Jataí? Jataí oferece um custo de vida mediano, com opções de moradia e alimentação a preços medianos, tornando-a uma cidade universitária convidativa.",
+          "Quais são as opções de transporte na cidade? A cidade conta com um sistema de transporte público que facilita o deslocamento dos estudantes entre os campi e outras áreas de Jataí."
+        ]
+      },
+      "estudantes_internacionais": {
+        "slug": "/ufj/estudantes-internacionais",
+        "id": "estudantes-internacionais",
+        "titulo": "Estudantes Internacionais na UFJ",
+        "nav_title": "Estudantes Internacionais",
+        "tag": "UFJ",
+        "descricao_seo": "Informações de acolhimento, vistos e suporte aos estudantes internacionais na UFJ.",
+        "paragrafos": [
+          "Suporte Integral ao Estudante Internacional:",
+          "A UFJ, por meio do Escritório de Internacionalização (EI), oferece ao estudante internacional os seguintes serviços: recepção e orientação acadêmica e psicológica, acessibilidade e inclusão, serviços de saúde no campus, suporte burocrático, eventos de integração e cursos de Português para Estrangeiros (PLE). A UFJ está vinculada ao Programa de Estudantes-Convênio (PEC), uma iniciativa do governo brasileiro destinada a fortalecer as relações internacionais e promover a cooperação educacional com países amigos, especialmente através do ensino superior. Detalhes específicos podem ser consultados no site do Escritório de Internacionalização (EI) https://cai.jatai.ufg.br/, que está disponível em Português (Brasil), Inglês, espanhol e Francês.",
+          "Escritório de Internacionalização (EI): A UFJ, por meio do Escritório de Internacionalização (EI), busca harmonizar as diretrizes de internacionalização e garantir que o estudante estrangeiro tenha o suporte necessário para uma experiência acadêmica de sucesso na universidade.",
+          "Serviços: Esses serviços geralmente incluem acolhimento e suporte, recepção para facilitar a adaptação, orientação e informação, mobilidade acadêmica, cursos de português, promoção de convênios, assistência (quando disponível) e suporte contínuo durante o período de estudos no Brasil.",
+          "Cursos de Português para Estrangeiros (PLE): Através da Rede Andifes IsF (Idiomas sem Fronteiras), o EI oferece cursos presenciais gratuitos de inglês acadêmico, auxiliando na proficiência linguística necessária para os estudos no Brasil. Além disso, aos estudantes vinculados ao Programa de Estudantes-Convênio (PEC) é oferecido um curso gratuito de português e cultura brasileira no intuito de prepará-los para o exame Celpe-Bras e para ingressar em cursos de graduação no Brasil.",
+          "Orientação para Alojamento: A UFJ não possui alojamento próprio especificamente dedicado a estudantes estrangeiros, mas oferece programas e auxílios que podem ser acessados por eles, especialmente por meio do Escritório de Internacionalização (EI) e da PRAE. Para obter informações detalhadas e atualizadas sobre os procedimentos e editais específicos para estudantes estrangeiros, é fundamental entrar em contato diretamente com o Escritório de Internacionalização (EI) ou a Pró-Reitoria de Assuntos Estudantis (PRAE).",
+          "Eventos de Integração: A UFJ promove importantes eventos que reforçam o compromisso da instituição com a produção científica, o debate qualificado e a formação contínua de estudantes e profissionais. A realização de eventos, que incluem atividades culturais e sociais, evidencia o papel ativo da UFJ na promoção de debates acadêmicos de relevância social, fortalecendo a formação de estudantes e contribuindo com a capacitação de profissionais já formados. Além disso, os eventos de integração promovem a integração dos estudantes internacionais, favorecendo a imersão na cultura brasileira e a construção de novas amizades. Ao reunir diferentes áreas do conhecimento e proporcionar o contato direto com especialistas de renome, a universidade reafirma seu compromisso com uma educação pública de qualidade e com a construção de uma sociedade mais justa, sustentável e saudável.",
+          "Viver em Jataí",
+          "Custo de Vida: Jataí oferece um custo de vida médio-alto, com opções de moradia (kitnets, apartamentos, casas), e alimentação a preços medianos, o que é importante ser levado em conta no planejamento financeiro dos estudantes. Os valores variam a depender da região onde você decidir morar. O transporte estudantil é gratuito.",
+          "Cultura e Lazer: A cidade possui uma rica vida cultural, com eventos, festivais e espaços de lazer que refletem a diversidade local e as tradições do Centro-Oeste brasileiro. Se você gosta de natureza, o Parque Ecológico do Diacuí é um dos pontos de encontro da cidade. Tem mata preservada, áreas de lazer e lagos. A cidade também oferece o Jataí Shopping, o Museu Histórico de Jataí, feiras livres e eventos culturais. Não espere uma metrópole, mas Jataí tem tudo o que é necessário, e com identidade própria.",
+          "Clima e Geografia: Jataí apresenta um clima tropical semiúmido com duas estações bem definidas (um verão quente e chuvoso e um inverno seco) e uma geografia marcada por chapadões e relevo predominantemente plano, inserida no bioma Cerrado.  A cidade está situada em uma região de beleza natural, com paisagens típicas do cerrado brasileiro, ideal para quem aprecia a natureza.",
+          "Transporte Público: A cidade conta com um sistema de transporte público que facilita o deslocamento dos estudantes entre os campi da UFJ e outras áreas de Jataí, garantindo mobilidade na rotina diária. Atualmente, a empresa responsável pelo transporte público na cidade de Jataí-GO é a Translocave. O valor da passagem é R$4,30, mas para estudantes da Graduação e Pós-Graduação com carteirinha (Passe Estudantil) a passagem é gratuita. Para ter acesso ao passe gratuito, os alunos deverão adquirir o passe estudantil no Quiosque da Translocave na Praça Diomar Menezes. A confecção da carteirinha do Passe Estudantil é gratuita nos períodos de início do semestre letivo. Os prazos serão divulgados nos principais canais de comunicação da UFJ.",
+          "Saúde e Segurança: Jataí se destaca como uma das cidades mais felizes do Estado de Goiás, de acordo com um levantamento inédito adaptado do World Happiness Report das Nações Unidas - ranking de 2025. Esse estudo avaliou as condições médias de bem-estar da população com base em dados públicos, auditáveis e recentes, considerando 12 dimensões essenciais como Saúde, Segurança, Educação, Mobilidade, Sustentabilidade e Qualidade de Vida. Entre todas as cidades analisadas, Jataí conquistou o segundo lugar no Estado, recebendo a Classificação A de excelência em felicidade territorial. Jataí dispõe de serviços de saúde adequados e é considerada uma das cidades mais seguras de Goiás, dentre os municípios goianos com mais de 100 mil habitantes, contribuindo para uma estadia tranquila e confortável dos estudantes e residentes.",
+          "Perguntas Frequentes (FAQ) sobre Estudar na UFJ",
+          "Aqui, você encontrará respostas para algumas das perguntas mais comuns de estudantes internacionais. Para informações detalhadas e atualizadas, consulte sempre o site oficial da UFJ ou entre em contato com o Escritório de Internacionalização (EI). As informações no site estão disponíveis em português, inglês, espanhol e francês.",
+          "Cursos e Programas Acadêmicos",
+          "Quais cursos de graduação a UFJ oferece? A UFJ oferece 26 cursos de graduação nas seguintes áreas do conhecimento: agrárias, biológicas, ciências humanas e letras, ciências sociais aplicadas, educação, estudos geográficos, exatas e saúde. A lista completa pode ser consultada no site oficial da universidade. As informações no site estão disponíveis em português, inglês, espanhol e francês.",
+          "A UFJ oferece programas de pós-graduação? Sim, a UFJ conta com 15 cursos de pós-graduação stricto sensu, sendo 12 de mestrado e 3 de doutorado em diferentes áreas. Detalhes podem ser encontrados no site https://ufj.edu.br/pos-graduacao/. As informações podem estar disponíveis predominantemente em português.",
+          "Processo Seletivo e Admissão",
+          "Como posso me candidatar aos cursos da UFJ? O ingresso nos cursos de graduação é realizado pelo Sistema de Seleção Unificada (SiSU), utilizando as notas do Exame Nacional do Ensino Médio (Enem). A UFJ também recebe estudantes internacionais, e uma das formas de acesso é pelo Programa de Estudantes-Convênio (PEC). Informações sobre o processo de admissão podem ser obtidas no site oficial da universidade.",
+          "É necessário comprovar proficiência em português? Sim, geralmente é necessário que o estudante estrangeiro comprove proficiência em português para estudar na UFJ, especialmente alunos vinculados ao Programa PEC-G e PEC-PG. O documento de proficiência aceito e reconhecido oficialmente pelo governo brasileiro é o Celpe-Bras (Certificado de Proficiência em Língua Portuguesa para Estrangeiros). Os requisitos específicos devem ser verificados diretamente no site da universidade."
+        ]
+      }
+    }
+  },
+  {
+    "sigla": "UFMS",
+    "sigla_alt": "UFMS",
+    "slug": "ufms",
+    "nome_completo": "Universidade Federal de Mato Grosso do Sul",
+    "cidade_sede": "Campo Grande",
+    "estado": "Mato Grosso do Sul",
+    "endereco_sede": "Avenida Costa e Silva, s/n, Bairro Universitário, CEP 79070-900",
+    "site_oficial": "www.aginter.ufms.br",
+    "email_geral": "",
+    "telefone_geral": "",
+    "outros_campi": "Além do campus sede, em Campo Grande, a UFMS possui campus em outros nove municípios: Aquidauana, Chapadão do Sul, Coxim, Naviraí, Nova Andradina, Corumbá, Paranaíba, Ponta Porã e Três Lagoas. Há, ainda, duas bases de estudos da UFMS: um no município de Bonito e outra em Corumbá (Pantanal).",
+    "mapa_html_embed": "<iframe width=\"100%\" height=\"480\" src=\"https://maps.google.com/maps?q=Avenida%20Costa%20e%20Silva%2C%20s/n%2C%20Bairro%20Universit%C3%A1rio%2C%20CEP%2079070-900&t=&z=15&ie=UTF8&iwloc=&output=embed\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>",
+    "metadados": {
+      "slug_home": "/ufms",
+      "slug_sobre": "/ufms/sobre-nos",
+      "slug_vida": "/ufms/vida-na-ies",
+      "slug_inter": "/ufms/estudantes-internacionais",
+      "nav_title_home": "UFMS",
+      "nav_title_sobre": "Sobre",
+      "nav_title_vida": "Vida na IES",
+      "nav_title_inter": "Estudantes Internacionais",
+      "tag": "UFMS",
+      "seo_description": "Universidade Federal de Mato Grosso do Sul (UFMS), localizada em Campo Grande - Mato Grosso do Sul, oferece ensino público, gratuito e de excelência no Brasil."
+    },
+    "contatos_e_redes": {
+      "nomenclatura_superior": "Relações Internacionais",
+      "nomenclatura_inferior": "Contato Institucional",
+      "email_setor": "aginter@ufms.br",
+      "telefone_setor": "+55 67 3345 3943",
+      "endereco_setor": "Avenida Costa e Silva, s/n, Bairro Universitário, CEP 79070-900",
+      "site_setor": "www.aginter.ufms.br",
+      "redes_sociais": [
+        {
+          "rede": "Facebook",
+          "icone": "📘",
+          "url": "https://www.facebook.com/ufmsbr/"
+        },
+        {
+          "rede": "Instagram",
+          "icone": "📸",
+          "url": "https://www.instagram.com/ufmsoficial/"
+        },
+        {
+          "rede": "LinkedIn",
+          "icone": "💼",
+          "url": "https://www.linkedin.com/school/ufms/"
+        },
+        {
+          "rede": "YouTube",
+          "icone": "📽",
+          "url": "https://www.youtube.com/user/tvuniversidade"
+        }
+      ]
+    },
+    "paginas": {
+      "sobre": {
+        "slug": "/ufms/sobre-nos",
+        "id": "sobre-nos",
+        "titulo": "Sobre a UFMS",
+        "nav_title": "Sobre",
+        "tag": "UFMS",
+        "descricao_seo": "Conheça a história, visão geral e pilares de excelência da UFMS.",
+        "paragrafos": [
+          "Histórico e Legado",
+          "Ano de Fundação: A Universidade Federal de Mato Grosso do Sul (UFMS) teve sua origem em 1962, com a criação da Faculdade de Farmácia e Odontologia de Campo Grande, na cidade de Campo Grande, que seria o embrião do ensino superior público no sul do então Estado de Mato Grosso. Integrando os Institutos de Campo Grande, Corumbá e Três Lagoas, a Lei Estadual nº 2.947, de 16.09.1969, criou a Universidade Estadual de Mato Grosso (UEMT). Com a divisão do Estado de Mato Grosso, foi concretizada a federalização da instituição que passou a denominar-se Fundação Universidade Federal de Mato Grosso do Sul, pela Lei Federal nº 6.674, de 05.07.1979",
+          "Visão Geral: A UFMS é uma instituição pública de ensino superior comprometida com a excelência no ensino, pesquisa e extensão. Ao longo de sua trajetória, tem desempenhado um papel fundamental no desenvolvimento educacional, científico e cultural do estado de Mato Grosso do Sul e do Brasil.",
+          "Destaques Acadêmicos e Reconhecimentos",
+          "Nossos Pilares de Excelência",
+          "Liderança e Inovação: A UFMS destaca-se em diversas áreas do conhecimento, promovendo pesquisas de vanguarda e desenvolvendo projetos relevantes com impacto social significativo.",
+          "Reconhecimento Global: A UFMS tem sido classificada regularmente entre as 200 melhores da América Latina no THE ranking e no QS ranking, refletindo a qualidade de seu corpo docente e infraestrutura de pesquisa.",
+          "Missão e Impacto Social: A missão da UFMS é desenvolver e socializar o conhecimento em benefício da sociedade, formando líderes, profissionais e cidadãos conscientes, comprometidos com o crescimento sustentável do país e do mundo.",
+          "Experiência Estudantil Enriquecedora: A UFMS valoriza a diversidade cultural e oferece uma ampla gama de atividades extracurriculares, proporcionando uma experiência acadêmica enriquecedora para seus estudantes.",
+          "Estrutura Multicampi e Outros Campi: Além do campus sede, em Campo Grande, a UFMS possui campus em outros nove municípios: Aquidauana, Chapadão do Sul, Coxim, Naviraí, Nova Andradina, Corumbá, Paranaíba, Ponta Porã e Três Lagoas. Há, ainda, duas bases de estudos da UFMS: um no município de Bonito e outra em Corumbá (Pantanal)."
+        ]
+      },
+      "vida_na_ies": {
+        "slug": "/ufms/vida-na-ies",
+        "id": "vida_na_ies",
+        "titulo": "Vida na UFMS",
+        "nav_title": "Vida na IES",
+        "tag": "UFMS",
+        "descricao_seo": "Infraestrutura, moradia, alimentação e convivência na UFMS.",
+        "paragrafos": [
+          "Infraestrutura Completa para o seu Desenvolvimento:",
+          "A UFMS oferece uma infraestrutura abrangente, incluindo bibliotecas com acervos atualizados, laboratórios modernos, restaurantes universitários, complexos esportivos e espaços de convivência. Detalhes específicos de cada instalação podem ser consultados no site oficial da universidade, que pode estar disponível predominantemente em português.",
+          "Uma Vida no Campus Vibrante: Atividades Extracurriculares:",
+          "A universidade promove diversas atividades extracurriculares, como associações estudantis, grupos culturais, equipes esportivas e eventos acadêmicos, proporcionando uma vida no campus rica e diversificada.",
+          "Quais serviços de apoio estão disponíveis para estudantes internacionais? A UFMS oferece serviços de orientação acadêmica, suporte psicológico, programas de inclusão, serviços de saúde e eventos de integração. Mais informações estão disponíveis no site oficial.",
+          "A UFMS oferece alojamento no campus? A universidade fornece orientações para auxiliar os estudantes na busca por moradia, mas não dispõe de alojamento próprio no campus."
+        ]
+      },
+      "estudantes_internacionais": {
+        "slug": "/ufms/estudantes-internacionais",
+        "id": "estudantes-internacionais",
+        "titulo": "Estudantes Internacionais na UFMS",
+        "nav_title": "Estudantes Internacionais",
+        "tag": "UFMS",
+        "descricao_seo": "Informações de acolhimento, vistos e suporte aos estudantes internacionais na UFMS.",
+        "paragrafos": [
+          "Suporte Integral ao Estudante Internacional:",
+          "A UFMS oferece serviços de orientação acadêmica e psicológica, programas de acessibilidade e inclusão, serviços de saúde no campus, suporte burocrático, eventos de integração e cursos de Português para Estrangeiros (PLE). Detalhes específicos podem ser encontrados no site oficial da universidade, que pode estar disponível predominantemente em português.",
+          "Agência de Internacionalização (AGINTER): A AGINTER é responsável por coordenar as ações de internacionalização da UFMS.",
+          "Serviços oferecidos pela AGINTER: A AGINTER oferece serviços como orientação pré-chegada, programas de boas-vindas e recepção, além de suporte contínuo aos estudantes internacionais.",
+          "Cursos de Português para Estrangeiros (PLE): A UFMS oferece cursos de português para estrangeiros para estudantes ingressos por meio do Programa Estudante-Convênio dos Ministérios da Educação e Relações Exteriores, preparando os estudantes para exames como o CELPE-Bras.",
+          "Orientação para Alojamento: A universidade fornece orientações para auxiliar os estudantes internacionais na busca por moradia adequada, incluindo informações sobre opções de alojamento e dicas para facilitar a adaptação.",
+          "Eventos de Integração: A UFMS organiza atividades culturais e sociais destinadas à integração dos estudantes internacionais, promovendo a troca de experiências e a imersão na cultura local.",
+          "Viver em Campo Grande",
+          "Custo de Vida: Campo Grande oferece um custo de vida acessível em comparação com outras capitais brasileiras, com opções variadas de moradia, alimentação e transporte.",
+          "Cultura e Lazer: A cidade possui uma rica vida cultural, com teatros, museus, parques e eventos que refletem a diversidade cultural da região.",
+          "Clima e Geografia: Campo Grande apresenta um clima tropical, com estações bem definidas, e está localizada em uma região de beleza natural, próxima ao Pantanal.",
+          "Transporte Público: A cidade conta com um sistema de transporte público eficiente, facilitando o deslocamento dos estudantes entre a universidade e outros pontos de interesse.",
+          "Saúde e Segurança: Campo Grande possui uma infraestrutura de saúde bem desenvolvida e é considerada uma cidade segura, oferecendo um ambiente propício para os estudantes.",
+          "A UFMS possui campi em Aquidauana, Chapadão do Sul, Corumbá, Coxim, Naviraí, Nova Andradina, Paranaíba, Ponta Porã e Três Lagoas. Para saber mais sobre a vida nestas outras cidades, basta contatar o time da AGINTER da UFMS.",
+          "Perguntas Frequentes (FAQ) sobre Estudar na UFMS",
+          "Aqui, você encontrará respostas para algumas das perguntas mais comuns de estudantes internacionais. Para informações detalhadas e atualizadas, consulte sempre o site oficial da UFMS ou entre em contato com a Agência de Internacionalização (AGINTER). Note que algumas informações no site podem estar disponíveis apenas em português.",
+          "Cursos e Programas Acadêmicos",
+          "Quais cursos de graduação são oferecidos pela UFMS? A UFMS oferece uma ampla variedade de cursos de graduação em diversas áreas do conhecimento. A lista completa pode ser consultada no site oficial da universidade.",
+          "A UFMS oferece programas de pós-graduação? Sim, a UFMS possui programas de mestrado e doutorado em várias áreas. Informações detalhadas estão disponíveis no site oficial.",
+          "Processo Seletivo e Admissão",
+          "Como posso me candidatar a um curso na UFMS? A UFMS recebe estudantes internacionais por meio do Programa Estudante-Convênio dos Ministérios da Educação e das Relações Exteriores. Além disso, estrangeiros que estejam no Brasil e sejam portadores de visto de refugiado, humanitário ou de reunião familiar podem candidatar-se a processo seletivo específico. Por fim, os processos seletivos regulares estão abertos a estrangeiros que vivem no Brasil, sendo compostos de exames para a graduação e de exames e envio de documentação para a pós-graduação, variando conforme o curso e o nível de estudo. Recomenda-se consultar o site oficial da UFMS para informações atualizadas sobre os processos de admissão.",
+          "Quais são os requisitos de proficiência em português? A UFMS exige comprovação de proficiência em português para estudantes internacionais. Detalhes sobre os exames aceitos e os níveis exigidos podem ser encontrados no site oficial."
+        ]
+      }
+    }
+  },
+  {
+    "sigla": "UFRPE",
+    "sigla_alt": "UFRPE",
+    "slug": "ufrpe",
+    "nome_completo": "Universidade Federal Rural de Pernambuco",
+    "cidade_sede": "Recife",
+    "estado": "Pernambuco",
+    "endereco_sede": "Rua Dom Manuel de Medeiros, s/n - Dois Irmãos, Recife, Pernambuco, CEP 52171-900",
+    "site_oficial": "www.ufrpe.br",
+    "email_geral": "",
+    "telefone_geral": "",
+    "outros_campi": "A UFRPE possui outros 3 campi localizados nas cidades de Belo Jardim, Serra Talhada e Cabo de Santo Agostinho.",
+    "mapa_html_embed": "<iframe width=\"100%\" height=\"480\" src=\"https://maps.google.com/maps?q=Rua%20Dom%20Manuel%20de%20Medeiros%2C%20s/n%20-%20Dois%20Irm%C3%A3os%2C%20Recife%2C%20Pernambuco%2C%20CEP%2052171-900&t=&z=15&ie=UTF8&iwloc=&output=embed\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>",
+    "metadados": {
+      "slug_home": "/ufrpe",
+      "slug_sobre": "/ufrpe/sobre-nos",
+      "slug_vida": "/ufrpe/vida-na-ies",
+      "slug_inter": "/ufrpe/estudantes-internacionais",
+      "nav_title_home": "UFRPE",
+      "nav_title_sobre": "Sobre",
+      "nav_title_vida": "Vida na IES",
+      "nav_title_inter": "Estudantes Internacionais",
+      "tag": "UFRPE",
+      "seo_description": "Universidade Federal Rural de Pernambuco (UFRPE), localizada em Recife - Pernambuco, oferece ensino público, gratuito e de excelência no Brasil."
+    },
+    "contatos_e_redes": {
+      "nomenclatura_superior": "Núcleo de Internacionalização (NINTER)",
+      "nomenclatura_inferior": "Contato Institucional",
+      "email_setor": "international@ufrpe.br",
+      "telefone_setor": "+55 (81) 3320-6000",
+      "endereco_setor": "Rua Dom Manuel de Medeiros, s/n - Prédio da Reitoria, 1º andar - Dois Irmãos, Recife - PE, CEP 52171-900.",
+      "site_setor": "www.ufrpe.br",
+      "redes_sociais": [
+        {
+          "rede": "Facebook",
+          "icone": "📘",
+          "url": "https://pt-br.facebook.com/UFRPEoficial/"
+        },
+        {
+          "rede": "Instagram",
+          "icone": "📸",
+          "url": "https://www.instagram.com/ufrpe/"
+        },
+        {
+          "rede": "YouTube",
+          "icone": "📽",
+          "url": "https://www.youtube.com/@UFRPEoficial"
+        },
+        {
+          "rede": "Flickr",
+          "icone": "📽",
+          "url": "https://www.flickr.com/photos/ufrpe"
+        }
+      ]
+    },
+    "paginas": {
+      "sobre": {
+        "slug": "/ufrpe/sobre-nos",
+        "id": "sobre-nos",
+        "titulo": "Sobre a UFRPE",
+        "nav_title": "Sobre",
+        "tag": "UFRPE",
+        "descricao_seo": "Conheça a história, visão geral e pilares de excelência da UFRPE.",
+        "paragrafos": [
+          "Histórico e Legado",
+          "Ano de Fundação: A Universidade Federal Rural de Pernambuco (UFRPE) foi fundada em 1912 como Escola Superior de Agricultura de Medicina Veterinária, sendo a primeira instituição de ensino agrícola do Norte e Nordeste do Brasil. Em 1947 se torna Universidade Federal Rural de Pernambuco. Sua longa e rica história confere-lhe um legado fundamental no desenvolvimento das ciências agrárias, ciências biológicas e formação crítica baseada em pessoas.",
+          "Visão Geral: A UFRPE é uma das mais importantes Universidades Federais do Nordeste brasileiro, reconhecida pela excelência em ensino, pesquisa, extensão e inovação, com forte atuação nas áreas de Ciências Agrárias, Ciências Biológicas, Ciências Humanas e Sociais, e Tecnologias. Sua importância reside na formação de profissionais qualificados e na geração de conhecimento estratégico para o desenvolvimento sustentável da região e do país, com destaque para a atuação em agronegócio, recursos hídricos, meio ambiente e desenvolvimento social. A universidade exerce uma influência significativa em Pernambuco e no cenário nacional, sendo um polo de referência acadêmica e tecnológica.",
+          "Destaques Acadêmicos e Reconhecimentos",
+          "Nossos Pilares de Excelência",
+          "Liderança e Inovação: A UFRPE se destaca por sua formação científica e tecnológica de alta qualidade formando cidadãos(ãs), docentes e pesquisadores(as) atentos(as) às transformações sociais, culturais, científicas e tecnológicas voltados numa formação por e para as pessoas. As áreas de atuação preponderantes são: Agronomia, Medicina Veterinária, Zootecnia, Engenharia de Pesca, Ciências Biológicas, Ecologia, Engenharia Ambiental, Ciência da Computação, Ciências Sociais, Agroecologia e Administração. A universidade desenvolve pesquisas de vanguarda e projetos relevantes que buscam soluções para os desafios da segurança alimentar, sustentabilidade dos (socio)ecossistemas, desenvolvimento rural, bioenergia e saúde animal, com um forte compromisso em gerar impacto social e científico.",
+          "Reconhecimento Global: A UFRPE figura consistentemente entre as universidades de destaque em importantes rankings universitários nacionais, como o Ranking Universitário Folha (RUF), figurando entre as 60 melhores nos três últimos anos, melhorando seu posicionamento ano a ano, e avaliações do Ministério da Educação (MEC). Também possui reconhecimento em rankings internacionais em áreas específicas, especialmente nas Ciências Agrárias, tendo melhorado substancialmente seu posicionamento no QS Ranking da América Latina nos últimos três anos, deixando a faixa de 301-350 para assumir a 138ª posição, o que reflete a qualidade de seu corpo docente altamente qualificado, composto por professores e pesquisadores com vasta experiência e reconhecimento em suas áreas de atuação, e uma infraestrutura de pesquisa de ponta que apoia estudos de excelência.",
+          "Missão e Impacto Social: A missão da UFRPE é co-produzir, sistematizar e socializar o conhecimento científico, tecnológico e cultural, formando profissionais e cidadãos com responsabilidade social, capazes de atuar criticamente e contribuir para o desenvolvimento sustentável da sociedade. A universidade tem um compromisso profundo com a inclusão, a diversidade e a melhoria da qualidade de vida da população por meio da pesquisa e extensão, com forte atuação nas comunidades rurais e na conservação dos biomas locais.",
+          "Experiência Estudantil Enriquecedora: A UFRPE oferece um ambiente acadêmico vibrante e estimulante, impulsionado pela diversidade de seu corpo discente e pela intensa vida universitária em um campus que se destaca por sua vasta área verde e estações avançadas de ensino e pesquisa (verdadeiros laboratórios de campo). A experiência estudantil é enriquecida por diversas atividades extracurriculares, como empresas juniores, grupos de pesquisa e extensão, atléticas, centros acadêmicos e uma vasta inserção sociocultural que promovem o desenvolvimento integrado e aprofundam a compreensão das diferentes realidades e saberes.",
+          "Estrutura Multicampi e Outros Campi: A UFRPE possui outros 3 campi localizados nas cidades de Belo Jardim, Serra Talhada e Cabo de Santo Agostinho."
+        ]
+      },
+      "vida_na_ies": {
+        "slug": "/ufrpe/vida-na-ies",
+        "id": "vida_na_ies",
+        "titulo": "Vida na UFRPE",
+        "nav_title": "Vida na IES",
+        "tag": "UFRPE",
+        "descricao_seo": "Infraestrutura, moradia, alimentação e convivência na UFRPE.",
+        "paragrafos": [
+          "Infraestrutura Completa para o seu Desenvolvimento: A UFRPE, sendo multicampi oferece uma infraestrutura completa para atender às necessidades acadêmicas e de bem-estar dos seus estudantes. O campus principal, conhecido por sua vasta área verde, possui fazendas experimentais e laboratórios de campo, complementando laboratórios multiusuários e institutos tecnológicos bem equipados para diversas áreas do conhecimento. A universidade dispõe de uma rede de bibliotecas atualizadas com acervos ricos e especializados, salas de aula e auditórios modernos. A UFRPE conta com restaurantes universitários (RUs) de elevada qualidade, que servem refeições a preços acessíveis, e complexos esportivos que incentivam a prática de várias atividades físicas. A universidade também possui integração direta com o mundo virtual a partir de plataforma própria e boa conexão à internet em todo o campus e promover a acessibilidade em suas instalações. Detalhes específicos de cada instalação podem ser consultados no site oficial da universidade, que pode estar disponível predominantemente em português.",
+          "Uma Vida no Campus Vibrante: Atividades Extracurriculares: A UFRPE está diretamente ligada ao desenvolvimento sociocultural de Pernambuco: com sede em Recife e unidades acadêmicas no interior do estado, em Serra Talhada, Cabo de Santo Agostinho e Belo Jardim, a Universidade interage de perto com a cultura e a sociedade de cada região. Essa presença se reflete em uma vida universitária dinâmica e plural: você poderá participar de empresas juniores, ligas acadêmicas, grupos de pesquisa e extensão, coletivos culturais, atléticas, centros acadêmicos e de uma vasta gama de eventos acadêmicos, culturais e sociais que promovem a integração, o desenvolvimento de novas habilidades e a imersão na cultura universitária pernambucana.",
+          "A UFRPE oferece moradia estudantil para estudantes internacionais? A UFRPE não possui moradias específicas para estudantes internacionais, mas o NINTER pode fornecer orientações sobre opções de alojamento em Recife e nas demais cidades dos campi.",
+          "Quais serviços de apoio estão disponíveis para estudantes internacionais na UFRPE? A universidade oferece suporte em questões acadêmicas, burocráticas e de integração cultural, além de acesso a serviços de saúde.",
+          "Viver em Recife",
+          "Qual é o custo de vida médio para um estudante em Recife? O custo de vida em Recife é considerado de médio para alto, mas a cidade oferece uma rica experiência cultural e de lazer.",
+          "Como é a cultura e o lazer na cidade? Recife é famosa por suas praias urbanas, culinária regional, história e eventos como o Carnaval.",
+          "Como funciona o transporte público em Recife? A cidade conta com um sistema de transporte público por ônibus e metrô que conecta os bairros e os campi.",
+          "Como é a segurança na cidade? Como em qualquer capital, é importante estar atento(a) e tomar precauções básicas no dia a dia.",
+          "A UFRPE possui outros 3 campi localizados nas cidades de Belo Jardim, Serra Talhada e Cabo de Santo Agostinho. Para informações sobre a vida nessas cidades, entre em contato com a equipe do NINTER."
+        ]
+      },
+      "estudantes_internacionais": {
+        "slug": "/ufrpe/estudantes-internacionais",
+        "id": "estudantes-internacionais",
+        "titulo": "Estudantes Internacionais na UFRPE",
+        "nav_title": "Estudantes Internacionais",
+        "tag": "UFRPE",
+        "descricao_seo": "Informações de acolhimento, vistos e suporte aos estudantes internacionais na UFRPE.",
+        "paragrafos": [
+          "Suporte Integral ao Estudante Internacional: A UFRPE está comprometida em oferecer apoio para que sua transição e permanência no Brasil sejam as mais tranquilas e produtivas possíveis. A universidade oferece serviços de suporte que visam facilitar sua adaptação e permanência, incluindo orientação acadêmica, apoio psicológico, recursos para acessibilidade e inclusão, bem como suporte em questões burocráticas relativas a vistos e registros. Tudo isso está em consonância com o Plano de Internacionalização da UFRPE, no qual constam todas as políticas voltadas, inclusive para as boas-vindas e permanência de estudantes internacionais. Para informações detalhadas sobre a disponibilidade de serviços de saúde no campus, ou qualquer outro suporte específico, é recomendado entrar em contato diretamente com o Núcleo de Internacionalização (NINTER) da universidade.",
+          "Núcleo de Internacionalização (NINTER): O NINTER é o setor da UFRPE responsável pelo fomento à internacionalização, com o acompanhamento das parcerias entre a UFRPE e instituições internacionais, bem como a orientação de oportunidades de bolsas em programas de mobilidade acadêmica internacional.",
+          "Serviços oferecidos pelo NINTER:",
+          "Orientação Pré-chegada: Oferece informações e orientações para ajudar você com vistos, documentação necessária e os primeiros passos antes de sua chegada ao Brasil.",
+          "Boas-Vindas e Recepção: Auxilia na sua chegada e integração inicial à vida universitária e à cultura local de Pernambuco, com uma recepção unificada (anual) através dos rios e ruas do Recife Antigo.",
+          "Suporte Contínuo: Fornece assistência em questões acadêmicas, burocráticas e de adaptação cultural ao longo da sua permanência na UFRPE, garantindo que você se sinta acolhido(a) e apoiado(a).",
+          "Cursos de Português para Estrangeiros (PLE): Oferta de Cursos de Português para Estrangeiros (PLE). Para informações sobre possíveis programas, cursos ou parcerias que possam auxiliar no aprendizado de português, incluindo a preparação para o exame CELPE-Bras, é recomendado que você contate diretamente o NINTER da UFRPE.",
+          "Orientação para Alojamento: A UFRPE não possui moradia estudantil própria para estudantes internacionais, contudo atua na articulação através dos acordos bilaterais para que a Casa do Estudante seja usada como ponto de apoio inicial. O NINTER pode fornecer orientações e dicas sobre as opções de moradia disponíveis nas cidades dos campi (Recife, Belo Jardim, Serra Talhada e Cabo de Santo Agostinho), como repúblicas de estudantes ou informações sobre aluguéis, auxiliando na sua instalação. Detalhes específicos sobre a orientação para moradia requerem pesquisa junto ao NINTER.",
+          "Eventos de Integração: O NINTER em parceria com as pró-reitorias e outras instâncias da UFRPE, incluindo a comunidade estudantil, promovem ativamente atividades e eventos voltados à integração cultural e social dos estudantes internacionais. A mais importante de todas é o Fórum de Internacionalização, evento de culminância das ações de internacionalização – o qual ocupa permanentemente o calendário acadêmico – no qual são convidados embaixadas, estudantes e professores internacionais, e parceiros. Essas iniciativas são oportunidades para você conhecer a cultura brasileira e pernambucana, interagir com a comunidade acadêmica e outros estudantes, facilitando sua adaptação e proporcionando uma experiência enriquecedora.",
+          "Viver na Cidade de Recife",
+          "Estudar na UFRPE em Recife significa viver em uma das capitais mais vibrantes e históricas do Nordeste brasileiro, com praias urbanas, rica cultura e uma economia dinâmica.",
+          "Custo de Vida: O custo de vida em Recife é considerado de médio para alto em comparação com outras capitais brasileiras. Moradia, transporte e alimentação são os principais itens de despesa, variando muito dependendo da região da cidade e do estilo de vida.",
+          "Cultura e Lazer: Recife é conhecida como a \"Veneza Brasileira\" e oferece uma rica vida cultural e diversas opções de lazer. A cidade conta com museus, teatros, centros culturais, o Rio Capibaribe que a corta, e uma vasta gama de bares e restaurantes que oferecem a culinária local e nacional. Há festas tradicionais como o Carnaval e o São João, eventos culturais e acesso a praias urbanas e próximas, proporcionando um ambiente dinâmico para estudantes.",
+          "Clima e Geografia: Recife possui um clima tropical úmido, com temperaturas elevadas e chuvas bem distribuídas ao longo do ano. A cidade está localizada no litoral, com paisagens de praias, rios, manguezais e ilhas.",
+          "Transporte Público: A cidade conta com um sistema de transporte público por ônibus e metrô que conecta os bairros e as principais áreas de interesse, incluindo o campus da UFRPE. Serviços de aplicativos de transporte também são amplamente disponíveis.",
+          "Saúde e Segurança: Recife possui uma infraestrutura de saúde de excelência, com hospitais públicos e privados, além de clínicas e laboratórios. Como em qualquer capital, é importante estar atento(a) à segurança pessoal, adotando precauções básicas.",
+          "A UFRPE, além de sua sede em Recife, está presente também nas cidades de Belo Jardim, Serra Talhada e Cabo de Santo Agostinho. Para saber mais sobre a vida nestas outras cidades, basta contatar o time de Relações Internacionais da UFRPE.",
+          "Perguntas Frequentes (FAQ) sobre Estudar na UFRPE",
+          "Aqui, você encontrará respostas para algumas das perguntas mais comuns de estudantes internacionais. Para informações detalhadas e atualizadas, consulte sempre o site oficial da UFRPE ou entre em contato com a Coordenadoria de Relações Internacionais (CORI). Note que algumas informações no site podem estar disponíveis apenas em português.",
+          "Cursos e Programas Acadêmicos",
+          "Quais tipos de cursos a UFRPE oferece para estudantes internacionais? A UFRPE oferece cursos de graduação e pós-graduação em diversas áreas do conhecimento, com foco em Ciências Agrárias, Biológicas e Ambientais.",
+          "É preciso ter proficiência em português para estudar na UFRPE? Sim, os cursos são ministrados em português. É fundamental que você tenha domínio do idioma para acompanhar as aulas e atividades acadêmicas.",
+          "Processo Seletivo e Admissão",
+          "Como posso me candidatar a um curso de graduação ou pós-graduação na UFRPE como estudante internacional? A UFRPE recebe estudantes internacionais por meio do Programa Estudante-Convênio dos Ministérios da Educação e das Relações Exteriores. Além disso, os processos de seleção próprios da universidade são abertos a todos os interessados, independentemente de nacionalidade. A seleção envolve exames de admissão, para a graduação, e exames de admissão e/ou a submissão de documentação específica, para a pós-graduação, a depender do programa.",
+          "A UFRPE exige algum teste de proficiência em português? Sim, é exigida a comprovação de proficiência em português aferida pelos exames de admissão. O CELPE-Bras pode ser aceito por alguns programas como meio de comprovação."
+        ]
+      }
+    }
+  },
+  {
+    "sigla": "UFRR",
+    "sigla_alt": "UFRR",
+    "slug": "ufrr",
+    "nome_completo": "Universidade Federal de Roraima",
+    "cidade_sede": "Boa Vista",
+    "estado": "Roraima",
+    "endereco_sede": "Av. Capitão Ene Garcez, 2413 - Aeroporto, Boa Vista - RR, CEP 69310-000",
+    "site_oficial": "www.ufrr.br",
+    "email_geral": "",
+    "telefone_geral": "",
+    "outros_campi": "(A UFRR possui outros 3 campi: Cauamé e  Campus Murupu (localizados na zona rural de Boa Vista) e o Campus São João da Baliza (no município de São João da Baliza)",
+    "mapa_html_embed": "<iframe width=\"100%\" height=\"480\" src=\"https://maps.google.com/maps?q=Av.%20Capit%C3%A3o%20Ene%20Garcez%2C%202413%20-%20Aeroporto%2C%20Boa%20Vista%20-%20RR%2C%20CEP%2069310-000&t=&z=15&ie=UTF8&iwloc=&output=embed\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>",
+    "metadados": {
+      "slug_home": "/ufrr",
+      "slug_sobre": "/ufrr/sobre-nos",
+      "slug_vida": "/ufrr/vida-na-ies",
+      "slug_inter": "/ufrr/estudantes-internacionais",
+      "nav_title_home": "UFRR",
+      "nav_title_sobre": "Sobre",
+      "nav_title_vida": "Vida na IES",
+      "nav_title_inter": "Estudantes Internacionais",
+      "tag": "UFRR",
+      "seo_description": "Universidade Federal de Roraima (UFRR), localizada em Boa Vista - Roraima, oferece ensino público, gratuito e de excelência no Brasil."
+    },
+    "contatos_e_redes": {
+      "nomenclatura_superior": "Relações Internacionais",
+      "nomenclatura_inferior": "Contato Institucional",
+      "email_setor": "crint@ufrr.br",
+      "telefone_setor": "",
+      "endereco_setor": "Av. Capitão Ene Garcez, 2413 - Aeroporto, Boa Vista/RR, CEP 69310-000",
+      "site_setor": "www.ufrr.br",
+      "redes_sociais": [
+        {
+          "rede": "Facebook",
+          "icone": "📘",
+          "url": "facebook.com/ufrroficial"
+        },
+        {
+          "rede": "Instagram",
+          "icone": "📸",
+          "url": "instagram.com/ufrroficial"
+        },
+        {
+          "rede": "YouTube",
+          "icone": "📽",
+          "url": "youtube.com/ufrroficial"
+        }
+      ]
+    },
+    "paginas": {
+      "sobre": {
+        "slug": "/ufrr/sobre-nos",
+        "id": "sobre-nos",
+        "titulo": "Sobre a UFRR",
+        "nav_title": "Sobre",
+        "tag": "UFRR",
+        "descricao_seo": "Conheça a história, visão geral e pilares de excelência da UFRR.",
+        "paragrafos": [
+          "Histórico e Legado",
+          "Ano de Fundação: A Universidade Federal de Roraima (UFRR) foi criada oficialmente em 1989, com aula inaugural em 19 de março de 1990. Foi a primeira universidade federal criada no Brasil sem incorporar instituições preexistentes e a primeira instituição de ensino superior no estado de Roraima, proporcionando acesso à educação superior que antes estava disponível somente fora da região.",
+          "Visão Geral: A UFRR é a única universidade federal do estado de Roraima, desempenhando papel crucial na formação de profissionais, produção de conhecimento e promoção da cultura e extensão na região amazônica setentrional. Focada na regionalização de suas ações, atende às demandas de desenvolvimento do estado e da Amazônia Legal, destacando-se em temas como sustentabilidade amazônica, biodiversidade, povos indígenas, agronomia, saúde, educação e desenvolvimento regional. Com atividades distribuídas em quatro campi em Roraima, a UFRR contribui significativamente para o desenvolvimento social, científico e econômico da região, além de promover a inclusão social, a interculturalidade e a valorização da diversidade cultural que caracteriza a Amazônia e as populações que nela vivem.",
+          "Destaques Acadêmicos e Reconhecimentos",
+          "Nossos Pilares de Excelência",
+          "Liderança e Inovação: A UFRR se destaca por sua atuação em áreas como Agronomia, Medicina, Direito, Educação, e estudos sobre Biodiversidade Amazônica e Povos Indígenas. A universidade desenvolve pesquisas de vanguarda e projetos relevantes que buscam soluções para os desafios da conservação ambiental, o desenvolvimento sustentável da Amazônia, a saúde pública e a educação contextualizada, com um forte compromisso em gerar impacto social e científico na sociedade roraimense e brasileira.",
+          "Reconhecimento Global: A UFRR figura em avaliações do Ministério da Educação (MEC), atestando a qualidade de seus cursos e a relevância de sua atuação regional. A universidade mantém, pelo terceiro ano consecutivo, conceito 4 no Índice Geral de Cursos Avaliados da Instituição (IGC), que vai de 1 a 5, indicando boa qualidade geral. A universidade possui um corpo docente qualificado e engajado em pesquisas com forte impacto social e ambiental, e uma infraestrutura em constante aprimoramento que proporciona um ambiente propício para a inovação e o aprendizado, especialmente em relação aos estudos da Amazônia.",
+          "Missão e Impacto Social: A missão da UFRR é produzir, sistematizar e socializar o conhecimento, com foco no desenvolvimento humano e social de Roraima e do Brasil, por meio do ensino, pesquisa e extensão. A universidade mantém compromisso com a responsabilidade social, inclusão, valorização da diversidade cultural e dos povos indígenas, buscando respostas aos desafios contemporâneos e contribuindo para uma sociedade mais justa e próspera na região amazônica.",
+          "Experiência Estudantil Enriquecedora: A UFRR oferece um ambiente acadêmico diversificado e acolhedor, onde a riqueza cultural da região amazônica e a pluralidade de ideias se encontram. A experiência estudantil é enriquecida por diversas atividades extracurriculares, como grupos de pesquisa e extensão em comunidades locais, associações estudantis, atividades culturais, esportivas e eventos que promovem um desenvolvimento integral e uma profunda conexão com o contexto regional e suas especificidades.",
+          "Estrutura Multicampi e Outros Campi: (A UFRR possui outros 3 campi: Cauamé e  Campus Murupu (localizados na zona rural de Boa Vista) e o Campus São João da Baliza (no município de São João da Baliza)"
+        ]
+      },
+      "vida_na_ies": {
+        "slug": "/ufrr/vida-na-ies",
+        "id": "vida_na_ies",
+        "titulo": "Vida na UFRR",
+        "nav_title": "Vida na IES",
+        "tag": "UFRR",
+        "descricao_seo": "Infraestrutura, moradia, alimentação e convivência na UFRR.",
+        "paragrafos": [
+          "Infraestrutura Completa para o seu Desenvolvimento: A UFRR mantém sua infraestrutura concentrada nos três campi principais localizados em Boa Vista — Campus Paricarana, Campus Cauamé e Campus Murupu — além do Campus Avançado em São João da Baliza, inaugurado em 2025 para atender a região sul do estado. Cada campus dispõe de laboratórios modernos e bem equipados que atendem às diversas áreas do conhecimento, bibliotecas com acervos especializados, salas de aula e auditórios atualizados. No campus principal de Paricarana, os estudantes têm acesso a um restaurante universitário (RU) que oferece refeições a preços subsidiados, além de espaços dedicados à prática esportiva e convivência social. Essas instalações proporcionam suporte adequado para o estudo, pesquisa e bem-estar dos alunos.",
+          "Uma Vida no Campus Vibrante: Atividades Extracurriculares: A vida na UFRR é dinâmica e oferece diversas oportunidades de engajamento extracurricular. Você poderá participar de associações estudantis, grupos de pesquisa e extensão, coletivos culturais, atléticas e uma vasta gama de eventos acadêmicos e sociais que promovem a integração, o desenvolvimento de novas habilidades e a imersão na cultura universitária roraimense e amazônica.",
+          "A UFRR oferece moradia estudantil para estudantes internacionais? A UFRR não possui moradias específicas para estudantes internacionais, mas a CRINT pode fornecer orientações sobre opções de alojamento em Boa Vista e nas demais cidades dos campi.",
+          "Quais serviços de apoio estão disponíveis para estudantes internacionais na UFRR? A universidade oferece suporte em questões acadêmicas e burocráticas e atividades de integração.",
+          "Viver em Boa Vista",
+          "Qual é o custo de vida médio para um estudante em Boa Vista? O custo de vida em Boa Vista é considerado mediano sendo mais vantajoso que nas grandes capitais, o que é ótimo para estudantes.",
+          "Como é a cultura e o lazer na cidade? Boa Vista oferece uma rica cultura amazônica e indígena, com festas tradicionais e acesso a belezas naturais.",
+          "Como funciona o transporte público em Boa Vista? A cidade conta com um sistema de transporte público por ônibus que conecta os bairros e o campus.",
+          "Como é a segurança na cidade? Como em qualquer capital, é importante estar atento(a) e tomar precauções básicas no dia a dia."
+        ]
+      },
+      "estudantes_internacionais": {
+        "slug": "/ufrr/estudantes-internacionais",
+        "id": "estudantes-internacionais",
+        "titulo": "Estudantes Internacionais na UFRR",
+        "nav_title": "Estudantes Internacionais",
+        "tag": "UFRR",
+        "descricao_seo": "Informações de acolhimento, vistos e suporte aos estudantes internacionais na UFRR.",
+        "paragrafos": [
+          "Suporte Integral ao Estudante Internacional: Na UFRR, esse suporte é oferecido pela Coordenadoria de Relações Internacionais (CRINT), vinculada à Vice-Reitoria, responsável pela internacionalização da universidade por meio de convênios e cooperação internacional. A CRINT orienta estudantes internacionais desde a pré-chegada, com informações sobre vistos e documentos, até a integração acadêmica e cultural por meio de eventos de boas-vindas. Durante toda a permanência, oferece assistência em questões acadêmicas, burocráticas e adaptação cultural, além de ajudar na regularização de vistos e documentação, coordenar intercâmbios, estágios e convênios, e fomentar a troca de experiências e projetos de cooperação.",
+          "Coordenadoria de Relações Internacionais (CRINT):﻿ A CRINT é o setor da UFRR responsável por planejar, coordenar e executar a política de internacionalização da universidade, promovendo a cooperação e o intercâmbio acadêmico com instituições estrangeiras, beneficiando estudantes, professores e pesquisadores.",
+          "Serviços oferecidos pela CRINT:",
+          "Orientação Pré-chegada: Oferece informações sobre vistos, documentação e primeiros passos para estudantes internacionais antes da chegada ao Brasil, auxiliando na preparação para o processo de admissão e instalação.",
+          "Boas-Vindas e Recepção: Auxilia na sua chegada e integração inicial à vida universitária e à cultura local nas cidades dos campi.",
+          "Suporte Contínuo: Disponibiliza apoio acadêmico, burocrático e cultural durante toda a permanência do estudante na UFRR, incluindo regularização de documentos e orientação para questões acadêmicas.",
+          "Cursos de Português para Estrangeiros (PLE): Através do Núcleo de Línguas (NucLi) e do programa Idiomas sem Fronteiras, a UFRR oferece cursos gratuitos presenciais e online de português para estrangeiros, inclusive com preparação para o exame CELPE-Bras, que auxiliam na adaptação acadêmica e social dos estudantes estrangeiros.",
+          "Orientação para Alojamento: A UFRR não possui moradia estudantil própria para estudantes internacionais. A CRINT pode fornecer orientações e dicas sobre as opções de moradia disponíveis nas cidades dos campi, como repúblicas de estudantes ou informações sobre aluguéis, auxiliando na sua instalação.",
+          "Eventos de Integração: A CRINT, em parceria com diversas instâncias da universidade e a comunidade estudantil, promove atividades culturais e sociais regulares para integração dos estudantes internacionais, facilitando o contato com a cultura brasileira e roraimense, construção de redes de apoio e enriquecimento da experiência acadêmica na região.",
+          "Viver na Cidade de Boa Vista",
+          "Estudar na UFRR em Boa Vista é vivenciar a capital de Roraima, uma cidade planejada no coração da Amazônia setentrional, às margens do Rio Branco.",
+          "Custo de Vida: O custo de vida em Boa Vista é considerado mediano comparado a grandes capitais brasileiras, com despesas moderadas em moradia, transporte e alimentação, embora alguns preços possam variar devido à logística regional.",
+          "Cultura e Lazer: Boa Vista possui uma vida cultural rica e multifacetada, com destaque para manifestações tradicionais roraimenses e amazônicas, como as danças e ritmos indígenas (parixara, batuque, tukui), festivais juninos grandiosos como o Boa Vista Junina, que reúne apresentações de grupos folclóricos, e eventos como o Festival dos Povos da Floresta, que celebra a diversidade cultural da região com música, oficinas e exposições. A gastronomia valoriza ingredientes típicos da Amazônia e pratos tradicionais como a paçoca de carne de sol. A orla do Rio Branco é um local central para lazer e eventos culturais ao ar livre.",
+          "Clima e Geografia: Boa Vista possui um clima equatorial, quente e úmido durante a maior parte do ano, com um período de chuvas e um período de seca bem definidos. A cidade está localizada na região amazônica, às margens do Rio Branco, e cercada pela vegetação típica da Amazônia e do lavrado roraimense.",
+          "Transporte Público: Boa Vista possui um sistema de transporte público com diversas linhas de ônibus urbano que conectam bairros, áreas de interesse e o campus da UFRR. Recentemente, a frota recebeu ônibus modernos, climatizados e acessíveis, e a população pode acompanhar os horários e rotas por aplicativos em tempo real.",
+          "Saúde e Segurança: Boa Vista possui uma infraestrutura de saúde com hospitais públicos e privados que atendem às necessidades da população. Como em qualquer capital, é importante estar atento(a) à segurança pessoal, adotando precauções básicas.",
+          "A UFRR, além de sua sede em Boa Vista, está presente também nas áreas rurais nos campi  Cauamé, Murupu e no município de São João da Baliza. Para saber mais sobre a vida nestas outras áreas, basta contatar o time da Coordenadoria de Relações Internacionais (CRINT) da UFRR.",
+          "Perguntas Frequentes (FAQ) sobre Estudar na UFRR",
+          "Aqui, você encontrará respostas para algumas das perguntas mais comuns de estudantes internacionais. Para informações detalhadas e atualizadas, consulte sempre o site oficial da UFRR ou entre em contato com a Coordenadoria de Relações Internacionais (CRINT). Note que algumas informações no site podem estar disponíveis apenas em português.",
+          "Cursos e Programas Acadêmicos",
+          "Quais tipos de cursos a UFRR oferece para estudantes internacionais? A UFRR oferece uma vasta gama de cursos de graduação e pós-graduação em diversas áreas do conhecimento, com destaque para Agronomia, Medicina, Direito e estudos amazônicos. A lista de cursos de graduação pode ser consultada em https://ufrr.br/cursos/, e a lista de programas de pós-graduação em https://sigaa.ufrr.br/sigaa/public/curso/lista.jsf?nivel=S&aba=p-ensino.",
+          "É preciso ter proficiência em português para estudar na UFRR? Pode ser exigida a comprovação de proficiência em português, muitas vezes por meio de exames como o CELPE-Bras, a depender do curso ou programa de pós-graduação, consulte a Coordenadoria de Relações Internacionais (CRINT) para saber se o curso pretendido possui exigência de proficiência.",
+          "Processo Seletivo e Admissão",
+          "Como posso me candidatar a um curso de graduação ou pós-graduação na UFRR como estudante internacional? O ingresso como estudante regular na UFRR ocorre por processos seletivos próprios como o Processo Seletivo Seriado (PSS) e o Vestibular Tradicional. O sistema SISU, com a nota do ENEM, pode ser utilizado em algumas oportunidades. Estudantes internacionais que desejem realizar mobilidade acadêmica devem observar os requisitos para ingresso, que geralmente envolvem a necessidade da existência de convênio vigente entre a UFRR e sua instituição de origem, ou a participação em programas de mobilidade internacional. Para os cursos de pós-graduação, cada programa disponibiliza seus próprios editais com critérios específicos e prazos de inscrição, que podem ser consultados nas páginas oficiais dos cursos. Mais informações podem ser encontradas em https://ufrr.br/crint/estudante-internacionais/.",
+          "A UFRR exige algum teste de proficiência em português? Pode ser exigida a comprovação de proficiência em português, muitas vezes por meio de exames como o CELPE-Bras, a depender do curso ou programa de pós-graduação, consulte a Coordenadoria de Relações Internacionais (CRINT) para saber se o curso pretendido possui exigência de proficiência."
+        ]
+      }
+    }
+  },
+  {
+    "sigla": "UFS",
+    "sigla_alt": "UFS",
+    "slug": "ufs",
+    "nome_completo": "Universidade Federal de Sergipe",
+    "cidade_sede": "São Cristóvão",
+    "estado": "Sergipe",
+    "endereco_sede": "Cidade Universitária Prof. José Aloísio de Campos - Av. Marcelo Deda Chagas, s/n, Bairro Rosa Elze, São Cristóvão/SE - CEP 49107-230",
+    "site_oficial": "www.ufs.br",
+    "email_geral": "gabinete.reitor@academico.ufs.br",
+    "telefone_geral": "+55 79 3194-6600",
+    "outros_campi": "A UFS possui outros 6      campi localizados em Aracaju (capital) e no interior do estado: Itabaiana, Laranjeiras, Estância, Lagarto e Nossa Senhora da Glória",
+    "mapa_html_embed": "<iframe width=\"100%\" height=\"480\" src=\"https://maps.google.com/maps?q=Cidade%20Universit%C3%A1ria%20Prof.%20Jos%C3%A9%20Alo%C3%ADsio%20de%20Campos%20-%20Av.%20Marcelo%20Deda%20Chagas%2C%20s/n%2C%20Bairro%20Rosa%20Elze%2C%20S%C3%A3o%20Crist%C3%B3v%C3%A3o/SE%20-%20CEP%2049107-230&t=&z=15&ie=UTF8&iwloc=&output=embed\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>",
+    "metadados": {
+      "slug_home": "/ufs",
+      "slug_sobre": "/ufs/sobre-nos",
+      "slug_vida": "/ufs/vida-na-ies",
+      "slug_inter": "/ufs/estudantes-internacionais",
+      "nav_title_home": "UFS",
+      "nav_title_sobre": "Sobre",
+      "nav_title_vida": "Vida na IES",
+      "nav_title_inter": "Estudantes Internacionais",
+      "tag": "UFS",
+      "seo_description": "Universidade Federal de Sergipe (UFS), localizada em São Cristóvão - Sergipe, oferece ensino público, gratuito e de excelência no Brasil."
+    },
+    "contatos_e_redes": {
+      "nomenclatura_superior": "Coordenação de Relações Internacionais (CORI)",
+      "nomenclatura_inferior": "Contato Institucional",
+      "email_setor": "secretaria.cori@academico.ufs.br e dcm.cori@academico.ufs.br",
+      "telefone_setor": "+55 (79) 3194-6495",
+      "endereco_setor": "Cidade Universitária Prof. José Aloísio de Campos, Avenida Marechal Rondon, S/N, Prédio da Reitoria, Térreo. Jardim Rosa Elze. São Cristóvão – SE, CEP 49100-000.",
+      "site_setor": "www.ufs.br",
+      "redes_sociais": [
+        {
+          "rede": "Facebook",
+          "icone": "📘",
+          "url": "https://www.facebook.com/UFSoficial"
+        },
+        {
+          "rede": "Instagram",
+          "icone": "📸",
+          "url": "https://www.instagram.com/ufsoficial"
+        },
+        {
+          "rede": "LinkedIn",
+          "icone": "💼",
+          "url": "linkedin.com/school/universidade-federal-de-sergipe/"
+        },
+        {
+          "rede": "YouTube",
+          "icone": "📽",
+          "url": "https://www.youtube.com/user/ufsoficial"
+        },
+        {
+          "rede": "Flickr",
+          "icone": "📽",
+          "url": "https://www.flickr.com/photos/ascomufs"
+        }
+      ]
+    },
+    "paginas": {
+      "sobre": {
+        "slug": "/ufs/sobre-nos",
+        "id": "sobre-nos",
+        "titulo": "Sobre a UFS",
+        "nav_title": "Sobre",
+        "tag": "UFS",
+        "descricao_seo": "Conheça a história, visão geral e pilares de excelência da UFS.",
+        "paragrafos": [
+          "Histórico e Legado",
+          "Ano de Fundação: A Universidade Federal de Sergipe (UFS) foi fundada em 1967, nos termos do Decreto-Lei nº 269/1967 e foi oficialmente instalada em 15 de maio de 1968. Consolidando o ensino superior no estado de Sergipe e marcando o início de uma trajetória de excelência e contribuição para o desenvolvimento regional e nacional.",
+          "Visão Geral: A UFS é a mais bem avaliada instituição federal de ensino superior em Sergipe, reconhecida pela excelência em ensino, pesquisa e extensão. Sua importância reside na formação de profissionais qualificados, na geração de conhecimento científico e tecnológico de ponta, e no impacto social significativo que exerce no estado de Sergipe e no cenário nacional.",
+          "A universidade se destaca por sua vasta oferta de cursos e por ser um polo de desenvolvimento em diversas áreas, contribuindo ativamente para o progresso socioeconômico e cultural da região.",
+          "Destaques Acadêmicos e Reconhecimentos",
+          "Nossos Pilares de Excelência",
+          "Liderança e Inovação: A UFS se destaca por sua atuação em áreas como Saúde (Medicina, Enfermagem, Odontologia), Engenharias (Civil, Elétrica, Química), Ciências Agrárias, Humanidades, e Ciências da Computação. A universidade desenvolve pesquisas de vanguarda e projetos relevantes que buscam soluções para os desafios da saúde pública, desenvolvimento tecnológico, energias renováveis e sustentabilidade, com um forte compromisso em gerar impacto social e científico na sociedade sergipana e brasileira.",
+          "Reconhecimento Global: A UFS figura consistentemente entre as melhores universidades do Brasil em importantes rankings universitários nacionais, como o Ranking Universitário Folha (RUF): 29ª posição em 2024 e avaliações do Ministério da Educação (MEC). Esse reconhecimento reflete a qualidade de seu corpo docente altamente qualificado, composto por professores e pesquisadores com vasta experiência e reconhecimento em suas áreas de atuação, e uma infraestrutura de pesquisa de ponta que apoia estudos de excelência em diversas áreas.",
+          "Missão e Impacto Social: A missão da UFS é contribuir para o progresso da sociedade por meio da geração de conhecimentos e da formação de cidadãos críticos, éticos e comprometidos com o desenvolvimento sustentável. A universidade tem um profundo compromisso com a promoção da inclusão social, da diversidade cultural e do bem-estar da sociedade, atuando como um catalisador de transformações e contribuindo ativamente para a construção de um futuro mais equitativo e inovador em Sergipe e no Brasil.",
+          "Experiência Estudantil Enriquecedora: A UFS oferece um ambiente acadêmico vibrante e estimulante, impulsionado pela diversidade de seu corpo discente e pela intensa vida universitária em uma cidade acolhedora. A experiência estudantil é enriquecida por diversas atividades extracurriculares, como empresas juniores, grupos de pesquisa e extensão, atléticas, centros acadêmicos e uma vasta gama de eventos acadêmicos, culturais e sociais que promovem o desenvolvimento integral e aprofundam a compreensão das diferentes realidades e saberes.",
+          "Estrutura Multicampi e Outros Campi: A UFS possui outros 6      campi localizados em Aracaju (capital) e no interior do estado: Itabaiana, Laranjeiras, Estância, Lagarto e Nossa Senhora da Glória"
+        ]
+      },
+      "vida_na_ies": {
+        "slug": "/ufs/vida-na-ies",
+        "id": "vida_na_ies",
+        "titulo": "Vida na UFS",
+        "nav_title": "Vida na IES",
+        "tag": "UFS",
+        "descricao_seo": "Infraestrutura, moradia, alimentação e convivência na UFS.",
+        "paragrafos": [
+          "Infraestrutura Completa para o seu Desenvolvimento: A UFS, com seus diversos campi em São Cristóvão, Aracaju, Itabaiana, Lagarto, Estância,      Sertão e Laranjeiras, oferece uma infraestrutura completa para atender às necessidades acadêmicas e de bem-estar dos seus estudantes. A universidade dispõe de laboratórios bem equipados para diversas áreas do conhecimento, com tecnologia de ponta para pesquisa e desenvolvimento, uma vasta rede de bibliotecas com acervos ricos e especializados. A UFS conta com restaurantes universitários (RUs) que servem refeições a preços acessíveis, e complexos esportivos que incentivam a prática de atividades físicas. Detalhes específicos de cada instalação podem ser consultados no site oficial da universidade, que está disponível em português, Inglês, Espanhol e Francês.",
+          "Uma Vida no Campus Vibrante: Atividades Extracurriculares: A vida na UFS é dinâmica e oferece diversas oportunidades de engajamento extracurricular. Você poderá participar de empresas juniores, ligas acadêmicas, grupos de pesquisa e extensão, coletivos culturais, atléticas e uma vasta gama de eventos acadêmicos, culturais e sociais que promovem a integração, o desenvolvimento de novas habilidades e a imersão na cultura universitária sergipana.",
+          "A UFS oferece moradia estudantil para estudantes internacionais? A UFS não possui moradias específicas para estudantes internacionais, mas a CORI pode fornecer orientações sobre opções de alojamento na região de Aracaju/São Cristóvão e demais campi.",
+          "Quais serviços de apoio estão disponíveis para estudantes internacionais na UFS? A universidade oferece suporte em questões acadêmicas, burocráticas e de integração cultural, além de acesso a serviços de saúde e cursos de Português para Estrangeiros (PLE).",
+          "Viver na Região de Aracaju",
+          "Qual é o custo de vida médio para um estudante em Aracaju? O custo de vida em Aracaju é considerado mais acessível em comparação com grandes capitais, o que é ótimo para estudantes. O custo médio para um estudante pode ser considerado $400 Dólares Americanos.",
+          "Como é a cultura e o lazer na cidade? Aracaju e São Cristóvão oferecem ricas experiências culturais, com praias, culinária local e eventos tradicionais do Nordeste, que incluem música, culinária, artesanato e celebrações populares.",
+          "Como funciona o transporte público na região? A região conta com um sistema de transporte público por ônibus que conecta as cidades e os campi.",
+          "Como é a segurança na cidade? Aracaju é reconhecida por seus bons índices de qualidade de vida e segurança, sendo frequentemente apontada como uma das capitais mais seguras do Nordeste. De modo geral, é uma cidade tranquila e acolhedora para moradores e visitantes."
+        ]
+      },
+      "estudantes_internacionais": {
+        "slug": "/ufs/estudantes-internacionais",
+        "id": "estudantes-internacionais",
+        "titulo": "Estudantes Internacionais na UFS",
+        "nav_title": "Estudantes Internacionais",
+        "tag": "UFS",
+        "descricao_seo": "Informações de acolhimento, vistos e suporte aos estudantes internacionais na UFS.",
+        "paragrafos": [
+          "Suporte Integral ao Estudante Internacional: A UFS está comprometida em oferecer apoio para que sua transição e permanência no Brasil sejam as mais tranquilas e produtivas possíveis. A universidade oferece serviços de suporte que visam facilitar sua adaptação e permanência, incluindo orientação acadêmica, apoio psicológico, bem como suporte em questões burocráticas relativas a vistos e registros. Para informações detalhadas sobre a disponibilidade de serviços de saúde no campus, ou qualquer outro suporte específico, é recomendado entrar em contato diretamente com a Coordenação de Relações Internacionais (CORI) da universidade.",
+          "Coordenação de Relações Internacionais (CORI): A Coordenação de Relações Internacionais da Universidade Federal de Sergipe (UFS) é o setor responsável por planejar, articular e implementar ações que promovam a internacionalização do ensino, da pesquisa, da extensão e da gestão universitária.",
+          "Serviços oferecidos pela CORI:",
+          "Orientação Pré-chegada: Oferece informações e orientações para ajudar você com      documentações       necessárias e os primeiros passos antes de sua chegada ao Brasil.",
+          "Boas-Vindas e Recepção: Auxilia na sua chegada e integração inicial à vida universitária e à cultura local de Sergipe.",
+          "Suporte Contínuo: Fornece assistência em questões acadêmicas, burocráticas e de adaptação cultural ao longo da sua permanência na UFS, garantindo que você se sinta acolhido(a) e apoiado(a).",
+          "Cursos de Português para Estrangeiros (PLE): Sim, a UFS oferece cursos de Português como Língua Estrangeira (PLE). Esses cursos são fundamentais para sua adaptação acadêmica e social, e visam desenvolver sua proficiência no idioma, inclusive com preparação para o exame CELPE-Bras. Para informações atualizadas sobre a oferta de cursos, é recomendado contatar a CORI.",
+          "Orientação para Alojamento: A UFS não possui moradia estudantil própria para estudantes internacionais. A CORI pode fornecer orientações e dicas sobre as opções de moradia disponíveis nas cidades dos campi (São Cristóvão, Aracaju, Itabaiana, Lagarto, Sertão e Laranjeiras), como repúblicas de estudantes e apartamentos para alugar, auxiliando na sua instalação.",
+          "Eventos de Integração: A CORI realiza o CORI Acolhe, um encontro de um dia voltado à recepção dos estudantes internacionais. O evento promove integração, compartilhamento de informações essenciais e atividades culturais, facilitando a adaptação e proporcionando uma experiência inicial mais acolhedora.",
+          "Viver na Cidade de São Cristóvão / Região de Aracaju",
+          "Estudar na UFS significa viver na região de Aracaju, a capital de Sergipe, uma cidade litorânea vibrante e acolhedora no Nordeste brasileiro. O campus principal está em São Cristóvão, cidade histórica.",
+          "Custo de Vida: O custo de vida em Aracaju é considerado mais acessível em comparação com grandes capitais brasileiras, como São Paulo ou Rio de Janeiro. Despesas como moradia, transporte e alimentação podem ser mais moderadas, tornando-a uma opção interessante para estudantes.",
+          "Cultura e Lazer: A região de Aracaju é rica em cultura e lazer, com belas praias, culinária local saborosa (com destaque para os frutos do mar e o caranguejo), e o tradicional São João     . Há museus, centros culturais e o Mercado Municipal, que é um ponto de encontro e mostra a riqueza do artesanato e da gastronomia local. A cidade histórica de São Cristóvão, patrimônio da humanidade, oferece um mergulho na história colonial.",
+          "Clima e Geografia: A região possui um clima tropical quente e úmido durante a maior parte do ano, com temperaturas elevadas e chuvas concentradas em alguns períodos. Está localizada no litoral, com paisagens de praias, rios e manguezais.",
+          "Transporte Público: A região de Aracaju conta com um sistema de transporte público por ônibus que conecta as cidades e os bairros, incluindo o campus principal em São Cristóvão.",
+          "Saúde e Segurança: Aracaju conta com uma boa infraestrutura de saúde, com hospitais públicos e privados capazes de atender às principais necessidades da população. A cidade é, de modo geral, tranquila e acolhedora. Ainda assim, como em qualquer capital, recomenda-se adotar cuidados básicos com a segurança pessoal, especialmente em locais de grande circulação ou no período noturno.",
+          "A UFS, além de sua sede em São Cristóvão, está presente também nas cidades de Aracaju, Itabaiana, Lagarto, Estância,     Sertão e Laranjeiras. Para saber mais sobre a vida nestas outras cidades, basta contatar o time de Relações Internacionais da UFS.",
+          "Perguntas Frequentes (FAQ) sobre Estudar na UFS",
+          "Aqui, você encontrará respostas para algumas das perguntas mais comuns de estudantes internacionais. Para informações detalhadas e atualizadas, consulte sempre o site oficial da UFS ou entre em contato com a Coordenação de Relações Internacionais (CORI)     .      Cursos e Programas Acadêmicos",
+          "Quais tipos de cursos a UFS oferece para estudantes internacionais? A UFS oferece uma vasta gama de cursos de graduação e pós-graduação em diversas áreas do conhecimento, incluindo saúde, engenharias, ciências agrárias e humanidades.",
+          "É preciso ter proficiência em português para estudar na UFS? Sim, a maioria dos cursos é ministrada em português. É fundamental que você tenha domínio do idioma para acompanhar as aulas e atividades acadêmicas.",
+          "Processo Seletivo e Admissão",
+          "Como posso me candidatar a um curso de graduação ou pós-graduação na UFS como estudante internacional? Os processos de seleção para estudantes internacionais podem variar. Geralmente, envolvem a submissão de documentação específica e a comprovação de proficiência em língua portuguesa.",
+          "Para cursos completos, a UFS participa do Programa Estudante Convênio do Governo Federal. Há também a possibilidade de cursos e disciplinas para estudantes de instituições que possuem convênio com a UFS.",
+          "Para cursos de Pós-Graduação completos, a UFS participa do Programa Estudante Convênio do Governo Federal e há possibilidade de realizar cursos e disciplinas pelos Programas PILA Virtual e GCUB-Mob.",
+          "A UFS exige algum teste de proficiência em português? Sim, para a maioria dos programas, é exigida a comprovação de proficiência em português, muitas vezes por meio de exames como o CELPE-Bras."
+        ]
+      }
+    }
+  },
+  {
+    "sigla": "UFSB",
+    "sigla_alt": "UFSB",
+    "slug": "ufsb",
+    "nome_completo": "Universidade Federal do Sul da Bahia",
+    "cidade_sede": "Itabuna",
+    "estado": "Bahia",
+    "endereco_sede": "Rodovia BR 415, km 30, Bloco 1, Loteamento Ferradas, Itabuna - BA, CEP 45613-204",
+    "site_oficial": "www.ufsb.edu.br",
+    "email_geral": "",
+    "telefone_geral": "",
+    "outros_campi": "a UFSB possui outros 3 campi, totalizando 4 campi. Estão localizados nas cidades de Porto Seguro, Teixeira de Freitas e Jequié além da sede em Itabuna.",
+    "mapa_html_embed": "<iframe width=\"100%\" height=\"480\" src=\"https://maps.google.com/maps?q=Rodovia%20BR%20415%2C%20km%2030%2C%20Bloco%201%2C%20Loteamento%20Ferradas%2C%20Itabuna%20-%20BA%2C%20CEP%2045613-204&t=&z=15&ie=UTF8&iwloc=&output=embed\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>",
+    "metadados": {
+      "slug_home": "/ufsb",
+      "slug_sobre": "/ufsb/sobre-nos",
+      "slug_vida": "/ufsb/vida-na-ies",
+      "slug_inter": "/ufsb/estudantes-internacionais",
+      "nav_title_home": "UFSB",
+      "nav_title_sobre": "Sobre",
+      "nav_title_vida": "Vida na IES",
+      "nav_title_inter": "Estudantes Internacionais",
+      "tag": "UFSB",
+      "seo_description": "Universidade Federal do Sul da Bahia (UFSB), localizada em Itabuna - Bahia, oferece ensino público, gratuito e de excelência no Brasil."
+    },
+    "contatos_e_redes": {
+      "nomenclatura_superior": "Assessoria de Relações Internacionais (ARI)",
+      "nomenclatura_inferior": "Contato Institucional",
+      "email_setor": "ari@gfe.ufsb.edu.br",
+      "telefone_setor": "+55 73 2103-8407",
+      "endereco_setor": "Praça José Bastos, s/n, Centro, Itabuna – BA, CEP 45.600-923.",
+      "site_setor": "www.ufsb.edu.br",
+      "redes_sociais": [
+        {
+          "rede": "Facebook",
+          "icone": "📘",
+          "url": "https://pt-br.facebook.com/faceufsb/"
+        },
+        {
+          "rede": "Instagram",
+          "icone": "📸",
+          "url": "https://www.instagram.com/ufsb_oficial"
+        },
+        {
+          "rede": "LinkedIn",
+          "icone": "💼",
+          "url": "linkedin.com/school/ufsb/"
+        },
+        {
+          "rede": "YouTube",
+          "icone": "📽",
+          "url": "http://www.youtube.com/@EducacaoemRedeUFSB"
+        }
+      ]
+    },
+    "paginas": {
+      "sobre": {
+        "slug": "/ufsb/sobre-nos",
+        "id": "sobre-nos",
+        "titulo": "Sobre a UFSB",
+        "nav_title": "Sobre",
+        "tag": "UFSB",
+        "descricao_seo": "Conheça a história, visão geral e pilares de excelência da UFSB.",
+        "paragrafos": [
+          "Histórico e Legado",
+          "Ano de Fundação: A Universidade Federal do Sul da Bahia (UFSB) foi fundada em 5 de junho de 2013, como parte de um programa de expansão das universidades federais no Brasil. Sua criação visou impulsionar o desenvolvimento educacional, científico e tecnológico na região sul da Bahia, historicamente carente de ensino superior público.",
+          "Visão Geral: A UFSB é uma instituição federal de ensino superior jovem, mas de grande relevância, com um papel estratégico no desenvolvimento regional do sul da Bahia. Sua importância reside na inovação de seu projeto pedagógico, que adota os Bacharelados e Licenciaturas Interdisciplinares (BIs) como porta de entrada, e na sua forte vocação para o ensino, pesquisa e extensão voltados para as demandas da região, com foco em sustentabilidade, cultura oceânica e na sociobiodiversidade. A universidade contribui para a formação de profissionais qualificados e para a geração de conhecimento de ponta, impactando positivamente a sociedade e o meio ambiente local.",
+          "Destaques Acadêmicos e Reconhecimentos",
+          "Nossos Pilares de Excelência",
+          "Liderança e Inovação: A UFSB se destaca pela sua abordagem inovadora de ensino, com currículos flexíveis e interdisciplinares que incentivam a autonomia do estudante e a construção de percursos formativos personalizados. As Áreas de Artes, Ciências da Natureza, Ciências Humanas, Linguagens, Matemática e Computação são pilares de sua atuação, alinhadas às potencialidades e desafios do sul da Bahia. Além disso, formações como Tecnologia em Produção de Cacau e Chocolate, Oceanologia, Desenvolvimento Rural, Mídias Digitais e Produção Cultural são diferenciais da instituição. A universidade desenvolve pesquisas e projetos relevantes que buscam soluções para a conservação ambiental, o desenvolvimento sustentável e a valorização das culturas regionais, com um forte compromisso em gerar impacto social e científico.",
+          "Reconhecimento Global: A UFSB, como uma universidade relativamente nova, tem mantido seu Índice Geral de Cursos (IGC) na faixa 4 de 5. O referido índice é publicado pelo Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep) e atesta a qualidade de seus cursos e a relevância de sua atuação. Além disso, a qualidade de seu corpo docente, com muitos professores e pesquisadores com experiência e reconhecimento em suas áreas, e uma infraestrutura que cresce a cada ano, são fundamentais para o desenvolvimento de pesquisas de excelência e uma formação de alta qualidade.",
+          "Missão e Impacto Social: A missão da UFSB é formar cidadãos críticos e criativos, capazes de atuar de forma transformadora na sociedade, por meio de um ensino superior público, gratuito, de qualidade e socialmente referenciado. A universidade tem um compromisso profundo com a inovação didática e a inclusão social, buscando soluções para os desafios contemporâneos e contribuindo para a construção de um futuro mais justo e equitativo para o sul da Bahia e o Brasil.",
+          "Experiência Estudantil Enriquecedora: A UFSB oferece um ambiente acadêmico dinâmico e acolhedor, impulsionado pela diversidade de seu corpo discente e pela intensa vida universitária em uma região de grande beleza natural. A experiência estudantil é enriquecida por diversas atividades extracurriculares, como grupos de pesquisa e extensão, associações estudantis, atividades culturais e esportivas, que promovem o desenvolvimento integral e aprofundam a compreensão das diferentes realidades e saberes, incentivando o engajamento com as comunidades locais.",
+          "Localização e multicampia",
+          "Sigla: UFSB",
+          "Outros Campi: a UFSB possui outros 3 campi, totalizando 4 campi. Estão localizados nas cidades de Porto Seguro, Teixeira de Freitas e Jequié além da sede em Itabuna.",
+          "Colégios Universitários: nas cidades circunvizinhas aos 4 campi, estão instalados os colégios Universitários (CUNIs), onde os estudantes da região podem cursar o primeiro ano de faculdade evitando deslocamentos maiores no período de adaptação à vida universitária. Os Cunis abrangem 15 municípios além das sedes, expandindo o ensino superior para as regiões mais afastadas."
+        ]
+      },
+      "vida_na_ies": {
+        "slug": "/ufsb/vida-na-ies",
+        "id": "vida_na_ies",
+        "titulo": "Vida na UFSB",
+        "nav_title": "Vida na IES",
+        "tag": "UFSB",
+        "descricao_seo": "Infraestrutura, moradia, alimentação e convivência na UFSB.",
+        "paragrafos": [
+          "Infraestrutura Completa para o seu Desenvolvimento: A UFSB, com seus campi em Itabuna, Porto Seguro, Teixeira de Freitas e Jequié, busca oferecer a infraestrutura necessária para o desenvolvimento acadêmico e pessoal dos seus estudantes. Embora detalhes específicos possam variar por campus, a universidade geralmente dispõe de laboratórios equipados para diversas áreas do conhecimento, uma rede de bibliotecas com acervos relevantes e salas de aula modernas. Muitos campi contam com restaurantes universitários (RUs) que servem refeições a preços acessíveis e espaços destinados a atividades esportivas e de convivência. Detalhes específicos de cada instalação podem ser consultados no site oficial da universidade, que pode estar disponível predominantemente em português.",
+          "Uma Vida no Campus Vibrante: Atividades Extracurriculares: A vida na UFSB é dinâmica e oferece diversas oportunidades de engajamento extracurricular. Você poderá participar de associações estudantis, grupos de pesquisa e extensão, coletivos culturais, atléticas e uma vasta gama de eventos acadêmicos e sociais que promovem a integração, o desenvolvimento de novas habilidades e a imersão na cultura universitária baiana e nordestina.",
+          "A UFSB oferece moradia estudantil para estudantes internacionais? A UFSB não possui moradias específicas para estudantes internacionais, mas a ARI pode fornecer orientações sobre opções de alojamento nas cidades dos campi.",
+          "Quais serviços de apoio estão disponíveis para estudantes internacionais na UFSB? A universidade oferece suporte em questões acadêmicas, burocráticas e de integração cultural."
+        ]
+      },
+      "estudantes_internacionais": {
+        "slug": "/ufsb/estudantes-internacionais",
+        "id": "estudantes-internacionais",
+        "titulo": "Estudantes Internacionais na UFSB",
+        "nav_title": "Estudantes Internacionais",
+        "tag": "UFSB",
+        "descricao_seo": "Informações de acolhimento, vistos e suporte aos estudantes internacionais na UFSB.",
+        "paragrafos": [
+          "Suporte Integral ao Estudante Internacional: A UFSB está comprometida em oferecer apoio para que sua transição e permanência no Brasil sejam as mais tranquilas e produtivas possíveis. A universidade oferece serviços de suporte que visam facilitar sua adaptação e permanência, incluindo orientação acadêmica, recursos para acessibilidade e inclusão, bem como suporte em questões burocráticas relativas a vistos e registros. Para informações detalhadas sobre a disponibilidade de serviços de saúde no campus, ou qualquer outro suporte específico, é recomendado entrar em contato diretamente com a Assessoria de Relações Internacionais (ARI) da universidade.",
+          "Assessoria de Relações Internacionais (ARI): A ARI é o setor da UFSB responsável por planejar, coordenar e executar a política de internacionalização da universidade, promovendo parcerias e mobilidade acadêmica.",
+          "Serviços oferecidos pela ARI:",
+          "Orientação Pré-chegada: Oferece informações e orientações para ajudar você com vistos, documentação necessária e os primeiros passos antes de sua chegada ao Brasil.",
+          "Boas-Vindas e Recepção: Auxilia na sua chegada e integração inicial à vida universitária e à cultura local do sul da Bahia.",
+          "Suporte Contínuo: Fornece assistência em questões acadêmicas, burocráticas e de adaptação cultural ao longo da sua permanência na UFSB, garantindo que você se sinta acolhido(a) e apoiado(a).",
+          "Cursos de Português para Estrangeiros (PLE): A UFSB oferece curso de português para estudantes ingressos via Programa Estudante-Convênio dos Ministérios da Educação e das Relações Exteriores.",
+          "Orientação para Alojamento: A UFSB não oferece moradia estudantil própria para estudantes internacionais. A ARI pode fornecer orientações e dicas sobre as opções de moradia disponíveis nas cidades dos campi (Itabuna, Porto Seguro, Teixeira de Freitas e Jequié), como repúblicas de estudantes ou informações sobre aluguéis, auxiliando na sua instalação. Detalhes específicos sobre a orientação para moradia requerem pesquisa junto à ARI.",
+          "Eventos de Integração: A ARI e outras instâncias da UFSB, incluindo a comunidade estudantil, promovem ativamente atividades e eventos voltados à integração cultural e social dos estudantes internacionais. Essas iniciativas são oportunidades para você conhecer a cultura brasileira e baiana, interagir com a comunidade acadêmica e outros estudantes, facilitando sua adaptação e proporcionando uma experiência enriquecedora na região.",
+          "Viver na Cidade de Itabuna",
+          "Estudar na sede da UFSB significa viver em Itabuna, um importante centro urbano no sul da Bahia, cercado pelas belezas naturais da região cacaueira.",
+          "Custo de Vida: O custo de vida em Itabuna é considerado acessível em comparação com grandes capitais brasileiras. Despesas como moradia, transporte e alimentação podem ser mais moderadas, tornando-a uma opção interessante para estudantes.",
+          "Cultura e Lazer: Itabuna e a região sul da Bahia são ricas em cultura, especialmente a ligada ao cacau e à literatura de Jorge Amado. A cidade oferece opções de lazer como bares e restaurantes, cinemas e eventos culturais. A proximidade com o litoral, incluindo as praias de Ilhéus, proporciona diversas atividades de lazer e contato com a natureza.",
+          "Clima e Geografia: Itabuna possui um clima tropical úmido, com temperaturas elevadas e chuvas bem distribuídas ao longo do ano. A cidade está localizada em uma região de Mata Atlântica e vales férteis, com rios e uma vegetação exuberante, característica da Costa do Cacau.",
+          "Transporte Público: A cidade conta com um sistema de transporte público por ônibus que conecta os bairros e as principais áreas de interesse, incluindo o campus da UFSB.",
+          "Saúde e Segurança: Itabuna possui uma infraestrutura de saúde com hospitais e clínicas que atendem às necessidades da população. Como em qualquer cidade de porte médio, é importante estar atento(a) à segurança pessoal, adotando precauções básicas.",
+          "A UFSB, além de sua sede em Itabuna, está presente também nas cidades de Porto Seguro, Teixeira de Freitas e Jequié. Para saber mais sobre a vida nestas outras cidades, basta contatar o time de Relações Internacionais da UFSB.",
+          "Perguntas Frequentes (FAQ) sobre Estudar na UFSB",
+          "Aqui, você encontrará respostas para algumas das perguntas mais comuns de estudantes internacionais. Para informações detalhadas e atualizadas, consulte sempre o site oficial da UFSB ou entre em contato com a Assessoria de Relações Internacionais (ARI). Note que algumas informações no site podem estar disponíveis apenas em português.",
+          "Cursos e Programas Acadêmicos",
+          "Quais tipos de cursos a UFSB oferece para estudantes internacionais? A UFSB oferece cursos de graduação e pós-graduação com uma abordagem inovadora, focada em bacharelados interdisciplinares e áreas como ciências do mar e sustentabilidade.",
+          "É preciso ter proficiência em português para estudar na UFSB? Sim, os cursos são ministrados em português. É fundamental que você tenha domínio do idioma para acompanhar as aulas e atividades acadêmicas.",
+          "Processo Seletivo e Admissão",
+          "Como posso me candidatar a um curso de graduação ou pós-graduação na UFSB como estudante internacional? A UFSB recebe estudantes internacionais por meio do Programa Estudante-Convênio dos Ministérios da Educação e das Relações Exteriores. Além disso, estudantes internacionais podem realizar os processos de seleção global caso já estejam no Brasil. Os processos de seleção para a graduação envolvem provas de ingresso e para a pós-graduação, provas de ingresso, submissão de documentação específica e/ou comprovação de proficiência em língua portuguesa a depender do programa.",
+          "A UFSB exige algum teste de proficiência em português? Sim, é exigida a comprovação de proficiência em português, muitas vezes por meio de exames como o CELPE-Bras."
+        ]
+      }
+    }
+  },
+  {
+    "sigla": "UFSC",
+    "sigla_alt": "UFSC",
+    "slug": "ufsc",
+    "nome_completo": "Universidade Federal de Santa Catarina",
+    "cidade_sede": "Florianópolis",
+    "estado": "Santa Catarina",
+    "endereco_sede": "Campus Universitário, Rua Roberto Sampaio Gonzaga, s/nº, Trindade, Florianópolis - SC, CEP 88040-900",
+    "site_oficial": "www.ufsc.br",
+    "email_geral": "gr@contato.ufsc.br",
+    "telefone_geral": "(48) 3721-9000",
+    "outros_campi": "A UFSC possui outros 5 campi localizados nas cidades de Florianópolis, Araranguá, Blumenau, Curitibanos e Joinville.",
+    "mapa_html_embed": "<iframe width=\"100%\" height=\"480\" src=\"https://maps.google.com/maps?q=Campus%20Universit%C3%A1rio%2C%20Rua%20Roberto%20Sampaio%20Gonzaga%2C%20s/n%C2%BA%2C%20Trindade%2C%20Florian%C3%B3polis%20-%20SC%2C%20CEP%2088040-900&t=&z=15&ie=UTF8&iwloc=&output=embed\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>",
+    "metadados": {
+      "slug_home": "/ufsc",
+      "slug_sobre": "/ufsc/sobre-nos",
+      "slug_vida": "/ufsc/vida-na-ies",
+      "slug_inter": "/ufsc/estudantes-internacionais",
+      "nav_title_home": "UFSC",
+      "nav_title_sobre": "Sobre",
+      "nav_title_vida": "Vida na IES",
+      "nav_title_inter": "Estudantes Internacionais",
+      "tag": "UFSC",
+      "seo_description": "Universidade Federal de Santa Catarina (UFSC), localizada em Florianópolis - Santa Catarina, oferece ensino público, gratuito e de excelência no Brasil."
+    },
+    "contatos_e_redes": {
+      "nomenclatura_superior": "Secretaria de Relações Internacionais (SINTER)",
+      "nomenclatura_inferior": "Contato Institucional",
+      "email_setor": "programas.sinter@contato.ufsc.br | incoming.sinter@contato.ufsc.br",
+      "telefone_setor": "(48) 3721-6406",
+      "endereco_setor": "Reitoria II – 1º Andar, Av. Desembargador Vitor Lima, n.º 222, 88040-400 – Florianópolis/SC.",
+      "site_setor": "www.ufsc.br",
+      "redes_sociais": [
+        {
+          "rede": "Facebook",
+          "icone": "📘",
+          "url": "https://pt-br.facebook.com/UniversidadeUFSC"
+        },
+        {
+          "rede": "Instagram",
+          "icone": "📸",
+          "url": "https://www.instagram.com/universidadeufsc"
+        },
+        {
+          "rede": "LinkedIn",
+          "icone": "💼",
+          "url": "não encontrado"
+        },
+        {
+          "rede": "YouTube",
+          "icone": "📽",
+          "url": "https://www.youtube.com/c/UFSCoficial"
+        }
+      ]
+    },
+    "paginas": {
+      "sobre": {
+        "slug": "/ufsc/sobre-nos",
+        "id": "sobre-nos",
+        "titulo": "Sobre a UFSC",
+        "nav_title": "Sobre",
+        "tag": "UFSC",
+        "descricao_seo": "Conheça a história, visão geral e pilares de excelência da UFSC.",
+        "paragrafos": [
+          "Histórico e Legado",
+          "Ano de Fundação: A Universidade Federal de Santa Catarina (UFSC) foi fundada em 1960. Para sua formação inicial, foram agrupadas sete faculdades localizadas na capital do estado, Florianópolis – Direito (1932), Ciências Econômicas (1943), Odontologia (1946), Farmácia e Bioquímica (1946), Filosofia (1952), Medicina (1957) e Serviço Social (1958) – e, ainda, criada a Escola de Engenharia Industrial, possuindo desta forma os cursos necessários e o amparo legal para sua constituição.",
+          "Visão Geral: A UFSC é uma das maiores e mais prestigiadas universidades federais do Brasil, reconhecida pela excelência em ensino, pesquisa e extensão. Sua importância reside na formação de profissionais altamente qualificados e na geração de conhecimento de ponta, contribuindo ativamente para o desenvolvimento científico, tecnológico, social e cultural do país, com destaque para a atuação em diversas áreas do conhecimento. A universidade exerce uma influência significativa em Santa Catarina e no cenário nacional e internacional, sendo um polo de referência acadêmica e tecnológica.",
+          "Destaques Acadêmicos e Reconhecimentos",
+          "Nossos Pilares de Excelência",
+          "Liderança e Inovação: A UFSC se destaca por sua atuação em uma ampla gama de áreas do conhecimento, com reconhecimento em Engenharia (como Engenharia de Alimentos, Mecânica e Produção), Ciência da Computação, Direito, Medicina, Oceanografia, Ciências Biológicas e Agrárias. A universidade desenvolve pesquisas de vanguarda e projetos relevantes que buscam soluções para os desafios da sustentabilidade, energias renováveis, tecnologias da informação, saúde pública e desenvolvimento costeiro, com um forte compromisso em gerar impacto social e científico.",
+          "Reconhecimento Global: A UFSC figura consistentemente entre as melhores universidades do Brasil e da América Latina em importantes rankings universitários nacionais e internacionais, como o Ranking Universitário Folha (RUF), QS Latin America University Rankings e Times Higher Education. Esse reconhecimento reflete a qualidade de seu corpo docente altamente qualificado, composto por professores e pesquisadores com vasta experiência e reconhecimento em suas áreas de atuação, e uma infraestrutura de pesquisa de ponta que apoia estudos de excelência em diversas áreas.",
+          "Missão e Impacto Social: A missão da UFSC é produzir, sistematizar e socializar o saber filosófico, científico, artístico e tecnológico, formando profissionais e cidadãos com responsabilidade social, capazes de atuar criticamente e contribuir para o desenvolvimento sustentável da sociedade. A universidade tem um compromisso profundo com a inclusão, a diversidade e a melhoria da qualidade de vida da população por meio da pesquisa e extensão.",
+          "Experiência Estudantil Enriquecedora: A UFSC oferece um ambiente acadêmico vibrante e estimulante, impulsionado pela diversidade de seu corpo discente e pela intensa vida universitária em um campus que se destaca por sua beleza e integração com a natureza. A experiência estudantil é enriquecida por diversas atividades extracurriculares, como empresas juniores, grupos de pesquisa e extensão, atléticas, centros acadêmicos e uma vasta gama de eventos acadêmicos, culturais e sociais.",
+          "Estrutura Multicampi e Outros Campi: A UFSC possui outros 5 campi localizados nas cidades de Florianópolis, Araranguá, Blumenau, Curitibanos e Joinville."
+        ]
+      },
+      "vida_na_ies": {
+        "slug": "/ufsc/vida-na-ies",
+        "id": "vida_na_ies",
+        "titulo": "Vida na UFSC",
+        "nav_title": "Vida na IES",
+        "tag": "UFSC",
+        "descricao_seo": "Infraestrutura, moradia, alimentação e convivência na UFSC.",
+        "paragrafos": [
+          "Infraestrutura Completa para o seu Desenvolvimento: A UFSC, com seus diversos campi em Florianópolis, Araranguá, Blumenau, Curitibanos e Joinville, oferece uma infraestrutura completa para atender às necessidades acadêmicas e de bem-estar dos seus estudantes.",
+          "A universidade dispõe de laboratórios bem equipados para diversas áreas do conhecimento, com tecnologia de ponta para pesquisa e desenvolvimento, uma vasta rede de bibliotecas com acervos ricos e especializados. A UFSC conta com restaurantes universitários (RUs) que servem refeições a preços acessíveis, e complexos esportivos que incentivam a prática de atividades físicas. A universidade também busca garantir boa conexão à internet em todo o campus e promover a acessibilidade em suas instalações. Detalhes específicos de cada instalação podem ser consultados no site oficial da universidade, que pode estar disponível predominantemente em português.",
+          "Uma Vida no Campus Vibrante: Atividades Extracurriculares: A vida na UFSC é dinâmica e oferece diversas oportunidades de engajamento extracurricular. Você poderá participar de empresas juniores, ligas acadêmicas, grupos de pesquisa e extensão, coletivos culturais, atléticas e uma vasta gama de eventos acadêmicos, culturais e sociais que promovem a integração, o desenvolvimento de novas habilidades e a imersão na cultura universitária catarinense.",
+          "A UFSC oferece moradia estudantil para estudantes internacionais? A UFSC não possui moradias específicas para estudantes internacionais, mas a SINTER pode fornecer orientações sobre opções de alojamento em Florianópolis.",
+          "Quais serviços de apoio estão disponíveis para estudantes internacionais na UFSC? A universidade oferece suporte em questões acadêmicas através de núcleos como o NAPA e o aplicativo “Jornada do Estudante”. Além de apoio a questões burocráticas e de integração cultural, além de acesso a serviços de saúde e cursos de Português para Estrangeiros (PLE).",
+          "Viver em Florianópolis",
+          "Qual é o custo de vida médio para um estudante em Florianópolis? O custo de vida em Florianópolis é considerado elevado, sendo uma capital turística, mas a qualidade de vida compensa para muitos estudantes. O custo de vida médio de um estudante pode ser considerado de $600 Dólares Americanos.",
+          "Como é a cultura e o lazer na cidade? Florianópolis é conhecida por suas praias, trilhas e vida noturna, além de oferecer opções culturais.",
+          "Como funciona o transporte público em Florianópolis? A cidade conta com um sistema de transporte público por ônibus que conecta os bairros e os campi.",
+          "Como é a segurança na cidade? Como em qualquer capital, é importante estar atento(a) e tomar precauções básicas no dia a dia."
+        ]
+      },
+      "estudantes_internacionais": {
+        "slug": "/ufsc/estudantes-internacionais",
+        "id": "estudantes-internacionais",
+        "titulo": "Estudantes Internacionais na UFSC",
+        "nav_title": "Estudantes Internacionais",
+        "tag": "UFSC",
+        "descricao_seo": "Informações de acolhimento, vistos e suporte aos estudantes internacionais na UFSC.",
+        "paragrafos": [
+          "Suporte Integral ao Estudante Internacional: A UFSC está comprometida em oferecer apoio para que sua transição e permanência no Brasil sejam as mais tranquilas e produtivas possíveis. A universidade oferece serviços de suporte que visam facilitar sua adaptação e permanência, incluindo orientação acadêmica, apoio psicológico, recursos para acessibilidade e inclusão. Para informações detalhadas sobre a disponibilidade de serviços de saúde no campus, ou qualquer outro suporte específico, é recomendado entrar em contato diretamente com a Secretaria de Relações Internacionais (SINTER) da universidade.",
+          "Assessoria de Assuntos Internacionais (Secretaria de Relações Internacionais - SINTER): A Secretaria de Relações Internacionais (SINTER) é o setor da UFSC responsável por planejar, coordenar e executar a política de internacionalização da universidade, promovendo parcerias e mobilidade acadêmica.",
+          "Serviços oferecidos pela SINTER:",
+          "Orientação Pré-chegada: Oferece informações e orientações para ajudar você com vistos, documentação necessária e os primeiros passos antes de sua chegada ao Brasil.",
+          "Boas-Vindas e Recepção: Auxilia na sua chegada e integração inicial à vida universitária e à cultura local de Florianópolis.",
+          "Suporte Contínuo: Possui um Programa de Apadrinhamento, fornece assistência em questões acadêmicas, burocráticas e de adaptação cultural ao longo da sua permanência na UFSC.",
+          "Cursos de Português para Estrangeiros (PLE): Sim, a UFSC possui curso extracurricular de Português como Língua Estrangeira oferecido pelo Departamento de Línguas e Literaturas Estrangeiras (DLLE) do Centro de Comunicação e Expressão (CCE) da UFSC. Acesse mais informações aqui: https://sinter.ufsc.br/portugues-para-estrangeiros/. Além disso, conta com cursos de português para estrangeiros no âmbito do Núcleo Institucional de Línguas e Tradução (NILT) e da Rede Andifes Idiomas sem Fronteiras (IsF). Esses cursos são fundamentais para sua adaptação acadêmica e social, e visam desenvolver sua proficiência no idioma, inclusive com preparação para o exame CELPE-Bras.",
+          "Orientação para Alojamento: A UFSC não possui moradia estudantil própria para estudantes internacionais. A SINTER pode fornecer orientações e dicas sobre as opções de moradia disponíveis nas cidades dos campi (Florianópolis, Araranguá, Blumenau, Curitibanos e Joinville), como repúblicas de estudantes, apartamentos para alugar ou informações sobre casas de família, auxiliando na sua instalação. Detalhes específicos sobre a orientação para moradia requerem pesquisa junto à SINTER.",
+          "Eventos de Integração: A SINTER e outras instâncias da UFSC, incluindo a comunidade estudantil, promovem ativamente atividades e eventos voltados à integração cultural e social dos estudantes internacionais. Para facilitar a adaptação são realizados eventos de boas vindas no início dos semestres e visitas guiadas, como as visitas oferecidas nas feiras de cursos.",
+          "Viver na Cidade de Florianópolis",
+          "Estudar na UFSC em Florianópolis é vivenciar a capital de Santa Catarina, conhecida por suas belezas naturais, praias e alta qualidade de vida, combinando natureza exuberante e um polo de tecnologia.",
+          "Custo de Vida: O custo de vida em Florianópolis é considerado elevado em comparação com a maioria das outras cidades brasileiras. Moradia, transporte e alimentação são os principais itens de despesa, variando muito dependendo da região da cidade e do estilo de vida.",
+          "Cultura e Lazer: Florianópolis, a \"Ilha da Magia\", oferece uma rica vida cultural e diversas opções de lazer. A cidade conta com praias deslumbrantes, trilhas ecológicas, parques, museus, teatros e uma vasta gama de bares e restaurantes que atendem a todos os gostos. Há eventos culturais, shows e festivais ao longo do ano, proporcionando um ambiente dinâmico para estudantes.",
+          "Clima e Geografia: A cidade de Florianópolis está localizada majoritariamente em uma ilha, com belas praias, dunas e lagoas, cercada por morros e vegetação da Mata Atlântica. Possui um clima subtropical úmido, com as quatro estações do ano bem definidas, invernos frios e verões amenos por causa da proximidade com o mar. Outros campi da universidade se encontram no interior do estado e possuem clima mais seco e frio nos invernos.",
+          "Transporte Público: A cidade conta com um sistema de transporte público por ônibus que conecta os bairros e as principais áreas de interesse, incluindo o campus da UFSC. Serviços de aplicativos de transporte também estão amplamente disponíveis. Os demais campi possuem estrutura similar.",
+          "Saúde e Segurança: Florianópolis possui uma infraestrutura de saúde de excelência, com hospitais públicos e privados, incluindo o Hospital Universitário da UFSC, além de clínicas e laboratórios. A cidade é geralmente considerada segura, especialmente em comparação com grandes centros urbanos, mas é sempre importante estar atento(a) a precauções básicas.",
+          "A UFSC, além de sua sede em Florianópolis, está presente também nas cidades de Araranguá, Blumenau, Curitibanos e Joinville. Para saber mais sobre a vida nestas outras cidades, basta contatar o time de Relações Internacionais da UFSC.",
+          "Perguntas Frequentes (FAQ) sobre Estudar na UFSC",
+          "Aqui, você encontrará respostas para algumas das perguntas mais comuns de estudantes internacionais. Para informações detalhadas e atualizadas, consulte sempre o site oficial da UFSC ou entre em contato com a Secretaria de Relações Internacionais (SINTER). Note que o site está disponível em português e inglês.",
+          "Cursos e Programas Acadêmicos",
+          "Quais tipos de cursos a UFSC oferece para estudantes internacionais? A UFSC oferece uma vasta gama de cursos de graduação e pós-graduação em diversas áreas do conhecimento, incluindo engenharias, ciência da computação, direito e medicina.",
+          "É preciso ter proficiência em português para estudar na UFSC? Sim, a maioria dos cursos é ministrada em português. É fundamental que você tenha domínio do idioma para acompanhar as aulas e atividades acadêmicas.",
+          "Processo Seletivo e Admissão",
+          "Como posso me candidatar a um curso de graduação ou pós-graduação na UFSC como estudante internacional?",
+          "Os processos de seleção para estudantes internacionais podem variar. Geralmente, envolvem a submissão de documentação específica e a comprovação de proficiência em língua portuguesa.",
+          "A UFSC participa do Programa de Estudantes-Convênio de Graduação (PEC-G) para estudantes da graduação e pós-graduação.",
+          "A UFSC exige algum teste de proficiência em português? Sim, para a maioria dos programas, é exigida a comprovação de proficiência em português, muitas vezes por meio de exames como o CELPE-Bras."
+        ]
+      }
+    }
+  }
+]

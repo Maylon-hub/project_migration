@@ -185,7 +185,7 @@ class PloneRestClient:
 
             if response.status_code in (200, 204):
                 logger.info(f"✅ Conteúdo atualizado com sucesso em '{target_url}'!")
-                return response.json() if response.content else {}
+                return response.json() if response.content else {"status": "success", "status_code": response.status_code}
             else:
                 logger.error(
                     f"❌ Falha ao atualizar conteúdo ({response.status_code}). "
@@ -195,6 +195,22 @@ class PloneRestClient:
 
         except requests.exceptions.RequestException as e:
             logger.error(f"❌ Erro de conexão ao enviar PATCH para '{target_url}': {e}")
+            return None
+
+    def get_content(self, content_url: str) -> Optional[Dict[str, Any]]:
+        """Obtém os dados completos de um objeto existente no Plone 6 via GET.
+
+        :param content_url: URL ou caminho do objeto.
+        :return: Dicionário com os dados do objeto ou None em caso de erro.
+        """
+        target_url = self._resolve_url(content_url)
+        try:
+            response = self.session.get(target_url, timeout=(10, 30))
+            if response.status_code == 200:
+                return response.json()
+            return None
+        except requests.exceptions.RequestException as e:
+            logger.error(f"❌ Erro de conexão ao enviar GET para '{target_url}': {e}")
             return None
 
     def publish_content(self, content_url: str) -> bool:

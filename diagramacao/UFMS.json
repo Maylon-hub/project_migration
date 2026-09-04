@@ -1,0 +1,126 @@
+{
+  "sigla": "UFMS",
+  "sigla_alt": "UFMS",
+  "slug": "ufms",
+  "nome_completo": "Universidade Federal de Mato Grosso do Sul",
+  "cidade_sede": "Campo Grande",
+  "estado": "Mato Grosso do Sul",
+  "endereco_sede": "Avenida Costa e Silva, s/n, Bairro Universitário, CEP 79070-900",
+  "site_oficial": "www.aginter.ufms.br",
+  "email_geral": "",
+  "telefone_geral": "",
+  "outros_campi": "Além do campus sede, em Campo Grande, a UFMS possui campus em outros nove municípios: Aquidauana, Chapadão do Sul, Coxim, Naviraí, Nova Andradina, Corumbá, Paranaíba, Ponta Porã e Três Lagoas. Há, ainda, duas bases de estudos da UFMS: um no município de Bonito e outra em Corumbá (Pantanal).",
+  "mapa_html_embed": "<iframe width=\"100%\" height=\"480\" src=\"https://maps.google.com/maps?q=Avenida%20Costa%20e%20Silva%2C%20s/n%2C%20Bairro%20Universit%C3%A1rio%2C%20CEP%2079070-900&t=&z=15&ie=UTF8&iwloc=&output=embed\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>",
+  "metadados": {
+    "slug_home": "/ufms",
+    "slug_sobre": "/ufms/sobre-nos",
+    "slug_vida": "/ufms/vida-na-ies",
+    "slug_inter": "/ufms/estudantes-internacionais",
+    "nav_title_home": "UFMS",
+    "nav_title_sobre": "Sobre",
+    "nav_title_vida": "Vida na IES",
+    "nav_title_inter": "Estudantes Internacionais",
+    "tag": "UFMS",
+    "seo_description": "Universidade Federal de Mato Grosso do Sul (UFMS), localizada em Campo Grande - Mato Grosso do Sul, oferece ensino público, gratuito e de excelência no Brasil."
+  },
+  "contatos_e_redes": {
+    "nomenclatura_superior": "Relações Internacionais",
+    "nomenclatura_inferior": "Contato Institucional",
+    "email_setor": "aginter@ufms.br",
+    "telefone_setor": "+55 67 3345 3943",
+    "endereco_setor": "Avenida Costa e Silva, s/n, Bairro Universitário, CEP 79070-900",
+    "site_setor": "www.aginter.ufms.br",
+    "redes_sociais": [
+      {
+        "rede": "Facebook",
+        "icone": "📘",
+        "url": "https://www.facebook.com/ufmsbr/"
+      },
+      {
+        "rede": "Instagram",
+        "icone": "📸",
+        "url": "https://www.instagram.com/ufmsoficial/"
+      },
+      {
+        "rede": "LinkedIn",
+        "icone": "💼",
+        "url": "https://www.linkedin.com/school/ufms/"
+      },
+      {
+        "rede": "YouTube",
+        "icone": "📽",
+        "url": "https://www.youtube.com/user/tvuniversidade"
+      }
+    ]
+  },
+  "paginas": {
+    "sobre": {
+      "slug": "/ufms/sobre-nos",
+      "id": "sobre-nos",
+      "titulo": "Sobre a UFMS",
+      "nav_title": "Sobre",
+      "tag": "UFMS",
+      "descricao_seo": "Conheça a história, visão geral e pilares de excelência da UFMS.",
+      "paragrafos": [
+        "Histórico e Legado",
+        "Ano de Fundação: A Universidade Federal de Mato Grosso do Sul (UFMS) teve sua origem em 1962, com a criação da Faculdade de Farmácia e Odontologia de Campo Grande, na cidade de Campo Grande, que seria o embrião do ensino superior público no sul do então Estado de Mato Grosso. Integrando os Institutos de Campo Grande, Corumbá e Três Lagoas, a Lei Estadual nº 2.947, de 16.09.1969, criou a Universidade Estadual de Mato Grosso (UEMT). Com a divisão do Estado de Mato Grosso, foi concretizada a federalização da instituição que passou a denominar-se Fundação Universidade Federal de Mato Grosso do Sul, pela Lei Federal nº 6.674, de 05.07.1979",
+        "Visão Geral: A UFMS é uma instituição pública de ensino superior comprometida com a excelência no ensino, pesquisa e extensão. Ao longo de sua trajetória, tem desempenhado um papel fundamental no desenvolvimento educacional, científico e cultural do estado de Mato Grosso do Sul e do Brasil.",
+        "Destaques Acadêmicos e Reconhecimentos",
+        "Nossos Pilares de Excelência",
+        "Liderança e Inovação: A UFMS destaca-se em diversas áreas do conhecimento, promovendo pesquisas de vanguarda e desenvolvendo projetos relevantes com impacto social significativo.",
+        "Reconhecimento Global: A UFMS tem sido classificada regularmente entre as 200 melhores da América Latina no THE ranking e no QS ranking, refletindo a qualidade de seu corpo docente e infraestrutura de pesquisa.",
+        "Missão e Impacto Social: A missão da UFMS é desenvolver e socializar o conhecimento em benefício da sociedade, formando líderes, profissionais e cidadãos conscientes, comprometidos com o crescimento sustentável do país e do mundo.",
+        "Experiência Estudantil Enriquecedora: A UFMS valoriza a diversidade cultural e oferece uma ampla gama de atividades extracurriculares, proporcionando uma experiência acadêmica enriquecedora para seus estudantes.",
+        "Estrutura Multicampi e Outros Campi: Além do campus sede, em Campo Grande, a UFMS possui campus em outros nove municípios: Aquidauana, Chapadão do Sul, Coxim, Naviraí, Nova Andradina, Corumbá, Paranaíba, Ponta Porã e Três Lagoas. Há, ainda, duas bases de estudos da UFMS: um no município de Bonito e outra em Corumbá (Pantanal)."
+      ]
+    },
+    "vida_na_ies": {
+      "slug": "/ufms/vida-na-ies",
+      "id": "vida_na_ies",
+      "titulo": "Vida na UFMS",
+      "nav_title": "Vida na IES",
+      "tag": "UFMS",
+      "descricao_seo": "Infraestrutura, moradia, alimentação e convivência na UFMS.",
+      "paragrafos": [
+        "Infraestrutura Completa para o seu Desenvolvimento:",
+        "A UFMS oferece uma infraestrutura abrangente, incluindo bibliotecas com acervos atualizados, laboratórios modernos, restaurantes universitários, complexos esportivos e espaços de convivência. Detalhes específicos de cada instalação podem ser consultados no site oficial da universidade, que pode estar disponível predominantemente em português.",
+        "Uma Vida no Campus Vibrante: Atividades Extracurriculares:",
+        "A universidade promove diversas atividades extracurriculares, como associações estudantis, grupos culturais, equipes esportivas e eventos acadêmicos, proporcionando uma vida no campus rica e diversificada.",
+        "Quais serviços de apoio estão disponíveis para estudantes internacionais? A UFMS oferece serviços de orientação acadêmica, suporte psicológico, programas de inclusão, serviços de saúde e eventos de integração. Mais informações estão disponíveis no site oficial.",
+        "A UFMS oferece alojamento no campus? A universidade fornece orientações para auxiliar os estudantes na busca por moradia, mas não dispõe de alojamento próprio no campus."
+      ]
+    },
+    "estudantes_internacionais": {
+      "slug": "/ufms/estudantes-internacionais",
+      "id": "estudantes-internacionais",
+      "titulo": "Estudantes Internacionais na UFMS",
+      "nav_title": "Estudantes Internacionais",
+      "tag": "UFMS",
+      "descricao_seo": "Informações de acolhimento, vistos e suporte aos estudantes internacionais na UFMS.",
+      "paragrafos": [
+        "Suporte Integral ao Estudante Internacional:",
+        "A UFMS oferece serviços de orientação acadêmica e psicológica, programas de acessibilidade e inclusão, serviços de saúde no campus, suporte burocrático, eventos de integração e cursos de Português para Estrangeiros (PLE). Detalhes específicos podem ser encontrados no site oficial da universidade, que pode estar disponível predominantemente em português.",
+        "Agência de Internacionalização (AGINTER): A AGINTER é responsável por coordenar as ações de internacionalização da UFMS.",
+        "Serviços oferecidos pela AGINTER: A AGINTER oferece serviços como orientação pré-chegada, programas de boas-vindas e recepção, além de suporte contínuo aos estudantes internacionais.",
+        "Cursos de Português para Estrangeiros (PLE): A UFMS oferece cursos de português para estrangeiros para estudantes ingressos por meio do Programa Estudante-Convênio dos Ministérios da Educação e Relações Exteriores, preparando os estudantes para exames como o CELPE-Bras.",
+        "Orientação para Alojamento: A universidade fornece orientações para auxiliar os estudantes internacionais na busca por moradia adequada, incluindo informações sobre opções de alojamento e dicas para facilitar a adaptação.",
+        "Eventos de Integração: A UFMS organiza atividades culturais e sociais destinadas à integração dos estudantes internacionais, promovendo a troca de experiências e a imersão na cultura local.",
+        "Viver em Campo Grande",
+        "Custo de Vida: Campo Grande oferece um custo de vida acessível em comparação com outras capitais brasileiras, com opções variadas de moradia, alimentação e transporte.",
+        "Cultura e Lazer: A cidade possui uma rica vida cultural, com teatros, museus, parques e eventos que refletem a diversidade cultural da região.",
+        "Clima e Geografia: Campo Grande apresenta um clima tropical, com estações bem definidas, e está localizada em uma região de beleza natural, próxima ao Pantanal.",
+        "Transporte Público: A cidade conta com um sistema de transporte público eficiente, facilitando o deslocamento dos estudantes entre a universidade e outros pontos de interesse.",
+        "Saúde e Segurança: Campo Grande possui uma infraestrutura de saúde bem desenvolvida e é considerada uma cidade segura, oferecendo um ambiente propício para os estudantes.",
+        "A UFMS possui campi em Aquidauana, Chapadão do Sul, Corumbá, Coxim, Naviraí, Nova Andradina, Paranaíba, Ponta Porã e Três Lagoas. Para saber mais sobre a vida nestas outras cidades, basta contatar o time da AGINTER da UFMS.",
+        "Perguntas Frequentes (FAQ) sobre Estudar na UFMS",
+        "Aqui, você encontrará respostas para algumas das perguntas mais comuns de estudantes internacionais. Para informações detalhadas e atualizadas, consulte sempre o site oficial da UFMS ou entre em contato com a Agência de Internacionalização (AGINTER). Note que algumas informações no site podem estar disponíveis apenas em português.",
+        "Cursos e Programas Acadêmicos",
+        "Quais cursos de graduação são oferecidos pela UFMS? A UFMS oferece uma ampla variedade de cursos de graduação em diversas áreas do conhecimento. A lista completa pode ser consultada no site oficial da universidade.",
+        "A UFMS oferece programas de pós-graduação? Sim, a UFMS possui programas de mestrado e doutorado em várias áreas. Informações detalhadas estão disponíveis no site oficial.",
+        "Processo Seletivo e Admissão",
+        "Como posso me candidatar a um curso na UFMS? A UFMS recebe estudantes internacionais por meio do Programa Estudante-Convênio dos Ministérios da Educação e das Relações Exteriores. Além disso, estrangeiros que estejam no Brasil e sejam portadores de visto de refugiado, humanitário ou de reunião familiar podem candidatar-se a processo seletivo específico. Por fim, os processos seletivos regulares estão abertos a estrangeiros que vivem no Brasil, sendo compostos de exames para a graduação e de exames e envio de documentação para a pós-graduação, variando conforme o curso e o nível de estudo. Recomenda-se consultar o site oficial da UFMS para informações atualizadas sobre os processos de admissão.",
+        "Quais são os requisitos de proficiência em português? A UFMS exige comprovação de proficiência em português para estudantes internacionais. Detalhes sobre os exames aceitos e os níveis exigidos podem ser encontrados no site oficial."
+      ]
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "sigla": "UFSC",
+  "sigla_alt": "UFSC",
+  "slug": "ufsc",
+  "nome_completo": "Universidade Federal de Santa Catarina",
+  "cidade_sede": "Florianópolis",
+  "estado": "Santa Catarina",
+  "endereco_sede": "Campus Universitário, Rua Roberto Sampaio Gonzaga, s/nº, Trindade, Florianópolis - SC, CEP 88040-900",
+  "site_oficial": "www.ufsc.br",
+  "email_geral": "gr@contato.ufsc.br",
+  "telefone_geral": "(48) 3721-9000",
+  "outros_campi": "A UFSC possui outros 5 campi localizados nas cidades de Florianópolis, Araranguá, Blumenau, Curitibanos e Joinville.",
+  "mapa_html_embed": "<iframe width=\"100%\" height=\"480\" src=\"https://maps.google.com/maps?q=Campus%20Universit%C3%A1rio%2C%20Rua%20Roberto%20Sampaio%20Gonzaga%2C%20s/n%C2%BA%2C%20Trindade%2C%20Florian%C3%B3polis%20-%20SC%2C%20CEP%2088040-900&t=&z=15&ie=UTF8&iwloc=&output=embed\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>",
+  "metadados": {
+    "slug_home": "/ufsc",
+    "slug_sobre": "/ufsc/sobre-nos",
+    "slug_vida": "/ufsc/vida-na-ies",
+    "slug_inter": "/ufsc/estudantes-internacionais",
+    "nav_title_home": "UFSC",
+    "nav_title_sobre": "Sobre",
+    "nav_title_vida": "Vida na IES",
+    "nav_title_inter": "Estudantes Internacionais",
+    "tag": "UFSC",
+    "seo_description": "Universidade Federal de Santa Catarina (UFSC), localizada em Florianópolis - Santa Catarina, oferece ensino público, gratuito e de excelência no Brasil."
+  },
+  "contatos_e_redes": {
+    "nomenclatura_superior": "Secretaria de Relações Internacionais (SINTER)",
+    "nomenclatura_inferior": "Contato Institucional",
+    "email_setor": "programas.sinter@contato.ufsc.br | incoming.sinter@contato.ufsc.br",
+    "telefone_setor": "(48) 3721-6406",
+    "endereco_setor": "Reitoria II – 1º Andar, Av. Desembargador Vitor Lima, n.º 222, 88040-400 – Florianópolis/SC.",
+    "site_setor": "www.ufsc.br",
+    "redes_sociais": [
+      {
+        "rede": "Facebook",
+        "icone": "📘",
+        "url": "https://pt-br.facebook.com/UniversidadeUFSC"
+      },
+      {
+        "rede": "Instagram",
+        "icone": "📸",
+        "url": "https://www.instagram.com/universidadeufsc"
+      },
+      {
+        "rede": "LinkedIn",
+        "icone": "💼",
+        "url": "não encontrado"
+      },
+      {
+        "rede": "YouTube",
+        "icone": "📽",
+        "url": "https://www.youtube.com/c/UFSCoficial"
+      }
+    ]
+  },
+  "paginas": {
+    "sobre": {
+      "slug": "/ufsc/sobre-nos",
+      "id": "sobre-nos",
+      "titulo": "Sobre a UFSC",
+      "nav_title": "Sobre",
+      "tag": "UFSC",
+      "descricao_seo": "Conheça a história, visão geral e pilares de excelência da UFSC.",
+      "paragrafos": [
+        "Histórico e Legado",
+        "Ano de Fundação: A Universidade Federal de Santa Catarina (UFSC) foi fundada em 1960. Para sua formação inicial, foram agrupadas sete faculdades localizadas na capital do estado, Florianópolis – Direito (1932), Ciências Econômicas (1943), Odontologia (1946), Farmácia e Bioquímica (1946), Filosofia (1952), Medicina (1957) e Serviço Social (1958) – e, ainda, criada a Escola de Engenharia Industrial, possuindo desta forma os cursos necessários e o amparo legal para sua constituição.",
+        "Visão Geral: A UFSC é uma das maiores e mais prestigiadas universidades federais do Brasil, reconhecida pela excelência em ensino, pesquisa e extensão. Sua importância reside na formação de profissionais altamente qualificados e na geração de conhecimento de ponta, contribuindo ativamente para o desenvolvimento científico, tecnológico, social e cultural do país, com destaque para a atuação em diversas áreas do conhecimento. A universidade exerce uma influência significativa em Santa Catarina e no cenário nacional e internacional, sendo um polo de referência acadêmica e tecnológica.",
+        "Destaques Acadêmicos e Reconhecimentos",
+        "Nossos Pilares de Excelência",
+        "Liderança e Inovação: A UFSC se destaca por sua atuação em uma ampla gama de áreas do conhecimento, com reconhecimento em Engenharia (como Engenharia de Alimentos, Mecânica e Produção), Ciência da Computação, Direito, Medicina, Oceanografia, Ciências Biológicas e Agrárias. A universidade desenvolve pesquisas de vanguarda e projetos relevantes que buscam soluções para os desafios da sustentabilidade, energias renováveis, tecnologias da informação, saúde pública e desenvolvimento costeiro, com um forte compromisso em gerar impacto social e científico.",
+        "Reconhecimento Global: A UFSC figura consistentemente entre as melhores universidades do Brasil e da América Latina em importantes rankings universitários nacionais e internacionais, como o Ranking Universitário Folha (RUF), QS Latin America University Rankings e Times Higher Education. Esse reconhecimento reflete a qualidade de seu corpo docente altamente qualificado, composto por professores e pesquisadores com vasta experiência e reconhecimento em suas áreas de atuação, e uma infraestrutura de pesquisa de ponta que apoia estudos de excelência em diversas áreas.",
+        "Missão e Impacto Social: A missão da UFSC é produzir, sistematizar e socializar o saber filosófico, científico, artístico e tecnológico, formando profissionais e cidadãos com responsabilidade social, capazes de atuar criticamente e contribuir para o desenvolvimento sustentável da sociedade. A universidade tem um compromisso profundo com a inclusão, a diversidade e a melhoria da qualidade de vida da população por meio da pesquisa e extensão.",
+        "Experiência Estudantil Enriquecedora: A UFSC oferece um ambiente acadêmico vibrante e estimulante, impulsionado pela diversidade de seu corpo discente e pela intensa vida universitária em um campus que se destaca por sua beleza e integração com a natureza. A experiência estudantil é enriquecida por diversas atividades extracurriculares, como empresas juniores, grupos de pesquisa e extensão, atléticas, centros acadêmicos e uma vasta gama de eventos acadêmicos, culturais e sociais.",
+        "Estrutura Multicampi e Outros Campi: A UFSC possui outros 5 campi localizados nas cidades de Florianópolis, Araranguá, Blumenau, Curitibanos e Joinville."
+      ]
+    },
+    "vida_na_ies": {
+      "slug": "/ufsc/vida-na-ies",
+      "id": "vida_na_ies",
+      "titulo": "Vida na UFSC",
+      "nav_title": "Vida na IES",
+      "tag": "UFSC",
+      "descricao_seo": "Infraestrutura, moradia, alimentação e convivência na UFSC.",
+      "paragrafos": [
+        "Infraestrutura Completa para o seu Desenvolvimento: A UFSC, com seus diversos campi em Florianópolis, Araranguá, Blumenau, Curitibanos e Joinville, oferece uma infraestrutura completa para atender às necessidades acadêmicas e de bem-estar dos seus estudantes.",
+        "A universidade dispõe de laboratórios bem equipados para diversas áreas do conhecimento, com tecnologia de ponta para pesquisa e desenvolvimento, uma vasta rede de bibliotecas com acervos ricos e especializados. A UFSC conta com restaurantes universitários (RUs) que servem refeições a preços acessíveis, e complexos esportivos que incentivam a prática de atividades físicas. A universidade também busca garantir boa conexão à internet em todo o campus e promover a acessibilidade em suas instalações. Detalhes específicos de cada instalação podem ser consultados no site oficial da universidade, que pode estar disponível predominantemente em português.",
+        "Uma Vida no Campus Vibrante: Atividades Extracurriculares: A vida na UFSC é dinâmica e oferece diversas oportunidades de engajamento extracurricular. Você poderá participar de empresas juniores, ligas acadêmicas, grupos de pesquisa e extensão, coletivos culturais, atléticas e uma vasta gama de eventos acadêmicos, culturais e sociais que promovem a integração, o desenvolvimento de novas habilidades e a imersão na cultura universitária catarinense.",
+        "A UFSC oferece moradia estudantil para estudantes internacionais? A UFSC não possui moradias específicas para estudantes internacionais, mas a SINTER pode fornecer orientações sobre opções de alojamento em Florianópolis.",
+        "Quais serviços de apoio estão disponíveis para estudantes internacionais na UFSC? A universidade oferece suporte em questões acadêmicas através de núcleos como o NAPA e o aplicativo “Jornada do Estudante”. Além de apoio a questões burocráticas e de integração cultural, além de acesso a serviços de saúde e cursos de Português para Estrangeiros (PLE).",
+        "Viver em Florianópolis",
+        "Qual é o custo de vida médio para um estudante em Florianópolis? O custo de vida em Florianópolis é considerado elevado, sendo uma capital turística, mas a qualidade de vida compensa para muitos estudantes. O custo de vida médio de um estudante pode ser considerado de $600 Dólares Americanos.",
+        "Como é a cultura e o lazer na cidade? Florianópolis é conhecida por suas praias, trilhas e vida noturna, além de oferecer opções culturais.",
+        "Como funciona o transporte público em Florianópolis? A cidade conta com um sistema de transporte público por ônibus que conecta os bairros e os campi.",
+        "Como é a segurança na cidade? Como em qualquer capital, é importante estar atento(a) e tomar precauções básicas no dia a dia."
+      ]
+    },
+    "estudantes_internacionais": {
+      "slug": "/ufsc/estudantes-internacionais",
+      "id": "estudantes-internacionais",
+      "titulo": "Estudantes Internacionais na UFSC",
+      "nav_title": "Estudantes Internacionais",
+      "tag": "UFSC",
+      "descricao_seo": "Informações de acolhimento, vistos e suporte aos estudantes internacionais na UFSC.",
+      "paragrafos": [
+        "Suporte Integral ao Estudante Internacional: A UFSC está comprometida em oferecer apoio para que sua transição e permanência no Brasil sejam as mais tranquilas e produtivas possíveis. A universidade oferece serviços de suporte que visam facilitar sua adaptação e permanência, incluindo orientação acadêmica, apoio psicológico, recursos para acessibilidade e inclusão. Para informações detalhadas sobre a disponibilidade de serviços de saúde no campus, ou qualquer outro suporte específico, é recomendado entrar em contato diretamente com a Secretaria de Relações Internacionais (SINTER) da universidade.",
+        "Assessoria de Assuntos Internacionais (Secretaria de Relações Internacionais - SINTER): A Secretaria de Relações Internacionais (SINTER) é o setor da UFSC responsável por planejar, coordenar e executar a política de internacionalização da universidade, promovendo parcerias e mobilidade acadêmica.",
+        "Serviços oferecidos pela SINTER:",
+        "Orientação Pré-chegada: Oferece informações e orientações para ajudar você com vistos, documentação necessária e os primeiros passos antes de sua chegada ao Brasil.",
+        "Boas-Vindas e Recepção: Auxilia na sua chegada e integração inicial à vida universitária e à cultura local de Florianópolis.",
+        "Suporte Contínuo: Possui um Programa de Apadrinhamento, fornece assistência em questões acadêmicas, burocráticas e de adaptação cultural ao longo da sua permanência na UFSC.",
+        "Cursos de Português para Estrangeiros (PLE): Sim, a UFSC possui curso extracurricular de Português como Língua Estrangeira oferecido pelo Departamento de Línguas e Literaturas Estrangeiras (DLLE) do Centro de Comunicação e Expressão (CCE) da UFSC. Acesse mais informações aqui: https://sinter.ufsc.br/portugues-para-estrangeiros/. Além disso, conta com cursos de português para estrangeiros no âmbito do Núcleo Institucional de Línguas e Tradução (NILT) e da Rede Andifes Idiomas sem Fronteiras (IsF). Esses cursos são fundamentais para sua adaptação acadêmica e social, e visam desenvolver sua proficiência no idioma, inclusive com preparação para o exame CELPE-Bras.",
+        "Orientação para Alojamento: A UFSC não possui moradia estudantil própria para estudantes internacionais. A SINTER pode fornecer orientações e dicas sobre as opções de moradia disponíveis nas cidades dos campi (Florianópolis, Araranguá, Blumenau, Curitibanos e Joinville), como repúblicas de estudantes, apartamentos para alugar ou informações sobre casas de família, auxiliando na sua instalação. Detalhes específicos sobre a orientação para moradia requerem pesquisa junto à SINTER.",
+        "Eventos de Integração: A SINTER e outras instâncias da UFSC, incluindo a comunidade estudantil, promovem ativamente atividades e eventos voltados à integração cultural e social dos estudantes internacionais. Para facilitar a adaptação são realizados eventos de boas vindas no início dos semestres e visitas guiadas, como as visitas oferecidas nas feiras de cursos.",
+        "Viver na Cidade de Florianópolis",
+        "Estudar na UFSC em Florianópolis é vivenciar a capital de Santa Catarina, conhecida por suas belezas naturais, praias e alta qualidade de vida, combinando natureza exuberante e um polo de tecnologia.",
+        "Custo de Vida: O custo de vida em Florianópolis é considerado elevado em comparação com a maioria das outras cidades brasileiras. Moradia, transporte e alimentação são os principais itens de despesa, variando muito dependendo da região da cidade e do estilo de vida.",
+        "Cultura e Lazer: Florianópolis, a \"Ilha da Magia\", oferece uma rica vida cultural e diversas opções de lazer. A cidade conta com praias deslumbrantes, trilhas ecológicas, parques, museus, teatros e uma vasta gama de bares e restaurantes que atendem a todos os gostos. Há eventos culturais, shows e festivais ao longo do ano, proporcionando um ambiente dinâmico para estudantes.",
+        "Clima e Geografia: A cidade de Florianópolis está localizada majoritariamente em uma ilha, com belas praias, dunas e lagoas, cercada por morros e vegetação da Mata Atlântica. Possui um clima subtropical úmido, com as quatro estações do ano bem definidas, invernos frios e verões amenos por causa da proximidade com o mar. Outros campi da universidade se encontram no interior do estado e possuem clima mais seco e frio nos invernos.",
+        "Transporte Público: A cidade conta com um sistema de transporte público por ônibus que conecta os bairros e as principais áreas de interesse, incluindo o campus da UFSC. Serviços de aplicativos de transporte também estão amplamente disponíveis. Os demais campi possuem estrutura similar.",
+        "Saúde e Segurança: Florianópolis possui uma infraestrutura de saúde de excelência, com hospitais públicos e privados, incluindo o Hospital Universitário da UFSC, além de clínicas e laboratórios. A cidade é geralmente considerada segura, especialmente em comparação com grandes centros urbanos, mas é sempre importante estar atento(a) a precauções básicas.",
+        "A UFSC, além de sua sede em Florianópolis, está presente também nas cidades de Araranguá, Blumenau, Curitibanos e Joinville. Para saber mais sobre a vida nestas outras cidades, basta contatar o time de Relações Internacionais da UFSC.",
+        "Perguntas Frequentes (FAQ) sobre Estudar na UFSC",
+        "Aqui, você encontrará respostas para algumas das perguntas mais comuns de estudantes internacionais. Para informações detalhadas e atualizadas, consulte sempre o site oficial da UFSC ou entre em contato com a Secretaria de Relações Internacionais (SINTER). Note que o site está disponível em português e inglês.",
+        "Cursos e Programas Acadêmicos",
+        "Quais tipos de cursos a UFSC oferece para estudantes internacionais? A UFSC oferece uma vasta gama de cursos de graduação e pós-graduação em diversas áreas do conhecimento, incluindo engenharias, ciência da computação, direito e medicina.",
+        "É preciso ter proficiência em português para estudar na UFSC? Sim, a maioria dos cursos é ministrada em português. É fundamental que você tenha domínio do idioma para acompanhar as aulas e atividades acadêmicas.",
+        "Processo Seletivo e Admissão",
+        "Como posso me candidatar a um curso de graduação ou pós-graduação na UFSC como estudante internacional?",
+        "Os processos de seleção para estudantes internacionais podem variar. Geralmente, envolvem a submissão de documentação específica e a comprovação de proficiência em língua portuguesa.",
+        "A UFSC participa do Programa de Estudantes-Convênio de Graduação (PEC-G) para estudantes da graduação e pós-graduação.",
+        "A UFSC exige algum teste de proficiência em português? Sim, para a maioria dos programas, é exigida a comprovação de proficiência em português, muitas vezes por meio de exames como o CELPE-Bras."
+      ]
+    }
+  }
+}

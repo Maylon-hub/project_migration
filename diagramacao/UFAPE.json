@@ -1,0 +1,123 @@
+{
+  "sigla": "UFAPE",
+  "sigla_alt": "UFAPE",
+  "slug": "ufape",
+  "nome_completo": "Universidade Federal do Agreste de Pernambuco",
+  "cidade_sede": "Garanhuns",
+  "estado": "Pernambuco",
+  "endereco_sede": "Avenida Bom Pastor, s/n - Boa Vista, Garanhuns, PE, CEP 55292-278",
+  "site_oficial": "ufape.edu.br",
+  "email_geral": "",
+  "telefone_geral": "",
+  "outros_campi": "",
+  "mapa_html_embed": "<iframe width=\"100%\" height=\"480\" src=\"https://maps.google.com/maps?q=Avenida%20Bom%20Pastor%2C%20s/n%20-%20Boa%20Vista%2C%20Garanhuns%2C%20PE%2C%20CEP%2055292-278&t=&z=15&ie=UTF8&iwloc=&output=embed\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>",
+  "metadados": {
+    "slug_home": "/ufape",
+    "slug_sobre": "/ufape/sobre-nos",
+    "slug_vida": "/ufape/vida-na-ies",
+    "slug_inter": "/ufape/estudantes-internacionais",
+    "nav_title_home": "UFAPE",
+    "nav_title_sobre": "Sobre",
+    "nav_title_vida": "Vida na IES",
+    "nav_title_inter": "Estudantes Internacionais",
+    "tag": "UFAPE",
+    "seo_description": "Universidade Federal do Agreste de Pernambuco (UFAPE), localizada em Garanhuns - Pernambuco, oferece ensino público, gratuito e de excelência no Brasil."
+  },
+  "contatos_e_redes": {
+    "nomenclatura_superior": "Relações Internacionais",
+    "nomenclatura_inferior": "Contato Institucional",
+    "email_setor": "dri@ufape.edu.br",
+    "telefone_setor": "",
+    "endereco_setor": "Avenida Bom Pastor, s/n - Boa Vista, Garanhuns, PE, CEP 55292-278",
+    "site_setor": "ufape.edu.br",
+    "redes_sociais": [
+      {
+        "rede": "Facebook",
+        "icone": "📘",
+        "url": "http://facebook.com/ufape.comunica"
+      },
+      {
+        "rede": "Instagram",
+        "icone": "📸",
+        "url": "https://www.instagram.com/ufapeoficial/#"
+      },
+      {
+        "rede": "LinkedIn",
+        "icone": "💼",
+        "url": "https://www.linkedin.com/in/ufape"
+      },
+      {
+        "rede": "X",
+        "icone": "𝕏",
+        "url": "https://twitter.com/UFAPE_oficial"
+      },
+      {
+        "rede": "YouTube",
+        "icone": "📽",
+        "url": "https://www.youtube.com/channel/UCPGY8eKRMvAqiGaPoQqfOIw"
+      },
+      {
+        "rede": "TikTok",
+        "icone": "📽",
+        "url": "https://www.tiktok.com/@ufape.oficial"
+      }
+    ]
+  },
+  "paginas": {
+    "sobre": {
+      "slug": "/ufape/sobre-nos",
+      "id": "sobre-nos",
+      "titulo": "Sobre a UFAPE",
+      "nav_title": "Sobre",
+      "tag": "UFAPE",
+      "descricao_seo": "Conheça a história, visão geral e pilares de excelência da UFAPE.",
+      "paragrafos": [
+        "Histórico e Legado",
+        "Ano de Fundação: A Universidade Federal do Agreste de Pernambuco (UFAPE) foi criada em 11 de abril de 2018, por meio da Lei Federal nº 13.651/2018. A sua estrutura administrativa foi implementada em 05 de novembro de 2021.",
+        "Visão Geral: A UFAPE é uma instituição pública de ensino superior localizada em Garanhuns, Pernambuco. Originada do desmembramento da Unidade Acadêmica de Garanhuns (UAG) da Universidade Federal Rural de Pernambuco (UFRPE), a UFAPE tem como missão fomentar, produzir e difundir conhecimentos e inovação por meio das atividades de ensino, pesquisa e extensão, alinhadas às especificidades regionais e à sustentabilidade socioambiental.",
+        "UFAPE e a Caatinga: nossa mina de ouro",
+        "A UFAPE é uma instituição de Ensino Superior situada integralmente dentro do bioma Caatinga, um patrimônio exclusivo do Brasil. Este bioma, marcado pela resiliência de sua flora e fauna, é um verdadeiro laboratório vivo para a ciência e para a bioeconomia, oferecendo recursos que podem impulsionar a economia circular e gerar soluções inovadoras para os desafios globais.",
+        "A Caatinga abriga uma biodiversidade singular, fonte de moléculas inéditas com potencial para aplicações em saúde, energia e novos materiais. É também estratégica para pesquisas em saúde única, conectando o bem-estar humano, animal e ambiental. Além disso, desempenha papel essencial no sequestro de carbono, contribuindo para mitigar os efeitos da mudança climática e fortalecendo os serviços ecossistêmicos que sustentam a vida.",
+        "Na UFAPE, o bioma não é apenas objeto de estudo, mas parte da identidade institucional. Aqui convivemos com comunidades dos povos originários e comunidades quilombolas, que guardam uma história rica do agreste meridional, fortalecendo o vínculo entre ciência, cultura e território. Essa interação amplia o potencial da universidade em se conectar com seu entorno e impulsionar a troca de saberes e a inovação com impacto social e ambiental.",
+        "Ao valorizar os recursos da Caatinga, a UFAPE se posiciona como protagonista na busca por soluções sustentáveis, oferecendo contribuições concretas para o enfrentamento dos desafios globais atuais. Nossa missão é transformar a riqueza natural e cultural do agreste em oportunidades de desenvolvimento, mostrando que o futuro da ciência e da economia pode nascer aqui, no coração da Caatinga.",
+        "Destaques Acadêmicos e Reconhecimentos",
+        "Nossos Pilares de Excelência",
+        "Liderança e Inovação: A UFAPE destaca-se nas áreas de Agronomia, Medicina Veterinária, Zootecnia, Ciência da Computação, Engenharia de Alimentos, Letras, Administração, Ciências Contábeis e Pedagogia, oferecendo cursos de graduação e pós-graduação que contribuem significativamente para o desenvolvimento regional.",
+        "Missão e Impacto Social: A universidade compromete-se com o desenvolvimento sustentável e a diversidade social, econômica e cultural, buscando consolidar e fortalecer o processo de interiorização do ensino superior e afirmar a identidade regional do agreste.",
+        "Experiência Estudantil Enriquecedora: A UFAPE promove uma experiência acadêmica diversificada, com atividades extracurriculares que enriquecem a formação dos estudantes, incluindo projetos de extensão e eventos culturais."
+      ]
+    },
+    "vida_na_ies": {
+      "slug": "/ufape/vida-na-ies",
+      "id": "vida_na_ies",
+      "titulo": "Vida na UFAPE",
+      "nav_title": "Vida na IES",
+      "tag": "UFAPE",
+      "descricao_seo": "Infraestrutura, moradia, alimentação e convivência na UFAPE.",
+      "paragrafos": [
+        "Infraestrutura Completa para o seu Desenvolvimento:",
+        "A UFAPE oferece laboratórios bem equipados para diversas áreas do conhecimento,",
+        "Uma vida no Campus vibrante: atividades extracurriculares:",
+        "A universidade promove diversas atividades extracurriculares, incluindo associações estudantis, grupos culturais, equipes esportivas e eventos que enriquecem a experiência acadêmica e pessoal dos estudantes.",
+        "Suporte integral ao estudante internacional:",
+        "A UFAPE oferece serviços de orientação acadêmica e psicológica, programas de acessibilidade e inclusão, serviços de saúde no campus, suporte burocrático para estudantes internacionais e eventos de integração. Detalhes específicos podem ser consultados no site oficial da universidade, que está disponível em português.",
+        "Quais serviços de suporte a UFAPE oferece aos estudantes? A UFAPE oferece orientação acadêmica, suporte psicológico, programas de acessibilidade e inclusão, entre outros.",
+        "Existem atividades extracurriculares disponíveis? Sim, a universidade promove diversas atividades extracurriculares, incluindo grupos culturais, esportivos e projetos de extensão.",
+        "Viver em Garanhuns",
+        "Como é o custo de vida em Garanhuns? Garanhuns oferece um custo de vida acessível, com opções de moradia e alimentação a preços razoáveis.",
+        "Quais são as opções de transporte na cidade? A cidade possui um sistema de transporte público eficiente, facilitando o deslocamento dos estudantes."
+      ]
+    },
+    "estudantes_internacionais": {
+      "slug": "/ufape/estudantes-internacionais",
+      "id": "estudantes-internacionais",
+      "titulo": "Estudantes Internacionais na UFAPE",
+      "nav_title": "Estudantes Internacionais",
+      "tag": "UFAPE",
+      "descricao_seo": "Informações de acolhimento, vistos e suporte aos estudantes internacionais na UFAPE.",
+      "paragrafos": [
+        "Suporte Integral ao Estudante Internacional: A UFAPE oferece atendimento personalizado, suporte burocrático e programas de acolhimento para estudantes de todo o mundo."
+      ]
+    }
+  }
+}

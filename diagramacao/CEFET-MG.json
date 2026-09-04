@@ -1,0 +1,118 @@
+{
+  "sigla": "CEFET-MG",
+  "sigla_alt": "CEFET_MG",
+  "slug": "cefet-mg",
+  "nome_completo": "Centro Federal de Educação Tecnológica de Minas Gerais",
+  "cidade_sede": "Belo Horizonte",
+  "estado": "MG",
+  "endereco_sede": "Av. Amazonas, 5253 - Bairro Nova Suíça, Belo Horizonte/MG, CEP: 30.480-000",
+  "site_oficial": "www.cefetmg.br ⚠️ (disponível em vários idiomas).",
+  "email_geral": "sri@cefetmg.br (Secretaria de Relações Internacionais)",
+  "telefone_geral": "+55 (31) 3319-7000",
+  "outros_campi": "11 campi ao total: Araxá, Belo Horizonte, Contagem, Curvelo, Divinópolis, Leopoldina, Nepomuceno, Timóteo e Varginha (MG).",
+  "mapa_html_embed": "<iframe width=\"100%\" height=\"480\" src=\"https://maps.google.com/maps?q=Av.%20Amazonas%2C%205253%20-%20Bairro%20Nova%20Su%C3%AD%C3%A7a%2C%20Belo%20Horizonte/MG%2C%20CEP%3A%2030.480-000&t=&z=15&ie=UTF8&iwloc=&output=embed\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>",
+  "metadados": {
+    "slug_home": "/cefet-mg",
+    "slug_sobre": "/cefet-mg/sobre-nos",
+    "slug_vida": "/cefet-mg/vida-na-ies",
+    "slug_inter": "/cefet-mg/estudantes-internacionais",
+    "nav_title_home": "CEFET-MG",
+    "nav_title_sobre": "Sobre",
+    "nav_title_vida": "Vida na IES",
+    "nav_title_inter": "Estudantes Internacionais",
+    "tag": "CEFET-MG",
+    "seo_description": "Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG), localizada em Belo Horizonte - MG, oferece ensino público, gratuito e de excelência no Brasil."
+  },
+  "contatos_e_redes": {
+    "nomenclatura_superior": "Secretaria de Relações Internacionais (SRI).",
+    "nomenclatura_inferior": "Contato Institucional",
+    "email_setor": "sri@cefetmg.br (Secretaria de Relações Internacionais)",
+    "telefone_setor": "+55 (31) 3319-7000",
+    "endereco_setor": "Av. Amazonas, 5253 - Bairro Nova Suíça, Belo Horizonte/MG, CEP: 30.480-000",
+    "site_setor": "www.cefetmg.br ⚠️ (disponível em vários idiomas).",
+    "redes_sociais": [
+      {
+        "rede": "Instagram",
+        "icone": "📸",
+        "url": "https://www.instagram.com/cefetmg/"
+      },
+      {
+        "rede": "LinkedIn",
+        "icone": "💼",
+        "url": "https://www.linkedin.com/school/cefet-mg/"
+      }
+    ]
+  },
+  "paginas": {
+    "sobre": {
+      "slug": "/cefet-mg/sobre-nos",
+      "id": "sobre-nos",
+      "titulo": "Sobre a CEFET-MG",
+      "nav_title": "Sobre",
+      "tag": "CEFET-MG",
+      "descricao_seo": "Conheça a história, visão geral e pilares de excelência da CEFET-MG.",
+      "paragrafos": [
+        "Histórico e Legado",
+        "Ano de Fundação: 1910 (origem como Escola de Aprendizes Artífices de Minas Gerais).",
+        "Visão Geral: O CEFET-MG é uma instituição pública federal centenária de destaque na educação superior brasileira, composta por 11 campi localizados em 8 cidades no Estado de Minas Gerais. Destaca-se pela atuação em áreas tecnológicas, como as diversas engenharias, computação, arquitetura e química. Entretanto, o viés tecnológico também está presente no ensino, na pesquisa e na extensão em áreas das ciências humanas e ciências sociais aplicadas, como Letras, Administração e Educação. O CEFET-MG possui uma estrutura acadêmica peculiar, em que a oferta da graduação e da pós-graduação ocorre juntamente com a oferta dos cursos técnicos de nível médio, caracterizando um ensino verticalizado de sucesso. Em seus diferentes cursos e níveis de ensino, o CEFET-MG tem cerca de 18.000 estudantes.",
+        "Em 2026 o CEFET-MG se transformará na Universidade Tecnológica Federal de Minas Gerais.",
+        "Destaques Acadêmicos e Reconhecimentos",
+        "Nossos Pilares de Excelência",
+        "Liderança e Inovação: por meio de seus cursos, projetos de pesquisa, programas de pós-graduação e ações de extensão, o CEFET-MG tem sua atuação pautada pelos grandes temas globais, como a transição energética, a transformação digital, a desfossilização da economia, a redução das desigualdades e a inclusão; também com o enfoque nos impactos de um mundo em transformação nas diferentes realidades das regiões onde atua.",
+        "Qualidade do Ensino: Em termos de qualidade do ensino superior, o CEFET-MG se insere entre as instituições brasileiras que têm conceito máximo na avaliação realizada pelo Ministério da Educação (IGC, INEP/MEC). Só 3% das mais de duas mil instituições avaliadas apresentaram conceito máximo na última avaliação disponível (2025).",
+        "Impacto Social: Pela atuação multicampi, o ensino de qualidade, a oferta de cursos em diferentes níveis de ensino e a realização de pesquisa em parceria com diferentes atores da sociedade, o CEFET-MG representa um relevante impacto na formação e na criação de oportunidades para jovens, bem como no desenvolvimento social, econômico e cultural das diversas regiões onde atua.",
+        "Experiência Estudantil Enriquecedora: Por diversas ações e programas o CEFET-MG busca promover um ambiente acadêmico inclusivo e motivador. Nesse contexto, o processo de internacionalização tem contribuído para o desenvolvimento de ações de acolhimento a estudantes estrangeiros que têm contribuído para a sua rápida inserção ao cotidiano da instituição e para o seu sucesso acadêmico. Em especial, destaca-se a reconhecida excelência da Instituição na oferta de português como língua estrangeira.",
+        "Estrutura Multicampi e Outros Campi: 11 campi ao total: Araxá, Belo Horizonte, Contagem, Curvelo, Divinópolis, Leopoldina, Nepomuceno, Timóteo e Varginha (MG)."
+      ]
+    },
+    "vida_na_ies": {
+      "slug": "/cefet-mg/vida-na-ies",
+      "id": "vida_na_ies",
+      "titulo": "Vida na CEFET-MG",
+      "nav_title": "Vida na IES",
+      "tag": "CEFET-MG",
+      "descricao_seo": "Infraestrutura, moradia, alimentação e convivência na CEFET-MG.",
+      "paragrafos": [
+        "Infraestrutura Completa para o seu Desenvolvimento:",
+        "Oferece laboratórios bem equipados para engenharia e informática, bibliotecas com acervos ricos, restaurantes universitários, complexos esportivos, conexão de alta velocidade e acessibilidade. Detalhes específicos de cada instalação podem ser consultados no site oficial da instituição.",
+        "Uma Vida no Campus Vibrante e Atividades Extracurriculares:",
+        "Oportunidades em ramos IEEE, projetos de extensão (karatê, estudo de solos), eventos como SENDI e Rolê Maker, além de associações estudantis."
+      ]
+    },
+    "estudantes_internacionais": {
+      "slug": "/cefet-mg/estudantes-internacionais",
+      "id": "estudantes-internacionais",
+      "titulo": "Estudantes Internacionais na CEFET-MG",
+      "nav_title": "Estudantes Internacionais",
+      "tag": "CEFET-MG",
+      "descricao_seo": "Informações de acolhimento, vistos e suporte aos estudantes internacionais na CEFET-MG.",
+      "paragrafos": [
+        "Suporte Integral ao Estudante Internacional:",
+        "Inclui orientação acadêmica, suporte psicológico via assistência estudantil, serviços de saúde e curso de português e cultura brasileira; detalhes específicos requerem consulta ao site oficial.",
+        "Assessoria de Assuntos Internacionais (Secretaria de Relações Internacionais (SRI).",
+        "Serviços: Orientação pré-chegada, recepção e suporte contínuo com Programa Buddy para mobilidade e oferta de cursos de português como língua estrangeira.",
+        "Cursos de Português para Estrangeiros (PLE): Programa de Português como Língua Estrangeira e preparação ao Celpe-Bras.",
+        "Orientação para Alojamento: Dicas gerais para repúblicas estudantis ou residências próximas; universidades brasileiras indicam opções acessíveis – detalhes requerem contato com a SRI.",
+        "Eventos de Integração: Programa Buddy e atividades da SRI para integração cultural/social.",
+        "Viver em Minas Gerais",
+        "Como é comum em todas as regiões do País, nas capitais (mais populosas e com maior atividade econômica) o custo de vida é mais elevado que nas cidades do interior. A seguir, seguem informações a respeito de Belo Horizonte. Quanto às outras sete cidades onde se encontram os campi do CEFET-MG (Araxá, Contagem, Curvelo, Divinópolis, Leopoldina, Nepomuceno, Timóteo e Varginha), detalhes adicionais às informações disponibilizadas em nosso site e em outras fontes na internet podem ser obtidos por contato com a Secretaria de Relações Internacionais.",
+        "Sobre Belo Horizonte:",
+        "Custo de Vida: Médio-alto: aluguel R$ 1.500-3.000/mês (1 quarto região central), refeições no restaurante estudantil R$ 4,00, transporte mensal ~R$ 250.",
+        "Cultura e Lazer: Vibrante com mercados (Mineirinho), shows, parques (Pampulha) e gastronomia mineira.",
+        "Clima e Geografia: Subtropical de altitude (média 23°C), verões chuvosos; relevo montanhoso com serras.",
+        "Transporte Público: Ônibus, metrô e BRT (R$ 6,50/viagem).",
+        "Saúde e Segurança: Sistema Único de Saúde com Hospitais públicos/privados de qualidade; bairros centrais seguros para estudantes.",
+        "Perguntas Frequentes (FAQ) sobre estudar no CEFET-MG",
+        "1) Cursos e Programas Acadêmicos",
+        "Quais cursos para estudantes internacionais? Técnicos, graduação e pós-graduação. Consulte site oficial.",
+        "Programas de mobilidade? Editais publicados pela SRI e pelo MRE, programa PEC-G e PEC-PG.",
+        "2) Processo Seletivo e Admissão",
+        "Como candidatar-se? Por meio de editais PEC-; GCub.",
+        "Documentos? De acordo com edital.",
+        "3) Vida no Campus e Suporte ao Estudante",
+        "Moradia disponível? Não, apenas orientação para contratação de moradias próximas.",
+        "Suporte saúde/psicológico? Assistência estudantil nos campi."
+      ]
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "sigla": "UFRPE",
+  "sigla_alt": "UFRPE",
+  "slug": "ufrpe",
+  "nome_completo": "Universidade Federal Rural de Pernambuco",
+  "cidade_sede": "Recife",
+  "estado": "Pernambuco",
+  "endereco_sede": "Rua Dom Manuel de Medeiros, s/n - Dois Irmãos, Recife, Pernambuco, CEP 52171-900",
+  "site_oficial": "www.ufrpe.br",
+  "email_geral": "",
+  "telefone_geral": "",
+  "outros_campi": "A UFRPE possui outros 3 campi localizados nas cidades de Belo Jardim, Serra Talhada e Cabo de Santo Agostinho.",
+  "mapa_html_embed": "<iframe width=\"100%\" height=\"480\" src=\"https://maps.google.com/maps?q=Rua%20Dom%20Manuel%20de%20Medeiros%2C%20s/n%20-%20Dois%20Irm%C3%A3os%2C%20Recife%2C%20Pernambuco%2C%20CEP%2052171-900&t=&z=15&ie=UTF8&iwloc=&output=embed\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>",
+  "metadados": {
+    "slug_home": "/ufrpe",
+    "slug_sobre": "/ufrpe/sobre-nos",
+    "slug_vida": "/ufrpe/vida-na-ies",
+    "slug_inter": "/ufrpe/estudantes-internacionais",
+    "nav_title_home": "UFRPE",
+    "nav_title_sobre": "Sobre",
+    "nav_title_vida": "Vida na IES",
+    "nav_title_inter": "Estudantes Internacionais",
+    "tag": "UFRPE",
+    "seo_description": "Universidade Federal Rural de Pernambuco (UFRPE), localizada em Recife - Pernambuco, oferece ensino público, gratuito e de excelência no Brasil."
+  },
+  "contatos_e_redes": {
+    "nomenclatura_superior": "Núcleo de Internacionalização (NINTER)",
+    "nomenclatura_inferior": "Contato Institucional",
+    "email_setor": "international@ufrpe.br",
+    "telefone_setor": "+55 (81) 3320-6000",
+    "endereco_setor": "Rua Dom Manuel de Medeiros, s/n - Prédio da Reitoria, 1º andar - Dois Irmãos, Recife - PE, CEP 52171-900.",
+    "site_setor": "www.ufrpe.br",
+    "redes_sociais": [
+      {
+        "rede": "Facebook",
+        "icone": "📘",
+        "url": "https://pt-br.facebook.com/UFRPEoficial/"
+      },
+      {
+        "rede": "Instagram",
+        "icone": "📸",
+        "url": "https://www.instagram.com/ufrpe/"
+      },
+      {
+        "rede": "YouTube",
+        "icone": "📽",
+        "url": "https://www.youtube.com/@UFRPEoficial"
+      },
+      {
+        "rede": "Flickr",
+        "icone": "📽",
+        "url": "https://www.flickr.com/photos/ufrpe"
+      }
+    ]
+  },
+  "paginas": {
+    "sobre": {
+      "slug": "/ufrpe/sobre-nos",
+      "id": "sobre-nos",
+      "titulo": "Sobre a UFRPE",
+      "nav_title": "Sobre",
+      "tag": "UFRPE",
+      "descricao_seo": "Conheça a história, visão geral e pilares de excelência da UFRPE.",
+      "paragrafos": [
+        "Histórico e Legado",
+        "Ano de Fundação: A Universidade Federal Rural de Pernambuco (UFRPE) foi fundada em 1912 como Escola Superior de Agricultura de Medicina Veterinária, sendo a primeira instituição de ensino agrícola do Norte e Nordeste do Brasil. Em 1947 se torna Universidade Federal Rural de Pernambuco. Sua longa e rica história confere-lhe um legado fundamental no desenvolvimento das ciências agrárias, ciências biológicas e formação crítica baseada em pessoas.",
+        "Visão Geral: A UFRPE é uma das mais importantes Universidades Federais do Nordeste brasileiro, reconhecida pela excelência em ensino, pesquisa, extensão e inovação, com forte atuação nas áreas de Ciências Agrárias, Ciências Biológicas, Ciências Humanas e Sociais, e Tecnologias. Sua importância reside na formação de profissionais qualificados e na geração de conhecimento estratégico para o desenvolvimento sustentável da região e do país, com destaque para a atuação em agronegócio, recursos hídricos, meio ambiente e desenvolvimento social. A universidade exerce uma influência significativa em Pernambuco e no cenário nacional, sendo um polo de referência acadêmica e tecnológica.",
+        "Destaques Acadêmicos e Reconhecimentos",
+        "Nossos Pilares de Excelência",
+        "Liderança e Inovação: A UFRPE se destaca por sua formação científica e tecnológica de alta qualidade formando cidadãos(ãs), docentes e pesquisadores(as) atentos(as) às transformações sociais, culturais, científicas e tecnológicas voltados numa formação por e para as pessoas. As áreas de atuação preponderantes são: Agronomia, Medicina Veterinária, Zootecnia, Engenharia de Pesca, Ciências Biológicas, Ecologia, Engenharia Ambiental, Ciência da Computação, Ciências Sociais, Agroecologia e Administração. A universidade desenvolve pesquisas de vanguarda e projetos relevantes que buscam soluções para os desafios da segurança alimentar, sustentabilidade dos (socio)ecossistemas, desenvolvimento rural, bioenergia e saúde animal, com um forte compromisso em gerar impacto social e científico.",
+        "Reconhecimento Global: A UFRPE figura consistentemente entre as universidades de destaque em importantes rankings universitários nacionais, como o Ranking Universitário Folha (RUF), figurando entre as 60 melhores nos três últimos anos, melhorando seu posicionamento ano a ano, e avaliações do Ministério da Educação (MEC). Também possui reconhecimento em rankings internacionais em áreas específicas, especialmente nas Ciências Agrárias, tendo melhorado substancialmente seu posicionamento no QS Ranking da América Latina nos últimos três anos, deixando a faixa de 301-350 para assumir a 138ª posição, o que reflete a qualidade de seu corpo docente altamente qualificado, composto por professores e pesquisadores com vasta experiência e reconhecimento em suas áreas de atuação, e uma infraestrutura de pesquisa de ponta que apoia estudos de excelência.",
+        "Missão e Impacto Social: A missão da UFRPE é co-produzir, sistematizar e socializar o conhecimento científico, tecnológico e cultural, formando profissionais e cidadãos com responsabilidade social, capazes de atuar criticamente e contribuir para o desenvolvimento sustentável da sociedade. A universidade tem um compromisso profundo com a inclusão, a diversidade e a melhoria da qualidade de vida da população por meio da pesquisa e extensão, com forte atuação nas comunidades rurais e na conservação dos biomas locais.",
+        "Experiência Estudantil Enriquecedora: A UFRPE oferece um ambiente acadêmico vibrante e estimulante, impulsionado pela diversidade de seu corpo discente e pela intensa vida universitária em um campus que se destaca por sua vasta área verde e estações avançadas de ensino e pesquisa (verdadeiros laboratórios de campo). A experiência estudantil é enriquecida por diversas atividades extracurriculares, como empresas juniores, grupos de pesquisa e extensão, atléticas, centros acadêmicos e uma vasta inserção sociocultural que promovem o desenvolvimento integrado e aprofundam a compreensão das diferentes realidades e saberes.",
+        "Estrutura Multicampi e Outros Campi: A UFRPE possui outros 3 campi localizados nas cidades de Belo Jardim, Serra Talhada e Cabo de Santo Agostinho."
+      ]
+    },
+    "vida_na_ies": {
+      "slug": "/ufrpe/vida-na-ies",
+      "id": "vida_na_ies",
+      "titulo": "Vida na UFRPE",
+      "nav_title": "Vida na IES",
+      "tag": "UFRPE",
+      "descricao_seo": "Infraestrutura, moradia, alimentação e convivência na UFRPE.",
+      "paragrafos": [
+        "Infraestrutura Completa para o seu Desenvolvimento: A UFRPE, sendo multicampi oferece uma infraestrutura completa para atender às necessidades acadêmicas e de bem-estar dos seus estudantes. O campus principal, conhecido por sua vasta área verde, possui fazendas experimentais e laboratórios de campo, complementando laboratórios multiusuários e institutos tecnológicos bem equipados para diversas áreas do conhecimento. A universidade dispõe de uma rede de bibliotecas atualizadas com acervos ricos e especializados, salas de aula e auditórios modernos. A UFRPE conta com restaurantes universitários (RUs) de elevada qualidade, que servem refeições a preços acessíveis, e complexos esportivos que incentivam a prática de várias atividades físicas. A universidade também possui integração direta com o mundo virtual a partir de plataforma própria e boa conexão à internet em todo o campus e promover a acessibilidade em suas instalações. Detalhes específicos de cada instalação podem ser consultados no site oficial da universidade, que pode estar disponível predominantemente em português.",
+        "Uma Vida no Campus Vibrante: Atividades Extracurriculares: A UFRPE está diretamente ligada ao desenvolvimento sociocultural de Pernambuco: com sede em Recife e unidades acadêmicas no interior do estado, em Serra Talhada, Cabo de Santo Agostinho e Belo Jardim, a Universidade interage de perto com a cultura e a sociedade de cada região. Essa presença se reflete em uma vida universitária dinâmica e plural: você poderá participar de empresas juniores, ligas acadêmicas, grupos de pesquisa e extensão, coletivos culturais, atléticas, centros acadêmicos e de uma vasta gama de eventos acadêmicos, culturais e sociais que promovem a integração, o desenvolvimento de novas habilidades e a imersão na cultura universitária pernambucana.",
+        "A UFRPE oferece moradia estudantil para estudantes internacionais? A UFRPE não possui moradias específicas para estudantes internacionais, mas o NINTER pode fornecer orientações sobre opções de alojamento em Recife e nas demais cidades dos campi.",
+        "Quais serviços de apoio estão disponíveis para estudantes internacionais na UFRPE? A universidade oferece suporte em questões acadêmicas, burocráticas e de integração cultural, além de acesso a serviços de saúde.",
+        "Viver em Recife",
+        "Qual é o custo de vida médio para um estudante em Recife? O custo de vida em Recife é considerado de médio para alto, mas a cidade oferece uma rica experiência cultural e de lazer.",
+        "Como é a cultura e o lazer na cidade? Recife é famosa por suas praias urbanas, culinária regional, história e eventos como o Carnaval.",
+        "Como funciona o transporte público em Recife? A cidade conta com um sistema de transporte público por ônibus e metrô que conecta os bairros e os campi.",
+        "Como é a segurança na cidade? Como em qualquer capital, é importante estar atento(a) e tomar precauções básicas no dia a dia.",
+        "A UFRPE possui outros 3 campi localizados nas cidades de Belo Jardim, Serra Talhada e Cabo de Santo Agostinho. Para informações sobre a vida nessas cidades, entre em contato com a equipe do NINTER."
+      ]
+    },
+    "estudantes_internacionais": {
+      "slug": "/ufrpe/estudantes-internacionais",
+      "id": "estudantes-internacionais",
+      "titulo": "Estudantes Internacionais na UFRPE",
+      "nav_title": "Estudantes Internacionais",
+      "tag": "UFRPE",
+      "descricao_seo": "Informações de acolhimento, vistos e suporte aos estudantes internacionais na UFRPE.",
+      "paragrafos": [
+        "Suporte Integral ao Estudante Internacional: A UFRPE está comprometida em oferecer apoio para que sua transição e permanência no Brasil sejam as mais tranquilas e produtivas possíveis. A universidade oferece serviços de suporte que visam facilitar sua adaptação e permanência, incluindo orientação acadêmica, apoio psicológico, recursos para acessibilidade e inclusão, bem como suporte em questões burocráticas relativas a vistos e registros. Tudo isso está em consonância com o Plano de Internacionalização da UFRPE, no qual constam todas as políticas voltadas, inclusive para as boas-vindas e permanência de estudantes internacionais. Para informações detalhadas sobre a disponibilidade de serviços de saúde no campus, ou qualquer outro suporte específico, é recomendado entrar em contato diretamente com o Núcleo de Internacionalização (NINTER) da universidade.",
+        "Núcleo de Internacionalização (NINTER): O NINTER é o setor da UFRPE responsável pelo fomento à internacionalização, com o acompanhamento das parcerias entre a UFRPE e instituições internacionais, bem como a orientação de oportunidades de bolsas em programas de mobilidade acadêmica internacional.",
+        "Serviços oferecidos pelo NINTER:",
+        "Orientação Pré-chegada: Oferece informações e orientações para ajudar você com vistos, documentação necessária e os primeiros passos antes de sua chegada ao Brasil.",
+        "Boas-Vindas e Recepção: Auxilia na sua chegada e integração inicial à vida universitária e à cultura local de Pernambuco, com uma recepção unificada (anual) através dos rios e ruas do Recife Antigo.",
+        "Suporte Contínuo: Fornece assistência em questões acadêmicas, burocráticas e de adaptação cultural ao longo da sua permanência na UFRPE, garantindo que você se sinta acolhido(a) e apoiado(a).",
+        "Cursos de Português para Estrangeiros (PLE): Oferta de Cursos de Português para Estrangeiros (PLE). Para informações sobre possíveis programas, cursos ou parcerias que possam auxiliar no aprendizado de português, incluindo a preparação para o exame CELPE-Bras, é recomendado que você contate diretamente o NINTER da UFRPE.",
+        "Orientação para Alojamento: A UFRPE não possui moradia estudantil própria para estudantes internacionais, contudo atua na articulação através dos acordos bilaterais para que a Casa do Estudante seja usada como ponto de apoio inicial. O NINTER pode fornecer orientações e dicas sobre as opções de moradia disponíveis nas cidades dos campi (Recife, Belo Jardim, Serra Talhada e Cabo de Santo Agostinho), como repúblicas de estudantes ou informações sobre aluguéis, auxiliando na sua instalação. Detalhes específicos sobre a orientação para moradia requerem pesquisa junto ao NINTER.",
+        "Eventos de Integração: O NINTER em parceria com as pró-reitorias e outras instâncias da UFRPE, incluindo a comunidade estudantil, promovem ativamente atividades e eventos voltados à integração cultural e social dos estudantes internacionais. A mais importante de todas é o Fórum de Internacionalização, evento de culminância das ações de internacionalização – o qual ocupa permanentemente o calendário acadêmico – no qual são convidados embaixadas, estudantes e professores internacionais, e parceiros. Essas iniciativas são oportunidades para você conhecer a cultura brasileira e pernambucana, interagir com a comunidade acadêmica e outros estudantes, facilitando sua adaptação e proporcionando uma experiência enriquecedora.",
+        "Viver na Cidade de Recife",
+        "Estudar na UFRPE em Recife significa viver em uma das capitais mais vibrantes e históricas do Nordeste brasileiro, com praias urbanas, rica cultura e uma economia dinâmica.",
+        "Custo de Vida: O custo de vida em Recife é considerado de médio para alto em comparação com outras capitais brasileiras. Moradia, transporte e alimentação são os principais itens de despesa, variando muito dependendo da região da cidade e do estilo de vida.",
+        "Cultura e Lazer: Recife é conhecida como a \"Veneza Brasileira\" e oferece uma rica vida cultural e diversas opções de lazer. A cidade conta com museus, teatros, centros culturais, o Rio Capibaribe que a corta, e uma vasta gama de bares e restaurantes que oferecem a culinária local e nacional. Há festas tradicionais como o Carnaval e o São João, eventos culturais e acesso a praias urbanas e próximas, proporcionando um ambiente dinâmico para estudantes.",
+        "Clima e Geografia: Recife possui um clima tropical úmido, com temperaturas elevadas e chuvas bem distribuídas ao longo do ano. A cidade está localizada no litoral, com paisagens de praias, rios, manguezais e ilhas.",
+        "Transporte Público: A cidade conta com um sistema de transporte público por ônibus e metrô que conecta os bairros e as principais áreas de interesse, incluindo o campus da UFRPE. Serviços de aplicativos de transporte também são amplamente disponíveis.",
+        "Saúde e Segurança: Recife possui uma infraestrutura de saúde de excelência, com hospitais públicos e privados, além de clínicas e laboratórios. Como em qualquer capital, é importante estar atento(a) à segurança pessoal, adotando precauções básicas.",
+        "A UFRPE, além de sua sede em Recife, está presente também nas cidades de Belo Jardim, Serra Talhada e Cabo de Santo Agostinho. Para saber mais sobre a vida nestas outras cidades, basta contatar o time de Relações Internacionais da UFRPE.",
+        "Perguntas Frequentes (FAQ) sobre Estudar na UFRPE",
+        "Aqui, você encontrará respostas para algumas das perguntas mais comuns de estudantes internacionais. Para informações detalhadas e atualizadas, consulte sempre o site oficial da UFRPE ou entre em contato com a Coordenadoria de Relações Internacionais (CORI). Note que algumas informações no site podem estar disponíveis apenas em português.",
+        "Cursos e Programas Acadêmicos",
+        "Quais tipos de cursos a UFRPE oferece para estudantes internacionais? A UFRPE oferece cursos de graduação e pós-graduação em diversas áreas do conhecimento, com foco em Ciências Agrárias, Biológicas e Ambientais.",
+        "É preciso ter proficiência em português para estudar na UFRPE? Sim, os cursos são ministrados em português. É fundamental que você tenha domínio do idioma para acompanhar as aulas e atividades acadêmicas.",
+        "Processo Seletivo e Admissão",
+        "Como posso me candidatar a um curso de graduação ou pós-graduação na UFRPE como estudante internacional? A UFRPE recebe estudantes internacionais por meio do Programa Estudante-Convênio dos Ministérios da Educação e das Relações Exteriores. Além disso, os processos de seleção próprios da universidade são abertos a todos os interessados, independentemente de nacionalidade. A seleção envolve exames de admissão, para a graduação, e exames de admissão e/ou a submissão de documentação específica, para a pós-graduação, a depender do programa.",
+        "A UFRPE exige algum teste de proficiência em português? Sim, é exigida a comprovação de proficiência em português aferida pelos exames de admissão. O CELPE-Bras pode ser aceito por alguns programas como meio de comprovação."
+      ]
+    }
+  }
+}

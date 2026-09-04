@@ -1,0 +1,127 @@
+{
+  "sigla": "UFRR",
+  "sigla_alt": "UFRR",
+  "slug": "ufrr",
+  "nome_completo": "Universidade Federal de Roraima",
+  "cidade_sede": "Boa Vista",
+  "estado": "Roraima",
+  "endereco_sede": "Av. Capitão Ene Garcez, 2413 - Aeroporto, Boa Vista - RR, CEP 69310-000",
+  "site_oficial": "www.ufrr.br",
+  "email_geral": "",
+  "telefone_geral": "",
+  "outros_campi": "(A UFRR possui outros 3 campi: Cauamé e  Campus Murupu (localizados na zona rural de Boa Vista) e o Campus São João da Baliza (no município de São João da Baliza)",
+  "mapa_html_embed": "<iframe width=\"100%\" height=\"480\" src=\"https://maps.google.com/maps?q=Av.%20Capit%C3%A3o%20Ene%20Garcez%2C%202413%20-%20Aeroporto%2C%20Boa%20Vista%20-%20RR%2C%20CEP%2069310-000&t=&z=15&ie=UTF8&iwloc=&output=embed\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>",
+  "metadados": {
+    "slug_home": "/ufrr",
+    "slug_sobre": "/ufrr/sobre-nos",
+    "slug_vida": "/ufrr/vida-na-ies",
+    "slug_inter": "/ufrr/estudantes-internacionais",
+    "nav_title_home": "UFRR",
+    "nav_title_sobre": "Sobre",
+    "nav_title_vida": "Vida na IES",
+    "nav_title_inter": "Estudantes Internacionais",
+    "tag": "UFRR",
+    "seo_description": "Universidade Federal de Roraima (UFRR), localizada em Boa Vista - Roraima, oferece ensino público, gratuito e de excelência no Brasil."
+  },
+  "contatos_e_redes": {
+    "nomenclatura_superior": "Relações Internacionais",
+    "nomenclatura_inferior": "Contato Institucional",
+    "email_setor": "crint@ufrr.br",
+    "telefone_setor": "",
+    "endereco_setor": "Av. Capitão Ene Garcez, 2413 - Aeroporto, Boa Vista/RR, CEP 69310-000",
+    "site_setor": "www.ufrr.br",
+    "redes_sociais": [
+      {
+        "rede": "Facebook",
+        "icone": "📘",
+        "url": "facebook.com/ufrroficial"
+      },
+      {
+        "rede": "Instagram",
+        "icone": "📸",
+        "url": "instagram.com/ufrroficial"
+      },
+      {
+        "rede": "YouTube",
+        "icone": "📽",
+        "url": "youtube.com/ufrroficial"
+      }
+    ]
+  },
+  "paginas": {
+    "sobre": {
+      "slug": "/ufrr/sobre-nos",
+      "id": "sobre-nos",
+      "titulo": "Sobre a UFRR",
+      "nav_title": "Sobre",
+      "tag": "UFRR",
+      "descricao_seo": "Conheça a história, visão geral e pilares de excelência da UFRR.",
+      "paragrafos": [
+        "Histórico e Legado",
+        "Ano de Fundação: A Universidade Federal de Roraima (UFRR) foi criada oficialmente em 1989, com aula inaugural em 19 de março de 1990. Foi a primeira universidade federal criada no Brasil sem incorporar instituições preexistentes e a primeira instituição de ensino superior no estado de Roraima, proporcionando acesso à educação superior que antes estava disponível somente fora da região.",
+        "Visão Geral: A UFRR é a única universidade federal do estado de Roraima, desempenhando papel crucial na formação de profissionais, produção de conhecimento e promoção da cultura e extensão na região amazônica setentrional. Focada na regionalização de suas ações, atende às demandas de desenvolvimento do estado e da Amazônia Legal, destacando-se em temas como sustentabilidade amazônica, biodiversidade, povos indígenas, agronomia, saúde, educação e desenvolvimento regional. Com atividades distribuídas em quatro campi em Roraima, a UFRR contribui significativamente para o desenvolvimento social, científico e econômico da região, além de promover a inclusão social, a interculturalidade e a valorização da diversidade cultural que caracteriza a Amazônia e as populações que nela vivem.",
+        "Destaques Acadêmicos e Reconhecimentos",
+        "Nossos Pilares de Excelência",
+        "Liderança e Inovação: A UFRR se destaca por sua atuação em áreas como Agronomia, Medicina, Direito, Educação, e estudos sobre Biodiversidade Amazônica e Povos Indígenas. A universidade desenvolve pesquisas de vanguarda e projetos relevantes que buscam soluções para os desafios da conservação ambiental, o desenvolvimento sustentável da Amazônia, a saúde pública e a educação contextualizada, com um forte compromisso em gerar impacto social e científico na sociedade roraimense e brasileira.",
+        "Reconhecimento Global: A UFRR figura em avaliações do Ministério da Educação (MEC), atestando a qualidade de seus cursos e a relevância de sua atuação regional. A universidade mantém, pelo terceiro ano consecutivo, conceito 4 no Índice Geral de Cursos Avaliados da Instituição (IGC), que vai de 1 a 5, indicando boa qualidade geral. A universidade possui um corpo docente qualificado e engajado em pesquisas com forte impacto social e ambiental, e uma infraestrutura em constante aprimoramento que proporciona um ambiente propício para a inovação e o aprendizado, especialmente em relação aos estudos da Amazônia.",
+        "Missão e Impacto Social: A missão da UFRR é produzir, sistematizar e socializar o conhecimento, com foco no desenvolvimento humano e social de Roraima e do Brasil, por meio do ensino, pesquisa e extensão. A universidade mantém compromisso com a responsabilidade social, inclusão, valorização da diversidade cultural e dos povos indígenas, buscando respostas aos desafios contemporâneos e contribuindo para uma sociedade mais justa e próspera na região amazônica.",
+        "Experiência Estudantil Enriquecedora: A UFRR oferece um ambiente acadêmico diversificado e acolhedor, onde a riqueza cultural da região amazônica e a pluralidade de ideias se encontram. A experiência estudantil é enriquecida por diversas atividades extracurriculares, como grupos de pesquisa e extensão em comunidades locais, associações estudantis, atividades culturais, esportivas e eventos que promovem um desenvolvimento integral e uma profunda conexão com o contexto regional e suas especificidades.",
+        "Estrutura Multicampi e Outros Campi: (A UFRR possui outros 3 campi: Cauamé e  Campus Murupu (localizados na zona rural de Boa Vista) e o Campus São João da Baliza (no município de São João da Baliza)"
+      ]
+    },
+    "vida_na_ies": {
+      "slug": "/ufrr/vida-na-ies",
+      "id": "vida_na_ies",
+      "titulo": "Vida na UFRR",
+      "nav_title": "Vida na IES",
+      "tag": "UFRR",
+      "descricao_seo": "Infraestrutura, moradia, alimentação e convivência na UFRR.",
+      "paragrafos": [
+        "Infraestrutura Completa para o seu Desenvolvimento: A UFRR mantém sua infraestrutura concentrada nos três campi principais localizados em Boa Vista — Campus Paricarana, Campus Cauamé e Campus Murupu — além do Campus Avançado em São João da Baliza, inaugurado em 2025 para atender a região sul do estado. Cada campus dispõe de laboratórios modernos e bem equipados que atendem às diversas áreas do conhecimento, bibliotecas com acervos especializados, salas de aula e auditórios atualizados. No campus principal de Paricarana, os estudantes têm acesso a um restaurante universitário (RU) que oferece refeições a preços subsidiados, além de espaços dedicados à prática esportiva e convivência social. Essas instalações proporcionam suporte adequado para o estudo, pesquisa e bem-estar dos alunos.",
+        "Uma Vida no Campus Vibrante: Atividades Extracurriculares: A vida na UFRR é dinâmica e oferece diversas oportunidades de engajamento extracurricular. Você poderá participar de associações estudantis, grupos de pesquisa e extensão, coletivos culturais, atléticas e uma vasta gama de eventos acadêmicos e sociais que promovem a integração, o desenvolvimento de novas habilidades e a imersão na cultura universitária roraimense e amazônica.",
+        "A UFRR oferece moradia estudantil para estudantes internacionais? A UFRR não possui moradias específicas para estudantes internacionais, mas a CRINT pode fornecer orientações sobre opções de alojamento em Boa Vista e nas demais cidades dos campi.",
+        "Quais serviços de apoio estão disponíveis para estudantes internacionais na UFRR? A universidade oferece suporte em questões acadêmicas e burocráticas e atividades de integração.",
+        "Viver em Boa Vista",
+        "Qual é o custo de vida médio para um estudante em Boa Vista? O custo de vida em Boa Vista é considerado mediano sendo mais vantajoso que nas grandes capitais, o que é ótimo para estudantes.",
+        "Como é a cultura e o lazer na cidade? Boa Vista oferece uma rica cultura amazônica e indígena, com festas tradicionais e acesso a belezas naturais.",
+        "Como funciona o transporte público em Boa Vista? A cidade conta com um sistema de transporte público por ônibus que conecta os bairros e o campus.",
+        "Como é a segurança na cidade? Como em qualquer capital, é importante estar atento(a) e tomar precauções básicas no dia a dia."
+      ]
+    },
+    "estudantes_internacionais": {
+      "slug": "/ufrr/estudantes-internacionais",
+      "id": "estudantes-internacionais",
+      "titulo": "Estudantes Internacionais na UFRR",
+      "nav_title": "Estudantes Internacionais",
+      "tag": "UFRR",
+      "descricao_seo": "Informações de acolhimento, vistos e suporte aos estudantes internacionais na UFRR.",
+      "paragrafos": [
+        "Suporte Integral ao Estudante Internacional: Na UFRR, esse suporte é oferecido pela Coordenadoria de Relações Internacionais (CRINT), vinculada à Vice-Reitoria, responsável pela internacionalização da universidade por meio de convênios e cooperação internacional. A CRINT orienta estudantes internacionais desde a pré-chegada, com informações sobre vistos e documentos, até a integração acadêmica e cultural por meio de eventos de boas-vindas. Durante toda a permanência, oferece assistência em questões acadêmicas, burocráticas e adaptação cultural, além de ajudar na regularização de vistos e documentação, coordenar intercâmbios, estágios e convênios, e fomentar a troca de experiências e projetos de cooperação.",
+        "Coordenadoria de Relações Internacionais (CRINT):﻿ A CRINT é o setor da UFRR responsável por planejar, coordenar e executar a política de internacionalização da universidade, promovendo a cooperação e o intercâmbio acadêmico com instituições estrangeiras, beneficiando estudantes, professores e pesquisadores.",
+        "Serviços oferecidos pela CRINT:",
+        "Orientação Pré-chegada: Oferece informações sobre vistos, documentação e primeiros passos para estudantes internacionais antes da chegada ao Brasil, auxiliando na preparação para o processo de admissão e instalação.",
+        "Boas-Vindas e Recepção: Auxilia na sua chegada e integração inicial à vida universitária e à cultura local nas cidades dos campi.",
+        "Suporte Contínuo: Disponibiliza apoio acadêmico, burocrático e cultural durante toda a permanência do estudante na UFRR, incluindo regularização de documentos e orientação para questões acadêmicas.",
+        "Cursos de Português para Estrangeiros (PLE): Através do Núcleo de Línguas (NucLi) e do programa Idiomas sem Fronteiras, a UFRR oferece cursos gratuitos presenciais e online de português para estrangeiros, inclusive com preparação para o exame CELPE-Bras, que auxiliam na adaptação acadêmica e social dos estudantes estrangeiros.",
+        "Orientação para Alojamento: A UFRR não possui moradia estudantil própria para estudantes internacionais. A CRINT pode fornecer orientações e dicas sobre as opções de moradia disponíveis nas cidades dos campi, como repúblicas de estudantes ou informações sobre aluguéis, auxiliando na sua instalação.",
+        "Eventos de Integração: A CRINT, em parceria com diversas instâncias da universidade e a comunidade estudantil, promove atividades culturais e sociais regulares para integração dos estudantes internacionais, facilitando o contato com a cultura brasileira e roraimense, construção de redes de apoio e enriquecimento da experiência acadêmica na região.",
+        "Viver na Cidade de Boa Vista",
+        "Estudar na UFRR em Boa Vista é vivenciar a capital de Roraima, uma cidade planejada no coração da Amazônia setentrional, às margens do Rio Branco.",
+        "Custo de Vida: O custo de vida em Boa Vista é considerado mediano comparado a grandes capitais brasileiras, com despesas moderadas em moradia, transporte e alimentação, embora alguns preços possam variar devido à logística regional.",
+        "Cultura e Lazer: Boa Vista possui uma vida cultural rica e multifacetada, com destaque para manifestações tradicionais roraimenses e amazônicas, como as danças e ritmos indígenas (parixara, batuque, tukui), festivais juninos grandiosos como o Boa Vista Junina, que reúne apresentações de grupos folclóricos, e eventos como o Festival dos Povos da Floresta, que celebra a diversidade cultural da região com música, oficinas e exposições. A gastronomia valoriza ingredientes típicos da Amazônia e pratos tradicionais como a paçoca de carne de sol. A orla do Rio Branco é um local central para lazer e eventos culturais ao ar livre.",
+        "Clima e Geografia: Boa Vista possui um clima equatorial, quente e úmido durante a maior parte do ano, com um período de chuvas e um período de seca bem definidos. A cidade está localizada na região amazônica, às margens do Rio Branco, e cercada pela vegetação típica da Amazônia e do lavrado roraimense.",
+        "Transporte Público: Boa Vista possui um sistema de transporte público com diversas linhas de ônibus urbano que conectam bairros, áreas de interesse e o campus da UFRR. Recentemente, a frota recebeu ônibus modernos, climatizados e acessíveis, e a população pode acompanhar os horários e rotas por aplicativos em tempo real.",
+        "Saúde e Segurança: Boa Vista possui uma infraestrutura de saúde com hospitais públicos e privados que atendem às necessidades da população. Como em qualquer capital, é importante estar atento(a) à segurança pessoal, adotando precauções básicas.",
+        "A UFRR, além de sua sede em Boa Vista, está presente também nas áreas rurais nos campi  Cauamé, Murupu e no município de São João da Baliza. Para saber mais sobre a vida nestas outras áreas, basta contatar o time da Coordenadoria de Relações Internacionais (CRINT) da UFRR.",
+        "Perguntas Frequentes (FAQ) sobre Estudar na UFRR",
+        "Aqui, você encontrará respostas para algumas das perguntas mais comuns de estudantes internacionais. Para informações detalhadas e atualizadas, consulte sempre o site oficial da UFRR ou entre em contato com a Coordenadoria de Relações Internacionais (CRINT). Note que algumas informações no site podem estar disponíveis apenas em português.",
+        "Cursos e Programas Acadêmicos",
+        "Quais tipos de cursos a UFRR oferece para estudantes internacionais? A UFRR oferece uma vasta gama de cursos de graduação e pós-graduação em diversas áreas do conhecimento, com destaque para Agronomia, Medicina, Direito e estudos amazônicos. A lista de cursos de graduação pode ser consultada em https://ufrr.br/cursos/, e a lista de programas de pós-graduação em https://sigaa.ufrr.br/sigaa/public/curso/lista.jsf?nivel=S&aba=p-ensino.",
+        "É preciso ter proficiência em português para estudar na UFRR? Pode ser exigida a comprovação de proficiência em português, muitas vezes por meio de exames como o CELPE-Bras, a depender do curso ou programa de pós-graduação, consulte a Coordenadoria de Relações Internacionais (CRINT) para saber se o curso pretendido possui exigência de proficiência.",
+        "Processo Seletivo e Admissão",
+        "Como posso me candidatar a um curso de graduação ou pós-graduação na UFRR como estudante internacional? O ingresso como estudante regular na UFRR ocorre por processos seletivos próprios como o Processo Seletivo Seriado (PSS) e o Vestibular Tradicional. O sistema SISU, com a nota do ENEM, pode ser utilizado em algumas oportunidades. Estudantes internacionais que desejem realizar mobilidade acadêmica devem observar os requisitos para ingresso, que geralmente envolvem a necessidade da existência de convênio vigente entre a UFRR e sua instituição de origem, ou a participação em programas de mobilidade internacional. Para os cursos de pós-graduação, cada programa disponibiliza seus próprios editais com critérios específicos e prazos de inscrição, que podem ser consultados nas páginas oficiais dos cursos. Mais informações podem ser encontradas em https://ufrr.br/crint/estudante-internacionais/.",
+        "A UFRR exige algum teste de proficiência em português? Pode ser exigida a comprovação de proficiência em português, muitas vezes por meio de exames como o CELPE-Bras, a depender do curso ou programa de pós-graduação, consulte a Coordenadoria de Relações Internacionais (CRINT) para saber se o curso pretendido possui exigência de proficiência."
+      ]
+    }
+  }
+}

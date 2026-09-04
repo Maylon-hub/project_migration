@@ -1,1 +1,3 @@
-Na página de cada IEs, as subpáginas (Sobre, Vida na IES e Estudantes Internacionais) estão todas redirecionando para UFSCar
+Na página de cada IEs, as subpáginas (Sobre, Vida na IES e Estudantes Internacionais) estão todas redirecionando para as subpáginas da UFSCar. 
+- Fazer o vínculo com a página
+- Substituir o título personalizado

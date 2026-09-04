@@ -1,0 +1,127 @@
+{
+  "sigla": "UFAC",
+  "sigla_alt": "UFAC",
+  "slug": "ufac",
+  "nome_completo": "Universidade Federal do Acre",
+  "cidade_sede": "Rio Branco",
+  "estado": "Acre",
+  "endereco_sede": "Rodovia BR 364, Km 04, B: Distrito Industrial, Rio Branco, AC, Brasil.",
+  "site_oficial": "www.ufac.br",
+  "email_geral": "",
+  "telefone_geral": "",
+  "outros_campi": "Além do campus principal em Rio Branco, a UFAC possui campus na cidade de Cruzeiro do Sul.",
+  "mapa_html_embed": "<iframe width=\"100%\" height=\"480\" src=\"https://maps.google.com/maps?q=Rodovia%20BR%20364%2C%20Km%2004%2C%20B%3A%20Distrito%20Industrial%2C%20Rio%20Branco%2C%20AC%2C%20Brasil.&t=&z=15&ie=UTF8&iwloc=&output=embed\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>",
+  "metadados": {
+    "slug_home": "/ufac",
+    "slug_sobre": "/ufac/sobre-nos",
+    "slug_vida": "/ufac/vida-na-ies",
+    "slug_inter": "/ufac/estudantes-internacionais",
+    "nav_title_home": "UFAC",
+    "nav_title_sobre": "Sobre",
+    "nav_title_vida": "Vida na IES",
+    "nav_title_inter": "Estudantes Internacionais",
+    "tag": "UFAC",
+    "seo_description": "Universidade Federal do Acre (UFAC), localizada em Rio Branco - Acre, oferece ensino público, gratuito e de excelência no Brasil."
+  },
+  "contatos_e_redes": {
+    "nomenclatura_superior": "Relações Internacionais",
+    "nomenclatura_inferior": "Contato Institucional",
+    "email_setor": "aci@ufac.br",
+    "telefone_setor": "",
+    "endereco_setor": "Rodovia BR 364, Km 04, B: Distrito Industrial, Rio Branco, AC, Brasil.",
+    "site_setor": "www.ufac.br",
+    "redes_sociais": [
+      {
+        "rede": "Facebook",
+        "icone": "📘",
+        "url": "https://www.facebook.com/ufacoficial"
+      },
+      {
+        "rede": "Instagram",
+        "icone": "📸",
+        "url": "https://www.instagram.com/ufac_oficial"
+      },
+      {
+        "rede": "X",
+        "icone": "𝕏",
+        "url": "https://www.twitter.com/UFAC_oficial"
+      },
+      {
+        "rede": "YouTube",
+        "icone": "📽",
+        "url": "https://www.youtube.com/UfacTV"
+      }
+    ]
+  },
+  "paginas": {
+    "sobre": {
+      "slug": "/ufac/sobre-nos",
+      "id": "sobre-nos",
+      "titulo": "Sobre a UFAC",
+      "nav_title": "Sobre",
+      "tag": "UFAC",
+      "descricao_seo": "Conheça a história, visão geral e pilares de excelência da UFAC.",
+      "paragrafos": [
+        "Histórico e Legado",
+        "Ano de Fundação: A Universidade Federal do Acre (UFAC) foi oficialmente criada em 5 de abril de 1974.",
+        "Visão Geral: A UFAC é a única universidade pública federal no estado do Acre, desempenhando um papel crucial na educação superior brasileira. Com campi nas cidades de Rio Branco e Cruzeiro do Sul, a UFAC oferece uma gama de cursos de graduação e pós-graduação, contribuindo significativamente para o desenvolvimento regional e nacional.",
+        "Destaques Acadêmicos e Reconhecimentos",
+        "Nossos Pilares de Excelência",
+        "Liderança e Inovação: A UFAC destaca-se em diversas áreas do conhecimento, promovendo pesquisas relevantes com impacto social significativo. A universidade investe continuamente em projetos de vanguarda que abordam desafios contemporâneos e contribuem para o avanço científico e tecnológico.",
+        "Reconhecimento Global: A UFAC figura entre as 300 melhores universidades da América Latina, segundo o ranking QS TopUniversities, refletindo a qualidade de seu corpo docente e infraestrutura de pesquisa.",
+        "Missão e Impacto Social: A missão da UFAC é produzir, sistematizar e difundir conhecimentos, com base na integração ensino, pesquisa e extensão, para formar cidadãos críticos e atuantes no desenvolvimento da sociedade. A universidade está comprometida com a formação de profissionais qualificados e com a realização de pesquisas que beneficiam a sociedade.",
+        "Experiência Estudantil Enriquecedora: A UFAC promove uma experiência estudantil enriquecedora, oferecendo uma variedade de atividades extracurriculares que refletem a diversidade cultural da região. Os estudantes têm a oportunidade de participar de grupos culturais, esportivos e acadêmicos, enriquecendo sua formação e integração social.",
+        "Estrutura Multicampi e Outros Campi: Além do campus principal em Rio Branco, a UFAC possui campus na cidade de Cruzeiro do Sul."
+      ]
+    },
+    "vida_na_ies": {
+      "slug": "/ufac/vida-na-ies",
+      "id": "vida_na_ies",
+      "titulo": "Vida na UFAC",
+      "nav_title": "Vida na IES",
+      "tag": "UFAC",
+      "descricao_seo": "Infraestrutura, moradia, alimentação e convivência na UFAC.",
+      "paragrafos": [
+        "Infraestrutura Completa para o seu Desenvolvimento:",
+        "A UFAC oferece laboratórios bem equipados para diversas áreas do conhecimento, uma rede de bibliotecas com acervos ricos, restaurante universitário que garante alimentação equilibrada, complexos esportivos para práticas diversas, conexão de internet de alta velocidade e instalações acessíveis para pessoas com deficiência. Detalhes específicos de cada instalação podem ser consultados no site oficial da universidade.",
+        "Uma Vida no Campus Vibrante: Atividades Extracurriculares:",
+        "Os estudantes têm a oportunidade de participar de associações estudantis, grupos culturais, equipes esportivas e eventos acadêmicos e sociais que enriquecem a experiência universitária.",
+        "Quais serviços de suporte a UFAC oferece aos estudantes internacionais? A UFAC oferece orientação acadêmica, suporte psicológico, serviços de saúde, programas de acessibilidade e eventos de integração cultural.",
+        "Há opções de moradia no campus? A UFAC fornece orientação para encontrar moradia, incluindo informações sobre opções de alojamento próximas ao campus.",
+        "Viver em Rio Branco",
+        "Como é o clima em Rio Branco? Rio Branco possui clima tropical úmido, com temperaturas elevadas e alta umidade ao longo do ano.",
+        "Quais são as opções de transporte público na cidade? A cidade conta com um sistema de transporte público que facilita o deslocamento dos estudantes entre a universidade e outras áreas de interesse."
+      ]
+    },
+    "estudantes_internacionais": {
+      "slug": "/ufac/estudantes-internacionais",
+      "id": "estudantes-internacionais",
+      "titulo": "Estudantes Internacionais na UFAC",
+      "nav_title": "Estudantes Internacionais",
+      "tag": "UFAC",
+      "descricao_seo": "Informações de acolhimento, vistos e suporte aos estudantes internacionais na UFAC.",
+      "paragrafos": [
+        "Suporte Integral ao Estudante Internacional:",
+        "A UFAC oferece serviços de orientação acadêmica e psicológica, programas de acessibilidade e inclusão, serviços de saúde no campus, suporte burocrático para questões como vistos e documentação, eventos de integração cultural e cursos de Português para Estrangeiros (PLE). Detalhes específicos sobre esses serviços podem ser encontrados no site oficial da universidade.",
+        "Assessoria de Cooperação Interinstitucional (ACI): A UFAC possui uma Assessoria de Cooperação Interinstitucional responsável por coordenar as atividades de internacionalização, incluindo orientação pré-chegada, boas-vindas, recepção, e suporte contínuo aos estudantes internacionais.",
+        "Cursos de Português para Estrangeiros (PLE): A UFAC oferece cursos de Português para Estrangeiros, abrangendo diversos níveis e modalidades, preparando os estudantes para exames como o CELPE-Bras. Informações detalhadas sobre os cursos podem ser consultadas no site oficial da universidade.",
+        "Orientação para Alojamento: A universidade fornece orientação para encontrar moradia, incluindo dicas sobre opções de alojamento e suporte na busca por residências adequadas. Detalhes específicos podem ser encontrados no site oficial da UFAC.",
+        "Eventos de Integração: A UFAC organiza atividades culturais e sociais para facilitar a integração dos estudantes internacionais, promovendo a troca de experiências e a adaptação ao ambiente acadêmico e cultural.",
+        "Viver em Rio Branco",
+        "Custo de Vida: Rio Branco oferece um custo de vida acessível em comparação com algumas capitais brasileiras, com opções de moradia, alimentação e transporte a preços razoáveis.",
+        "Cultura e Lazer: A cidade possui uma rica vida cultural, com teatros, museus, festivais e eventos que refletem a diversidade da região amazônica.",
+        "Clima e Geografia: Rio Branco apresenta clima tropical úmido, com temperaturas elevadas e alta umidade ao longo do ano, proporcionando uma experiência única de contato com a natureza.",
+        "Transporte Público: A cidade conta com um sistema de transporte público que facilita o deslocamento dos estudantes entre a universidade e outras áreas de interesse.",
+        "Saúde e Segurança: Rio Branco possui uma rede de serviços de saúde e segurança pública que atendem às necessidades da população, incluindo os estudantes universitários. A UFAC possui campus também na cidade de Cruzeiro do Sul. Para saber mais sobre a vida nestas outras cidades, basta contatar o time da Assessoria de Cooperação Interinstitucional (ACI) da UFAC.",
+        "Perguntas Frequentes (FAQ) sobre estudar na UFAC",
+        "Aqui, você encontrará respostas para algumas das perguntas mais comuns de estudantes internacionais. Para informações detalhadas e atualizadas, consulte sempre o site oficial da UFAC ou entre em contato com a Assessoria de Cooperação Interinstitucional. Note que algumas informações no site podem estar disponíveis apenas em português.",
+        "Cursos e Programas Acadêmicos",
+        "Quais cursos de graduação a UFAC oferece? A UFAC oferece uma variedade de cursos de graduação em diversas áreas do conhecimento. A lista completa pode ser consultada no site oficial da universidade.",
+        "A UFAC oferece programas de pós-graduação? Sim, a UFAC possui programas de mestrado e doutorado em várias áreas. Informações detalhadas estão disponíveis no site oficial.",
+        "Processo Seletivo e Admissão",
+        "Como posso me candidatar a um curso na UFAC? Estudantes internacionais podem se candidatar por meio de programas específicos ou acordos de cooperação. Recomenda-se entrar em contato com a Assessoria de Cooperação Interinstitucional para orientações detalhadas.",
+        "É necessário comprovar proficiência em português? Sim, é geralmente necessário comprovar proficiência em português. A UFAC oferece cursos de Português para Estrangeiros para auxiliar na preparação."
+      ]
+    }
+  }
+}

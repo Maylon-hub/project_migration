@@ -1,0 +1,130 @@
+{
+  "sigla": "UFSB",
+  "sigla_alt": "UFSB",
+  "slug": "ufsb",
+  "nome_completo": "Universidade Federal do Sul da Bahia",
+  "cidade_sede": "Itabuna",
+  "estado": "Bahia",
+  "endereco_sede": "Rodovia BR 415, km 30, Bloco 1, Loteamento Ferradas, Itabuna - BA, CEP 45613-204",
+  "site_oficial": "www.ufsb.edu.br",
+  "email_geral": "",
+  "telefone_geral": "",
+  "outros_campi": "a UFSB possui outros 3 campi, totalizando 4 campi. Estão localizados nas cidades de Porto Seguro, Teixeira de Freitas e Jequié além da sede em Itabuna.",
+  "mapa_html_embed": "<iframe width=\"100%\" height=\"480\" src=\"https://maps.google.com/maps?q=Rodovia%20BR%20415%2C%20km%2030%2C%20Bloco%201%2C%20Loteamento%20Ferradas%2C%20Itabuna%20-%20BA%2C%20CEP%2045613-204&t=&z=15&ie=UTF8&iwloc=&output=embed\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>",
+  "metadados": {
+    "slug_home": "/ufsb",
+    "slug_sobre": "/ufsb/sobre-nos",
+    "slug_vida": "/ufsb/vida-na-ies",
+    "slug_inter": "/ufsb/estudantes-internacionais",
+    "nav_title_home": "UFSB",
+    "nav_title_sobre": "Sobre",
+    "nav_title_vida": "Vida na IES",
+    "nav_title_inter": "Estudantes Internacionais",
+    "tag": "UFSB",
+    "seo_description": "Universidade Federal do Sul da Bahia (UFSB), localizada em Itabuna - Bahia, oferece ensino público, gratuito e de excelência no Brasil."
+  },
+  "contatos_e_redes": {
+    "nomenclatura_superior": "Assessoria de Relações Internacionais (ARI)",
+    "nomenclatura_inferior": "Contato Institucional",
+    "email_setor": "ari@gfe.ufsb.edu.br",
+    "telefone_setor": "+55 73 2103-8407",
+    "endereco_setor": "Praça José Bastos, s/n, Centro, Itabuna – BA, CEP 45.600-923.",
+    "site_setor": "www.ufsb.edu.br",
+    "redes_sociais": [
+      {
+        "rede": "Facebook",
+        "icone": "📘",
+        "url": "https://pt-br.facebook.com/faceufsb/"
+      },
+      {
+        "rede": "Instagram",
+        "icone": "📸",
+        "url": "https://www.instagram.com/ufsb_oficial"
+      },
+      {
+        "rede": "LinkedIn",
+        "icone": "💼",
+        "url": "linkedin.com/school/ufsb/"
+      },
+      {
+        "rede": "YouTube",
+        "icone": "📽",
+        "url": "http://www.youtube.com/@EducacaoemRedeUFSB"
+      }
+    ]
+  },
+  "paginas": {
+    "sobre": {
+      "slug": "/ufsb/sobre-nos",
+      "id": "sobre-nos",
+      "titulo": "Sobre a UFSB",
+      "nav_title": "Sobre",
+      "tag": "UFSB",
+      "descricao_seo": "Conheça a história, visão geral e pilares de excelência da UFSB.",
+      "paragrafos": [
+        "Histórico e Legado",
+        "Ano de Fundação: A Universidade Federal do Sul da Bahia (UFSB) foi fundada em 5 de junho de 2013, como parte de um programa de expansão das universidades federais no Brasil. Sua criação visou impulsionar o desenvolvimento educacional, científico e tecnológico na região sul da Bahia, historicamente carente de ensino superior público.",
+        "Visão Geral: A UFSB é uma instituição federal de ensino superior jovem, mas de grande relevância, com um papel estratégico no desenvolvimento regional do sul da Bahia. Sua importância reside na inovação de seu projeto pedagógico, que adota os Bacharelados e Licenciaturas Interdisciplinares (BIs) como porta de entrada, e na sua forte vocação para o ensino, pesquisa e extensão voltados para as demandas da região, com foco em sustentabilidade, cultura oceânica e na sociobiodiversidade. A universidade contribui para a formação de profissionais qualificados e para a geração de conhecimento de ponta, impactando positivamente a sociedade e o meio ambiente local.",
+        "Destaques Acadêmicos e Reconhecimentos",
+        "Nossos Pilares de Excelência",
+        "Liderança e Inovação: A UFSB se destaca pela sua abordagem inovadora de ensino, com currículos flexíveis e interdisciplinares que incentivam a autonomia do estudante e a construção de percursos formativos personalizados. As Áreas de Artes, Ciências da Natureza, Ciências Humanas, Linguagens, Matemática e Computação são pilares de sua atuação, alinhadas às potencialidades e desafios do sul da Bahia. Além disso, formações como Tecnologia em Produção de Cacau e Chocolate, Oceanologia, Desenvolvimento Rural, Mídias Digitais e Produção Cultural são diferenciais da instituição. A universidade desenvolve pesquisas e projetos relevantes que buscam soluções para a conservação ambiental, o desenvolvimento sustentável e a valorização das culturas regionais, com um forte compromisso em gerar impacto social e científico.",
+        "Reconhecimento Global: A UFSB, como uma universidade relativamente nova, tem mantido seu Índice Geral de Cursos (IGC) na faixa 4 de 5. O referido índice é publicado pelo Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep) e atesta a qualidade de seus cursos e a relevância de sua atuação. Além disso, a qualidade de seu corpo docente, com muitos professores e pesquisadores com experiência e reconhecimento em suas áreas, e uma infraestrutura que cresce a cada ano, são fundamentais para o desenvolvimento de pesquisas de excelência e uma formação de alta qualidade.",
+        "Missão e Impacto Social: A missão da UFSB é formar cidadãos críticos e criativos, capazes de atuar de forma transformadora na sociedade, por meio de um ensino superior público, gratuito, de qualidade e socialmente referenciado. A universidade tem um compromisso profundo com a inovação didática e a inclusão social, buscando soluções para os desafios contemporâneos e contribuindo para a construção de um futuro mais justo e equitativo para o sul da Bahia e o Brasil.",
+        "Experiência Estudantil Enriquecedora: A UFSB oferece um ambiente acadêmico dinâmico e acolhedor, impulsionado pela diversidade de seu corpo discente e pela intensa vida universitária em uma região de grande beleza natural. A experiência estudantil é enriquecida por diversas atividades extracurriculares, como grupos de pesquisa e extensão, associações estudantis, atividades culturais e esportivas, que promovem o desenvolvimento integral e aprofundam a compreensão das diferentes realidades e saberes, incentivando o engajamento com as comunidades locais.",
+        "Localização e multicampia",
+        "Sigla: UFSB",
+        "Outros Campi: a UFSB possui outros 3 campi, totalizando 4 campi. Estão localizados nas cidades de Porto Seguro, Teixeira de Freitas e Jequié além da sede em Itabuna.",
+        "Colégios Universitários: nas cidades circunvizinhas aos 4 campi, estão instalados os colégios Universitários (CUNIs), onde os estudantes da região podem cursar o primeiro ano de faculdade evitando deslocamentos maiores no período de adaptação à vida universitária. Os Cunis abrangem 15 municípios além das sedes, expandindo o ensino superior para as regiões mais afastadas."
+      ]
+    },
+    "vida_na_ies": {
+      "slug": "/ufsb/vida-na-ies",
+      "id": "vida_na_ies",
+      "titulo": "Vida na UFSB",
+      "nav_title": "Vida na IES",
+      "tag": "UFSB",
+      "descricao_seo": "Infraestrutura, moradia, alimentação e convivência na UFSB.",
+      "paragrafos": [
+        "Infraestrutura Completa para o seu Desenvolvimento: A UFSB, com seus campi em Itabuna, Porto Seguro, Teixeira de Freitas e Jequié, busca oferecer a infraestrutura necessária para o desenvolvimento acadêmico e pessoal dos seus estudantes. Embora detalhes específicos possam variar por campus, a universidade geralmente dispõe de laboratórios equipados para diversas áreas do conhecimento, uma rede de bibliotecas com acervos relevantes e salas de aula modernas. Muitos campi contam com restaurantes universitários (RUs) que servem refeições a preços acessíveis e espaços destinados a atividades esportivas e de convivência. Detalhes específicos de cada instalação podem ser consultados no site oficial da universidade, que pode estar disponível predominantemente em português.",
+        "Uma Vida no Campus Vibrante: Atividades Extracurriculares: A vida na UFSB é dinâmica e oferece diversas oportunidades de engajamento extracurricular. Você poderá participar de associações estudantis, grupos de pesquisa e extensão, coletivos culturais, atléticas e uma vasta gama de eventos acadêmicos e sociais que promovem a integração, o desenvolvimento de novas habilidades e a imersão na cultura universitária baiana e nordestina.",
+        "A UFSB oferece moradia estudantil para estudantes internacionais? A UFSB não possui moradias específicas para estudantes internacionais, mas a ARI pode fornecer orientações sobre opções de alojamento nas cidades dos campi.",
+        "Quais serviços de apoio estão disponíveis para estudantes internacionais na UFSB? A universidade oferece suporte em questões acadêmicas, burocráticas e de integração cultural."
+      ]
+    },
+    "estudantes_internacionais": {
+      "slug": "/ufsb/estudantes-internacionais",
+      "id": "estudantes-internacionais",
+      "titulo": "Estudantes Internacionais na UFSB",
+      "nav_title": "Estudantes Internacionais",
+      "tag": "UFSB",
+      "descricao_seo": "Informações de acolhimento, vistos e suporte aos estudantes internacionais na UFSB.",
+      "paragrafos": [
+        "Suporte Integral ao Estudante Internacional: A UFSB está comprometida em oferecer apoio para que sua transição e permanência no Brasil sejam as mais tranquilas e produtivas possíveis. A universidade oferece serviços de suporte que visam facilitar sua adaptação e permanência, incluindo orientação acadêmica, recursos para acessibilidade e inclusão, bem como suporte em questões burocráticas relativas a vistos e registros. Para informações detalhadas sobre a disponibilidade de serviços de saúde no campus, ou qualquer outro suporte específico, é recomendado entrar em contato diretamente com a Assessoria de Relações Internacionais (ARI) da universidade.",
+        "Assessoria de Relações Internacionais (ARI): A ARI é o setor da UFSB responsável por planejar, coordenar e executar a política de internacionalização da universidade, promovendo parcerias e mobilidade acadêmica.",
+        "Serviços oferecidos pela ARI:",
+        "Orientação Pré-chegada: Oferece informações e orientações para ajudar você com vistos, documentação necessária e os primeiros passos antes de sua chegada ao Brasil.",
+        "Boas-Vindas e Recepção: Auxilia na sua chegada e integração inicial à vida universitária e à cultura local do sul da Bahia.",
+        "Suporte Contínuo: Fornece assistência em questões acadêmicas, burocráticas e de adaptação cultural ao longo da sua permanência na UFSB, garantindo que você se sinta acolhido(a) e apoiado(a).",
+        "Cursos de Português para Estrangeiros (PLE): A UFSB oferece curso de português para estudantes ingressos via Programa Estudante-Convênio dos Ministérios da Educação e das Relações Exteriores.",
+        "Orientação para Alojamento: A UFSB não oferece moradia estudantil própria para estudantes internacionais. A ARI pode fornecer orientações e dicas sobre as opções de moradia disponíveis nas cidades dos campi (Itabuna, Porto Seguro, Teixeira de Freitas e Jequié), como repúblicas de estudantes ou informações sobre aluguéis, auxiliando na sua instalação. Detalhes específicos sobre a orientação para moradia requerem pesquisa junto à ARI.",
+        "Eventos de Integração: A ARI e outras instâncias da UFSB, incluindo a comunidade estudantil, promovem ativamente atividades e eventos voltados à integração cultural e social dos estudantes internacionais. Essas iniciativas são oportunidades para você conhecer a cultura brasileira e baiana, interagir com a comunidade acadêmica e outros estudantes, facilitando sua adaptação e proporcionando uma experiência enriquecedora na região.",
+        "Viver na Cidade de Itabuna",
+        "Estudar na sede da UFSB significa viver em Itabuna, um importante centro urbano no sul da Bahia, cercado pelas belezas naturais da região cacaueira.",
+        "Custo de Vida: O custo de vida em Itabuna é considerado acessível em comparação com grandes capitais brasileiras. Despesas como moradia, transporte e alimentação podem ser mais moderadas, tornando-a uma opção interessante para estudantes.",
+        "Cultura e Lazer: Itabuna e a região sul da Bahia são ricas em cultura, especialmente a ligada ao cacau e à literatura de Jorge Amado. A cidade oferece opções de lazer como bares e restaurantes, cinemas e eventos culturais. A proximidade com o litoral, incluindo as praias de Ilhéus, proporciona diversas atividades de lazer e contato com a natureza.",
+        "Clima e Geografia: Itabuna possui um clima tropical úmido, com temperaturas elevadas e chuvas bem distribuídas ao longo do ano. A cidade está localizada em uma região de Mata Atlântica e vales férteis, com rios e uma vegetação exuberante, característica da Costa do Cacau.",
+        "Transporte Público: A cidade conta com um sistema de transporte público por ônibus que conecta os bairros e as principais áreas de interesse, incluindo o campus da UFSB.",
+        "Saúde e Segurança: Itabuna possui uma infraestrutura de saúde com hospitais e clínicas que atendem às necessidades da população. Como em qualquer cidade de porte médio, é importante estar atento(a) à segurança pessoal, adotando precauções básicas.",
+        "A UFSB, além de sua sede em Itabuna, está presente também nas cidades de Porto Seguro, Teixeira de Freitas e Jequié. Para saber mais sobre a vida nestas outras cidades, basta contatar o time de Relações Internacionais da UFSB.",
+        "Perguntas Frequentes (FAQ) sobre Estudar na UFSB",
+        "Aqui, você encontrará respostas para algumas das perguntas mais comuns de estudantes internacionais. Para informações detalhadas e atualizadas, consulte sempre o site oficial da UFSB ou entre em contato com a Assessoria de Relações Internacionais (ARI). Note que algumas informações no site podem estar disponíveis apenas em português.",
+        "Cursos e Programas Acadêmicos",
+        "Quais tipos de cursos a UFSB oferece para estudantes internacionais? A UFSB oferece cursos de graduação e pós-graduação com uma abordagem inovadora, focada em bacharelados interdisciplinares e áreas como ciências do mar e sustentabilidade.",
+        "É preciso ter proficiência em português para estudar na UFSB? Sim, os cursos são ministrados em português. É fundamental que você tenha domínio do idioma para acompanhar as aulas e atividades acadêmicas.",
+        "Processo Seletivo e Admissão",
+        "Como posso me candidatar a um curso de graduação ou pós-graduação na UFSB como estudante internacional? A UFSB recebe estudantes internacionais por meio do Programa Estudante-Convênio dos Ministérios da Educação e das Relações Exteriores. Além disso, estudantes internacionais podem realizar os processos de seleção global caso já estejam no Brasil. Os processos de seleção para a graduação envolvem provas de ingresso e para a pós-graduação, provas de ingresso, submissão de documentação específica e/ou comprovação de proficiência em língua portuguesa a depender do programa.",
+        "A UFSB exige algum teste de proficiência em português? Sim, é exigida a comprovação de proficiência em português, muitas vezes por meio de exames como o CELPE-Bras."
+      ]
+    }
+  }
+}

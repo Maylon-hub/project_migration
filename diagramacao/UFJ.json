@@ -1,0 +1,123 @@
+{
+  "sigla": "UFJ",
+  "sigla_alt": "UFJ",
+  "slug": "ufj",
+  "nome_completo": "Universidade Federal de Jataí",
+  "cidade_sede": "Jataí",
+  "estado": "Goiás",
+  "endereco_sede": "Campus Jatobá - Cidade Universitária: BR 364, km 195, nº 3.800, Jataí, GO. CEP 75801-615",
+  "site_oficial": "https://ufj.edu.br/",
+  "email_geral": "Não encontrado publicamente. ⚠️Gabinete Reitoria <gabinete.reitoria@ufj.edu.br>",
+  "telefone_geral": "(64) 3606 8202 (whatsapp) | (64) 3606 8203",
+  "outros_campi": "Além do Campus Jatobá, a UFJ possui o Campus Riachuelo, ambos localizados na cidade de Jataí.",
+  "mapa_html_embed": "<iframe width=\"100%\" height=\"480\" src=\"https://maps.google.com/maps?q=Campus%20Jatob%C3%A1%20-%20Cidade%20Universit%C3%A1ria%3A%20BR%20364%2C%20km%20195%2C%20n%C2%BA%203.800%2C%20Jata%C3%AD%2C%20GO.%20CEP%2075801-615&t=&z=15&ie=UTF8&iwloc=&output=embed\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>",
+  "metadados": {
+    "slug_home": "/ufj",
+    "slug_sobre": "/ufj/sobre-nos",
+    "slug_vida": "/ufj/vida-na-ies",
+    "slug_inter": "/ufj/estudantes-internacionais",
+    "nav_title_home": "UFJ",
+    "nav_title_sobre": "Sobre",
+    "nav_title_vida": "Vida na IES",
+    "nav_title_inter": "Estudantes Internacionais",
+    "tag": "UFJ",
+    "seo_description": "Universidade Federal de Jataí (UFJ), localizada em Jataí - Goiás, oferece ensino público, gratuito e de excelência no Brasil."
+  },
+  "contatos_e_redes": {
+    "nomenclatura_superior": "Escritório de Internacionalização (EI)",
+    "nomenclatura_inferior": "Contato Institucional",
+    "email_setor": "internationaloffice@ufj.edu.br",
+    "telefone_setor": "+55 64 99982-3543",
+    "endereco_setor": "Campus Jatobá - Cidade Universitária: BR 364, km 195, nº 3.800, Jataí, GO. CEP 75801-615",
+    "site_setor": "https://ufj.edu.br/",
+    "redes_sociais": [
+      {
+        "rede": "Instagram",
+        "icone": "📸",
+        "url": "www.instagram.com/ufj.oficial/?hl=pt-br"
+      },
+      {
+        "rede": "LinkedIn",
+        "icone": "💼",
+        "url": "www.linkedin.com/school/universidadefederal-jatai/?originalSubdomain=br"
+      },
+      {
+        "rede": "YouTube",
+        "icone": "📽",
+        "url": "www.youtube.com/channel/UCklii3asI9UbeTgFUvoCDAQ"
+      }
+    ]
+  },
+  "paginas": {
+    "sobre": {
+      "slug": "/ufj/sobre-nos",
+      "id": "sobre-nos",
+      "titulo": "Sobre a UFJ",
+      "nav_title": "Sobre",
+      "tag": "UFJ",
+      "descricao_seo": "Conheça a história, visão geral e pilares de excelência da UFJ.",
+      "paragrafos": [
+        "Histórico e Legado",
+        "Ano de Fundação: A Universidade Federal de Jataí (UFJ) foi criada em 2018, mas tem sua origem em um campus avançado da Universidade Federal de Goiás (UFG) que foi estabelecido em março de 1980. A instituição foi elevada à categoria de universidade federal por meio de um desmembramento da UFG.",
+        "Visão Geral: A UFJ é uma instituição pública de ensino superior localizada na cidade de Jataí, no sudoeste do estado de Goiás. Criada a partir do desmembramento da Universidade Federal de Goiás (UFG), a UFJ tem como missão promover a educação, a pesquisa e a extensão, contribuindo significativamente para o desenvolvimento regional, nacional e internacional",
+        "Destaques Acadêmicos e Reconhecimentos",
+        "Nossos Pilares de Excelência",
+        "Liderança e Inovação: A UFJ destaca-se em diversas áreas do conhecimento, incluindo: Ciências Agrárias, Biociências, Ciências Humanas e Letras, Ciências Sociais Aplicadas, Educação, Geografia, Ciências da Saúde, Ciências Exatas e Tecnológicas. A universidade está comprometida em promover iniciativas que mobilizem a comunidade acadêmica em torno da busca por soluções inovadoras para temas ligados ao desenvolvimento sustentável, desenvolvendo pesquisas relevantes que impactam positivamente a sociedade.",
+        "Reconhecimento e Destaque: A UFJ alcançou a 3ª colocação entre 321 instituições avaliadas no Painel “Lei de Acesso à Informação”, elaborado pela Controladoria-Geral da União (CGU), no critério Satisfação do Usuário. Entre todas as universidades e institutos federais de ensino do país, a UFJ lidera o ranking, ocupando a 1ª posição. A universidade conta com um corpo docente qualificado e laboratórios bem equipados que apoiam a infraestrutura de pesquisa.",
+        "Missão e Impacto Social: A missão da UFJ é promover a educação superior de qualidade, incentivando a pesquisa e a extensão, com foco no desenvolvimento sustentável e na resolução de desafios contemporâneos, proporcionando mudanças na comunidade do campus e da cidade. Além disso, a UFJ busca ser uma instituição de referência, tanto para os alunos quanto para os professores.",
+        "Experiência Estudantil Enriquecedora: A UFJ oferece uma experiência acadêmica diversificada, com atividades extracurriculares que promovem a integração cultural e social dos estudantes, proporcionando um ambiente inclusivo e acolhedor. Além disso, a Universidade promove ações que têm como objetivo aproximar a população do ambiente acadêmico, promovendo a integração entre a universidade e a sociedade.",
+        "Estrutura Multicampi e Outros Campi: Além do Campus Jatobá, a UFJ possui o Campus Riachuelo, ambos localizados na cidade de Jataí."
+      ]
+    },
+    "vida_na_ies": {
+      "slug": "/ufj/vida-na-ies",
+      "id": "vida_na_ies",
+      "titulo": "Vida na UFJ",
+      "nav_title": "Vida na IES",
+      "tag": "UFJ",
+      "descricao_seo": "Infraestrutura, moradia, alimentação e convivência na UFJ.",
+      "paragrafos": [
+        "Infraestrutura Completa para o seu Desenvolvimento:",
+        "A UFJ oferece laboratórios bem equipados para diversas áreas do conhecimento; duas bibliotecas, com um grande acervo de livros, periódicos, monografias, dissertações e teses, espaço para pesquisa, sala de estudos e laboratórios de informática, acessibilidade e inclusão; um Restaurante Universitário (RU), localizado no Campus Jatobá, que atende à comunidade acadêmica fornecendo refeições balanceadas e saudáveis, entre café da manhã, almoço e jantar, de segunda à sexta-feira; e o Núcleo de Práticas Corporais, no Campus Jatobá, que oferece à comunidade universitária e à população em geral a prática esportiva em diversas modalidades. Detalhes específicos de cada instalação podem ser consultados no site oficial da universidade, que está disponível em Português (Brasil).",
+        "Uma Vida no Campus Vibrante: Atividades Extracurriculares:",
+        "A universidade promove diversas atividades extracurriculares, incluindo associações estudantis, atividades culturais, equipes esportivas e a extensão universitária, proporcionando a interdisciplinaridade e viabilizando eventos acadêmicos e culturais que aproximam universidade e sociedade. Essas atividades proporcionam uma vida universitária dinâmica e engajadora.",
+        "Quais serviços de suporte a UFJ oferece aos estudantes? A UFJ, principalmente através do seu Escritório de Internacionalização (EI) e do Programa Embaixadores, oferece uma gama de serviços de suporte a estudantes estrangeiros para facilitar sua integração social e acadêmica e sua permanência na cidade durante sua jornada acadêmica. Entre esses serviços estão: orientação acadêmica, apoio psicológico, acessibilidade, serviços de saúde, aulas de português, auxílio moradia, entre outros. Detalhes podem ser consultados no site oficial do Escritório de Internacionalização (EI).",
+        "Existem atividades extracurriculares disponíveis? Sim, a UFJ promove diversas atividades extracurriculares, incluindo projetos de extensão, iniciação científica e pesquisa, eventos acadêmicos e esportivos, grupos culturais, os quais enriquecem a experiência estudantil.",
+        "Viver em Jataí",
+        "Como é o custo de vida em Jataí? Jataí oferece um custo de vida mediano, com opções de moradia e alimentação a preços medianos, tornando-a uma cidade universitária convidativa.",
+        "Quais são as opções de transporte na cidade? A cidade conta com um sistema de transporte público que facilita o deslocamento dos estudantes entre os campi e outras áreas de Jataí."
+      ]
+    },
+    "estudantes_internacionais": {
+      "slug": "/ufj/estudantes-internacionais",
+      "id": "estudantes-internacionais",
+      "titulo": "Estudantes Internacionais na UFJ",
+      "nav_title": "Estudantes Internacionais",
+      "tag": "UFJ",
+      "descricao_seo": "Informações de acolhimento, vistos e suporte aos estudantes internacionais na UFJ.",
+      "paragrafos": [
+        "Suporte Integral ao Estudante Internacional:",
+        "A UFJ, por meio do Escritório de Internacionalização (EI), oferece ao estudante internacional os seguintes serviços: recepção e orientação acadêmica e psicológica, acessibilidade e inclusão, serviços de saúde no campus, suporte burocrático, eventos de integração e cursos de Português para Estrangeiros (PLE). A UFJ está vinculada ao Programa de Estudantes-Convênio (PEC), uma iniciativa do governo brasileiro destinada a fortalecer as relações internacionais e promover a cooperação educacional com países amigos, especialmente através do ensino superior. Detalhes específicos podem ser consultados no site do Escritório de Internacionalização (EI) https://cai.jatai.ufg.br/, que está disponível em Português (Brasil), Inglês, espanhol e Francês.",
+        "Escritório de Internacionalização (EI): A UFJ, por meio do Escritório de Internacionalização (EI), busca harmonizar as diretrizes de internacionalização e garantir que o estudante estrangeiro tenha o suporte necessário para uma experiência acadêmica de sucesso na universidade.",
+        "Serviços: Esses serviços geralmente incluem acolhimento e suporte, recepção para facilitar a adaptação, orientação e informação, mobilidade acadêmica, cursos de português, promoção de convênios, assistência (quando disponível) e suporte contínuo durante o período de estudos no Brasil.",
+        "Cursos de Português para Estrangeiros (PLE): Através da Rede Andifes IsF (Idiomas sem Fronteiras), o EI oferece cursos presenciais gratuitos de inglês acadêmico, auxiliando na proficiência linguística necessária para os estudos no Brasil. Além disso, aos estudantes vinculados ao Programa de Estudantes-Convênio (PEC) é oferecido um curso gratuito de português e cultura brasileira no intuito de prepará-los para o exame Celpe-Bras e para ingressar em cursos de graduação no Brasil.",
+        "Orientação para Alojamento: A UFJ não possui alojamento próprio especificamente dedicado a estudantes estrangeiros, mas oferece programas e auxílios que podem ser acessados por eles, especialmente por meio do Escritório de Internacionalização (EI) e da PRAE. Para obter informações detalhadas e atualizadas sobre os procedimentos e editais específicos para estudantes estrangeiros, é fundamental entrar em contato diretamente com o Escritório de Internacionalização (EI) ou a Pró-Reitoria de Assuntos Estudantis (PRAE).",
+        "Eventos de Integração: A UFJ promove importantes eventos que reforçam o compromisso da instituição com a produção científica, o debate qualificado e a formação contínua de estudantes e profissionais. A realização de eventos, que incluem atividades culturais e sociais, evidencia o papel ativo da UFJ na promoção de debates acadêmicos de relevância social, fortalecendo a formação de estudantes e contribuindo com a capacitação de profissionais já formados. Além disso, os eventos de integração promovem a integração dos estudantes internacionais, favorecendo a imersão na cultura brasileira e a construção de novas amizades. Ao reunir diferentes áreas do conhecimento e proporcionar o contato direto com especialistas de renome, a universidade reafirma seu compromisso com uma educação pública de qualidade e com a construção de uma sociedade mais justa, sustentável e saudável.",
+        "Viver em Jataí",
+        "Custo de Vida: Jataí oferece um custo de vida médio-alto, com opções de moradia (kitnets, apartamentos, casas), e alimentação a preços medianos, o que é importante ser levado em conta no planejamento financeiro dos estudantes. Os valores variam a depender da região onde você decidir morar. O transporte estudantil é gratuito.",
+        "Cultura e Lazer: A cidade possui uma rica vida cultural, com eventos, festivais e espaços de lazer que refletem a diversidade local e as tradições do Centro-Oeste brasileiro. Se você gosta de natureza, o Parque Ecológico do Diacuí é um dos pontos de encontro da cidade. Tem mata preservada, áreas de lazer e lagos. A cidade também oferece o Jataí Shopping, o Museu Histórico de Jataí, feiras livres e eventos culturais. Não espere uma metrópole, mas Jataí tem tudo o que é necessário, e com identidade própria.",
+        "Clima e Geografia: Jataí apresenta um clima tropical semiúmido com duas estações bem definidas (um verão quente e chuvoso e um inverno seco) e uma geografia marcada por chapadões e relevo predominantemente plano, inserida no bioma Cerrado.  A cidade está situada em uma região de beleza natural, com paisagens típicas do cerrado brasileiro, ideal para quem aprecia a natureza.",
+        "Transporte Público: A cidade conta com um sistema de transporte público que facilita o deslocamento dos estudantes entre os campi da UFJ e outras áreas de Jataí, garantindo mobilidade na rotina diária. Atualmente, a empresa responsável pelo transporte público na cidade de Jataí-GO é a Translocave. O valor da passagem é R$4,30, mas para estudantes da Graduação e Pós-Graduação com carteirinha (Passe Estudantil) a passagem é gratuita. Para ter acesso ao passe gratuito, os alunos deverão adquirir o passe estudantil no Quiosque da Translocave na Praça Diomar Menezes. A confecção da carteirinha do Passe Estudantil é gratuita nos períodos de início do semestre letivo. Os prazos serão divulgados nos principais canais de comunicação da UFJ.",
+        "Saúde e Segurança: Jataí se destaca como uma das cidades mais felizes do Estado de Goiás, de acordo com um levantamento inédito adaptado do World Happiness Report das Nações Unidas - ranking de 2025. Esse estudo avaliou as condições médias de bem-estar da população com base em dados públicos, auditáveis e recentes, considerando 12 dimensões essenciais como Saúde, Segurança, Educação, Mobilidade, Sustentabilidade e Qualidade de Vida. Entre todas as cidades analisadas, Jataí conquistou o segundo lugar no Estado, recebendo a Classificação A de excelência em felicidade territorial. Jataí dispõe de serviços de saúde adequados e é considerada uma das cidades mais seguras de Goiás, dentre os municípios goianos com mais de 100 mil habitantes, contribuindo para uma estadia tranquila e confortável dos estudantes e residentes.",
+        "Perguntas Frequentes (FAQ) sobre Estudar na UFJ",
+        "Aqui, você encontrará respostas para algumas das perguntas mais comuns de estudantes internacionais. Para informações detalhadas e atualizadas, consulte sempre o site oficial da UFJ ou entre em contato com o Escritório de Internacionalização (EI). As informações no site estão disponíveis em português, inglês, espanhol e francês.",
+        "Cursos e Programas Acadêmicos",
+        "Quais cursos de graduação a UFJ oferece? A UFJ oferece 26 cursos de graduação nas seguintes áreas do conhecimento: agrárias, biológicas, ciências humanas e letras, ciências sociais aplicadas, educação, estudos geográficos, exatas e saúde. A lista completa pode ser consultada no site oficial da universidade. As informações no site estão disponíveis em português, inglês, espanhol e francês.",
+        "A UFJ oferece programas de pós-graduação? Sim, a UFJ conta com 15 cursos de pós-graduação stricto sensu, sendo 12 de mestrado e 3 de doutorado em diferentes áreas. Detalhes podem ser encontrados no site https://ufj.edu.br/pos-graduacao/. As informações podem estar disponíveis predominantemente em português.",
+        "Processo Seletivo e Admissão",
+        "Como posso me candidatar aos cursos da UFJ? O ingresso nos cursos de graduação é realizado pelo Sistema de Seleção Unificada (SiSU), utilizando as notas do Exame Nacional do Ensino Médio (Enem). A UFJ também recebe estudantes internacionais, e uma das formas de acesso é pelo Programa de Estudantes-Convênio (PEC). Informações sobre o processo de admissão podem ser obtidas no site oficial da universidade.",
+        "É necessário comprovar proficiência em português? Sim, geralmente é necessário que o estudante estrangeiro comprove proficiência em português para estudar na UFJ, especialmente alunos vinculados ao Programa PEC-G e PEC-PG. O documento de proficiência aceito e reconhecido oficialmente pelo governo brasileiro é o Celpe-Bras (Certificado de Proficiência em Língua Portuguesa para Estrangeiros). Os requisitos específicos devem ser verificados diretamente no site da universidade."
+      ]
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "sigla": "UFS",
+  "sigla_alt": "UFS",
+  "slug": "ufs",
+  "nome_completo": "Universidade Federal de Sergipe",
+  "cidade_sede": "São Cristóvão",
+  "estado": "Sergipe",
+  "endereco_sede": "Cidade Universitária Prof. José Aloísio de Campos - Av. Marcelo Deda Chagas, s/n, Bairro Rosa Elze, São Cristóvão/SE - CEP 49107-230",
+  "site_oficial": "www.ufs.br",
+  "email_geral": "gabinete.reitor@academico.ufs.br",
+  "telefone_geral": "+55 79 3194-6600",
+  "outros_campi": "A UFS possui outros 6      campi localizados em Aracaju (capital) e no interior do estado: Itabaiana, Laranjeiras, Estância, Lagarto e Nossa Senhora da Glória",
+  "mapa_html_embed": "<iframe width=\"100%\" height=\"480\" src=\"https://maps.google.com/maps?q=Cidade%20Universit%C3%A1ria%20Prof.%20Jos%C3%A9%20Alo%C3%ADsio%20de%20Campos%20-%20Av.%20Marcelo%20Deda%20Chagas%2C%20s/n%2C%20Bairro%20Rosa%20Elze%2C%20S%C3%A3o%20Crist%C3%B3v%C3%A3o/SE%20-%20CEP%2049107-230&t=&z=15&ie=UTF8&iwloc=&output=embed\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>",
+  "metadados": {
+    "slug_home": "/ufs",
+    "slug_sobre": "/ufs/sobre-nos",
+    "slug_vida": "/ufs/vida-na-ies",
+    "slug_inter": "/ufs/estudantes-internacionais",
+    "nav_title_home": "UFS",
+    "nav_title_sobre": "Sobre",
+    "nav_title_vida": "Vida na IES",
+    "nav_title_inter": "Estudantes Internacionais",
+    "tag": "UFS",
+    "seo_description": "Universidade Federal de Sergipe (UFS), localizada em São Cristóvão - Sergipe, oferece ensino público, gratuito e de excelência no Brasil."
+  },
+  "contatos_e_redes": {
+    "nomenclatura_superior": "Coordenação de Relações Internacionais (CORI)",
+    "nomenclatura_inferior": "Contato Institucional",
+    "email_setor": "secretaria.cori@academico.ufs.br e dcm.cori@academico.ufs.br",
+    "telefone_setor": "+55 (79) 3194-6495",
+    "endereco_setor": "Cidade Universitária Prof. José Aloísio de Campos, Avenida Marechal Rondon, S/N, Prédio da Reitoria, Térreo. Jardim Rosa Elze. São Cristóvão – SE, CEP 49100-000.",
+    "site_setor": "www.ufs.br",
+    "redes_sociais": [
+      {
+        "rede": "Facebook",
+        "icone": "📘",
+        "url": "https://www.facebook.com/UFSoficial"
+      },
+      {
+        "rede": "Instagram",
+        "icone": "📸",
+        "url": "https://www.instagram.com/ufsoficial"
+      },
+      {
+        "rede": "LinkedIn",
+        "icone": "💼",
+        "url": "linkedin.com/school/universidade-federal-de-sergipe/"
+      },
+      {
+        "rede": "YouTube",
+        "icone": "📽",
+        "url": "https://www.youtube.com/user/ufsoficial"
+      },
+      {
+        "rede": "Flickr",
+        "icone": "📽",
+        "url": "https://www.flickr.com/photos/ascomufs"
+      }
+    ]
+  },
+  "paginas": {
+    "sobre": {
+      "slug": "/ufs/sobre-nos",
+      "id": "sobre-nos",
+      "titulo": "Sobre a UFS",
+      "nav_title": "Sobre",
+      "tag": "UFS",
+      "descricao_seo": "Conheça a história, visão geral e pilares de excelência da UFS.",
+      "paragrafos": [
+        "Histórico e Legado",
+        "Ano de Fundação: A Universidade Federal de Sergipe (UFS) foi fundada em 1967, nos termos do Decreto-Lei nº 269/1967 e foi oficialmente instalada em 15 de maio de 1968. Consolidando o ensino superior no estado de Sergipe e marcando o início de uma trajetória de excelência e contribuição para o desenvolvimento regional e nacional.",
+        "Visão Geral: A UFS é a mais bem avaliada instituição federal de ensino superior em Sergipe, reconhecida pela excelência em ensino, pesquisa e extensão. Sua importância reside na formação de profissionais qualificados, na geração de conhecimento científico e tecnológico de ponta, e no impacto social significativo que exerce no estado de Sergipe e no cenário nacional.",
+        "A universidade se destaca por sua vasta oferta de cursos e por ser um polo de desenvolvimento em diversas áreas, contribuindo ativamente para o progresso socioeconômico e cultural da região.",
+        "Destaques Acadêmicos e Reconhecimentos",
+        "Nossos Pilares de Excelência",
+        "Liderança e Inovação: A UFS se destaca por sua atuação em áreas como Saúde (Medicina, Enfermagem, Odontologia), Engenharias (Civil, Elétrica, Química), Ciências Agrárias, Humanidades, e Ciências da Computação. A universidade desenvolve pesquisas de vanguarda e projetos relevantes que buscam soluções para os desafios da saúde pública, desenvolvimento tecnológico, energias renováveis e sustentabilidade, com um forte compromisso em gerar impacto social e científico na sociedade sergipana e brasileira.",
+        "Reconhecimento Global: A UFS figura consistentemente entre as melhores universidades do Brasil em importantes rankings universitários nacionais, como o Ranking Universitário Folha (RUF): 29ª posição em 2024 e avaliações do Ministério da Educação (MEC). Esse reconhecimento reflete a qualidade de seu corpo docente altamente qualificado, composto por professores e pesquisadores com vasta experiência e reconhecimento em suas áreas de atuação, e uma infraestrutura de pesquisa de ponta que apoia estudos de excelência em diversas áreas.",
+        "Missão e Impacto Social: A missão da UFS é contribuir para o progresso da sociedade por meio da geração de conhecimentos e da formação de cidadãos críticos, éticos e comprometidos com o desenvolvimento sustentável. A universidade tem um profundo compromisso com a promoção da inclusão social, da diversidade cultural e do bem-estar da sociedade, atuando como um catalisador de transformações e contribuindo ativamente para a construção de um futuro mais equitativo e inovador em Sergipe e no Brasil.",
+        "Experiência Estudantil Enriquecedora: A UFS oferece um ambiente acadêmico vibrante e estimulante, impulsionado pela diversidade de seu corpo discente e pela intensa vida universitária em uma cidade acolhedora. A experiência estudantil é enriquecida por diversas atividades extracurriculares, como empresas juniores, grupos de pesquisa e extensão, atléticas, centros acadêmicos e uma vasta gama de eventos acadêmicos, culturais e sociais que promovem o desenvolvimento integral e aprofundam a compreensão das diferentes realidades e saberes.",
+        "Estrutura Multicampi e Outros Campi: A UFS possui outros 6      campi localizados em Aracaju (capital) e no interior do estado: Itabaiana, Laranjeiras, Estância, Lagarto e Nossa Senhora da Glória"
+      ]
+    },
+    "vida_na_ies": {
+      "slug": "/ufs/vida-na-ies",
+      "id": "vida_na_ies",
+      "titulo": "Vida na UFS",
+      "nav_title": "Vida na IES",
+      "tag": "UFS",
+      "descricao_seo": "Infraestrutura, moradia, alimentação e convivência na UFS.",
+      "paragrafos": [
+        "Infraestrutura Completa para o seu Desenvolvimento: A UFS, com seus diversos campi em São Cristóvão, Aracaju, Itabaiana, Lagarto, Estância,      Sertão e Laranjeiras, oferece uma infraestrutura completa para atender às necessidades acadêmicas e de bem-estar dos seus estudantes. A universidade dispõe de laboratórios bem equipados para diversas áreas do conhecimento, com tecnologia de ponta para pesquisa e desenvolvimento, uma vasta rede de bibliotecas com acervos ricos e especializados. A UFS conta com restaurantes universitários (RUs) que servem refeições a preços acessíveis, e complexos esportivos que incentivam a prática de atividades físicas. Detalhes específicos de cada instalação podem ser consultados no site oficial da universidade, que está disponível em português, Inglês, Espanhol e Francês.",
+        "Uma Vida no Campus Vibrante: Atividades Extracurriculares: A vida na UFS é dinâmica e oferece diversas oportunidades de engajamento extracurricular. Você poderá participar de empresas juniores, ligas acadêmicas, grupos de pesquisa e extensão, coletivos culturais, atléticas e uma vasta gama de eventos acadêmicos, culturais e sociais que promovem a integração, o desenvolvimento de novas habilidades e a imersão na cultura universitária sergipana.",
+        "A UFS oferece moradia estudantil para estudantes internacionais? A UFS não possui moradias específicas para estudantes internacionais, mas a CORI pode fornecer orientações sobre opções de alojamento na região de Aracaju/São Cristóvão e demais campi.",
+        "Quais serviços de apoio estão disponíveis para estudantes internacionais na UFS? A universidade oferece suporte em questões acadêmicas, burocráticas e de integração cultural, além de acesso a serviços de saúde e cursos de Português para Estrangeiros (PLE).",
+        "Viver na Região de Aracaju",
+        "Qual é o custo de vida médio para um estudante em Aracaju? O custo de vida em Aracaju é considerado mais acessível em comparação com grandes capitais, o que é ótimo para estudantes. O custo médio para um estudante pode ser considerado $400 Dólares Americanos.",
+        "Como é a cultura e o lazer na cidade? Aracaju e São Cristóvão oferecem ricas experiências culturais, com praias, culinária local e eventos tradicionais do Nordeste, que incluem música, culinária, artesanato e celebrações populares.",
+        "Como funciona o transporte público na região? A região conta com um sistema de transporte público por ônibus que conecta as cidades e os campi.",
+        "Como é a segurança na cidade? Aracaju é reconhecida por seus bons índices de qualidade de vida e segurança, sendo frequentemente apontada como uma das capitais mais seguras do Nordeste. De modo geral, é uma cidade tranquila e acolhedora para moradores e visitantes."
+      ]
+    },
+    "estudantes_internacionais": {
+      "slug": "/ufs/estudantes-internacionais",
+      "id": "estudantes-internacionais",
+      "titulo": "Estudantes Internacionais na UFS",
+      "nav_title": "Estudantes Internacionais",
+      "tag": "UFS",
+      "descricao_seo": "Informações de acolhimento, vistos e suporte aos estudantes internacionais na UFS.",
+      "paragrafos": [
+        "Suporte Integral ao Estudante Internacional: A UFS está comprometida em oferecer apoio para que sua transição e permanência no Brasil sejam as mais tranquilas e produtivas possíveis. A universidade oferece serviços de suporte que visam facilitar sua adaptação e permanência, incluindo orientação acadêmica, apoio psicológico, bem como suporte em questões burocráticas relativas a vistos e registros. Para informações detalhadas sobre a disponibilidade de serviços de saúde no campus, ou qualquer outro suporte específico, é recomendado entrar em contato diretamente com a Coordenação de Relações Internacionais (CORI) da universidade.",
+        "Coordenação de Relações Internacionais (CORI): A Coordenação de Relações Internacionais da Universidade Federal de Sergipe (UFS) é o setor responsável por planejar, articular e implementar ações que promovam a internacionalização do ensino, da pesquisa, da extensão e da gestão universitária.",
+        "Serviços oferecidos pela CORI:",
+        "Orientação Pré-chegada: Oferece informações e orientações para ajudar você com      documentações       necessárias e os primeiros passos antes de sua chegada ao Brasil.",
+        "Boas-Vindas e Recepção: Auxilia na sua chegada e integração inicial à vida universitária e à cultura local de Sergipe.",
+        "Suporte Contínuo: Fornece assistência em questões acadêmicas, burocráticas e de adaptação cultural ao longo da sua permanência na UFS, garantindo que você se sinta acolhido(a) e apoiado(a).",
+        "Cursos de Português para Estrangeiros (PLE): Sim, a UFS oferece cursos de Português como Língua Estrangeira (PLE). Esses cursos são fundamentais para sua adaptação acadêmica e social, e visam desenvolver sua proficiência no idioma, inclusive com preparação para o exame CELPE-Bras. Para informações atualizadas sobre a oferta de cursos, é recomendado contatar a CORI.",
+        "Orientação para Alojamento: A UFS não possui moradia estudantil própria para estudantes internacionais. A CORI pode fornecer orientações e dicas sobre as opções de moradia disponíveis nas cidades dos campi (São Cristóvão, Aracaju, Itabaiana, Lagarto, Sertão e Laranjeiras), como repúblicas de estudantes e apartamentos para alugar, auxiliando na sua instalação.",
+        "Eventos de Integração: A CORI realiza o CORI Acolhe, um encontro de um dia voltado à recepção dos estudantes internacionais. O evento promove integração, compartilhamento de informações essenciais e atividades culturais, facilitando a adaptação e proporcionando uma experiência inicial mais acolhedora.",
+        "Viver na Cidade de São Cristóvão / Região de Aracaju",
+        "Estudar na UFS significa viver na região de Aracaju, a capital de Sergipe, uma cidade litorânea vibrante e acolhedora no Nordeste brasileiro. O campus principal está em São Cristóvão, cidade histórica.",
+        "Custo de Vida: O custo de vida em Aracaju é considerado mais acessível em comparação com grandes capitais brasileiras, como São Paulo ou Rio de Janeiro. Despesas como moradia, transporte e alimentação podem ser mais moderadas, tornando-a uma opção interessante para estudantes.",
+        "Cultura e Lazer: A região de Aracaju é rica em cultura e lazer, com belas praias, culinária local saborosa (com destaque para os frutos do mar e o caranguejo), e o tradicional São João     . Há museus, centros culturais e o Mercado Municipal, que é um ponto de encontro e mostra a riqueza do artesanato e da gastronomia local. A cidade histórica de São Cristóvão, patrimônio da humanidade, oferece um mergulho na história colonial.",
+        "Clima e Geografia: A região possui um clima tropical quente e úmido durante a maior parte do ano, com temperaturas elevadas e chuvas concentradas em alguns períodos. Está localizada no litoral, com paisagens de praias, rios e manguezais.",
+        "Transporte Público: A região de Aracaju conta com um sistema de transporte público por ônibus que conecta as cidades e os bairros, incluindo o campus principal em São Cristóvão.",
+        "Saúde e Segurança: Aracaju conta com uma boa infraestrutura de saúde, com hospitais públicos e privados capazes de atender às principais necessidades da população. A cidade é, de modo geral, tranquila e acolhedora. Ainda assim, como em qualquer capital, recomenda-se adotar cuidados básicos com a segurança pessoal, especialmente em locais de grande circulação ou no período noturno.",
+        "A UFS, além de sua sede em São Cristóvão, está presente também nas cidades de Aracaju, Itabaiana, Lagarto, Estância,     Sertão e Laranjeiras. Para saber mais sobre a vida nestas outras cidades, basta contatar o time de Relações Internacionais da UFS.",
+        "Perguntas Frequentes (FAQ) sobre Estudar na UFS",
+        "Aqui, você encontrará respostas para algumas das perguntas mais comuns de estudantes internacionais. Para informações detalhadas e atualizadas, consulte sempre o site oficial da UFS ou entre em contato com a Coordenação de Relações Internacionais (CORI)     .      Cursos e Programas Acadêmicos",
+        "Quais tipos de cursos a UFS oferece para estudantes internacionais? A UFS oferece uma vasta gama de cursos de graduação e pós-graduação em diversas áreas do conhecimento, incluindo saúde, engenharias, ciências agrárias e humanidades.",
+        "É preciso ter proficiência em português para estudar na UFS? Sim, a maioria dos cursos é ministrada em português. É fundamental que você tenha domínio do idioma para acompanhar as aulas e atividades acadêmicas.",
+        "Processo Seletivo e Admissão",
+        "Como posso me candidatar a um curso de graduação ou pós-graduação na UFS como estudante internacional? Os processos de seleção para estudantes internacionais podem variar. Geralmente, envolvem a submissão de documentação específica e a comprovação de proficiência em língua portuguesa.",
+        "Para cursos completos, a UFS participa do Programa Estudante Convênio do Governo Federal. Há também a possibilidade de cursos e disciplinas para estudantes de instituições que possuem convênio com a UFS.",
+        "Para cursos de Pós-Graduação completos, a UFS participa do Programa Estudante Convênio do Governo Federal e há possibilidade de realizar cursos e disciplinas pelos Programas PILA Virtual e GCUB-Mob.",
+        "A UFS exige algum teste de proficiência em português? Sim, para a maioria dos programas, é exigida a comprovação de proficiência em português, muitas vezes por meio de exames como o CELPE-Bras."
+      ]
+    }
+  }
+}
