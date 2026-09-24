@@ -7,6 +7,9 @@ migracao_progresso.json
 *.log
 migracao.log
 
+# Pastas e arquivos pesados
+Fotos IES/
+
 # Ambientes virtuais Python
 .venv/
 venv/

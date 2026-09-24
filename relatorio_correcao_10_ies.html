@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Relatório de Correção • 10 IES • Study in Brazil</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+:root{--bg:#0f172a;--card:#1e293b;--border:#334155;--txt:#f8fafc;--muted:#94a3b8;--blue:#38bdf8;--green:#22c55e;--red:#ef4444;--purple:#a855f7}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Plus Jakarta Sans',sans-serif}
+body{background:var(--bg);color:var(--txt);min-height:100vh;padding:2rem}
+.container{max-width:1400px;margin:0 auto}
+header{display:flex;justify-content:space-between;align-items:center;padding-bottom:1.5rem;border-bottom:1px solid var(--border);margin-bottom:2rem;flex-wrap:wrap;gap:1rem}
+h1{font-family:'Outfit',sans-serif;font-size:2rem;font-weight:800;background:linear-gradient(135deg,var(--blue),var(--purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.subtitle{color:var(--muted);font-size:.9rem;margin-top:.25rem}
+.badge{background:rgba(56,189,248,.1);color:var(--blue);padding:.4rem .9rem;border-radius:9999px;font-size:.8rem;font-weight:600;border:1px solid rgba(56,189,248,.3)}
+.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin-bottom:2rem}
+.kpi{background:var(--card);border:1px solid var(--border);border-radius:.75rem;padding:1.25rem}
+.kpi h3{color:var(--muted);font-size:.8rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:.4rem}
+.kpi .val{font-family:'Outfit',sans-serif;font-size:2rem;font-weight:700}
+.kpi .sub{color:var(--muted);font-size:.8rem;margin-top:.2rem}
+.kpi.ok .val{color:var(--green)} .kpi.err .val{color:var(--red)}
+.charts{display:grid;grid-template-columns:2fr 1fr;gap:1.5rem;margin-bottom:2rem}
+@media(max-width:900px){.charts{grid-template-columns:1fr}}
+.chart-box{background:var(--card);border:1px solid var(--border);border-radius:.75rem;padding:1.5rem}
+.chart-box h2{font-size:1.1rem;font-weight:700;margin-bottom:1rem}
+.chart-container{position:relative;height:260px}
+.table-section{background:var(--card);border:1px solid var(--border);border-radius:.75rem;padding:1.5rem;margin-bottom:2rem}
+.controls{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.75rem;margin-bottom:1rem}
+.search{position:relative;flex:1;max-width:380px}
+.search input{width:100%;background:rgba(15,23,42,.6);border:1px solid var(--border);border-radius:.5rem;padding:.6rem .9rem .6rem 2.2rem;color:var(--txt);font-size:.9rem;outline:none}
+.search input:focus{border-color:var(--blue)}
+.search svg{position:absolute;left:.75rem;top:50%;transform:translateY(-50%);width:14px;height:14px;fill:var(--muted)}
+.filters{display:flex;gap:.5rem}
+.btn{background:rgba(30,41,59,.6);border:1px solid var(--border);color:var(--muted);padding:.45rem .9rem;border-radius:.5rem;font-size:.8rem;font-weight:600;cursor:pointer;transition:.2s}
+.btn:hover{color:var(--txt)} .btn.active{background:var(--blue);color:#0f172a;border-color:var(--blue)}
+.table-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:.85rem}
+th{background:rgba(30,41,59,.5);padding:.75rem 1rem;color:var(--muted);font-weight:600;border-bottom:1px solid var(--border)}
+td{padding:.75rem 1rem;border-bottom:1px solid rgba(51,65,85,.4)}
+tr:hover td{background:rgba(56,189,248,.03)}
+.tag{display:inline-flex;align-items:center;padding:.25rem .65rem;border-radius:9999px;font-weight:700;font-size:.75rem}
+.tag.ok{background:rgba(34,197,94,.12);color:var(--green);border:1px solid rgba(34,197,94,.3)}
+.tag.err{background:rgba(239,68,68,.12);color:var(--red);border:1px solid rgba(239,68,68,.3)}
+.url-link{color:var(--blue);text-decoration:none;font-family:monospace;font-size:.75rem}
+.url-link:hover{text-decoration:underline}
+footer{text-align:center;color:var(--muted);font-size:.8rem;padding:1.5rem 0;border-top:1px solid var(--border)}
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div>
+      <h1>Painel de Correção • 10 IES</h1>
+      <p class="subtitle">Deep replace UFSCar→IES + remoção de blocos errôneos • Study in Brazil / Plone 6</p>
+    </div>
+    <div style="display:flex;gap:.5rem;flex-wrap:wrap">
+      <div class="badge">🔒 100% Privado</div>
+      <div class="badge">🔄 Deep Replace Aplicado</div>
+    </div>
+  </header>
+  <div class="kpi-grid">
+    <div class="kpi"><h3>Total de Operações</h3><div class="val">10</div><div class="sub">Home + 3 Subpáginas + Workflows</div></div>
+    <div class="kpi"><h3>Instituições</h3><div class="val">10</div><div class="sub">CEFET-MG · UFAC · UFAPE · UFJ · UFMS · UFRPE · UFRR · UFS · UFSB · UFSC</div></div>
+    <div class="kpi ok"><h3>Sucessos</h3><div class="val">0</div><div class="sub">0.0% de taxa de sucesso</div></div>
+    <div class="kpi err"><h3>Falhas</h3><div class="val">10</div><div class="sub">Requerem atenção</div></div>
+  </div>
+  <div class="charts">
+    <div class="chart-box"><h2>📊 Status por IES</h2><div class="chart-container"><canvas id="barChart"></canvas></div></div>
+    <div class="chart-box"><h2>🎯 Proporção Geral</h2><div class="chart-container"><canvas id="pieChart"></canvas></div></div>
+  </div>
+  <div class="table-section">
+    <div class="controls">
+      <div class="search">
+        <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.5 6.5 0 1 0 14 15.5l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+        <input type="text" id="searchInput" placeholder="Buscar por Sigla, Tipo, Detalhes...">
+      </div>
+      <div class="filters">
+        <button class="btn active" onclick="filterData('ALL',this)">Todos (10)</button>
+        <button class="btn" onclick="filterData('SUCCESS',this)">Sucesso (0)</button>
+        <button class="btn" onclick="filterData('ERROR',this)">Erros (10)</button>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Timestamp</th><th>Sigla</th><th>Tipo</th><th>Status</th><th>Detalhes</th><th>URL</th></tr></thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+  </div>
+  <footer>Gerado automaticamente • PloneRestClient • Study in Brazil</footer>
+</div>
+<script>
+const rawData=[{"timestamp":"2026-09-15T21:32:03.350881","sigla":"CEFET-MG","tipo_pagina":"HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_sudeste\/minas_gerais\/cefet-mg","status":"ERROR","detalhes":"GET falhou – página não encontrada"},{"timestamp":"2026-09-15T21:32:03.421330","sigla":"UFAC","tipo_pagina":"HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_norte\/acre\/ufac","status":"ERROR","detalhes":"GET falhou – página não encontrada"},{"timestamp":"2026-09-15T21:32:03.524587","sigla":"UFAPE","tipo_pagina":"HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/pernambuco\/ufape","status":"ERROR","detalhes":"GET falhou – página não encontrada"},{"timestamp":"2026-09-15T21:32:03.584071","sigla":"UFJ","tipo_pagina":"HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_centro_oeste\/goias\/ufj","status":"ERROR","detalhes":"GET falhou – página não encontrada"},{"timestamp":"2026-09-15T21:32:03.645414","sigla":"UFMS","tipo_pagina":"HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_centro_oeste\/mato_grosso_do_sul\/ufms","status":"ERROR","detalhes":"GET falhou – página não encontrada"},{"timestamp":"2026-09-15T21:32:03.704968","sigla":"UFRPE","tipo_pagina":"HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/pernambuco\/ufrpe","status":"ERROR","detalhes":"GET falhou – página não encontrada"},{"timestamp":"2026-09-15T21:32:03.793841","sigla":"UFRR","tipo_pagina":"HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_norte\/roraima\/ufrr","status":"ERROR","detalhes":"GET falhou – página não encontrada"},{"timestamp":"2026-09-15T21:32:03.862103","sigla":"UFS","tipo_pagina":"HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/sergipe\/ufs","status":"ERROR","detalhes":"GET falhou – página não encontrada"},{"timestamp":"2026-09-15T21:32:03.921764","sigla":"UFSB","tipo_pagina":"HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_nordeste\/bahia\/ufsb","status":"ERROR","detalhes":"GET falhou – página não encontrada"},{"timestamp":"2026-09-15T21:32:03.986060","sigla":"UFSC","tipo_pagina":"HOME","url":"https:\/\/www.gov.br\/studyinbrazil\/pt-br\/instituicoes_brasileiras\/regiao_sul\/santa_catarina\/ufsc","status":"ERROR","detalhes":"GET falhou – página não encontrada"}];
+const iesStats=[{"sigla":"CEFET-MG","total":1,"sucesso":0,"erro":1,"taxa":0.0},{"sigla":"UFAC","total":1,"sucesso":0,"erro":1,"taxa":0.0},{"sigla":"UFAPE","total":1,"sucesso":0,"erro":1,"taxa":0.0},{"sigla":"UFJ","total":1,"sucesso":0,"erro":1,"taxa":0.0},{"sigla":"UFMS","total":1,"sucesso":0,"erro":1,"taxa":0.0},{"sigla":"UFRPE","total":1,"sucesso":0,"erro":1,"taxa":0.0},{"sigla":"UFRR","total":1,"sucesso":0,"erro":1,"taxa":0.0},{"sigla":"UFS","total":1,"sucesso":0,"erro":1,"taxa":0.0},{"sigla":"UFSB","total":1,"sucesso":0,"erro":1,"taxa":0.0},{"sigla":"UFSC","total":1,"sucesso":0,"erro":1,"taxa":0.0}];
+let currentFilter='ALL';
+function renderTable(data){
+  const tbody=document.getElementById('tableBody');
+  tbody.innerHTML='';
+  data.forEach(row=>{
+    const tr=document.createElement('tr');
+    const ok=row.status==='SUCCESS';
+    const d=new Date(row.timestamp).toLocaleString('pt-BR');
+    tr.innerHTML=`<td>${d}</td><td><strong>${row.sigla}</strong></td><td>${row.tipo_pagina}</td><td><span class="tag ${ok?'ok':'err'}">${ok?'✓ OK':'✕ ERR'}</span></td><td>${row.detalhes}</td><td><a href="${row.url}" target="_blank" class="url-link">${row.url}</a></td>`;
+    tbody.appendChild(tr);
+  });
+}
+function filterData(status,btn){
+  currentFilter=status;
+  document.querySelectorAll('.btn').forEach(b=>b.classList.remove('active'));
+  if(btn)btn.classList.add('active');
+  applyFilters();
+}
+function applyFilters(){
+  const q=document.getElementById('searchInput').value.toLowerCase();
+  const f=rawData.filter(r=>{
+    const ms=currentFilter==='ALL'||r.status===currentFilter;
+    const mq=!q||[r.sigla,r.tipo_pagina,r.detalhes,r.url].some(v=>v&&v.toLowerCase().includes(q));
+    return ms&&mq;
+  });
+  renderTable(f);
+}
+document.getElementById('searchInput').addEventListener('input',applyFilters);
+document.addEventListener('DOMContentLoaded',()=>{
+  renderTable(rawData);
+  new Chart(document.getElementById('barChart'),{type:'bar',data:{labels:iesStats.map(i=>i.sigla),datasets:[{label:'Sucesso',data:iesStats.map(i=>i.sucesso),backgroundColor:'rgba(34,197,94,.8)',borderRadius:4},{label:'Erro',data:iesStats.map(i=>i.erro),backgroundColor:'rgba(239,68,68,.8)',borderRadius:4}]},options:{responsive:true,maintainAspectRatio:false,scales:{x:{stacked:true,grid:{color:'rgba(51,65,85,.2)'},ticks:{color:'#94a3b8'}},y:{stacked:true,grid:{color:'rgba(51,65,85,.2)'},ticks:{color:'#94a3b8'}}},plugins:{legend:{labels:{color:'#f8fafc'}}}}});
+  new Chart(document.getElementById('pieChart'),{type:'doughnut',data:{labels:['Sucesso','Erro'],datasets:[{data:[0,10],backgroundColor:['#22c55e','#ef4444'],borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{color:'#f8fafc'}}}}});
+});
+</script>
+</body>
+</html>

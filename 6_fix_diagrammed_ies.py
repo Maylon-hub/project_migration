@@ -1,20 +1,15 @@
 """
-Script de Correção e Atualização de Conteúdo Estruturado para 10 IES no Plone 6
-=================================================================================
+Script de Correção de Conteúdo das 10 IES Diagramadas no Plone 6
+=================================================================
 
-v2 — Corrige o problema da v1 onde a seção de contato (columnsBlock) e o texto
-"bem-vindos" da Home ainda continham dados da UFSCar (email, telefone, endereço,
-URL do setor, campi de Araras/Sorocaba/Lagoa do Sino/São José do Rio Preto).
+Corrige dois problemas do script anterior:
+1. HOME: Substitui em profundidade (deep replace) todos os textos UFSCar
+   que ficaram nas seções de contato, accordion e colunas de boas-vindas.
+2. SUBPÁGINAS: Remove os blocos slate appendados erroneamente pelo script
+   anterior e reconstrói cada subpágina com conteúdo correto da IES,
+   sem duplicações.
 
-Estratégia:
-  1. Para cada IES, busca o JSON atual de cada página no Plone (GET).
-  2. Serializa para string JSON e aplica substituições textuais profundas (deep replace)
-     cobrindo TODOS os strings UFSCar-específicos identificados no template.
-  3. Para subpáginas, remove os blocos slate/SectionTitleBlock adicionados erroneamente
-     pela execução anterior do script (aqueles cujos IDs não constam no template original).
-  4. Mantém o accordion existente como está (não toca nele).
-  5. Envia PATCH de volta ao Plone e garante estado PRIVADO.
-  6. Gera relatório HTML de execução.
+Não mexe em banners, imagens ou carrosséis.
 """
 
 import os
@@ -23,550 +18,673 @@ import uuid
 import logging
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Set
+from typing import Any, Dict, List, Optional
 import pandas as pd
 from tqdm import tqdm
 
 from config import API_TOKEN, API_URL
 from api_client import PloneRestClient
 
-# Configuração do Logger
+# Logger
 logger = logging.getLogger("FixDiagrammedIES")
 logger.setLevel(logging.INFO)
 if not logger.handlers:
-    handler = logging.StreamHandler()
-    formatter = logging.Formatter("%(asctime)s [%(levelname)s] %(name)s: %(message)s", "%Y-%m-%d %H:%M:%S")
-    handler.setFormatter(formatter)
-    logger.addHandler(handler)
+    h = logging.StreamHandler()
+    h.setFormatter(logging.Formatter("%(asctime)s [%(levelname)s] %(name)s: %(message)s", "%Y-%m-%d %H:%M:%S"))
+    logger.addHandler(h)
 
-# Caminhos
 TEMPLATES_DIR = Path("templates")
-DIAGRAMACAO_JSON = Path("diagramacao/diagramacao_10_ies.json")
-REPORT_PATH = Path("diagramacao_correcao_relatorio.csv")
-HTML_REPORT_PATH = Path("relatorio_diagramacao_correcao.html")
+DIAGRAMACAO_DIR = Path("diagramacao")
+DIAGRAMACAO_JSON = DIAGRAMACAO_DIR / "diagramacao_10_ies.json"
+REPORT_PATH = Path("relatorio_correcao_10_ies.csv")
+HTML_REPORT_PATH = Path("relatorio_correcao_10_ies.html")
 
-TARGET_SIGLAS = {"CEFET_MG", "CEFET-MG", "UFAC", "UFAPE", "UFJ", "UFMS", "UFRPE", "UFRR", "UFS", "UFSB", "UFSC"}
+
+def make_slate_block(text: str) -> Dict[str, Any]:
+    return {
+        "@type": "slate",
+        "plaintext": text,
+        "value": [{"type": "p", "children": [{"text": text}]}]
+    }
 
 
-def load_templates() -> Dict[str, Any]:
-    """Carrega os templates base e retorna também o conjunto de block IDs originais."""
-    templates = {}
-    template_block_ids: Dict[str, Set[str]] = {}
+def make_section_title_block(title: str, align: str = "left") -> Dict[str, Any]:
+    return {"@type": "SectionTitleBlock", "align": align, "title": title}
 
-    for key, filename in {
-        "home": "home.json",
+
+def make_html_block(html_content: str) -> Dict[str, Any]:
+    return {"@type": "html", "html": html_content}
+
+
+def load_template(key: str) -> Dict[str, Any]:
+    filename_map = {
         "sobre_nos": "sobre_nos.json",
         "vida_na_ies": "vida_na_ies.json",
         "estudantes_internacionais": "estudantes_internacionais.json",
-    }.items():
-        p = TEMPLATES_DIR / filename
-        if p.exists():
-            with open(p, "r", encoding="utf-8") as f:
-                tmpl = json.load(f)
-            templates[key] = tmpl
-            # Coleta todos os IDs de blocos RAIZ do template
-            template_block_ids[key] = set(tmpl.get("blocks", {}).keys())
-        else:
-            templates[key] = {"blocks": {}, "blocks_layout": {"items": []}}
-            template_block_ids[key] = set()
-
-    return templates, template_block_ids
+    }
+    p = TEMPLATES_DIR / filename_map.get(key, f"{key}.json")
+    if p.exists():
+        with open(p, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {"blocks": {}, "blocks_layout": {"items": []}}
 
 
-def build_contact_section_text(ies_data: Dict[str, Any]) -> str:
-    """Gera o texto descritivo correto da equipe de RI para substituir o da UFSCar."""
-    sigla = ies_data["sigla"]
-    nome_completo = ies_data["nome_completo"]
-    cidade_sede = ies_data["cidade_sede"]
-    outros_campi = ies_data.get("outros_campi", "")
-    
-    # Montar lista de cidades de campi a partir de outros_campi
-    # Ex: "campus na cidade de Cruzeiro do Sul" → menciona só Rio Branco e Cruzeiro do Sul
-    campi_texto = f"{cidade_sede}"
-    if outros_campi:
-        # Extrai nomes de cidades de outros_campi de forma simples
-        import re
-        cidades_adicionais = re.findall(r'(?:em|de|do|da)\s+([A-ZÁÉÍÓÚÂÊÎÔÛÃÕÀÜ][a-záéíóúâêîôûãõàü]+(?:\s+[a-záéíóúâêîôûãõàüA-ZÁÉÍÓÚÂÊÎÔÛÃÕÀÜ][a-záéíóúâêîôûãõàüA-ZÁÉÍÓÚÂÊÎÔÛÃÕÀÜ]+)*)', outros_campi)
-        if cidades_adicionais:
-            campi_texto = f"{cidade_sede} e {', '.join(cidades_adicionais[:3])}"
-    
-    return (
-        f"Nossa equipe está à disposição para apoiar estudantes e parceiros internacionais em todas as etapas "
-        f"da experiência na {sigla}, oferecendo orientações sobre vistos e registro no Brasil, informações sobre "
-        f"bolsas e oportunidades de financiamento, apoio ao aprendizado de português, dicas de moradia na cidade "
-        f"de {campi_texto}, assistência em parcerias e programas de intercâmbio acadêmico, além de facilitar sua "
-        f"integração cultural e acadêmica à universidade e à região."
-    )
+def get_template_block_ids(template: Dict[str, Any]) -> set:
+    ids = set()
+    def collect(blocks_dict: dict):
+        for bid, bv in blocks_dict.items():
+            ids.add(bid)
+            if "blocks" in bv:
+                collect(bv["blocks"])
+            if "data" in bv and "blocks" in bv["data"]:
+                col_blocks = bv["data"]["blocks"]
+                collect(col_blocks)
+                for col_val in col_blocks.values():
+                    if isinstance(col_val, dict) and "blocks" in col_val:
+                        collect(col_val["blocks"])
+    collect(template.get("blocks", {}))
+    return ids
 
 
-def build_welcome_text(ies_data: Dict[str, Any]) -> str:
-    """Gera o texto de boas-vindas correto para substituir o da UFSCar."""
-    sigla = ies_data["sigla"]
-    nome_completo = ies_data["nome_completo"]
-    cidade_sede = ies_data["cidade_sede"]
-    estado = ies_data["estado"]
-    return (
-        f"Bem-vindo(a) à {nome_completo} ({sigla})! Somos uma das principais universidades federais do Brasil, "
-        f"reconhecida pela excelência em ensino, pesquisa e extensão. Explore nossas páginas para conhecer "
-        f"nossos cursos, a vida vibrante em nosso campus em {cidade_sede} - {estado}, e as oportunidades "
-        f"incríveis que a {sigla} oferece para estudantes internacionais."
-    )
-
-
-def build_deep_replacements(ies_data: Dict[str, Any]) -> List[tuple]:
-    """
-    Constrói a lista ordenada de substituições textuais profundas para remover
-    todos os strings UFSCar-específicos do template e substituir pelos dados reais da IES.
-    
-    Ordem importa: strings mais longos e específicos primeiro.
-    """
-    sigla = ies_data["sigla"]
-    slug = ies_data["slug"]
-    nome_completo = ies_data["nome_completo"]
-    cidade_sede = ies_data["cidade_sede"]
-    estado = ies_data["estado"]
-    endereco = ies_data.get("endereco_sede", "")
-    site_oficial = ies_data.get("site_oficial", "")
-    
-    contatos = ies_data.get("contatos_e_redes", {})
-    setor_nome = contatos.get("nomenclatura_superior", f"Relações Internacionais da {sigla}")
-    email_setor = contatos.get("email_setor", "")
-    telefone_setor = contatos.get("telefone_setor", "")
-    site_setor = contatos.get("site_setor", site_oficial)
-    endereco_setor = contatos.get("endereco_setor", endereco)
-    
-    # Redes sociais
-    redes = contatos.get("redes_sociais", [])
-    instagram_url = next((r["url"] for r in redes if r["rede"] == "Instagram"), "")
-    facebook_url = next((r["url"] for r in redes if r["rede"] == "Facebook"), "")
-    twitter_url = next((r["url"] for r in redes if r["rede"] in ("X", "Twitter")), "")
-    youtube_url = next((r["url"] for r in redes if r["rede"] == "YouTube"), "")
-    
-    contact_text = build_contact_section_text(ies_data)
-    welcome_text = build_welcome_text(ies_data)
-    
-    base_url = "https://www.gov.br/studyinbrazil"
-    ufscar_url = f"{base_url}/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar-universidade-federal-de-sao-carlos"
-    ies_url = f"{base_url}/pt-br/instituicoes_brasileiras"
-    
-    # Determinar URL correta da IES (será obtida pelo container_url + slug)
-    # Usamos placeholder que será resolvido depois
-    
-    replacements = [
-        # ========================
-        # 1. TEXTOS LONGOS ESPECÍFICOS (antes dos genéricos para evitar substituição parcial)
-        # ========================
-        
-        # Texto completo de suporte com campi UFSCar
-        (
-            "Nossa equipe está à disposição para apoiar estudantes e parceiros internacionais em todas as etapas da experiência na UFSCar, oferecendo orientações sobre vistos e registro no Brasil, informações sobre bolsas e oportunidades de financiamento, apoio ao aprendizado de português, dicas de moradia nas cidades dos campi (São Carlos, Araras, Lagoa do Sino, Sorocaba e São José do Rio Preto), assistência em parcerias e programas de intercâmbio acadêmico, além de facilitar sua integração cultural e acadêmica à universidade e ao vibrante ecossistema científico e tecnológico da região.",
-            contact_text
-        ),
-        # Versão parcialmente substituída (onde UFSCar→sigla e São Carlos→cidade já foram aplicados)
-        (
-            f"Nossa equipe está à disposição para apoiar estudantes e parceiros internacionais em todas as etapas da experiência na {sigla}, oferecendo orientações sobre vistos e registro no Brasil, informações sobre bolsas e oportunidades de financiamento, apoio ao aprendizado de português, dicas de moradia nas cidades dos campi ({cidade_sede}, Araras, Lagoa do Sino, Sorocaba e São José do Rio Preto), assistência em parcerias e programas de intercâmbio acadêmico, além de facilitar sua integração cultural e acadêmica à universidade e ao vibrante ecossistema científico e tecnológico da região.",
-            contact_text
-        ),
-        # Fallback com Rio Branco (caso cidade_sede já tenha sido substituída)
-        (
-            f"dicas de moradia nas cidades dos campi ({cidade_sede}, Araras, Lagoa do Sino, Sorocaba e São José do Rio Preto)",
-            f"dicas de moradia na cidade de {cidade_sede}"
-        ),
-        # Fallback genérico para qualquer menção ao campus UFSCar
-        (
-            "campi (São Carlos, Araras, Lagoa do Sino, Sorocaba e São José do Rio Preto)",
-            f"campus em {cidade_sede}"
-        ),
-        (
-            "Araras, Lagoa do Sino, Sorocaba e São José do Rio Preto",
-            cidade_sede
-        ),
-        
-        # Texto de boas-vindas UFSCar
-        (
-            "Bem-vindo(a) à Universidade Federal de São Carlos (UFSCar)! Somos uma das principais universidades federais do Brasil, reconhecida pela excelência em ensino, pesquisa e inovação, especialmente na área tecnológica. Explore nossas páginas para conhecer nossos cursos inovadores, a vida vibrante em nosso campus em São Carlos - SP, e as oportunidades incríveis que a UFSCar oferece para estudantes internacionais.",
-            welcome_text
-        ),
-        # Versão parcialmente substituída
-        (
-            f"Bem-vindo(a) à {nome_completo} ({sigla})! Somos uma das principais universidades federais do Brasil, reconhecida pela excelência em ensino, pesquisa e inovação, especialmente na área tecnológica. Explore nossas páginas para conhecer nossos cursos inovadores, a vida vibrante em nosso campus em {cidade_sede} - {estado}, e as oportunidades incríveis que a {sigla} oferece para estudantes internacionais.",
-            welcome_text
-        ),
-        
-        # ========================
-        # 2. URLs
-        # ========================
-        (ufscar_url + "/vida_na_ies", f"__IES_URL__/vida_na_ies"),
-        (ufscar_url + "/vida-na-ies", f"__IES_URL__/vida_na_ies"),
-        (ufscar_url + "/sobre-nos", f"__IES_URL__/sobre-nos"),
-        (ufscar_url + "/estudantes-internacionais", f"__IES_URL__/estudantes-internacionais"),
-        (ufscar_url, f"__IES_URL__"),
-        ("/Plone/pt-br/instituicoes_brasileiras/regiao_sudeste/sao_paulo/ufscar-universidade-federal-de-sao-carlos", f"__PLONE_IES_URL__"),
-        
-        # ========================
-        # 3. CONTATOS ESPECÍFICOS UFSCar
-        # ========================
-        
-        # Email
-        ("sri@ufscar.br", email_setor if email_setor else f"Para informações, consulte o site oficial: {site_oficial}"),
-        ("srinter@ufscar.br", email_setor if email_setor else f"Para informações, consulte o site oficial: {site_oficial}"),
-        
-        # Telefone
-        ("+55 16 3351-8402", telefone_setor if telefone_setor else "Consulte o site oficial"),
-        ("3351-8402", telefone_setor if telefone_setor else "Consulte o site oficial"),
-        
-        # Site setor RI
-        ("https://www.srinter.ufscar.br/pt-br/pagina-inicial", f"https://{site_setor}" if not site_setor.startswith("http") else site_setor),
-        ("www.srinter.ufscar.br/pt-br/pagina-inicial", site_setor if site_setor else site_oficial),
-        ("srinter.ufscar.br", site_setor if site_setor else site_oficial),
-        
-        # Endereço físico setor RI
-        (
-            "Rodovia Washington Luís, km 235 - Edifício Sérgio Mascarenhas - 2º piso - São Carlos - SP, CEP 13565-905",
-            endereco_setor if endereco_setor else endereco
-        ),
-        (
-            "Rodovia Washington Luís, km 235 - Edifício Sérgio Mascarenhas - 2º piso - Rio Branco - SP, CEP 13565-905",
-            endereco_setor if endereco_setor else endereco
-        ),
-        
-        # Endereço sede Contato Institucional
-        (
-            "Rodovia Washington Luís, km 235 - SP-310, São Carlos - SP, CEP 13565-905",
-            endereco if endereco else endereco_setor
-        ),
-        
-        # Site oficial UFSCar
-        ("http://www.ufscar.br/", f"https://{site_oficial}" if not site_oficial.startswith("http") else site_oficial),
-        ("www.ufscar.br", site_oficial),
-        
-        # Nome da IES (Contato Institucional block)
-        ("UFSCar - Universidade Federal de São Carlos", f"{sigla} - {nome_completo}"),
-        
-        # ========================
-        # 4. REDES SOCIAIS UFSCar
-        # ========================
-        
-        # Instagram
-        ("https://www.instagram.com/ufscaroficial/?hl=pt", instagram_url if instagram_url else ""),
-        ("https://www.instagram.com/ufscaroficial", instagram_url if instagram_url else ""),
-        ("ufscaroficial", sigla.lower()),
-        
-        # Facebook
-        ("https://www.facebook.com/ufscaroficial", facebook_url if facebook_url else ""),
-        
-        # Mapa UFSCar (URL do Google Maps embed)
-        (
-            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3699.740170538441!2d-47.88557932380326!3d-21.98293310550975",
-            ies_data.get("mapa_html_embed", "").replace('<iframe width="100%" height="480" src="', "").split('"')[0] if ies_data.get("mapa_html_embed") else ""
-        ),
-        
-        # Alts e títulos de imagens UFSCar
-        ("Faixada da UFSCar do campus de São Carlos.jpg", f"Campus principal da {sigla} em {cidade_sede}"),
-        ("Faixada da UFSCar do campus de ", f"Campus da {sigla} em "),
-        ("mapa mostrando a loclizaçao do campus de São Carlos da UFSCar", f"Mapa de localização do campus da {sigla} em {cidade_sede}"),
-        ("quadras-externas-da-ufscar-do-campus-de-sao-carlos.jpg", f"campus-da-{slug}.jpg"),
-        ("Quadras Externas da UFSCar do campus de São Carlos.jpg", f"Campus da {sigla} em {cidade_sede}"),
-        
-        # ========================
-        # 5. TEXTOS GENÉRICOS UFSCar
-        # ========================
-        
-        ("Universidade Federal de São Carlos", nome_completo),
-        ("UFSCar", sigla),
-        ("São Carlos", cidade_sede),
-        ("São Paulo", estado),
-        ("SP,", f"{estado[:2].upper()},"),
-        ("- SP,", f"- {estado[:2].upper()},"),
-        ("- SP", f"- {estado[:2].upper()}"),
-    ]
-    
-    return replacements
-
-
-def apply_deep_replacements(data: Dict[str, Any], replacements: List[tuple], ies_url: str, portal_rel_path: str) -> Dict[str, Any]:
-    """Serializa para JSON string, aplica substituições profundas e desserializa."""
+def deep_replace(data: Any, replacements: Dict[str, str]) -> Any:
+    """Serialize to JSON, apply all text replacements (longest first), deserialize."""
     json_str = json.dumps(data, ensure_ascii=False)
-    
-    for old, new in replacements:
-        if old and old in json_str:
-            json_str = json_str.replace(old, new)
-    
-    # Resolve placeholders de URL
-    json_str = json_str.replace("__IES_URL__", ies_url)
-    json_str = json_str.replace("__PLONE_IES_URL__", f"/Plone/{portal_rel_path}")
-    
+    for old_val in sorted(replacements.keys(), key=len, reverse=True):
+        new_val = replacements.get(old_val)
+        if old_val and new_val is not None:
+            json_str = json_str.replace(old_val, new_val)
     return json.loads(json_str)
 
 
-def remove_script_added_blocks(current_data: Dict[str, Any], template_block_ids: Set[str]) -> Dict[str, Any]:
-    """
-    Remove da página os blocos adicionados pelo script anterior (que NÃO estão no template original).
-    Mantém todos os blocos cujo ID consta no template.
-    
-    Retorna o data modificado.
-    """
-    current_blocks = dict(current_data.get("blocks", {}))
-    current_layout = list(current_data.get("blocks_layout", {}).get("items", []))
-    
-    # Identifica blocos adicionados pelo script (IDs não presentes no template)
-    added_ids = [bid for bid in current_layout if bid not in template_block_ids]
-    
-    removed_count = 0
-    for bid in added_ids:
-        btype = current_blocks.get(bid, {}).get("@type", "")
-        if btype in ("slate", "SectionTitleBlock", "html"):
-            # Remove da layout e do dicionário de blocos
-            if bid in current_layout:
-                current_layout.remove(bid)
-            if bid in current_blocks:
-                del current_blocks[bid]
-            removed_count += 1
-    
-    if removed_count:
-        logger.info(f"  Removidos {removed_count} blocos adicionados erroneamente pela execução anterior.")
-    
-    return {
-        **current_data,
-        "blocks": current_blocks,
-        "blocks_layout": {"items": current_layout}
-    }
+def build_ufscar_replacements(ies_data: Dict[str, Any]) -> Dict[str, str]:
+    contatos = ies_data.get("contatos_e_redes", {})
+    sigla = ies_data["sigla"]
+    nome_completo = ies_data["nome_completo"]
+    cidade_sede = ies_data.get("cidade_sede", "")
+    estado = ies_data.get("estado", "")
+    endereco_sede = ies_data.get("endereco_sede", "")
+    site_oficial = ies_data.get("site_oficial", "")
+    outros_campi = ies_data.get("outros_campi", "")
+
+    email_setor = contatos.get("email_setor", ies_data.get("email_geral", ""))
+    telefone_setor = contatos.get("telefone_setor", ies_data.get("telefone_geral", ""))
+    site_setor = contatos.get("site_setor", site_oficial)
+    endereco_setor = contatos.get("endereco_setor", endereco_sede)
+    nomenclatura = contatos.get("nomenclatura_superior", "Relações Internacionais")
+
+    def normalize_site(s: str) -> str:
+        if s and not s.startswith("http"):
+            return f"https://{s}"
+        return s or ""
+
+    campi_text = outros_campi if outros_campi else f"Campus sede em {cidade_sede}, {estado}."
+    site_display = normalize_site(site_setor) or normalize_site(site_oficial)
+    real_address = endereco_setor or endereco_sede
+
+    replacements: Dict[str, str] = {}
+
+    # Phone
+    phone_replacement = telefone_setor if telefone_setor else f"Consulte o site: {site_display}"
+    replacements["+55 16 3351-8402"] = phone_replacement
+    replacements["16 3351-8402"] = phone_replacement
+
+    # Email
+    email_replacement = email_setor if email_setor else f"Consulte o site: {site_display}"
+    replacements["sri@ufscar.br"] = email_replacement
+    replacements["srinter@ufscar.br"] = email_replacement
+
+    # Site (longest first to avoid partial match)
+    replacements["https://www.srinter.ufscar.br/pt-br/pagina-inicial"] = site_display
+    replacements["https://www.srinter.ufscar.br"] = site_display
+    replacements["www.srinter.ufscar.br"] = site_display
+    replacements["srinter.ufscar.br"] = site_display
+
+    # Address
+    if real_address:
+        replacements["Rodovia Washington Luis, km 235 - Edificio Sergio Mascarenhas - 2 piso - Rio Branco - SP, CEP 13565-905."] = real_address
+        replacements["Rodovia Washington Lu\u00eds, km 235 - Edif\u00edcio S\u00e9rgio Mascarenhas - 2\u00ba piso - Rio Branco - SP, CEP 13565-905."] = real_address
+        replacements["Rodovia Washington Lu\u00eds, km 235"] = real_address
+        replacements["Edif\u00edcio S\u00e9rgio Mascarenhas"] = ""
+        replacements["CEP 13565-905"] = ""
+
+    # Campus text (longest first)
+    replacements["S\u00e3o Carlos, Araras, Sorocaba, Lagoa do Sino e S\u00e3o Jos\u00e9 do Rio Preto"] = campi_text
+    replacements["Rio Branco, Araras, Lagoa do Sino, Sorocaba e S\u00e3o Jos\u00e9 do Rio Preto"] = campi_text
+    replacements["Araras, Lagoa do Sino, Sorocaba e S\u00e3o Jos\u00e9 do Rio Preto"] = campi_text
+    replacements["Araras, Sorocaba, Lagoa do Sino e S\u00e3o Jos\u00e9 do Rio Preto"] = campi_text
+    replacements["Araras, Sorocaba e S\u00e3o Jos\u00e9 do Rio Preto"] = campi_text
+    replacements["campi de S\u00e3o Carlos, Araras, Sorocaba, Lagoa do Sino e S\u00e3o Jos\u00e9 do Rio Preto"] = campi_text
+    replacements["em seus campi de S\u00e3o Carlos, Araras, Sorocaba, Lagoa do Sino e S\u00e3o Jos\u00e9 do Rio Preto"] = f"no seu {campi_text}"
+
+    # Sector name
+    replacements["Secretaria de Rela\u00e7\u00f5es Internacionais (SRI)"] = nomenclatura
+    replacements["Secretaria de Rela\u00e7\u00f5es Internacionais"] = nomenclatura
+    replacements["SRINTER"] = nomenclatura
+
+    # Institution name (longest first)
+    replacements["UFSCar - Universidade Federal de S\u00e3o Carlos"] = f"{sigla} - {nome_completo}"
+    replacements["Universidade Federal de S\u00e3o Carlos (UFSCar)"] = f"{nome_completo} ({sigla})"
+    replacements["Universidade Federal de S\u00e3o Carlos"] = nome_completo
+    replacements["UFSCar"] = sigla
+
+    # URL replacements for ufscar slug
+    replacements["ufscar-universidade-federal-de-sao-carlos"] = ies_data.get("slug", sigla.lower())
+
+    return replacements
 
 
-def update_ies_content_v2(
+def remove_appended_slate_blocks(
+    current_page_data: Dict[str, Any],
+    template: Dict[str, Any]
+) -> Dict[str, Any]:
+    """Remove slate/SectionTitle blocks NOT present in the original template (appended by previous script)."""
+    template_block_ids = get_template_block_ids(template)
+    blocks = dict(current_page_data.get("blocks", {}))
+    layout = list(current_page_data.get("blocks_layout", {}).get("items", []))
+
+    foreign_ids = [bid for bid in layout if bid not in template_block_ids]
+    removed = 0
+    for bid in foreign_ids:
+        bv = blocks.get(bid, {})
+        btype = bv.get("@type", "")
+        if btype in ("slate", "SectionTitleBlock"):
+            blocks.pop(bid, None)
+            layout.remove(bid)
+            removed += 1
+        elif btype == "html":
+            html_content = bv.get("html", "")
+            # Remove appended html blocks UNLESS they are Google Maps iframes or anchor divs
+            if "maps.google.com" not in html_content and 'id="' not in html_content:
+                blocks.pop(bid, None)
+                layout.remove(bid)
+                removed += 1
+
+    if removed:
+        logger.info(f"  Removidos {removed} blocos appendados erroneamente")
+
+    result = dict(current_page_data)
+    result["blocks"] = blocks
+    result["blocks_layout"] = {"items": layout}
+    return result
+
+
+SECTION_TITLE_MARKERS = {
+    "Historico e Legado", "Histórico e Legado",
+    "Destaques Academicos e Reconhecimentos", "Destaques Acadêmicos e Reconhecimentos",
+    "Nossos Pilares de Excelencia", "Nossos Pilares de Excelência",
+    "Por que estudar nesta instituicao?", "Por que estudar nesta instituição?",
+    "Infraestrutura Completa para o seu Desenvolvimento",
+    "Suporte Integral ao Estudante Internacional",
+    "Internacionalizacao e Acolhimento", "Internacionalização e Acolhimento",
+    "Cursos de Portugues para Estrangeiros (PLE)", "Cursos de Português para Estrangeiros (PLE)",
+    "Perguntas Frequentes (FAQ)", "Custo de Vida e Alojamento",
+    "Viver em Rio Branco", "Viver em", "Por Que Estudar",
+}
+
+
+def is_section_title(text: str) -> bool:
+    t = text.strip().rstrip(":")
+    return (
+        t in SECTION_TITLE_MARKERS
+        or (len(t) < 70 and text.strip().endswith(":"))
+    )
+
+
+def build_subpage_from_paragraphs(
+    template: Dict[str, Any],
+    paragraphs: List[str],
+    replacements: Dict[str, str],
+    map_iframe: str = "",
+    add_map_if_missing: bool = False,
+) -> Dict[str, Any]:
+    """
+    Build subpage by:
+    1. Deep-replacing UFSCar values in template
+    2. Replacing slate block texts with IES-specific paragraphs
+    3. Appending remaining paragraphs if template has fewer slots
+    4. Optionally adding map if missing
+    """
+    replaced = deep_replace(template, replacements)
+    blocks = replaced.get("blocks", {})
+    layout = list(replaced.get("blocks_layout", {}).get("items", []))
+
+    para_queue = list(paragraphs)
+
+    def replace_text_in_blocks(blocks_dict: dict):
+        for bid, bv in blocks_dict.items():
+            if not para_queue:
+                break
+            btype = bv.get("@type", "")
+            if btype == "slate":
+                text = para_queue.pop(0)
+                bv["plaintext"] = text
+                bv["value"] = [{"type": "p", "children": [{"text": text}]}]
+            elif btype == "SectionTitleBlock":
+                text = para_queue.pop(0)
+                bv["title"] = text.strip().rstrip(":")
+            # Recurse into columnsBlock nested blocks
+            if "blocks" in bv:
+                replace_text_in_blocks(bv["blocks"])
+            if "data" in bv and "blocks" in bv["data"]:
+                for col_val in bv["data"]["blocks"].values():
+                    if isinstance(col_val, dict) and "blocks" in col_val:
+                        replace_text_in_blocks(col_val["blocks"])
+
+    replace_text_in_blocks(blocks)
+
+    # Append remaining paragraphs that didn't fit in template slots
+    for para in para_queue:
+        para = para.strip()
+        if not para:
+            continue
+        block_id = str(uuid.uuid4())
+        if is_section_title(para):
+            blocks[block_id] = make_section_title_block(para.rstrip(":"))
+        else:
+            blocks[block_id] = make_slate_block(para)
+        layout.append(block_id)
+
+    # Add map if missing
+    if add_map_if_missing and map_iframe:
+        has_map = any(
+            bv.get("@type") == "html" and "maps.google.com" in bv.get("html", "")
+            for bv in blocks.values()
+        )
+        if not has_map:
+            map_id = str(uuid.uuid4())
+            blocks[map_id] = make_html_block(map_iframe)
+            layout.append(map_id)
+
+    return {"blocks": blocks, "blocks_layout": {"items": layout}}
+
+
+PLONE_INTERNAL_FIELDS = {
+    "@components", "@id", "UID", "created", "modified",
+    "review_state", "allow_discussion", "contributors",
+    "creators", "effective", "expires", "is_folderish",
+    "language", "parent", "relatedItems", "version",
+    "changeNote", "@type",
+}
+
+
+def fix_ies_content(
     ies_data: Dict[str, Any],
     container_url: str,
     client: PloneRestClient,
-    template_block_ids: Dict[str, Set[str]]
 ) -> List[Dict[str, Any]]:
-    """
-    v2: Corrige páginas das IES via substituição profunda de texto + remoção de blocos extras.
-    """
-    sigla = ies_data["sigla"]
-    slug = ies_data["slug"]
-    nome_completo = ies_data["nome_completo"]
-    
-    base_container = container_url.rstrip("/")
-    ies_url = f"{base_container}/{slug}"
-    portal_rel_path = ies_url.replace("https://www.gov.br/studyinbrazil/", "")
-    
     report_items = []
-    
-    logger.info(f"\n{'='*50}")
-    logger.info(f"[v2] Corrigindo IES: {sigla} ({nome_completo})")
+    sigla = ies_data["sigla"]
+    nome_completo = ies_data["nome_completo"]
+    slug = ies_data.get("slug", sigla.lower().replace("_", "-").replace(" ", "-"))
+    mapa_iframe = ies_data.get("mapa_html_embed", "")
+    ies_url = f"{container_url.rstrip('/')}/{slug}"
+
+    logger.info("=" * 50)
+    logger.info(f"Corrigindo: {sigla} ({nome_completo})")
     logger.info(f"URL: {ies_url}")
-    logger.info(f"{'='*50}")
-    
-    deep_replacements = build_deep_replacements(ies_data)
-    home_seo_desc = ies_data["metadados"]["seo_description"]
-    
-    # ----------------------------------------------------------------
-    # 1. HOME
-    # ----------------------------------------------------------------
+    logger.info("=" * 50)
+
+    replacements = build_ufscar_replacements(ies_data)
+
+    # ── HOME ─────────────────────────────────────────────────────────────────
+    logger.info("[Home] GET conteúdo atual...")
     existing_home = client.get_content(ies_url)
     if not existing_home:
-        logger.warning(f"  ⚠️ Não foi possível obter a Home da {sigla}. Pulando.")
+        logger.error(f"[Home] GET falhou para {sigla}. Pulando.")
         report_items.append({
-            "timestamp": datetime.now().isoformat(), "sigla": sigla,
-            "tipo_pagina": "HOME", "url": ies_url,
-            "status": "ERROR", "detalhes": "Falha ao obter conteúdo existente da Home"
+            "timestamp": datetime.now().isoformat(),
+            "sigla": sigla, "tipo_pagina": "HOME", "url": ies_url,
+            "status": "ERROR", "detalhes": "GET falhou – página não encontrada"
         })
         return report_items
-    
-    # Aplica deep replacement na Home existente
-    home_fixed = apply_deep_replacements(existing_home, deep_replacements, ies_url, portal_rel_path)
-    
-    # Para HOME: remove apenas blocos slate ROOT adicionados pelo script (não os aninhados)
-    home_current_layout = list(home_fixed.get("blocks_layout", {}).get("items", []))
-    home_blocks = dict(home_fixed.get("blocks", {}))
-    
-    tmpl_home_ids = template_block_ids.get("home", set())
-    root_added = [bid for bid in home_current_layout if bid not in tmpl_home_ids]
-    home_removed = 0
-    for bid in root_added:
-        btype = home_blocks.get(bid, {}).get("@type", "")
-        if btype in ("slate", "SectionTitleBlock"):
-            home_current_layout.remove(bid)
-            del home_blocks[bid]
-            home_removed += 1
-    if home_removed:
-        logger.info(f"  Home: removidos {home_removed} blocos extras da execução anterior.")
-    
-    home_payload = {
-        "@type": "Document",
-        "id": slug,
-        "title": f"{sigla} - {nome_completo}",
-        "description": home_seo_desc,
-        "blocks": home_blocks,
-        "blocks_layout": {"items": home_current_layout},
-        "subjects": [sigla],
-        "exclude_from_nav": False
-    }
-    
-    res_home = client.update_content(ies_url, home_payload)
+
+    fixed_home = deep_replace(existing_home, replacements)
+    payload_home = {k: v for k, v in fixed_home.items() if k not in PLONE_INTERNAL_FIELDS}
+    payload_home["title"] = f"{sigla} - {nome_completo}"
+
+    res_home = client.update_content(ies_url, payload_home)
     home_success = res_home is not None
     report_items.append({
-        "timestamp": datetime.now().isoformat(), "sigla": sigla,
-        "tipo_pagina": "HOME", "url": ies_url,
+        "timestamp": datetime.now().isoformat(),
+        "sigla": sigla, "tipo_pagina": "HOME", "url": ies_url,
         "status": "SUCCESS" if home_success else "ERROR",
-        "detalhes": "Home corrigida com dados reais da IES" if home_success else "Falha ao corrigir Home"
+        "detalhes": "Home corrigida: deep replace UFSCar→IES" if home_success else "Falha ao corrigir Home"
     })
-    
     if home_success:
-        retract = client.retract_to_private(ies_url)
+        r = client.retract_to_private(ies_url)
         report_items.append({
-            "timestamp": datetime.now().isoformat(), "sigla": sigla,
-            "tipo_pagina": "WORKFLOW_HOME", "url": ies_url,
-            "status": "SUCCESS" if retract else "ERROR",
-            "detalhes": "Home mantida privada" if retract else "Falha ao definir privado"
+            "timestamp": datetime.now().isoformat(),
+            "sigla": sigla, "tipo_pagina": "WORKFLOW_PRIVATE_HOME", "url": ies_url,
+            "status": "SUCCESS" if r else "ERROR",
+            "detalhes": "Home mantida privada" if r else "Falha ao definir privado"
         })
     else:
-        logger.warning(f"  ⚠️ Falha na Home de {sigla}. Continuando com subpáginas mesmo assim.")
-    
-    # ----------------------------------------------------------------
-    # 2. SUBPÁGINAS
-    # ----------------------------------------------------------------
-    subpages = [
+        return report_items
+
+    # ── SUBPAGES ─────────────────────────────────────────────────────────────
+    subpages_configs = [
         {
             "id": "sobre-nos",
-            "tipo": "SOBRE",
+            "tipo_key": "sobre",
             "template_key": "sobre_nos",
             "title": f"Sobre a {sigla}",
             "nav_title": "Sobre",
-            "desc": f"Conheça a história, visão geral e pilares de excelência da {sigla}.",
+            "desc": f"História, visão geral e pilares de excelência da {sigla}.",
+            "add_map": False,
         },
         {
             "id": "vida_na_ies",
-            "tipo": "VIDA_NA_IES",
+            "tipo_key": "vida_na_ies",
             "template_key": "vida_na_ies",
             "title": f"Vida na {sigla}",
             "nav_title": "Vida na IES",
             "desc": f"Infraestrutura, moradia, alimentação e convivência na {sigla}.",
+            "add_map": False,
         },
         {
             "id": "estudantes-internacionais",
-            "tipo": "ESTUDANTES_INTERNACIONAIS",
+            "tipo_key": "estudantes_internacionais",
             "template_key": "estudantes_internacionais",
             "title": f"Estudantes Internacionais na {sigla}",
             "nav_title": "Estudantes Internacionais",
-            "desc": f"Informações de acolhimento, vistos e suporte aos estudantes internacionais na {sigla}.",
+            "desc": f"Suporte integral ao estudante internacional na {sigla}.",
+            "add_map": True,
         },
     ]
-    
-    for sub in subpages:
-        sub_url = f"{ies_url}/{sub['id']}"
-        tmpl_ids = template_block_ids.get(sub["template_key"], set())
-        
+
+    for sub in subpages_configs:
+        sub_id = sub["id"]
+        sub_url = f"{ies_url}/{sub_id}"
+        sub_data = ies_data.get("paginas", {}).get(sub["tipo_key"], {})
+        sub_paragraphs = sub_data.get("paragrafos", [])
+        template = load_template(sub["template_key"])
+
+        logger.info(f"[{sub['tipo_key'].upper()}] Processando: {sub_url}")
         existing_sub = client.get_content(sub_url)
-        if not existing_sub:
-            logger.warning(f"  ⚠️ Não encontrou {sub['id']} para {sigla}.")
-            report_items.append({
-                "timestamp": datetime.now().isoformat(), "sigla": sigla,
-                "tipo_pagina": sub["tipo"], "url": sub_url,
-                "status": "ERROR", "detalhes": f"Falha ao obter {sub['id']}"
-            })
-            continue
-        
-        # Passo 1: Aplica deep replacement
-        sub_fixed = apply_deep_replacements(existing_sub, deep_replacements, ies_url, portal_rel_path)
-        
-        # Passo 2: Remove blocos extras adicionados pelo script anterior
-        sub_fixed = remove_script_added_blocks(sub_fixed, tmpl_ids)
-        
-        sub_payload = {
-            "@type": "Document",
-            "id": sub["id"],
-            "title": sub["title"],
-            "nav_title": sub["nav_title"],
-            "description": sub["desc"],
-            "blocks": sub_fixed.get("blocks", {}),
-            "blocks_layout": sub_fixed.get("blocks_layout", {}),
-            "subjects": [sigla],
-            "exclude_from_nav": False
-        }
-        
-        res_sub = client.update_content(sub_url, sub_payload)
-        if res_sub is None:
+
+        if existing_sub:
+            # Remove appended blocks from previous script run
+            cleaned = remove_appended_slate_blocks(existing_sub, template)
+            # Deep replace UFSCar values in what remains
+            fixed_sub = deep_replace(cleaned, replacements)
+            # Rebuild text slots with IES paragraphs (no-op replacements since already applied)
+            rebuilt = build_subpage_from_paragraphs(
+                template=fixed_sub,
+                paragraphs=sub_paragraphs,
+                replacements={},
+                map_iframe=mapa_iframe,
+                add_map_if_missing=sub["add_map"],
+            )
+            sub_payload = {k: v for k, v in fixed_sub.items() if k not in PLONE_INTERNAL_FIELDS}
+            sub_payload["title"] = sub["title"]
+            sub_payload["nav_title"] = sub["nav_title"]
+            sub_payload["description"] = sub["desc"]
+            sub_payload["blocks"] = rebuilt["blocks"]
+            sub_payload["blocks_layout"] = rebuilt["blocks_layout"]
+            sub_payload["subjects"] = [sigla]
+            res_sub = client.update_content(sub_url, sub_payload)
+        else:
+            # Page doesn't exist: build from template and create
+            rebuilt = build_subpage_from_paragraphs(
+                template=template,
+                paragraphs=sub_paragraphs,
+                replacements=replacements,
+                map_iframe=mapa_iframe,
+                add_map_if_missing=sub["add_map"],
+            )
+            sub_payload = {
+                "@type": "Document",
+                "id": sub_id,
+                "title": sub["title"],
+                "nav_title": sub["nav_title"],
+                "description": sub["desc"],
+                "blocks": rebuilt["blocks"],
+                "blocks_layout": rebuilt["blocks_layout"],
+                "subjects": [sigla],
+                "exclude_from_nav": False,
+            }
             res_sub = client.create_content(ies_url, sub_payload)
-        
+
         sub_success = res_sub is not None
         report_items.append({
-            "timestamp": datetime.now().isoformat(), "sigla": sigla,
-            "tipo_pagina": sub["tipo"], "url": sub_url,
+            "timestamp": datetime.now().isoformat(),
+            "sigla": sigla,
+            "tipo_pagina": sub["tipo_key"].upper(),
+            "url": sub_url,
             "status": "SUCCESS" if sub_success else "ERROR",
-            "detalhes": f"'{sub['id']}' corrigida e limpa" if sub_success else f"Falha em '{sub['id']}'"
+            "detalhes": (
+                f"'{sub_id}' corrigida: removed appended blocks + deep replace"
+                if sub_success else f"Falha ao corrigir '{sub_id}'"
+            ),
         })
-        
         if sub_success:
-            retract = client.retract_to_private(sub_url)
+            r = client.retract_to_private(sub_url)
             report_items.append({
-                "timestamp": datetime.now().isoformat(), "sigla": sigla,
-                "tipo_pagina": f"WORKFLOW_{sub['tipo']}", "url": sub_url,
-                "status": "SUCCESS" if retract else "ERROR",
-                "detalhes": f"'{sub['id']}' mantida privada" if retract else "Falha ao definir privado"
+                "timestamp": datetime.now().isoformat(),
+                "sigla": sigla,
+                "tipo_pagina": f"WORKFLOW_PRIVATE_{sub['tipo_key'].upper()}",
+                "url": sub_url,
+                "status": "SUCCESS" if r else "ERROR",
+                "detalhes": f"'{sub_id}' mantida privada" if r else "Falha ao definir privado",
             })
-    
+
     return report_items
 
 
+def generate_html_report(all_reports: List[Dict]) -> None:
+    df = pd.DataFrame(all_reports)
+    total = len(df)
+    total_success = int((df["status"] == "SUCCESS").sum()) if total else 0
+    total_error = int((df["status"] == "ERROR").sum()) if total else 0
+    success_rate = round(total_success / total * 100, 1) if total else 0
+    ies_count = df["sigla"].nunique() if total else 0
+
+    if total:
+        ies_stats = (
+            df.groupby("sigla")
+            .agg(
+                total=("status", "count"),
+                sucesso=("status", lambda x: (x == "SUCCESS").sum()),
+                erro=("status", lambda x: (x == "ERROR").sum())
+            )
+            .reset_index()
+        )
+        ies_stats["taxa"] = (ies_stats["sucesso"] / ies_stats["total"] * 100).round(1)
+        ies_stats = ies_stats.sort_values(["erro", "sigla"], ascending=[False, True])
+        records_json = df.to_json(orient="records", force_ascii=False)
+        ies_stats_json = ies_stats.to_json(orient="records", force_ascii=False)
+    else:
+        records_json = "[]"
+        ies_stats_json = "[]"
+
+    html = f"""<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Relatório de Correção • 10 IES • Study in Brazil</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+:root{{--bg:#0f172a;--card:#1e293b;--border:#334155;--txt:#f8fafc;--muted:#94a3b8;--blue:#38bdf8;--green:#22c55e;--red:#ef4444;--purple:#a855f7}}
+*{{margin:0;padding:0;box-sizing:border-box;font-family:'Plus Jakarta Sans',sans-serif}}
+body{{background:var(--bg);color:var(--txt);min-height:100vh;padding:2rem}}
+.container{{max-width:1400px;margin:0 auto}}
+header{{display:flex;justify-content:space-between;align-items:center;padding-bottom:1.5rem;border-bottom:1px solid var(--border);margin-bottom:2rem;flex-wrap:wrap;gap:1rem}}
+h1{{font-family:'Outfit',sans-serif;font-size:2rem;font-weight:800;background:linear-gradient(135deg,var(--blue),var(--purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent}}
+.subtitle{{color:var(--muted);font-size:.9rem;margin-top:.25rem}}
+.badge{{background:rgba(56,189,248,.1);color:var(--blue);padding:.4rem .9rem;border-radius:9999px;font-size:.8rem;font-weight:600;border:1px solid rgba(56,189,248,.3)}}
+.kpi-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin-bottom:2rem}}
+.kpi{{background:var(--card);border:1px solid var(--border);border-radius:.75rem;padding:1.25rem}}
+.kpi h3{{color:var(--muted);font-size:.8rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:.4rem}}
+.kpi .val{{font-family:'Outfit',sans-serif;font-size:2rem;font-weight:700}}
+.kpi .sub{{color:var(--muted);font-size:.8rem;margin-top:.2rem}}
+.kpi.ok .val{{color:var(--green)}} .kpi.err .val{{color:var(--red)}}
+.charts{{display:grid;grid-template-columns:2fr 1fr;gap:1.5rem;margin-bottom:2rem}}
+@media(max-width:900px){{.charts{{grid-template-columns:1fr}}}}
+.chart-box{{background:var(--card);border:1px solid var(--border);border-radius:.75rem;padding:1.5rem}}
+.chart-box h2{{font-size:1.1rem;font-weight:700;margin-bottom:1rem}}
+.chart-container{{position:relative;height:260px}}
+.table-section{{background:var(--card);border:1px solid var(--border);border-radius:.75rem;padding:1.5rem;margin-bottom:2rem}}
+.controls{{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.75rem;margin-bottom:1rem}}
+.search{{position:relative;flex:1;max-width:380px}}
+.search input{{width:100%;background:rgba(15,23,42,.6);border:1px solid var(--border);border-radius:.5rem;padding:.6rem .9rem .6rem 2.2rem;color:var(--txt);font-size:.9rem;outline:none}}
+.search input:focus{{border-color:var(--blue)}}
+.search svg{{position:absolute;left:.75rem;top:50%;transform:translateY(-50%);width:14px;height:14px;fill:var(--muted)}}
+.filters{{display:flex;gap:.5rem}}
+.btn{{background:rgba(30,41,59,.6);border:1px solid var(--border);color:var(--muted);padding:.45rem .9rem;border-radius:.5rem;font-size:.8rem;font-weight:600;cursor:pointer;transition:.2s}}
+.btn:hover{{color:var(--txt)}} .btn.active{{background:var(--blue);color:#0f172a;border-color:var(--blue)}}
+.table-wrap{{overflow-x:auto}}
+table{{width:100%;border-collapse:collapse;font-size:.85rem}}
+th{{background:rgba(30,41,59,.5);padding:.75rem 1rem;color:var(--muted);font-weight:600;border-bottom:1px solid var(--border)}}
+td{{padding:.75rem 1rem;border-bottom:1px solid rgba(51,65,85,.4)}}
+tr:hover td{{background:rgba(56,189,248,.03)}}
+.tag{{display:inline-flex;align-items:center;padding:.25rem .65rem;border-radius:9999px;font-weight:700;font-size:.75rem}}
+.tag.ok{{background:rgba(34,197,94,.12);color:var(--green);border:1px solid rgba(34,197,94,.3)}}
+.tag.err{{background:rgba(239,68,68,.12);color:var(--red);border:1px solid rgba(239,68,68,.3)}}
+.url-link{{color:var(--blue);text-decoration:none;font-family:monospace;font-size:.75rem}}
+.url-link:hover{{text-decoration:underline}}
+footer{{text-align:center;color:var(--muted);font-size:.8rem;padding:1.5rem 0;border-top:1px solid var(--border)}}
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div>
+      <h1>Painel de Correção • 10 IES</h1>
+      <p class="subtitle">Deep replace UFSCar→IES + remoção de blocos errôneos • Study in Brazil / Plone 6</p>
+    </div>
+    <div style="display:flex;gap:.5rem;flex-wrap:wrap">
+      <div class="badge">🔒 100% Privado</div>
+      <div class="badge">🔄 Deep Replace Aplicado</div>
+    </div>
+  </header>
+  <div class="kpi-grid">
+    <div class="kpi"><h3>Total de Operações</h3><div class="val">{total}</div><div class="sub">Home + 3 Subpáginas + Workflows</div></div>
+    <div class="kpi"><h3>Instituições</h3><div class="val">{ies_count}</div><div class="sub">CEFET-MG · UFAC · UFAPE · UFJ · UFMS · UFRPE · UFRR · UFS · UFSB · UFSC</div></div>
+    <div class="kpi ok"><h3>Sucessos</h3><div class="val">{total_success}</div><div class="sub">{success_rate}% de taxa de sucesso</div></div>
+    <div class="kpi {'err' if total_error > 0 else 'ok'}"><h3>Falhas</h3><div class="val">{total_error}</div><div class="sub">Requerem atenção</div></div>
+  </div>
+  <div class="charts">
+    <div class="chart-box"><h2>📊 Status por IES</h2><div class="chart-container"><canvas id="barChart"></canvas></div></div>
+    <div class="chart-box"><h2>🎯 Proporção Geral</h2><div class="chart-container"><canvas id="pieChart"></canvas></div></div>
+  </div>
+  <div class="table-section">
+    <div class="controls">
+      <div class="search">
+        <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.5 6.5 0 1 0 14 15.5l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+        <input type="text" id="searchInput" placeholder="Buscar por Sigla, Tipo, Detalhes...">
+      </div>
+      <div class="filters">
+        <button class="btn active" onclick="filterData('ALL',this)">Todos ({total})</button>
+        <button class="btn" onclick="filterData('SUCCESS',this)">Sucesso ({total_success})</button>
+        <button class="btn" onclick="filterData('ERROR',this)">Erros ({total_error})</button>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Timestamp</th><th>Sigla</th><th>Tipo</th><th>Status</th><th>Detalhes</th><th>URL</th></tr></thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+  </div>
+  <footer>Gerado automaticamente • PloneRestClient • Study in Brazil</footer>
+</div>
+<script>
+const rawData={records_json};
+const iesStats={ies_stats_json};
+let currentFilter='ALL';
+function renderTable(data){{
+  const tbody=document.getElementById('tableBody');
+  tbody.innerHTML='';
+  data.forEach(row=>{{
+    const tr=document.createElement('tr');
+    const ok=row.status==='SUCCESS';
+    const d=new Date(row.timestamp).toLocaleString('pt-BR');
+    tr.innerHTML=`<td>${{d}}</td><td><strong>${{row.sigla}}</strong></td><td>${{row.tipo_pagina}}</td><td><span class="tag ${{ok?'ok':'err'}}">${{ok?'✓ OK':'✕ ERR'}}</span></td><td>${{row.detalhes}}</td><td><a href="${{row.url}}" target="_blank" class="url-link">${{row.url}}</a></td>`;
+    tbody.appendChild(tr);
+  }});
+}}
+function filterData(status,btn){{
+  currentFilter=status;
+  document.querySelectorAll('.btn').forEach(b=>b.classList.remove('active'));
+  if(btn)btn.classList.add('active');
+  applyFilters();
+}}
+function applyFilters(){{
+  const q=document.getElementById('searchInput').value.toLowerCase();
+  const f=rawData.filter(r=>{{
+    const ms=currentFilter==='ALL'||r.status===currentFilter;
+    const mq=!q||[r.sigla,r.tipo_pagina,r.detalhes,r.url].some(v=>v&&v.toLowerCase().includes(q));
+    return ms&&mq;
+  }});
+  renderTable(f);
+}}
+document.getElementById('searchInput').addEventListener('input',applyFilters);
+document.addEventListener('DOMContentLoaded',()=>{{
+  renderTable(rawData);
+  new Chart(document.getElementById('barChart'),{{type:'bar',data:{{labels:iesStats.map(i=>i.sigla),datasets:[{{label:'Sucesso',data:iesStats.map(i=>i.sucesso),backgroundColor:'rgba(34,197,94,.8)',borderRadius:4}},{{label:'Erro',data:iesStats.map(i=>i.erro),backgroundColor:'rgba(239,68,68,.8)',borderRadius:4}}]}},options:{{responsive:true,maintainAspectRatio:false,scales:{{x:{{stacked:true,grid:{{color:'rgba(51,65,85,.2)'}},ticks:{{color:'#94a3b8'}}}},y:{{stacked:true,grid:{{color:'rgba(51,65,85,.2)'}},ticks:{{color:'#94a3b8'}}}}}},plugins:{{legend:{{labels:{{color:'#f8fafc'}}}}}}}}}});
+  new Chart(document.getElementById('pieChart'),{{type:'doughnut',data:{{labels:['Sucesso','Erro'],datasets:[{{data:[{total_success},{total_error}],backgroundColor:['#22c55e','#ef4444'],borderWidth:0}}]}},options:{{responsive:true,maintainAspectRatio:false,plugins:{{legend:{{position:'bottom',labels:{{color:'#f8fafc'}}}}}}}}}});
+}});
+</script>
+</body>
+</html>"""
+
+    with open(HTML_REPORT_PATH, "w", encoding="utf-8") as f:
+        f.write(html)
+    logger.info(f"[OK] Relatório HTML gerado em: '{HTML_REPORT_PATH.resolve()}'")
+
+
 def main():
-    print("[v2] Iniciando correção de conteúdo estruturado das 10 IES...")
-    
+    print("[+] Iniciando correção profunda das 10 IES diagramadas...")
+
     if not DIAGRAMACAO_JSON.exists():
-        print(f"[ERRO] {DIAGRAMACAO_JSON} não encontrado!")
+        logger.error(f"'{DIAGRAMACAO_JSON}' não encontrado! Execute generate_diagramation_data.py primeiro.")
         return
-    
+
     with open(DIAGRAMACAO_JSON, "r", encoding="utf-8") as f:
         records = json.load(f)
-    print(f"[+] {len(records)} IES carregadas do JSON de diagramação.")
-    
+    print(f"[+] {len(records)} IES carregadas.")
+
     df_lista = pd.read_csv("studyinbr/lista_ies_completa.csv", sep=";", encoding="utf-8")
     if len(df_lista.columns) <= 1:
         df_lista = pd.read_csv("studyinbr/lista_ies_completa.csv", sep=",", encoding="utf-8")
-    
-    containers_map = {}
+
+    containers_map: Dict[str, str] = {}
     for _, row in df_lista.iterrows():
-        s = str(row.get("Sigla", "")).strip()
+        s = str(row.get("Sigla", "")).strip().upper()
         onde = str(row.get("Onde criar", "")).strip()
-        slug_col = str(row.get("nome_curto", "")).strip()
         if s and onde:
-            containers_map[s.upper()] = {"container_url": onde, "slug": slug_col}
-    
-    templates, template_block_ids = load_templates()
+            containers_map[s] = onde
+
     client = PloneRestClient(api_url=API_URL, token=API_TOKEN)
-    
-    all_reports = []
-    
-    for ies_item in tqdm(records, desc="Corrigindo IES"):
+    all_reports: List[Dict] = []
+
+    for ies_item in tqdm(records, desc="Corrigindo IES no Plone 6"):
         sigla = ies_item["sigla"]
         sigla_alt = ies_item.get("sigla_alt", sigla)
-        
-        container_info = containers_map.get(sigla.upper()) or containers_map.get(sigla_alt.upper())
-        if not container_info:
-            logger.error(f"Container não encontrado para {sigla}. Pulando.")
+        container_url = (
+            containers_map.get(sigla.upper())
+            or containers_map.get(sigla_alt.upper())
+        )
+        if not container_url:
+            logger.error(f"Container não encontrado para {sigla}. Pulando...")
             all_reports.append({
-                "timestamp": datetime.now().isoformat(), "sigla": sigla,
-                "tipo_pagina": "ALL", "url": "",
-                "status": "ERROR", "detalhes": "Container não encontrado na planilha"
+                "timestamp": datetime.now().isoformat(),
+                "sigla": sigla, "tipo_pagina": "ALL", "url": "",
+                "status": "ERROR", "detalhes": "Container 'Onde criar' não encontrado",
             })
             continue
-        
-        container_url = container_info["container_url"]
-        reports = update_ies_content_v2(ies_item, container_url, client, template_block_ids)
+        reports = fix_ies_content(ies_item, container_url, client)
         all_reports.extend(reports)
-    
-    # Salvar CSV
+
     df_rep = pd.DataFrame(all_reports)
     df_rep.to_csv(REPORT_PATH, index=False, sep=",", encoding="utf-8-sig")
-    print(f"\n[OK] Relatório CSV: '{REPORT_PATH.resolve()}'")
-    
-    # Gerar HTML
-    try:
-        from generate_html_report_diagramacao import generate_diagramation_html_report
-        generate_diagramation_html_report(csv_path=REPORT_PATH, html_path=HTML_REPORT_PATH)
-        print(f"[OK] Relatório HTML: '{HTML_REPORT_PATH.resolve()}'")
-    except Exception as e:
-        logger.error(f"Falha ao gerar relatório HTML: {e}")
+    print(f"\n[OK] CSV salvo em: '{REPORT_PATH.resolve()}'")
+
+    generate_html_report(all_reports)
+    print(f"[OK] HTML salvo em: '{HTML_REPORT_PATH.resolve()}'")
 
 
 if __name__ == "__main__":

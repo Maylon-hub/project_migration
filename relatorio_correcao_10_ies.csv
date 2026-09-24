@@ -1,0 +1,11 @@
+﻿timestamp,sigla,tipo_pagina,url,status,detalhes
+2026-09-15T21:32:03.350881,CEFET-MG,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sudeste/minas_gerais/cefet-mg,ERROR,GET falhou – página não encontrada
+2026-09-15T21:32:03.421330,UFAC,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/acre/ufac,ERROR,GET falhou – página não encontrada
+2026-09-15T21:32:03.524587,UFAPE,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/ufape,ERROR,GET falhou – página não encontrada
+2026-09-15T21:32:03.584071,UFJ,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/goias/ufj,ERROR,GET falhou – página não encontrada
+2026-09-15T21:32:03.645414,UFMS,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_centro_oeste/mato_grosso_do_sul/ufms,ERROR,GET falhou – página não encontrada
+2026-09-15T21:32:03.704968,UFRPE,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/pernambuco/ufrpe,ERROR,GET falhou – página não encontrada
+2026-09-15T21:32:03.793841,UFRR,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_norte/roraima/ufrr,ERROR,GET falhou – página não encontrada
+2026-09-15T21:32:03.862103,UFS,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/sergipe/ufs,ERROR,GET falhou – página não encontrada
+2026-09-15T21:32:03.921764,UFSB,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_nordeste/bahia/ufsb,ERROR,GET falhou – página não encontrada
+2026-09-15T21:32:03.986060,UFSC,HOME,https://www.gov.br/studyinbrazil/pt-br/instituicoes_brasileiras/regiao_sul/santa_catarina/ufsc,ERROR,GET falhou – página não encontrada
