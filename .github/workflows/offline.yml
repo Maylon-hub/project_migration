@@ -1,0 +1,64 @@
+name: Offline foundation
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    strategy:
+      matrix:
+        include:
+          - os: ubuntu-latest
+            python: "3.11"
+          - os: windows-latest
+            python: "3.12"
+    runs-on: ${{ matrix.os }}
+    env:
+      PLONE_BASE_URL: ""
+      PLONE_TOKEN: ""
+      PYTHONDONTWRITEBYTECODE: "1"
+      PYTHONUTF8: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+          cache: pip
+          cache-dependency-path: requirements-foundation.lock
+      - name: Install tooling (only dependency bootstrap uses network)
+        run: |
+          python -m pip install -r requirements-foundation.lock
+          python -m pip install --no-deps --no-build-isolation -e .
+      - name: Check new code lint
+        run: |
+          ruff check src tests scripts
+          ruff format --check src tests scripts
+      - name: Guard secrets without printing values
+        run: python scripts/check_secrets.py
+      - name: Run Cloud, local and integration tests offline
+        run: python scripts/run_offline_tests.py -p no:cacheprovider
+      - name: Verify clean generated-code boundary
+        run: git diff --quiet
+  legacy-baseline:
+    runs-on: ubuntu-latest
+    env:
+      PLONE_BASE_URL: ""
+      PLONE_TOKEN: ""
+      PYTHONDONTWRITEBYTECODE: "1"
+      PYTHONUTF8: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install isolated validation dependencies
+        run: |
+          python -m pip install -r requirements-foundation.lock -r requirements-legacy-validation.lock
+          python -m pip install --no-deps --no-build-isolation -e .
+      - name: Preserve exact 8-pass, 5-known-fail baseline offline
+        run: python scripts/run_offline_tests.py --legacy-baseline
+      - name: Verify unchanged legacy boundary
+        run: git diff --quiet

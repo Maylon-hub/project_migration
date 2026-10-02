@@ -1,0 +1,34 @@
+{
+  "languages": ["pt-br", "en", "es"],
+  "primary_language": "pt-br",
+  "language_fields": {
+    "pt-br": {"creation_name": "Universidade", "production_name": "Oficial", "phase": "PT - Fase", "execution": "PT - Exec", "translation": null, "media_suffix": "PT-BR"},
+    "en": {"creation_name": "Nome Inglês", "production_name": "Inglês", "phase": "EN - Fase", "execution": "EN - Exec", "translation": "Tradução EN", "media_suffix": "Inglês"},
+    "es": {"creation_name": "Nome Espanhol", "production_name": "Espanhol", "phase": "ES - Fase", "execution": "ES - Exec", "translation": "Tradução ES", "media_suffix": "Espanhol"}
+  },
+  "institution_types": {
+    "Universidade": "university", "University": "university", "Universidad": "university",
+    "Centro de Educação Tecnológica": "cefet",
+    "Center for Technological Education": "cefet",
+    "Centro de Educación Tecnológica": "cefet"
+  },
+  "administration": {"Federal": "federal"},
+  "ownership": {"Pública": "public", "Public": "public"},
+  "regions": {"Norte": "north", "Nordeste": "northeast", "Centro-Oeste": "central-west", "Sudeste": "southeast", "Sul": "south"},
+  "page_aliases": {
+    "sobre_nos": "about", "sobre-nos": "about", "about_us": "about", "quienes_somos": "about",
+    "vida_na_ies": "campus_life", "vida-na-ies": "campus_life",
+    "life_at_the_hei": "campus_life", "vida_en_la_ies": "campus_life",
+    "estudantes-internacionais": "international_students", "alunos_internacionais": "international_students",
+    "international_students": "international_students", "estudiantes_internacionales": "international_students"
+  },
+  "editorial_pages": {
+    "Homepage": "home", "Sobre a Universidade": "about", "Vida na IES": "campus_life"
+  },
+  "compiled_languages": {
+    "Home Portugues": "pt-br", "Home Inglês": "en", "Home Espanhol": "es",
+    "subpáginas português": "pt-br", "subpáginas ingles": "en", "subpáginas espanhol": "es"
+  },
+  "media_roles": {"00": "logo", "01": "welcome", "02": "carousel_1", "03": "carousel_2", "04": "carousel_3"},
+  "note": "Categories and aliases normalize spelling only. Editorial approvals, endpoint, existing slugs and translations are unconfirmed. Extend registries explicitly for future types/languages."
+}

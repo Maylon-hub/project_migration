@@ -1,180 +1,107 @@
-# Migração de Notícias
+# StudyBR — fundação i18n e inventário REST somente leitura
 
-> WEBSITE (Plone 4 → Plone 6)
+Base Python para diagnosticar fontes e inventariar o portal Study in Brazil
+(Plone 6/gov.br). A implementação principal está em src/studybr: diagnóstico
+offline, reconciliação editorial e um único cliente HTTP GET. Nenhuma operação
+de escrita é oferecida pelo pacote.
 
-**Autor:** Byron Lanverly
+A base confirmada é https://www.gov.br/studyinbrazil/++api++.
+Conforme verificação local informada pelo responsável, Bearer válido funciona
+em /pt-br (protegido). @govsite é público e não valida autenticação.
+O inventário deve rodar no computador local; Codex Cloud não deve ser usado
+como canal de autenticação. Esta integração usou apenas mocks e nenhuma chamada real.
 
-## Visão Geral
+## Instalação e verificações
 
-Este projeto automatiza a **migração completa de notícias** do portal institucional da Trensurb **Plone 4** para uma instância moderna baseada em **Plone 6 (Volto)**.
+Python 3.11+. Exemplo PowerShell com ambiente isolado, sem alterar o .venv antigo:
 
-A solução realiza:
+~~~powershell
+py -3.12 -m venv .local/validation
+.local/validation/Scripts/python.exe -m pip install -r requirements-foundation.lock
+.local/validation/Scripts/python.exe -m pip install --no-deps --no-build-isolation -e .
+.local/validation/Scripts/python.exe -X utf8 -B scripts/run_offline_tests.py -p no:cacheprovider
+.local/validation/Scripts/python.exe -m ruff check src tests scripts
+.local/validation/Scripts/python.exe -m ruff format --check src tests scripts
+.local/validation/Scripts/python.exe -X utf8 -B scripts/check_secrets.py
+~~~
 
-- Scraping estruturado das notícias públicas
-- Extração semântica de conteúdo (título, corpo, data, tags, imagem)
-- Transformação para o modelo de **blocks (Volto/Slate)**
-- Inserção via **API REST oficial do Plone 6**
-- Autenticação segura via **Bearer Token (JWT)**
-- Controle de progresso para execução incremental/idempotente
+A suíte integrada preserva os 75 casos Cloud e os 52 locais, além de 21 novos
+casos de integração: 148 sucessos. Os testes originais estão em legacy/tests/
+sem alteração de comportamento. Para conferir 8 sucessos e 5 falhas conhecidas:
 
-## Arquitetura da Solução
+~~~powershell
+.local/validation/Scripts/python.exe -m pip install -r requirements-legacy-validation.lock
+.local/validation/Scripts/python.exe -X utf8 -B scripts/run_offline_tests.py --legacy-baseline
+~~~
 
-```mermaid
-flowchart LR
-    A[Plone 4 - gov.br] -->|HTTP Scraping| B[Scraper + Parser]
-    B -->|Transformação HTML → Blocks| C[Conversão Volto/Slate]
-    C -->|REST API + JWT| D[Plone 6 - Backend]
-```
+O runner remove credenciais herdadas antes da coleta e bloqueia DNS/conexões.
+Ele confere o baseline legado sem transformar falhas em sucessos ou xfail.
+Instalação de dependências pode acessar o índice de pacotes.
 
-## Funcionalidades Principais
+## Inventário local por lotes
 
-### Coleta de Conteúdo
+Exportar token com entrada oculta, somente para a sessão PowerShell atual:
 
-- Navegação paginada automática
-- Extração de:
-  - Título
-  - Resumo
-  - Corpo HTML
-  - Data de publicação
-  - Imagem + legenda
-  - Tags/categorias
+~~~powershell
+$env:PLONE_BASE_URL = 'https://www.gov.br/studyinbrazil/++api++'
+$studybrCredential = Read-Host 'PLONE_TOKEN' -AsSecureString
+$env:PLONE_TOKEN = [System.Net.NetworkCredential]::new('', $studybrCredential).Password
+Remove-Variable studybrCredential
+.local/validation/Scripts/studybr.exe inventory --stage roots
+# Após revisar o lote anterior, escolher explicitamente o próximo:
+# .local/validation/Scripts/studybr.exe inventory --stage models --resume '<run-id>'
+# Ao terminar:
+Remove-Item Env:PLONE_TOKEN
+~~~
 
-### Transformação de Conteúdo
+Os comandos de inventário fazem GETs reais quando executados pelo operador;
+não foram executados nesta integração. O padrão consulta /pt-br, /en, /es
+e sua paginação. Etapas models, samples e schemas ampliam o escopo explicitamente.
+Cada execução verifica as raízes novamente e para globalmente no primeiro 401.
+Veja [endpoints, snapshots e retomada](docs/local-readonly-inventory.md).
 
-- Conversão de HTML → **Blocos Volto (Slate)**
-- Suporte a:
-  - Parágrafos
-  - Cabeçalhos
-  - Listas
-  - Links
-  - Imagens
-  - Estruturas complexas (figure, table, etc.)
+## Diagnóstico das fontes
 
-### Integração com Plone 6
+Fontes privadas devem ficar fora do Git, por exemplo em sources/ (ignorado).
 
-- Uso da API REST oficial:
-  - [https://6.docs.plone.org/plone.api/index.html](https://6.docs.plone.org/plone.api/index.html)
-- Criação de `News Item` com:
-  - Blocks estruturados
-  - Metadata (tags, data, descrição)
-- Publicação automática via workflow
+~~~powershell
+studybr diagnose --creation 'sources/Criação_com_Script_via_TI.xlsx' --production 'sources/Produção Portal Br.xlsx' --base-url https://www.gov.br/studyinbrazil --domain-config config/domain.json --home-csv studyinbr/lista_ies_completa.csv --subpage-csv studyinbr/subpaginas_ies_completo.csv --media-csv 'docs/Produção Portal Br(Fotos_metadados).csv' --diagram-json diagramacao/diagramacao_10_ies.json --output-dir artifacts/diagnostic
+~~~
 
-### Robustez Operacional
+O diagnóstico não faz requisições. Gera dataset e resumo determinísticos,
+proveniência e conflitos. Saída 2 indica pendências; 1, erro; 0, ausência de
+conflitos detectados. Nenhum código autoriza escrita.
+Caches de fórmulas não são certificados por openpyxl. Alternativas discordantes
+ficam em candidates; nenhum arquivo vence pela ordem de importação.
 
-- Retry automático para falhas HTTP
-- Detecção de duplicidade via catalog
-- Persistência de progresso (`progress_file`)
-- Logging detalhado (`migracao.log`)
+A reconciliação canônica em studybr.reconciliation preserva nomes EN/ES aprovados
+na planilha. O overlay associa Relações Internacionais à home, mantendo Estudantes
+Internacionais como página distinta e todas as ocorrências originais.
+Aliases, slugs e outras divergências continuam pendentes de decisão humana.
 
-## Requisitos
+## Segurança e histórico
 
-- Python **3.9+**
-- Ambiente Linux recomendado
+PLONE_BASE_URL e PLONE_TOKEN vêm apenas do ambiente, sem fallback do legado.
+O pacote não carrega .env; .env.example tem valores vazios. .local/, snapshots
+raw e .codex/environments/environment.toml são privados e ignorados. A configuração
+local do Codex ficou sem credencial literal e não deve ser incluída em commit.
+Não imprimir tokens, Authorization ou cookies.
 
-### Dependências
+As quatro capturas históricas com JWT foram preservadas, sem cópia ou alteração.
+O guard verifica seus hashes exatos e rejeita segredos novos; a baseline não foi
+ampliada. A retirada do literal de config.py não reescreve o histórico:
+revogação/rotação externa permanece pendente. Scripts operacionais da raiz
+possuem escrita legada e ficam isolados do novo fluxo.
 
-```bash
-pip install requests beautifulsoup4 lxml
-```
+A recuperação Cloud veio de aabb8bec48ff0bcbd9c0fa9a2c10383cb5bd9af8.
+O manifesto de 55 arquivos permanece evidência da recuperação original;
+não é um manifesto do checkout integrado atual.
 
-## Configuração
+## Documentação
 
-Referência detalhada das variáveis: [CONFIG.md](/home/lanverly/Documentos/Cgplt/2026/project-migration/CONFIG.md)
-
-Crie o arquivo `config.json` na raiz do projeto:
-
-```json
-{
-  "plone_url": "https://seu-plone.exemplo.gov.br/site/pt-br",
-  "plone_token": "Bearer JWT_TOKEN_AQUI",
-  "plone_news_folder": "/noticias",
-  "source_base": "https://www.gov.br",
-  "source_start": "https://www.gov.br/orgaos/exemplo/pt-br/assuntos/noticias",
-  "delay": 1,
-  "all_pages": true,
-  "max_news": 0,
-  "progress_file": "migracao_progresso.json",
-  "portal_type": "Document",
-  "migrate_as_self": true,
-  "skip_files": false
-}
-```
-
-### Legenda das Variáveis
-
-- `plone_url`: URL base do site Plone 6 de destino.
-- `plone_token`: token JWT usado na autenticação da API. Pode ser informado com ou sem o prefixo `Bearer `, mas o exemplo já usa o formato completo.
-- `plone_news_folder`: caminho da pasta ou página de destino dentro do Plone.
-- `source_base`: domínio base usado para resolver links relativos da origem.
-- `source_start`: URL inicial da listagem ou da página única que será migrada.
-- `delay`: intervalo, em segundos, entre requisições.
-- `all_pages`: se `true`, percorre paginação da origem; se `false`, processa apenas a URL inicial.
-- `max_news`: limita a quantidade de links processados. Use `0` para não limitar.
-- `progress_file`: arquivo local que guarda o progresso da migração.
-- `portal_type`: tipo de conteúdo criado no Plone.
-- `migrate_as_self`: se `true`, aplica o conteúdo diretamente na própria pasta/página de destino; se `false`, cria itens filhos dentro da pasta.
-- `skip_files`: se `true`, não reenvia anexos e tenta apenas religar links para arquivos já existentes no Plone.
-
-### Valores de `portal_type`
-
-- `Document`: usado para migrar páginas comuns, páginas institucionais e páginas com anexos.
-- `News Item`: usado para migrar notícias, com suporte a blocos específicos como lead image, social share e text-to-speech.
-
-Hoje o app expõe apenas esses dois valores na interface e o script foi ajustado para esses dois cenários.
-
-## Execução
-
-```bash
-# (Opcional) Ativar ambiente virtual
-source .venv/bin/activate
-
-# Executar migração
-python migration_to_plone_6.py
-```
-
-## Saídas e Monitoramento
-
-### Logs
-
-Arquivo:
-
-```bash
-migracao.log
-```
-
-Contém:
-
-- Progresso detalhado
-- Erros HTTP
-- Criação de conteúdos
-- Publicações
-
-### Controle de Progresso
-
-Arquivo:
-
-```bash
-progress.json
-```
-
-Permite:
-
-- Retomar execuções interrompidas
-- Evitar reprocessamento
-
-## Segurança
-
-- Autenticação via **Bearer Token (JWT)**
-- Validação de conexão com Plone antes da execução
-- Desativação de SSL verification **(apenas para ambientes controlados)**
-
-## Casos de Uso
-
-* Migração institucional Plone 4 → Plone 6
-* Modernização de portais governamentais
-* Consolidação de conteúdo legado
-* Reestruturação de CMS com Volto
-
-## Licença
-
-Uso interno / institucional.
+- [Arquitetura](docs/architecture.md) e [setup](docs/setup.md).
+- [Contrato REST](docs/plone-api.md) e [inventário local](docs/local-readonly-inventory.md).
+- [Reconciliação](docs/readonly-reconciliation.md) e [validação integrada](docs/integration-validation.md).
+- [Adicionar idioma](docs/adding-a-language.md) e [IES](docs/adding-institutions.md).
+- [Metadados](docs/metadata-rules.md), [fluxo](docs/migration-workflow.md) e [handover](docs/handover.md).
+- [Limites do legado](legacy/README.md) e [README original Trensurb](legacy/README-trensurb.md).

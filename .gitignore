@@ -27,3 +27,24 @@ __pycache__/
 .idea/
 *.swp
 /img
+
+# Offline foundation: credentials and private execution artifacts
+.env
+.env.*
+!.env.example
+artifacts/
+snapshots/
+state/
+sources/
+assets-local/
+*.egg-info/
+build/
+dist/
+.ruff_cache/
+
+# Private local execution configuration and inventory artifacts
+.local/
+.codex/environments/environment.toml
+
+# Windows/Drive folder metadata
+desktop.ini

@@ -1,0 +1,22 @@
+{
+  "@id": "https://portal.test/site/en/model",
+  "@type": "Document",
+  "id": "model",
+  "UID": "fixture-uid",
+  "title": "Fictional institution",
+  "description": "Small synthetic fixture, not real portal evidence.",
+  "language": "en",
+  "review_state": "private",
+  "is_folderish": true,
+  "parent": {"@id": "https://portal.test/site/en", "title": "English"},
+  "subjects": ["sample"],
+  "modified": "2026-01-01T00:00:00Z",
+  "items_total": 1,
+  "items": [{"@id": "https://portal.test/site/en/model/about", "id": "about", "@type": "Document", "title": "About", "language": "en"}],
+  "blocks_layout": {"items": ["heading", "body"]},
+  "blocks": {
+    "heading": {"@type": "title", "title": "Institution home"},
+    "body": {"@type": "slate", "value": [{"type": "p", "children": [{"text": "Synthetic paragraph omitted from structured snapshots."}]}]}
+  },
+  "custom_contact": {"email": "fictional@example.test", "enabled": true}
+}

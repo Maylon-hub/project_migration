@@ -1,0 +1,39 @@
+{
+  "evidence": "historical HTML content, not current REST inventory",
+  "id": "ufscar-universidade-federal-de-sao-carlos",
+  "@type": "Document",
+  "language": "pt-br",
+  "review_state": "private",
+  "is_folderish": true,
+  "blocks": {
+    "036472e6-45b4-4a1b-a7a0-3ca45fb7afa5": {
+      "@type": "title"
+    },
+    "17d89240-2596-4f80-9410-e2cfdecb24f7": {
+      "@type": "description"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "036472e6-45b4-4a1b-a7a0-3ca45fb7afa5",
+      "17d89240-2596-4f80-9410-e2cfdecb24f7"
+    ]
+  },
+  "subpages": [
+    {
+      "id": "sobre-nos",
+      "@type": "Document",
+      "review_state": "private"
+    },
+    {
+      "id": "estudantes-internacionais",
+      "@type": "Document",
+      "review_state": "private"
+    },
+    {
+      "id": "vida_na_ies",
+      "@type": "Document",
+      "review_state": "private"
+    }
+  ]
+}

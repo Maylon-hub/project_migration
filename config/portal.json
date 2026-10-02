@@ -1,0 +1,14 @@
+{
+  "rest_path": "",
+  "discovery_candidates": [],
+  "timeout_seconds": [
+    10,
+    30
+  ],
+  "note": "Nonsecret deployment metadata, confirmed by operator. Runtime reads PLONE_BASE_URL/PLONE_TOKEN only. Local Bearer works on protected /pt-br; @govsite is public. No real requests during integration; no Cloud authentication channel.",
+  "confirmed_rest_base": "https://www.gov.br/studyinbrazil/++api++",
+  "inventory_timeout_seconds": [
+    15,
+    15
+  ]
+}

@@ -1,0 +1,681 @@
+{
+  "$defs": {
+    "Conflict": {
+      "additionalProperties": false,
+      "properties": {
+        "blocking": {
+          "type": "boolean"
+        },
+        "candidates": {
+          "items": {
+            "$ref": "#/$defs/Observation"
+          },
+          "type": "array"
+        },
+        "category": {
+          "type": "string"
+        },
+        "entity": {
+          "type": "string"
+        },
+        "field": {
+          "type": "string"
+        },
+        "message": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "category",
+        "entity",
+        "field",
+        "message",
+        "candidates",
+        "blocking"
+      ],
+      "type": "object"
+    },
+    "DiagnosticDataset": {
+      "additionalProperties": false,
+      "properties": {
+        "conflicts": {
+          "items": {
+            "$ref": "#/$defs/Conflict"
+          },
+          "type": "array"
+        },
+        "diagnostic_only": {
+          "const": true
+        },
+        "institutions": {
+          "items": {
+            "$ref": "#/$defs/Institution"
+          },
+          "type": "array"
+        },
+        "media_assets": {
+          "items": {
+            "$ref": "#/$defs/MediaAsset"
+          },
+          "type": "array"
+        },
+        "schema_version": {
+          "const": 1
+        },
+        "sources": {
+          "items": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "unassigned_editorial_rows": {
+          "items": {
+            "additionalProperties": {},
+            "type": "object"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "schema_version",
+        "diagnostic_only",
+        "institutions",
+        "media_assets",
+        "conflicts",
+        "sources",
+        "unassigned_editorial_rows"
+      ],
+      "type": "object"
+    },
+    "EditorialPolicy": {
+      "additionalProperties": false,
+      "properties": {
+        "approved_by": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "execution": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "managed_block_ids": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "managed_fields": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "ownership": {
+          "type": "string"
+        },
+        "phase": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "translation": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "ownership",
+        "managed_fields",
+        "managed_block_ids",
+        "approved_by",
+        "phase",
+        "execution",
+        "translation"
+      ],
+      "type": "object"
+    },
+    "Institution": {
+      "additionalProperties": false,
+      "properties": {
+        "acronym": {
+          "type": "string"
+        },
+        "administration": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "aliases": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "candidates": {
+          "additionalProperties": {
+            "items": {
+              "$ref": "#/$defs/Observation"
+            },
+            "type": "array"
+          },
+          "type": "object"
+        },
+        "institution_id": {
+          "type": "string"
+        },
+        "institution_type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "localizations": {
+          "items": {
+            "$ref": "#/$defs/LocalizedInstitution"
+          },
+          "type": "array"
+        },
+        "location": {
+          "$ref": "#/$defs/Location"
+        },
+        "official_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "ownership": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "institution_id",
+        "acronym",
+        "aliases",
+        "official_name",
+        "institution_type",
+        "administration",
+        "ownership",
+        "location",
+        "localizations",
+        "candidates"
+      ],
+      "type": "object"
+    },
+    "LocalizedInstitution": {
+      "additionalProperties": false,
+      "properties": {
+        "candidates": {
+          "additionalProperties": {
+            "items": {
+              "$ref": "#/$defs/Observation"
+            },
+            "type": "array"
+          },
+          "type": "object"
+        },
+        "container_path": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "home_slug": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "language": {
+          "type": "string"
+        },
+        "pages": {
+          "items": {
+            "$ref": "#/$defs/LocalizedPage"
+          },
+          "type": "array"
+        },
+        "translated_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "language",
+        "translated_name",
+        "home_slug",
+        "container_path",
+        "pages",
+        "candidates"
+      ],
+      "type": "object"
+    },
+    "LocalizedPage": {
+      "additionalProperties": false,
+      "properties": {
+        "candidates": {
+          "additionalProperties": {
+            "items": {
+              "$ref": "#/$defs/Observation"
+            },
+            "type": "array"
+          },
+          "type": "object"
+        },
+        "container_path": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "editorial_policy": {
+          "$ref": "#/$defs/EditorialPolicy"
+        },
+        "language": {
+          "type": "string"
+        },
+        "nav_title": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "remote_binding": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/RemoteBinding"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "semantic_id": {
+          "enum": [
+            "home",
+            "about",
+            "campus_life",
+            "international_students"
+          ]
+        },
+        "slug": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "subjects": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "title": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "semantic_id",
+        "language",
+        "slug",
+        "title",
+        "nav_title",
+        "description",
+        "subjects",
+        "container_path",
+        "editorial_policy",
+        "remote_binding",
+        "candidates"
+      ],
+      "type": "object"
+    },
+    "Location": {
+      "additionalProperties": false,
+      "properties": {
+        "city": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "region_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "state_code": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "region_id",
+        "state_code",
+        "city"
+      ],
+      "type": "object"
+    },
+    "MediaAsset": {
+      "additionalProperties": false,
+      "properties": {
+        "asset_id": {
+          "type": "string"
+        },
+        "candidates": {
+          "additionalProperties": {
+            "items": {
+              "$ref": "#/$defs/Observation"
+            },
+            "type": "array"
+          },
+          "type": "object"
+        },
+        "filename": {
+          "type": "string"
+        },
+        "institution_id": {
+          "type": "string"
+        },
+        "localized_metadata": {
+          "additionalProperties": {
+            "additionalProperties": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "type": "object"
+          },
+          "type": "object"
+        },
+        "role": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "asset_id",
+        "institution_id",
+        "filename",
+        "role",
+        "localized_metadata",
+        "candidates"
+      ],
+      "type": "object"
+    },
+    "Observation": {
+      "additionalProperties": false,
+      "properties": {
+        "provenance": {
+          "$ref": "#/$defs/Provenance"
+        },
+        "value": {}
+      },
+      "required": [
+        "value",
+        "provenance"
+      ],
+      "type": "object"
+    },
+    "Provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "cache_state": {
+          "type": "string"
+        },
+        "cell": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "field": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "filename": {
+          "type": "string"
+        },
+        "formula": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "row": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "sha256": {
+          "type": "string"
+        },
+        "sheet": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "source_id": {
+          "type": "string"
+        },
+        "table": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "source_id",
+        "filename",
+        "sha256",
+        "sheet",
+        "table",
+        "row",
+        "cell",
+        "field",
+        "formula",
+        "cache_state"
+      ],
+      "type": "object"
+    },
+    "RemoteBinding": {
+      "additionalProperties": false,
+      "properties": {
+        "content_hash": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "language": {
+          "type": "string"
+        },
+        "observed_modified": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "parent_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "uid": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "uid",
+        "url",
+        "language",
+        "parent_url",
+        "observed_modified",
+        "content_hash"
+      ],
+      "type": "object"
+    }
+  },
+  "$ref": "#/$defs/DiagnosticDataset",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "StudyBR diagnostic evidence, never a write plan"
+}

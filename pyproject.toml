@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "studybr"
+version = "0.1.0"
+description = "Offline diagnostic foundation for multilingual StudyBR microsites"
+requires-python = ">=3.11"
+dependencies = ["requests>=2.32.3,<3", "openpyxl>=3.1.5,<4"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3,<10", "ruff>=0.9,<1", "jsonschema>=4.23,<5"]
+
+[project.scripts]
+studybr = "studybr.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests/unit", "tests/contract", "tests/test_readonly_inventory.py", "tests/integration"]
+pythonpath = ["src"]
+addopts = "-ra"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+include = ["src/**/*.py", "tests/**/*.py", "scripts/**/*.py"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]

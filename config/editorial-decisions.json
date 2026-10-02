@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "authority": "explicit_user_instruction",
+  "remote_verification": "pending",
+  "decisions": {
+    "approved_institutional_translations": {
+      "languages": ["en", "es"],
+      "source_id": "production",
+      "sheet": "siglas,nomes pt en es",
+      "table": "Tabela19",
+      "columns": {"en": "Inglês", "es": "Espanhol"},
+      "missing_or_divergent": "human_conflict",
+      "automatic_translation": false
+    },
+    "international_relations": {
+      "source_label": "Relações Internacionais",
+      "semantic_page": "home",
+      "component": "international_relations",
+      "purpose": "international_office_contacts_and_services"
+    },
+    "international_students": {"kind": "independent_page"},
+    "legacy_protected_institutions": {
+      "scope": "legacy_pt_br_only",
+      "apply_to_new_flow": false
+    },
+    "remote_slug_divergence": {
+      "action": "stop_affected_page_or_institution",
+      "choose_remote_without_human_approval": false
+    }
+  }
+}
